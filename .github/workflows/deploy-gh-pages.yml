@@ -64,11 +64,16 @@ jobs:
           fi
           echo "PAT appears valid for repo access."
 
-      - name: Publish to gh-pages with peaceiris
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          # Use the PAT stored in repository secrets. Your secret is named TOKEN_TOKEN so use that.
-          personal_token: ${{ secrets.TOKEN_TOKEN }}
-          publish_dir: ./build/site
-          keep_files: false
+      - name: Deploy site to gh-pages (manual push using PAT)
+        run: |
+          set -e
+          echo "Publishing site by manual git push using TOKEN_TOKEN (masked)..."
+          cd ./build/site
+          git init
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --all
+          git commit -m "ci: publish site from GitHub Actions"
+          # Push to gh-pages using the PAT from secrets (masked in logs)
+          git push --force "https://x-access-token:${{ secrets.TOKEN_TOKEN }}@github.com/mskozyigit/TaalV8.git" HEAD:gh-pages
 
