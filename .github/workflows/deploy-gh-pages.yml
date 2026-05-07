@@ -46,9 +46,8 @@ jobs:
       - name: Publish to gh-pages with peaceiris
         uses: peaceiris/actions-gh-pages@v3
         with:
-          # Preferred: use a PAT stored in repository secrets named PAGES_TOKEN
-          # If you added another secret name, tell me and I'll update the workflow.
-          personal_token: ${{ secrets.PAGES_TOKEN }}
+          # Use the PAT stored in repository secrets. Your secret is named TOKEN_TOKEN so use that.
+          personal_token: ${{ secrets.TOKEN_TOKEN }}
           publish_dir: ./build/site
           keep_files: false
 
