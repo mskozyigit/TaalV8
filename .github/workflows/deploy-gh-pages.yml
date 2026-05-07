@@ -23,20 +23,7 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Debug: verify PAT access to GitHub API
-        env:
-          TOKEN: ${{ secrets.TOKEN_TOKEN }}
-        run: |
-          echo "Checking token access (will not print token)..."
-          echo "User info:"
-          curl -s -H "Authorization: token $TOKEN" https://api.github.com/user | jq '{login,id,type}' || true
-          echo "Repo access check (status):"
-          status=$(curl -o /dev/null -s -w "%{http_code}" -H "Authorization: token $TOKEN" https://api.github.com/repos/mskozyigit/TaalV8)
-          echo "HTTP status for repo access: $status"
-          if [ "$status" -ne 200 ]; then
-            echo "Token cannot access repository (status $status). Please verify secret value and token scopes (repo, pages)."
-            exit 1
-          fi
+      # Diagnostic step removed to avoid YAML parsing issues; deployment will use the PAT in 'TOKEN_TOKEN' secret.
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
