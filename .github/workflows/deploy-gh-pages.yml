@@ -35,7 +35,8 @@ jobs:
         run: ./gradlew :composeApp:jsBrowserProductionWebpack --no-daemon --no-parallel
 
       - name: Upload production build to Pages
-        uses: actions/upload-pages-artifact@v1
+        # Use v2 which depends on the newer actions/upload-artifact v4 to avoid deprecated v3 usage
+        uses: actions/upload-pages-artifact@v2
         with:
           path: ./composeApp/build/distributions
 
