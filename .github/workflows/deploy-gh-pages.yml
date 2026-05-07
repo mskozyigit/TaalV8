@@ -64,11 +64,12 @@ jobs:
           fi
           echo "PAT appears valid for repo access."
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v2
+      - name: Publish to GitHub Pages with peaceiris
+        # Use peaceiris action which pushes directly to gh-pages and does not pull in the deprecated upload-artifact v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          path: ./build/site
-
-      - name: Deploy to GitHub Pages (Actions)
-        uses: actions/deploy-pages@v1
+          # use personal token stored in repo secrets
+          personal_token: ${{ secrets.TOKEN_TOKEN }}
+          publish_dir: ./build/site
+          keep_files: false
 
