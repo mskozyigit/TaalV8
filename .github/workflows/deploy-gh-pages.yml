@@ -43,11 +43,11 @@ jobs:
           cp composeApp/src/webMain/resources/index.html "$PUBLISH_DIR/"
           cp composeApp/src/webMain/resources/styles.css "$PUBLISH_DIR/"
 
-      - name: Publish to gh-pages via peaceiris
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build/site
-          # keep history minimal and let the action manage the branch
-          keep_files: false
+          path: ./build/site
+
+      - name: Deploy to GitHub Pages (Actions)
+        uses: actions/deploy-pages@v1
 
