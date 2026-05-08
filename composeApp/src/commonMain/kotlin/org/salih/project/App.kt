@@ -75,22 +75,24 @@ fun App() {
                     )
                     Screen.CATEGORY_DETAIL -> {
                         selectedCategory?.let { category ->
-                            CategoryDetailScreen(
-                                category = category,
-                                onBack = { currentScreen = Screen.HOME },
-                                onLessonClick = { lesson ->
-                                    selectedLesson = lesson
-                                    currentScreen = Screen.LESSON_PAGE
-                                }
-                            )
+                    CategoryDetailScreen(
+                        category = category,
+                        onHome = { currentScreen = Screen.HOME },
+                        onBack = { currentScreen = Screen.HOME },
+                        onLessonClick = { lesson ->
+                            selectedLesson = lesson
+                            currentScreen = Screen.LESSON_PAGE
+                        }
+                    )
                         }
                     }
                     Screen.LESSON_PAGE -> {
                         selectedLesson?.let { lesson ->
-                            LessonScreen(
-                                lesson = lesson,
-                                onBack = { currentScreen = Screen.CATEGORY_DETAIL }
-                            )
+                    LessonScreen(
+                        lesson = lesson,
+                        onHome = { currentScreen = Screen.HOME },
+                        onBack = { currentScreen = Screen.CATEGORY_DETAIL }
+                    )
                         }
                     }
                 }
@@ -136,15 +138,25 @@ fun HomeScreen(categories: List<Category>, onCategoryClick: (Category) -> Unit) 
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun CategoryDetailScreen(category: Category, onBack: () -> Unit, onLessonClick: (Lesson) -> Unit) {
+fun CategoryDetailScreen(
+    category: Category,
+    onHome: () -> Unit,
+    onBack: () -> Unit,
+    onLessonClick: (Lesson) -> Unit
+) {
     val scrollState = rememberScrollState()
     Scaffold(
         topBar = {
             TopAppBar(
                 title = { Text(category.title, fontWeight = FontWeight.Bold) },
                 navigationIcon = {
-                    IconButton(onClick = onBack) {
-                        Text("←", fontSize = 24.sp, fontWeight = FontWeight.Bold)
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        IconButton(onClick = onHome) {
+                            Text("🏠", fontSize = 20.sp)
+                        }
+                        IconButton(onClick = onBack) {
+                            Text("←", fontSize = 24.sp, fontWeight = FontWeight.Bold)
+                        }
                     }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(containerColor = Color.White)
@@ -183,14 +195,19 @@ fun CategoryDetailScreen(category: Category, onBack: () -> Unit, onLessonClick: 
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun LessonScreen(lesson: Lesson, onBack: () -> Unit) {
+fun LessonScreen(lesson: Lesson, onHome: () -> Unit, onBack: () -> Unit) {
     Scaffold(
         topBar = {
             TopAppBar(
                 title = { Text(lesson.title, fontWeight = FontWeight.Bold) },
                 navigationIcon = {
-                    IconButton(onClick = onBack) {
-                        Text("←", fontSize = 24.sp, fontWeight = FontWeight.Bold)
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        IconButton(onClick = onHome) {
+                            Text("🏠", fontSize = 20.sp)
+                        }
+                        IconButton(onClick = onBack) {
+                            Text("←", fontSize = 24.sp, fontWeight = FontWeight.Bold)
+                        }
                     }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(containerColor = Color.White)
