@@ -514,16 +514,15 @@ fun FillInTheBlankUI(
                 contentAlignment = Alignment.Center
             ) {
                 if (selectedAnswer != null) {
-                    DuolingoButton(
+                    QuizWordButton(
                         text = selectedAnswer.formatWord(),
                         baseColor = if (isAnswered) (if (selectedAnswer == exercise.correctAnswer) Color(0xFF58CC02) else Color(0xFFFF4B4B)) else lightColors.first,
                         shadowColor = if (isAnswered) (if (selectedAnswer == exercise.correctAnswer) Color(0xFF46A302) else Color(0xFFD13B3B)) else lightColors.second,
                         textColor = if (isAnswered) Color.White else categoryColor,
                         onClick = { if (!isAnswered) onRemoveAnswer() },
-                        modifier = Modifier.padding(vertical = 2.dp),
+                        modifier = Modifier.padding(horizontal = 4.dp),
                         height = 40.dp,
-                        fontSize = 18.sp,
-                        isUppercase = false
+                        fontSize = 16.sp
                     )
                 } else {
                     Text(" ", fontSize = 24.sp, modifier = Modifier.padding(vertical = 8.dp))
@@ -553,15 +552,14 @@ fun FillInTheBlankUI(
                 
                 Box(modifier = Modifier.padding(6.dp)) {
                     if (!isSelected || isAnswered) {
-                        DuolingoButton(
+                        QuizWordButton(
                             text = option.formatWord(),
                             baseColor = lightColors.first,
                             shadowColor = lightColors.second,
                             textColor = categoryColor,
                             onClick = { onWordClick(option) },
                             height = 45.dp,
-                            fontSize = 16.sp,
-                            isUppercase = false
+                            fontSize = 16.sp
                         )
                     } else {
                         // Placeholder with estimated size of the word
@@ -619,16 +617,15 @@ fun HusselaarUI(
         ) {
             FlowRow(horizontalArrangement = Arrangement.Center) {
                 userWords.forEach { word ->
-                    DuolingoButton(
+                    QuizWordButton(
                         text = word.formatWord(),
                         baseColor = if (isAnswered) Color(0xFF58CC02) else lightColors.first,
                         shadowColor = if (isAnswered) Color(0xFF46A302) else lightColors.second,
                         textColor = if (isAnswered) Color.White else categoryColor,
                         onClick = { onWordClick(word, false) },
                         modifier = Modifier.padding(4.dp),
-                        height = 40.dp,
-                        fontSize = 14.sp,
-                        isUppercase = false
+                        height = 38.dp,
+                        fontSize = 14.sp
                     )
                 }
             }
@@ -645,15 +642,14 @@ fun HusselaarUI(
                 
                 Box(modifier = Modifier.padding(4.dp)) {
                     if (!isUsed) {
-                        DuolingoButton(
+                        QuizWordButton(
                             text = word.formatWord(),
                             baseColor = lightColors.first,
                             shadowColor = lightColors.second,
                             textColor = categoryColor,
                             onClick = { onWordClick(word, true) },
                             height = 40.dp,
-                            fontSize = 14.sp,
-                            isUppercase = false
+                            fontSize = 14.sp
                         )
                     } else {
                         // Placeholder
@@ -709,7 +705,7 @@ fun DuolingoButton(
                 indication = null,
                 onClick = onClick
             ),
-        contentAlignment = Alignment.BottomCenter
+        contentAlignment = Alignment.Center
     ) {
         // Shadow layer
         Box(
@@ -722,21 +718,82 @@ fun DuolingoButton(
         // Top layer (Button surface)
         Box(
             modifier = Modifier
-                .fillMaxSize()
+                .matchParentSize()
                 .padding(bottom = 4.dp)
                 .offset(y = translationY)
                 .background(baseColor, RoundedCornerShape(16.dp))
-                .padding(horizontal = 16.dp),
-            contentAlignment = Alignment.Center
-        ) {
-            Text(
-                text = if (isUppercase) text.uppercase() else text,
-                fontSize = fontSize,
-                fontWeight = FontWeight.Bold,
-                color = textColor,
-                softWrap = false
-            )
-        }
+        )
+
+        // Content
+        Text(
+            text = if (isUppercase) text.uppercase() else text,
+            fontSize = fontSize,
+            fontWeight = FontWeight.Bold,
+            color = textColor,
+            softWrap = false,
+            modifier = Modifier
+                .padding(horizontal = 24.dp)
+                .padding(bottom = 4.dp)
+                .offset(y = translationY)
+        )
+    }
+}
+
+@Composable
+fun QuizWordButton(
+    text: String,
+    baseColor: Color,
+    shadowColor: Color,
+    onClick: () -> Unit,
+    modifier: Modifier = Modifier,
+    textColor: Color = Color.White,
+    height: androidx.compose.ui.unit.Dp = 45.dp,
+    fontSize: androidx.compose.ui.unit.TextUnit = 16.sp,
+    isUppercase: Boolean = false,
+    horizontalPadding: androidx.compose.ui.unit.Dp = 12.dp
+) {
+    val interactionSource = remember { MutableInteractionSource() }
+    val isPressed by interactionSource.collectIsPressedAsState()
+    val translationY by animateDpAsState(targetValue = if (isPressed) 3.dp else 0.dp)
+    
+    Box(
+        modifier = modifier
+            .height(height)
+            .clickable(
+                interactionSource = interactionSource,
+                indication = null,
+                onClick = onClick
+            ),
+        contentAlignment = Alignment.Center
+    ) {
+        // Shadow layer
+        Box(
+            modifier = Modifier
+                .matchParentSize()
+                .padding(top = 3.dp)
+                .background(shadowColor, RoundedCornerShape(12.dp))
+        )
+        
+        // Top layer
+        Box(
+            modifier = Modifier
+                .matchParentSize()
+                .padding(bottom = 3.dp)
+                .offset(y = translationY)
+                .background(baseColor, RoundedCornerShape(12.dp))
+        )
+
+        Text(
+            text = if (isUppercase) text.uppercase() else text,
+            fontSize = fontSize,
+            fontWeight = FontWeight.Bold,
+            color = textColor,
+            softWrap = false,
+            modifier = Modifier
+                .padding(horizontal = horizontalPadding)
+                .padding(bottom = 3.dp)
+                .offset(y = translationY)
+        )
     }
 }
 
