@@ -302,29 +302,31 @@ fun LessonScreen(lesson: Lesson, category: Category, onHome: () -> Unit, onBack:
                 .padding(padding),
             contentAlignment = Alignment.Center
         ) {
-            // Sentence-based raw data
-            val rawSentences = remember {
-                listOf(
-                    SentenceData("1", "Ik eet een appel.", "eet", listOf("drink", "ben", "heb")),
-                    SentenceData("2", "Ik wil naar huis gaan.", "wil", listOf("kan", "zal", "moet")),
-                    SentenceData("3", "Jij bent erg aardig.", "bent", listOf("is", "zijn", "heb")),
-                    SentenceData("4", "De auto is erg snel.", "is", listOf("was", "wordt", "lijkt")),
-                    SentenceData("5", "Wij wonen in Amsterdam.", "wonen", listOf("werkt", "slaapt", "loopt")),
-                    SentenceData("6", "Het regent vandaag veel.", "vandaag", listOf("gisteren", "morgen", "nooit")),
-                    SentenceData("7", "Hoe gaat het met jou?", "gaat", listOf("is", "ben", "hebt")),
-                    SentenceData("8", "Ik spreek een beetje Nederlands.", "beetje", listOf("veel", "alles", "niets")),
-                    SentenceData("9", "Zij luistert naar de muziek.", "luistert", listOf("kijkt", "leest", "eet")),
-                    SentenceData("10", "Morgen gaan we naar zee.", "gaan", listOf("komen", "staan", "zitten"))
-                )
+            // --- DATA MODULE START ---
+            // In the future, this data can be loaded from a JSON file based on lesson.id
+            val rawSentences = remember(lesson.id) {
+                when (lesson.id) {
+                    "a2_1" -> listOf(
+                        SentenceData("1", "Ik eet een appel.", "eet", listOf("drink", "ben", "heb")),
+                        SentenceData("2", "Ik wil naar huis gaan.", "wil", listOf("kan", "zal", "moet")),
+                        SentenceData("3", "Jij bent erg aardig.", "bent", listOf("is", "zijn", "heb")),
+                        SentenceData("4", "De auto is erg snel.", "is", listOf("was", "wordt", "lijkt")),
+                        SentenceData("5", "Wij wonen in Amsterdam.", "wonen", listOf("werkt", "slaapt", "loopt")),
+                        SentenceData("6", "Het regent vandaag veel.", "vandaag", listOf("gisteren", "morgen", "nooit")),
+                        SentenceData("7", "Hoe gaat het met jou?", "gaat", listOf("is", "ben", "hebt")),
+                        SentenceData("8", "Ik spreek een beetje Nederlands.", "beetje", listOf("veel", "alles", "niets")),
+                        SentenceData("9", "Zij luistert naar de muziek.", "luistert", listOf("kijkt", "leest", "eet")),
+                        SentenceData("10", "Morgen gaan we naar zee.", "gaan", listOf("komen", "staan", "zitten"))
+                    )
+                    // Add more lessons here: "a2_2", "b1_1", etc.
+                    else -> emptyList()
+                }
             }
+            // --- DATA MODULE END ---
 
-            val exercises = remember(rawSentences) {
-                generateExercises(rawSentences)
-            }
-
-            if (lesson.id == "a2_1") {
-                QuizContent(
-                    exercises = exercises,
+            if (rawSentences.isNotEmpty()) {
+                QuizModule(
+                    sentences = rawSentences,
                     category = category,
                     onBack = onBack
                 )
@@ -362,6 +364,24 @@ fun LessonScreen(lesson: Lesson, category: Category, onHome: () -> Unit, onBack:
             }
         }
     }
+}
+
+/**
+ * REPLICABLE TEST MODULE
+ * This component can be used anywhere to start a quiz with a list of sentences.
+ */
+@Composable
+fun QuizModule(
+    sentences: List<SentenceData>,
+    category: Category,
+    onBack: () -> Unit
+) {
+    val exercises = remember(sentences) { generateExercises(sentences) }
+    QuizContent(
+        exercises = exercises,
+        category = category,
+        onBack = onBack
+    )
 }
 
 @OptIn(ExperimentalLayoutApi::class)
@@ -575,17 +595,21 @@ fun FillInTheBlankUI(
         
         // Sentence with blank
         val parts = exercise.context.split("___")
+        val isBlankAtStart = parts[0].trim().isEmpty()
+        
         FlowRow(
             horizontalArrangement = Arrangement.Center,
             verticalArrangement = Arrangement.Center,
             modifier = Modifier.fillMaxWidth().padding(horizontal = 8.dp)
         ) {
-            Text(
-                parts[0], 
-                fontSize = 24.sp, 
-                fontWeight = FontWeight.Medium,
-                modifier = Modifier.align(Alignment.CenterVertically)
-            )
+            if (parts[0].isNotEmpty()) {
+                Text(
+                    parts[0], 
+                    fontSize = 24.sp, 
+                    fontWeight = FontWeight.Medium,
+                    modifier = Modifier.align(Alignment.CenterVertically)
+                )
+            }
             
             Box(
                 modifier = Modifier
@@ -608,7 +632,7 @@ fun FillInTheBlankUI(
             ) {
                 if (selectedAnswer != null) {
                     QuizWordButton(
-                        text = selectedAnswer.formatWord(),
+                        text = selectedAnswer.adjustCase(isBlankAtStart),
                         baseColor = if (isAnswered) (if (selectedAnswer == exercise.correctAnswer) Color(0xFF58CC02) else Color(0xFFFF4B4B)) else lightColors.first,
                         shadowColor = if (isAnswered) (if (selectedAnswer == exercise.correctAnswer) Color(0xFF46A302) else Color(0xFFD13B3B)) else lightColors.second,
                         textColor = if (isAnswered) Color.White else categoryColor,
@@ -622,7 +646,7 @@ fun FillInTheBlankUI(
                 }
             }
             
-            if (parts.size > 1) {
+            if (parts.size > 1 && parts[1].isNotEmpty()) {
                 Text(
                     parts[1], 
                     fontSize = 24.sp, 
@@ -646,7 +670,7 @@ fun FillInTheBlankUI(
                 Box(modifier = Modifier.padding(6.dp)) {
                     if (!isSelected || isAnswered) {
                         QuizWordButton(
-                            text = option.formatWord(),
+                            text = option.adjustCase(isBlankAtStart),
                             baseColor = lightColors.first,
                             shadowColor = lightColors.second,
                             textColor = categoryColor,
@@ -709,9 +733,9 @@ fun HusselaarUI(
             contentAlignment = Alignment.Center
         ) {
             FlowRow(horizontalArrangement = Arrangement.Center) {
-                userWords.forEach { word ->
+                userWords.forEachIndexed { index, word ->
                     QuizWordButton(
-                        text = word.formatWord(),
+                        text = word.adjustCase(index == 0),
                         baseColor = if (isAnswered) Color(0xFF58CC02) else lightColors.first,
                         shadowColor = if (isAnswered) Color(0xFF46A302) else lightColors.second,
                         textColor = if (isAnswered) Color.White else categoryColor,
@@ -736,7 +760,7 @@ fun HusselaarUI(
                 Box(modifier = Modifier.padding(4.dp)) {
                     if (!isUsed) {
                         QuizWordButton(
-                            text = word.formatWord(),
+                            text = word.lowercase(), // Options usually lowercase for natural feel
                             baseColor = lightColors.first,
                             shadowColor = lightColors.second,
                             textColor = categoryColor,
@@ -768,9 +792,13 @@ fun getLightColors(base: Color): Pair<Color, Color> {
     }
 }
 
-fun String.formatWord(): String {
+fun String.adjustCase(isFirst: Boolean): String {
     if (this.isEmpty()) return this
-    return this.lowercase().replaceFirstChar { it.uppercase() }
+    return if (isFirst) {
+        this.replaceFirstChar { it.uppercase() }
+    } else {
+        this.lowercase()
+    }
 }
 
 @Composable
