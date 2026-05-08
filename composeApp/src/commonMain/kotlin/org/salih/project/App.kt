@@ -77,20 +77,22 @@ fun generateExercises(sentences: List<SentenceData>): List<Exercise> {
         // Alternate between types for variety
         val isBlankType = index % 2 == 0
         if (isBlankType) {
+            val context = s.text.replaceFirst(s.blankWord, "___").replaceFirstChar { it.uppercase() }
             Exercise(
                 id = s.id,
                 type = ExerciseType.FILL_IN_THE_BLANK,
-                context = s.text.replaceFirst(s.blankWord, "___"),
+                context = context,
                 correctAnswer = s.blankWord,
                 options = (s.distractors + s.blankWord).shuffled()
             )
         } else {
             // Split sentence into words, maintaining punctuation
-            val words = s.text.split(" ").filter { it.isNotEmpty() }
+            val text = s.text.replaceFirstChar { it.uppercase() }
+            val words = text.split(" ").filter { it.isNotEmpty() }
             Exercise(
                 id = s.id,
                 type = ExerciseType.HUSSELAAR,
-                correctSentence = s.text,
+                correctSentence = text,
                 shuffledWords = words.shuffled()
             )
         }
@@ -794,10 +796,11 @@ fun getLightColors(base: Color): Pair<Color, Color> {
 
 fun String.adjustCase(isFirst: Boolean): String {
     if (this.isEmpty()) return this
+    val natural = this.lowercase()
     return if (isFirst) {
-        this.replaceFirstChar { it.uppercase() }
+        natural.replaceFirstChar { it.uppercase() }
     } else {
-        this.lowercase()
+        natural
     }
 }
 

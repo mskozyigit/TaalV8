@@ -1,0 +1,652 @@
+[
+    {
+        "question_id": 1,
+        "sentence": "Morgen ___ ik naar de grote supermarkt.",
+        "options": [
+            "ga",
+            "gaan",
+            "gaat",
+            "blauw"
+        ],
+        "correct_answer": "ga",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 2,
+        "sentence": "Vandaag ___ mijn broer een rode auto.",
+        "options": [
+            "koopt",
+            "kopen",
+            "koop",
+            "vroeg"
+        ],
+        "correct_answer": "koopt",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 3,
+        "sentence": "In de keuken ___ de vrouw soep.",
+        "options": [
+            "kookt",
+            "koken",
+            "kook",
+            "groen"
+        ],
+        "correct_answer": "kookt",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 4,
+        "sentence": "Nu ___ jij een brief aan oma.",
+        "options": [
+            "schrijf",
+            "schrijven",
+            "schrijft",
+            "altijd"
+        ],
+        "correct_answer": "schrijf",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 5,
+        "sentence": "Elke ochtend ___ wij samen warme koffie.",
+        "options": [
+            "drinken",
+            "drinkt",
+            "drink",
+            "goedkoop"
+        ],
+        "correct_answer": "drinken",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 6,
+        "sentence": "'s Middags ___ het kind in de tuin.",
+        "options": [
+            "speelt",
+            "spelen",
+            "speel",
+            "warm"
+        ],
+        "correct_answer": "speelt",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 7,
+        "sentence": "Op school ___ de kinderen veel woorden.",
+        "options": [
+            "leren",
+            "leert",
+            "leer",
+            "gisteren"
+        ],
+        "correct_answer": "leren",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 8,
+        "sentence": "Maandag ___ mijn vader de vuile auto.",
+        "options": [
+            "wast",
+            "wassen",
+            "was",
+            "tafel"
+        ],
+        "correct_answer": "wast",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 9,
+        "sentence": "Hier ___ mijn friend in een appartement.",
+        "options": [
+            "woont",
+            "wonen",
+            "woon",
+            "vaak"
+        ],
+        "correct_answer": "woont",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 10,
+        "sentence": "'s Avonds ___ ik mijn huiswerk voor school.",
+        "options": [
+            "maak",
+            "maken",
+            "maakt",
+            "koud"
+        ],
+        "correct_answer": "maak",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 11,
+        "sentence": "Volgend jaar ___ wij naar Nederland.",
+        "options": [
+            "gaan",
+            "gaat",
+            "ga",
+            "gisteren"
+        ],
+        "correct_answer": "gaan",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 12,
+        "sentence": "In de kast ___ het witte bord.",
+        "options": [
+            "staat",
+            "staan",
+            "sta",
+            "morgen"
+        ],
+        "correct_answer": "staat",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 13,
+        "sentence": "Nu ___ zij een heel mooi liedje.",
+        "options": [
+            "zingt",
+            "zingen",
+            "zing",
+            "tafel"
+        ],
+        "correct_answer": "zingt",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 14,
+        "sentence": "Morgen ___ jij met de blauwe bus.",
+        "options": [
+            "ga",
+            "gaan",
+            "gaat",
+            "blauw"
+        ],
+        "correct_answer": "ga",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 15,
+        "sentence": "Vandaag ___ mijn vader op het kantoor.",
+        "options": [
+            "werkt",
+            "werken",
+            "werk",
+            "altijd"
+        ],
+        "correct_answer": "werkt",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 16,
+        "sentence": "In Amsterdam ___ ik veel oude musea.",
+        "options": [
+            "zie",
+            "zien",
+            "ziet",
+            "groen"
+        ],
+        "correct_answer": "zie",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 17,
+        "sentence": "Nu ___ de baby in het bed.",
+        "options": [
+            "slaapt",
+            "slapen",
+            "slaap",
+            "bijna"
+        ],
+        "correct_answer": "slaapt",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 18,
+        "sentence": "Elke week ___ wij de hele kamer.",
+        "options": [
+            "poetsen",
+            "poetst",
+            "poets",
+            "gisteren"
+        ],
+        "correct_answer": "poetsen",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 19,
+        "sentence": "Thuis ___ de man een rode apple.",
+        "options": [
+            "eet",
+            "eten",
+            "eet",
+            "kantoor"
+        ],
+        "correct_answer": "eet",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 20,
+        "sentence": "'s Nachts ___ de kat op de bank.",
+        "options": [
+            "ligt",
+            "liggen",
+            "lig",
+            "altijd"
+        ],
+        "correct_answer": "ligt",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 21,
+        "sentence": "Morgen ___ ik je in het park.",
+        "options": [
+            "zie",
+            "zien",
+            "ziet",
+            "warm"
+        ],
+        "correct_answer": "zie",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 22,
+        "sentence": "Nu ___ jij de leraar een vraag.",
+        "options": [
+            "stel",
+            "stellen",
+            "stelt",
+            "tafel"
+        ],
+        "correct_answer": "stel",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 23,
+        "sentence": "Vandaag ___ wij een zeer lekkere taart.",
+        "options": [
+            "bakken",
+            "bakt",
+            "bak",
+            "gisteren"
+        ],
+        "correct_answer": "bakken",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 24,
+        "sentence": "In de stad ___ veel jonge mensen.",
+        "options": [
+            "wonen",
+            "woont",
+            "woon",
+            "blauw"
+        ],
+        "correct_answer": "wonen",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 25,
+        "sentence": "'s Ochtends ___ hij een korte, warme douche.",
+        "options": [
+            "neemt",
+            "nemen",
+            "neem",
+            "vaak"
+        ],
+        "correct_answer": "neemt",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 26,
+        "sentence": "Nu ___ ik de grote rode deur.",
+        "options": [
+            "open",
+            "openen",
+            "opent",
+            "koud"
+        ],
+        "correct_answer": "open",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 27,
+        "sentence": "Dinsdag ___ de student hard voor school.",
+        "options": [
+            "leert",
+            "leren",
+            "leer",
+            "tafel"
+        ],
+        "correct_answer": "leert",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 28,
+        "sentence": "Op de tafel ___ het kleine boek.",
+        "options": [
+            "ligt",
+            "liggen",
+            "lig",
+            "altijd"
+        ],
+        "correct_answer": "ligt",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 29,
+        "sentence": "Elke dag ___ zij de nieuwe krant.",
+        "options": [
+            "lezen",
+            "leest",
+            "lees",
+            "gisteren"
+        ],
+        "correct_answer": "lezen",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 30,
+        "sentence": "Morgen ___ ik op de fiets naar werk.",
+        "options": [
+            "fiets",
+            "fietsen",
+            "fietst",
+            "vroeg"
+        ],
+        "correct_answer": "fiets",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 31,
+        "sentence": "Vandaag ___ jij de ramen helemaal schoon.",
+        "options": [
+            "maak",
+            "maken",
+            "maakt",
+            "bijna"
+        ],
+        "correct_answer": "maak",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 32,
+        "sentence": "In de tuin ___ de zon vandaag.",
+        "options": [
+            "schijnt",
+            "schijnen",
+            "schijnt",
+            "koud"
+        ],
+        "correct_answer": "schijnt",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 33,
+        "sentence": "Nu ___ wij de nieuwe buren op.",
+        "options": [
+            "bellen",
+            "belt",
+            "bel",
+            "groen"
+        ],
+        "correct_answer": "bellen",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 34,
+        "sentence": "'s Avonds ___ hij naar de radio.",
+        "options": [
+            "luistert",
+            "luisteren",
+            "luister",
+            "tafel"
+        ],
+        "correct_answer": "luistert",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 35,
+        "sentence": "Hier ___ ik de sleutels op tafel.",
+        "options": [
+            "leg",
+            "leggen",
+            "legt",
+            "gisteren"
+        ],
+        "correct_answer": "leg",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 36,
+        "sentence": "Morgen ___ de bus precies om acht uur.",
+        "options": [
+            "komt",
+            "komen",
+            "kom",
+            "koud"
+        ],
+        "correct_answer": "komt",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 37,
+        "sentence": "Vandaag ___ zij bir yeni rode jurk.",
+        "options": [
+            "draagt",
+            "dragen",
+            "draag",
+            "altijd"
+        ],
+        "correct_answer": "draagt",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 38,
+        "sentence": "Op school ___ jij elke dag melk.",
+        "options": [
+            "drink",
+            "drinken",
+            "drinkt",
+            "groen"
+        ],
+        "correct_answer": "drink",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 39,
+        "sentence": "In de winter ___ wij een jas.",
+        "options": [
+            "dragen",
+            "draagt",
+            "draag",
+            "gisteren"
+        ],
+        "correct_answer": "dragen",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 40,
+        "sentence": "Nu ___ de leraar met de les.",
+        "options": [
+            "begint",
+            "beginnen",
+            "begin",
+            "bijna"
+        ],
+        "correct_answer": "begint",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 41,
+        "sentence": "Elke avond ___ ik de oude buurman.",
+        "options": [
+            "bel",
+            "bellen",
+            "belt",
+            "tafel"
+        ],
+        "correct_answer": "bel",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 42,
+        "sentence": "Morgen ___ mijn zus een zoete taart.",
+        "options": [
+            "bakt",
+            "bakken",
+            "bak",
+            "koud"
+        ],
+        "correct_answer": "bakt",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 43,
+        "sentence": "Vandaag ___ wij de auto van vader.",
+        "options": [
+            "wassen",
+            "wast",
+            "was",
+            "groen"
+        ],
+        "correct_answer": "wassen",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 44,
+        "sentence": "Hier ___ zij graag in de zon.",
+        "options": [
+            "zitten",
+            "zit",
+            "zit",
+            "altijd"
+        ],
+        "correct_answer": "zitten",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 45,
+        "sentence": "Nu ___ jij de grote zware koffer.",
+        "options": [
+            "pak",
+            "pakken",
+            "pakt",
+            "tafel"
+        ],
+        "correct_answer": "pak",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 46,
+        "sentence": "In de klas ___ de studenten veel.",
+        "options": [
+            "praten",
+            "praat",
+            "praat",
+            "bijna"
+        ],
+        "correct_answer": "praten",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 47,
+        "sentence": "'s Middags ___ ik thee met veel suiker.",
+        "options": [
+            "drink",
+            "drinken",
+            "drinkt",
+            "gisteren"
+        ],
+        "correct_answer": "drink",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 48,
+        "sentence": "Morgen ___ hij naar de drukke markt.",
+        "options": [
+            "gaat",
+            "gaan",
+            "ga",
+            "vroeg"
+        ],
+        "correct_answer": "gaat",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 49,
+        "sentence": "Vandaag ___ de kinderen buiten op straat.",
+        "options": [
+            "spelen",
+            "speelt",
+            "speel",
+            "warm"
+        ],
+        "correct_answer": "spelen",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 50,
+        "sentence": "Nu ___ wij naar het drukke centrum.",
+        "options": [
+            "lopen",
+            "loopt",
+            "loop",
+            "gisteren"
+        ],
+        "correct_answer": "lopen",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    }
+]
