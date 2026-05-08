@@ -427,7 +427,7 @@ fun QuizContent(exercises: List<Exercise>, category: Category, onBack: () -> Uni
                     )
                     Spacer(modifier = Modifier.height(16.dp))
                     DuolingoButton(
-                        text = if (currentIndex < exercises.size - 1) "VOLGENDE" else "KLAAR",
+                        text = if (currentIndex < exercises.size - 1) "Volgende" else "Klaar",
                         baseColor = if (isCorrect) Color(0xFF58CC02) else Color(0xFFFF4B4B),
                         shadowColor = if (isCorrect) Color(0xFF46A302) else Color(0xFFD13B3B),
                         onClick = {
@@ -437,21 +437,23 @@ fun QuizContent(exercises: List<Exercise>, category: Category, onBack: () -> Uni
                                 onBack()
                             }
                         },
-                        modifier = Modifier.fillMaxWidth()
+                        modifier = Modifier.fillMaxWidth(),
+                        isUppercase = false
                     )
                 }
             }
         } else if (currentExercise.type == ExerciseType.FILL_IN_THE_BLANK && selectedAnswer != null) {
             // Manual check for wrong answers
             DuolingoButton(
-                text = "CONTROLEER",
+                text = "Controleer",
                 baseColor = category.color,
                 shadowColor = category.shadowColor,
                 onClick = {
                     isAnswered = true
                     isCorrect = selectedAnswer == currentExercise.correctAnswer
                 },
-                modifier = Modifier.fillMaxWidth().padding(16.dp)
+                modifier = Modifier.fillMaxWidth().padding(16.dp),
+                isUppercase = false
             )
         }
     }
@@ -520,7 +522,8 @@ fun FillInTheBlankUI(
                         onClick = { if (!isAnswered) onRemoveAnswer() },
                         modifier = Modifier.padding(vertical = 2.dp),
                         height = 40.dp,
-                        fontSize = 18.sp
+                        fontSize = 18.sp,
+                        isUppercase = false
                     )
                 } else {
                     Text(" ", fontSize = 24.sp, modifier = Modifier.padding(vertical = 8.dp))
@@ -557,7 +560,8 @@ fun FillInTheBlankUI(
                             textColor = categoryColor,
                             onClick = { onWordClick(option) },
                             height = 45.dp,
-                            fontSize = 16.sp
+                            fontSize = 16.sp,
+                            isUppercase = false
                         )
                     } else {
                         // Placeholder with estimated size of the word
@@ -617,13 +621,14 @@ fun HusselaarUI(
                 userWords.forEach { word ->
                     DuolingoButton(
                         text = word.formatWord(),
-                        baseColor = if (isAnswered) Color(0xFF58CC02) else Color.White,
-                        shadowColor = if (isAnswered) Color(0xFF46A302) else Color(0xFFE5E5E5),
-                        textColor = if (isAnswered) Color.White else Color(0xFF4B4B4B),
+                        baseColor = if (isAnswered) Color(0xFF58CC02) else lightColors.first,
+                        shadowColor = if (isAnswered) Color(0xFF46A302) else lightColors.second,
+                        textColor = if (isAnswered) Color.White else categoryColor,
                         onClick = { onWordClick(word, false) },
                         modifier = Modifier.padding(4.dp),
                         height = 40.dp,
-                        fontSize = 14.sp
+                        fontSize = 14.sp,
+                        isUppercase = false
                     )
                 }
             }
@@ -647,7 +652,8 @@ fun HusselaarUI(
                             textColor = categoryColor,
                             onClick = { onWordClick(word, true) },
                             height = 40.dp,
-                            fontSize = 14.sp
+                            fontSize = 14.sp,
+                            isUppercase = false
                         )
                     } else {
                         // Placeholder
@@ -687,7 +693,8 @@ fun DuolingoButton(
     modifier: Modifier = Modifier,
     textColor: Color = Color.White,
     height: androidx.compose.ui.unit.Dp = 60.dp,
-    fontSize: androidx.compose.ui.unit.TextUnit = 18.sp
+    fontSize: androidx.compose.ui.unit.TextUnit = 18.sp,
+    isUppercase: Boolean = true
 ) {
     val interactionSource = remember { MutableInteractionSource() }
     val isPressed by interactionSource.collectIsPressedAsState()
@@ -715,7 +722,7 @@ fun DuolingoButton(
         // Top layer (Button surface)
         Box(
             modifier = Modifier
-                .fillMaxHeight()
+                .fillMaxSize()
                 .padding(bottom = 4.dp)
                 .offset(y = translationY)
                 .background(baseColor, RoundedCornerShape(16.dp))
@@ -723,7 +730,7 @@ fun DuolingoButton(
             contentAlignment = Alignment.Center
         ) {
             Text(
-                text = text.uppercase(),
+                text = if (isUppercase) text.uppercase() else text,
                 fontSize = fontSize,
                 fontWeight = FontWeight.Bold,
                 color = textColor,
