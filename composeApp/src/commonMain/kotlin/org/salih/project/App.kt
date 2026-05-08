@@ -943,9 +943,9 @@ fun QuizSummaryView(
             horizontalArrangement = Arrangement.SpaceBetween,
             verticalAlignment = Alignment.CenterVertically
         ) {
-            Text("#", fontWeight = FontWeight.Bold)
-            Text("Type", fontWeight = FontWeight.Bold)
-            Text("Resultaat", fontWeight = FontWeight.Bold)
+            Text("#", fontWeight = FontWeight.Bold, modifier = Modifier.width(30.dp))
+            Text("Zin", fontWeight = FontWeight.Bold, modifier = Modifier.weight(1f).padding(horizontal = 8.dp))
+            Text("Resultaat", fontWeight = FontWeight.Bold, modifier = Modifier.width(80.dp))
         }
 
         Spacer(modifier = Modifier.height(8.dp))
@@ -970,12 +970,17 @@ fun QuizSummaryView(
                     horizontalArrangement = Arrangement.SpaceBetween,
                     verticalAlignment = Alignment.CenterVertically
                 ) {
-                    Text("${index + 1}")
-                    Text(if (ex.type == ExerciseType.FILL_IN_THE_BLANK) "Lege plek" else "Husselaar")
+                    Text("${index + 1}", modifier = Modifier.width(30.dp))
                     Text(
-                        if (ok) "Goed" else "Fout",
+                        text = if (ex.type == ExerciseType.FILL_IN_THE_BLANK) ex.context else ex.correctSentence,
+                        modifier = Modifier.weight(1f).padding(horizontal = 8.dp),
+                        fontSize = 14.sp
+                    )
+                    Text(
+                        text = if (ok) "Goed" else "Fout",
                         fontWeight = FontWeight.SemiBold,
-                        color = if (ok) Color(0xFF58A700) else Color(0xFFEA2B2B)
+                        color = if (ok) Color(0xFF58A700) else Color(0xFFEA2B2B),
+                        modifier = Modifier.width(80.dp)
                     )
                 }
             }
