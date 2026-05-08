@@ -476,32 +476,39 @@ fun FillInTheBlankUI(
             fontWeight = FontWeight.Bold,
             color = Color(0xFF4B4B4B)
         )
-        Spacer(modifier = Modifier.height(48.dp))
+        Spacer(modifier = Modifier.height(32.dp))
         
         // Sentence with blank
         val parts = exercise.context.split("___")
         FlowRow(
             horizontalArrangement = Arrangement.Center,
-            verticalArrangement = Arrangement.Center
+            verticalArrangement = Arrangement.Center,
+            modifier = Modifier.fillMaxWidth().padding(horizontal = 8.dp)
         ) {
-            Text(parts[0], fontSize = 24.sp, fontWeight = FontWeight.Medium)
+            Text(
+                parts[0], 
+                fontSize = 24.sp, 
+                fontWeight = FontWeight.Medium,
+                modifier = Modifier.align(Alignment.CenterVertically)
+            )
             
             Box(
                 modifier = Modifier
-                    .padding(horizontal = 8.dp)
-                    .widthIn(min = 100.dp)
+                    .padding(horizontal = 4.dp)
+                    .widthIn(min = 80.dp)
                     .clip(RoundedCornerShape(12.dp))
                     .clickable(enabled = selectedAnswer != null && !isAnswered) { onRemoveAnswer() }
                     .drawBehind {
                         val strokeWidth = 2.dp.toPx()
-                        val y = size.height - strokeWidth
+                        val y = size.height - 4.dp.toPx()
                         drawLine(
                             color = if (selectedAnswer != null) Color.Transparent else Color.LightGray,
                             start = androidx.compose.ui.geometry.Offset(0f, y),
                             end = androidx.compose.ui.geometry.Offset(size.width, y),
                             strokeWidth = strokeWidth
                         )
-                    },
+                    }
+                    .align(Alignment.CenterVertically),
                 contentAlignment = Alignment.Center
             ) {
                 if (selectedAnswer != null) {
@@ -511,31 +518,37 @@ fun FillInTheBlankUI(
                         shadowColor = if (isAnswered) (if (selectedAnswer == exercise.correctAnswer) Color(0xFF46A302) else Color(0xFFD13B3B)) else lightColors.second,
                         textColor = if (isAnswered) Color.White else categoryColor,
                         onClick = { if (!isAnswered) onRemoveAnswer() },
-                        modifier = Modifier.padding(vertical = 4.dp).widthIn(min = 100.dp),
-                        height = 45.dp,
+                        modifier = Modifier.padding(vertical = 2.dp),
+                        height = 40.dp,
                         fontSize = 18.sp
                     )
                 } else {
-                    Text(" ", fontSize = 24.sp, modifier = Modifier.padding(vertical = 12.dp))
+                    Text(" ", fontSize = 24.sp, modifier = Modifier.padding(vertical = 8.dp))
                 }
             }
             
             if (parts.size > 1) {
-                Text(parts[1], fontSize = 24.sp, fontWeight = FontWeight.Medium)
+                Text(
+                    parts[1], 
+                    fontSize = 24.sp, 
+                    fontWeight = FontWeight.Medium,
+                    modifier = Modifier.align(Alignment.CenterVertically)
+                )
             }
         }
 
-        Spacer(modifier = Modifier.height(64.dp))
+        Spacer(modifier = Modifier.height(48.dp))
 
         // Options
         FlowRow(
             horizontalArrangement = Arrangement.Center,
-            maxItemsInEachRow = 2
+            verticalArrangement = Arrangement.Center,
+            modifier = Modifier.fillMaxWidth().padding(8.dp)
         ) {
             exercise.options.forEach { option ->
                 val isSelected = selectedAnswer == option
                 
-                Box(modifier = Modifier.padding(8.dp).width(140.dp).height(50.dp)) {
+                Box(modifier = Modifier.padding(6.dp)) {
                     if (!isSelected || isAnswered) {
                         DuolingoButton(
                             text = option.formatWord(),
@@ -543,16 +556,17 @@ fun FillInTheBlankUI(
                             shadowColor = lightColors.second,
                             textColor = categoryColor,
                             onClick = { onWordClick(option) },
-                            modifier = Modifier.fillMaxSize(),
-                            height = 50.dp,
+                            height = 45.dp,
                             fontSize = 16.sp
                         )
                     } else {
-                        // Placeholder
+                        // Placeholder with estimated size of the word
                         Box(
                             modifier = Modifier
-                                .fillMaxSize()
+                                .height(45.dp)
+                                .widthIn(min = 60.dp)
                                 .background(Color(0xFFE5E5E5), RoundedCornerShape(12.dp))
+                                .padding(horizontal = 16.dp)
                         )
                     }
                 }
@@ -607,8 +621,8 @@ fun HusselaarUI(
                         shadowColor = if (isAnswered) Color(0xFF46A302) else Color(0xFFE5E5E5),
                         textColor = if (isAnswered) Color.White else Color(0xFF4B4B4B),
                         onClick = { onWordClick(word, false) },
-                        modifier = Modifier.padding(4.dp).widthIn(min = 60.dp),
-                        height = 45.dp,
+                        modifier = Modifier.padding(4.dp),
+                        height = 40.dp,
                         fontSize = 14.sp
                     )
                 }
@@ -624,7 +638,7 @@ fun HusselaarUI(
                 val countBeforeInShuffled = exercise.shuffledWords.take(index).count { it == word }
                 val isUsed = countInUser > countBeforeInShuffled
                 
-                Box(modifier = Modifier.padding(4.dp).widthIn(min = 60.dp).height(45.dp)) {
+                Box(modifier = Modifier.padding(4.dp)) {
                     if (!isUsed) {
                         DuolingoButton(
                             text = word.formatWord(),
@@ -632,15 +646,15 @@ fun HusselaarUI(
                             shadowColor = lightColors.second,
                             textColor = categoryColor,
                             onClick = { onWordClick(word, true) },
-                            modifier = Modifier.fillMaxSize(),
-                            height = 45.dp,
+                            height = 40.dp,
                             fontSize = 14.sp
                         )
                     } else {
                         // Placeholder
                         Box(
                             modifier = Modifier
-                                .fillMaxSize()
+                                .height(40.dp)
+                                .widthIn(min = 40.dp)
                                 .background(Color(0xFFE5E5E5), RoundedCornerShape(12.dp))
                         )
                     }
@@ -693,7 +707,7 @@ fun DuolingoButton(
         // Shadow layer
         Box(
             modifier = Modifier
-                .fillMaxSize()
+                .matchParentSize()
                 .padding(top = 4.dp)
                 .background(shadowColor, RoundedCornerShape(16.dp))
         )
@@ -701,17 +715,19 @@ fun DuolingoButton(
         // Top layer (Button surface)
         Box(
             modifier = Modifier
-                .fillMaxSize()
+                .fillMaxHeight()
                 .padding(bottom = 4.dp)
                 .offset(y = translationY)
-                .background(baseColor, RoundedCornerShape(16.dp)),
+                .background(baseColor, RoundedCornerShape(16.dp))
+                .padding(horizontal = 16.dp),
             contentAlignment = Alignment.Center
         ) {
             Text(
                 text = text.uppercase(),
                 fontSize = fontSize,
                 fontWeight = FontWeight.Bold,
-                color = textColor
+                color = textColor,
+                softWrap = false
             )
         }
     }
