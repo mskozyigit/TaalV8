@@ -5,3 +5,10 @@ class WasmPlatform: Platform {
 }
 
 actual fun getPlatform(): Platform = WasmPlatform()
+
+@JsFun("() => { if (window.hideLoadingBar) window.hideLoadingBar(); }")
+external fun hideLoadingBarInternal()
+
+actual fun hideLoadingBar() {
+    hideLoadingBarInternal()
+}

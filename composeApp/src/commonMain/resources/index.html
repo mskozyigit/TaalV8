@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taal Holland</title>
+    <link type="text/css" rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app"></div>
+    <div id="loading-bar-container" style="width: 100%; height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; position: fixed; top: 0; left: 0; background-color: #ffffff; z-index: 9999;">
+        <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 32px; font-weight: 800; color: #58CC02; margin-bottom: 30px; letter-spacing: 1px;">AAN HET LADEN...</div>
+        <div id="loading-bar" style="width: 80%; max-width: 600px; height: 24px; background-color: #E5E5E5; border-radius: 12px; overflow: hidden; box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);">
+            <div id="loading-progress" style="width: 5%; height: 100%; background-color: #58CC02; border-radius: 12px; transition: width 0.4s cubic-bezier(0.1, 0, 0.3, 1); box-shadow: 0 2px 4px rgba(0,0,0,0.2);"></div>
+        </div>
+        <div style="margin-top: 20px; font-family: sans-serif; font-size: 16px; color: #AFAFAF; font-weight: 500;">Even geduld aub...</div>
+    </div>
+<script type="application/javascript" src="composeApp.js"></script>
+<script type="application/javascript">
+    // Update progress bar
+    const progressBar = document.getElementById('loading-progress');
+    if (progressBar) {
+        let width = 5;
+        const interval = setInterval(() => {
+            if (width < 85) {
+                width += (90 - width) * 0.05;
+                progressBar.style.width = width + '%';
+            }
+        }, 300);
+        
+        // This will be called from Compose when it's ready
+        window.hideLoadingBar = function() {
+            clearInterval(interval);
+            progressBar.style.width = '100%';
+            setTimeout(() => {
+                const container = document.getElementById('loading-bar-container');
+                if (container) {
+                    container.style.opacity = '0';
+                    container.style.transition = 'opacity 0.5s ease-out';
+                    setTimeout(() => {
+                        container.style.display = 'none';
+                    }, 500);
+                }
+            }, 300);
+        };
+    }
+</script>
+</body>
+</html>

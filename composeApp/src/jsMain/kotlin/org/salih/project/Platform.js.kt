@@ -5,3 +5,7 @@ class JsPlatform: Platform {
 }
 
 actual fun getPlatform(): Platform = JsPlatform()
+
+actual fun hideLoadingBar() {
+    js("if (window.hideLoadingBar) window.hideLoadingBar();")
+}
