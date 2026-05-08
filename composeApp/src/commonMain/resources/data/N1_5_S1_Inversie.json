@@ -1,0 +1,652 @@
+[
+    {
+        "question_id": 1,
+        "sentence": "Morgen ___ ik naar de stad.",
+        "options": [
+            "ga",
+            "gaat",
+            "gaan",
+            "blauw"
+        ],
+        "correct_answer": "ga",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 2,
+        "sentence": "Vandaag ___ jij een nieuw boek.",
+        "options": [
+            "lees",
+            "leest",
+            "lezen",
+            "koud"
+        ],
+        "correct_answer": "lees",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 3,
+        "sentence": "Nu ___ hij op het grote kantoor.",
+        "options": [
+            "werkt",
+            "werk",
+            "werken",
+            "gisteren"
+        ],
+        "correct_answer": "werkt",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 4,
+        "sentence": "Soms ___ wij samen een pizza.",
+        "options": [
+            "eten",
+            "eet",
+            "eetst",
+            "tafel"
+        ],
+        "correct_answer": "eten",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 5,
+        "sentence": "Vaak ___ de kinderen buiten op straat.",
+        "options": [
+            "spelen",
+            "speelt",
+            "speel",
+            "morgen"
+        ],
+        "correct_answer": "spelen",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 6,
+        "sentence": "In de stad ___ ik een oude vriend.",
+        "options": [
+            "zie",
+            "ziet",
+            "zien",
+            "groen"
+        ],
+        "correct_answer": "zie",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 7,
+        "sentence": "Op kantoor ___ de baas veel.",
+        "options": [
+            "praat",
+            "praatst",
+            "praten",
+            "vroeg"
+        ],
+        "correct_answer": "praat",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 8,
+        "sentence": "Elke ochtend ___ jij warme koffie.",
+        "options": [
+            "drink",
+            "drinkt",
+            "drinken",
+            "goedkoop"
+        ],
+        "correct_answer": "drink",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 9,
+        "sentence": "Morgen ___ de studenten een examen.",
+        "options": [
+            "maken",
+            "maakt",
+            "maak",
+            "laat"
+        ],
+        "correct_answer": "maken",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 10,
+        "sentence": "Vandaag ___ het kind met de bal.",
+        "options": [
+            "speelt",
+            "spelen",
+            "speel",
+            "altijd"
+        ],
+        "correct_answer": "speelt",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 11,
+        "sentence": "'s Avonds ___ ik graag televisie.",
+        "options": [
+            "kijk",
+            "kijkt",
+            "kijken",
+            "banaan"
+        ],
+        "correct_answer": "kijk",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 12,
+        "sentence": "Nu ___ je een brief aan oma.",
+        "options": [
+            "schrijf",
+            "schrijft",
+            "schrijven",
+            "warm"
+        ],
+        "correct_answer": "schrijf",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 13,
+        "sentence": "Soms ___ de vrouw een lekkere taart.",
+        "options": [
+            "bakt",
+            "bakken",
+            "bak",
+            "bijna"
+        ],
+        "correct_answer": "bakt",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 14,
+        "sentence": "Vaak ___ jullie naar muziek.",
+        "options": [
+            "luisteren",
+            "luistert",
+            "luister",
+            "koud"
+        ],
+        "correct_answer": "luisteren",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 15,
+        "sentence": "In de tuin ___ de hond op de bank.",
+        "options": [
+            "slaapt",
+            "slapen",
+            "slaap",
+            "vaak"
+        ],
+        "correct_answer": "slaapt",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 16,
+        "sentence": "Morgen ___ jij met de blauwe bus.",
+        "options": [
+            "kom",
+            "komt",
+            "komen",
+            "blauw"
+        ],
+        "correct_answer": "kom",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 17,
+        "sentence": "Vandaag ___ wij nieuwe kleren.",
+        "options": [
+            "kopen",
+            "koopt",
+            "koop",
+            "gisteren"
+        ],
+        "correct_answer": "kopen",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 18,
+        "sentence": "Nu ___ de leraar de moeilijke vraag.",
+        "options": [
+            "beantwoordt",
+            "beantwoord",
+            "beantwoorden",
+            "tafel"
+        ],
+        "correct_answer": "beantwoordt",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 19,
+        "sentence": "Soms ___ ik mijn moeder op.",
+        "options": [
+            "bel",
+            "belt",
+            "bellen",
+            "morgen"
+        ],
+        "correct_answer": "bel",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 20,
+        "sentence": "Elke dag ___ je Nederlands op school.",
+        "options": [
+            "leer",
+            "leert",
+            "leren",
+            "altijd"
+        ],
+        "correct_answer": "leer",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 21,
+        "sentence": "Morgen ___ hij de vuile auto.",
+        "options": [
+            "wast",
+            "wassen",
+            "was",
+            "koud"
+        ],
+        "correct_answer": "wast",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 22,
+        "sentence": "Vandaag ___ de studenten hard werken.",
+        "options": [
+            "werken",
+            "werkt",
+            "werk",
+            "vroeg"
+        ],
+        "correct_answer": "werken",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 23,
+        "sentence": "Nu ___ jij de ramen helemaal schoon.",
+        "options": [
+            "maak",
+            "maakt",
+            "maken",
+            "bijna"
+        ],
+        "correct_answer": "maak",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 24,
+        "sentence": "Soms ___ wij in het park.",
+        "options": [
+            "wandelen",
+            "wandelt",
+            "wandel",
+            "groen"
+        ],
+        "correct_answer": "wandelen",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 25,
+        "sentence": "In Amsterdam ___ ik veel musea.",
+        "options": [
+            "bezoek",
+            "bezoekt",
+            "bezoeken",
+            "warm"
+        ],
+        "correct_answer": "bezoek",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 26,
+        "sentence": "Op school ___ de kinderen woorden.",
+        "options": [
+            "leren",
+            "leert",
+            "leer",
+            "gisteren"
+        ],
+        "correct_answer": "leren",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 27,
+        "sentence": "Morgen ___ je naar Utrecht.",
+        "options": [
+            "ga",
+            "gaat",
+            "gaan",
+            "vaak"
+        ],
+        "correct_answer": "ga",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 28,
+        "sentence": "Vandaag ___ de baby in het bed.",
+        "options": [
+            "ligt",
+            "liggen",
+            "lig",
+            "altijd"
+        ],
+        "correct_answer": "ligt",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 29,
+        "sentence": "Nu ___ ik de grote deur open.",
+        "options": [
+            "doe",
+            "doet",
+            "doen",
+            "nieuw"
+        ],
+        "correct_answer": "doe",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 30,
+        "sentence": "Soms ___ jij een mooi liedje.",
+        "options": [
+            "zing",
+            "zingt",
+            "zingen",
+            "koud"
+        ],
+        "correct_answer": "zing",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 31,
+        "sentence": "Vaak ___ wij samen soep.",
+        "options": [
+            "koken",
+            "koopt",
+            "kook",
+            "tafel"
+        ],
+        "correct_answer": "koken",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 32,
+        "sentence": "'s Middags ___ het meisje buiten.",
+        "options": [
+            "loopt",
+            "lopen",
+            "loop",
+            "vroeg"
+        ],
+        "correct_answer": "loopt",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 33,
+        "sentence": "Morgen ___ de mannen het huis.",
+        "options": [
+            "verven",
+            "verft",
+            "verf",
+            "blauw"
+        ],
+        "correct_answer": "verven",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 34,
+        "sentence": "Vandaag ___ jij je tanden.",
+        "options": [
+            "poets",
+            "poetst",
+            "poetsen",
+            "wit"
+        ],
+        "correct_answer": "poets",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 35,
+        "sentence": "Nu ___ de zon vandaag erg hard.",
+        "options": [
+            "schijnt",
+            "schijnen",
+            "schijn",
+            "koud"
+        ],
+        "correct_answer": "schijnt",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 36,
+        "sentence": "Soms ___ ik een rode appel.",
+        "options": [
+            "eet",
+            "eten",
+            "eetst",
+            "gisteren"
+        ],
+        "correct_answer": "eet",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 37,
+        "sentence": "Elke week ___ je de hele kamer.",
+        "options": [
+            "poets",
+            "poetst",
+            "poetsen",
+            "tafel"
+        ],
+        "correct_answer": "poets",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 38,
+        "sentence": "Morgen ___ wij de nieuwe buren.",
+        "options": [
+            "helpen",
+            "helpt",
+            "help",
+            "altijd"
+        ],
+        "correct_answer": "helpen",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 39,
+        "sentence": "Vandaag ___ hij zijn sleutels.",
+        "options": [
+            "zoekt",
+            "zoeken",
+            "zoek",
+            "kantoor"
+        ],
+        "correct_answer": "zoekt",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 40,
+        "sentence": "Nu ___ jij de leraar.",
+        "options": [
+            "help",
+            "helpt",
+            "helpen",
+            "morgen"
+        ],
+        "correct_answer": "help",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 41,
+        "sentence": "Soms ___ de studenten een boek.",
+        "options": [
+            "lezen",
+            "leest",
+            "lees",
+            "goedkoop"
+        ],
+        "correct_answer": "lezen",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 42,
+        "sentence": "Vaak ___ ik mijn moeder.",
+        "options": [
+            "bel",
+            "belt",
+            "bellen",
+            "warm"
+        ],
+        "correct_answer": "bel",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 43,
+        "sentence": "In het park ___ je een hond.",
+        "options": [
+            "zie",
+            "ziet",
+            "zien",
+            "groen"
+        ],
+        "correct_answer": "zie",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 44,
+        "sentence": "Op maandag ___ wij de was.",
+        "options": [
+            "doen",
+            "doet",
+            "doe",
+            "tafel"
+        ],
+        "correct_answer": "doen",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 45,
+        "sentence": "Morgen ___ hij naar de dokter.",
+        "options": [
+            "gaat",
+            "gaan",
+            "ga",
+            "vroeg"
+        ],
+        "correct_answer": "ga",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 46,
+        "sentence": "Vandaag ___ jij vers brood.",
+        "options": [
+            "koop",
+            "koopt",
+            "kopen",
+            "bijna"
+        ],
+        "correct_answer": "koop",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 47,
+        "sentence": "Nu ___ de trein in Leiden.",
+        "options": [
+            "stopt",
+            "stoppen",
+            "stop",
+            "koud"
+        ],
+        "correct_answer": "stopt",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 48,
+        "sentence": "Soms ___ ik een mooie foto.",
+        "options": [
+            "maak",
+            "maken",
+            "maakt",
+            "blauw"
+        ],
+        "correct_answer": "maak",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 49,
+        "sentence": "Elke dag ___ je een appel.",
+        "options": [
+            "eet",
+            "eetst",
+            "eten",
+            "koud"
+        ],
+        "correct_answer": "eet",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 50,
+        "sentence": "Morgen ___ wij naar de bioscoop.",
+        "options": [
+            "gaan",
+            "gaat",
+            "ga",
+            "gisteren"
+        ],
+        "correct_answer": "gaan",
+        "language": "nl",
+        "difficulty": "A2"
+    }
+]

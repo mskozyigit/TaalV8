@@ -15,6 +15,29 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.delay
+import kotlinx.serialization.json.Json
+import kotlinx.serialization.decodeFromString
+
+suspend fun loadExercisesFromJson(fileName: String): List<SentenceData> {
+    try {
+        // Files are in resources/data, which map to "data/filename" URL in static serving
+        val jsonText = loadJsonFile("data/$fileName")
+        
+        val rawList = Json { ignoreUnknownKeys = true }.decodeFromString<List<RawExercise>>(jsonText)
+        return rawList.map { raw ->
+            val fullText = raw.sentence.replace("___", raw.correctAnswer)
+            SentenceData(
+                id = (raw.id ?: raw.questionId ?: 0).toString(),
+                text = fullText,
+                blankWord = raw.correctAnswer,
+                distractors = raw.options.filter { it != raw.correctAnswer }
+            )
+        }
+    } catch (e: Exception) {
+        println("Error loading exercises from $fileName: ${e.message}")
+        return emptyList()
+    }
+}
 
 fun generateExercises(sentences: List<SentenceData>): List<Exercise> {
     return sentences.mapIndexed { index, s ->

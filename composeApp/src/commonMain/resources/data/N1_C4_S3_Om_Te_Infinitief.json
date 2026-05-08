@@ -1,0 +1,652 @@
+[
+    {
+        "question_id": 1,
+        "sentence": "Ik ga naar de stad ___ een jas te kopen.",
+        "options": [
+            "om",
+            "op",
+            "bij",
+            "voor"
+        ],
+        "correct_answer": "om",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 2,
+        "sentence": "Hij spaart veel geld ___ een auto te kopen.",
+        "options": [
+            "om",
+            "op",
+            "bij",
+            "voor"
+        ],
+        "correct_answer": "om",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 3,
+        "sentence": "Zij gaat naar de keuken ___ soep te maken.",
+        "options": [
+            "om",
+            "op",
+            "bij",
+            "voor"
+        ],
+        "correct_answer": "om",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 4,
+        "sentence": "Wij lopen naar het grote park ___ te wandelen.",
+        "options": [
+            "om",
+            "op",
+            "bij",
+            "voor"
+        ],
+        "correct_answer": "om",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 5,
+        "sentence": "Ik bel de dokter ___ een afspraak te maken.",
+        "options": [
+            "om",
+            "op",
+            "bij",
+            "voor"
+        ],
+        "correct_answer": "om",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 6,
+        "sentence": "De student leert hard ___ het examen te halen.",
+        "options": [
+            "om",
+            "op",
+            "bij",
+            "voor"
+        ],
+        "correct_answer": "om",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 7,
+        "sentence": "Zij gaat naar de warme bakker ___ brood te kopen.",
+        "options": [
+            "om",
+            "op",
+            "bij",
+            "voor"
+        ],
+        "correct_answer": "om",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 8,
+        "sentence": "Ik neem een snelle taxi ___ op tijd te komen.",
+        "options": [
+            "om",
+            "op",
+            "bij",
+            "voor"
+        ],
+        "correct_answer": "om",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 9,
+        "sentence": "Hij gebruikt een mes ___ het brood te snijden.",
+        "options": [
+            "om",
+            "op",
+            "bij",
+            "voor"
+        ],
+        "correct_answer": "om",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 10,
+        "sentence": "Wij gaan naar de bioscoop ___ een film te zien.",
+        "options": [
+            "om",
+            "op",
+            "bij",
+            "voor"
+        ],
+        "correct_answer": "om",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 11,
+        "sentence": "Ik ga naar de bibliotheek ___ een boek te lenen.",
+        "options": [
+            "om",
+            "op",
+            "bij",
+            "voor"
+        ],
+        "correct_answer": "om",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 12,
+        "sentence": "Zij drinkt veel water ___ geen dorst te hebben.",
+        "options": [
+            "om",
+            "op",
+            "bij",
+            "voor"
+        ],
+        "correct_answer": "om",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 13,
+        "sentence": "De man werkt hard ___ meer geld te verdienen.",
+        "options": [
+            "om",
+            "op",
+            "bij",
+            "voor"
+        ],
+        "correct_answer": "om",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 14,
+        "sentence": "Ik doe de deur dicht ___ het huis warm te houden.",
+        "options": [
+            "om",
+            "op",
+            "bij",
+            "voor"
+        ],
+        "correct_answer": "om",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 15,
+        "sentence": "Wij gaan vandaag naar buiten ___ te spelen.",
+        "options": [
+            "om",
+            "op",
+            "bij",
+            "voor"
+        ],
+        "correct_answer": "om",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 16,
+        "sentence": "De chauffeur stopt de auto ___ te rusten.",
+        "options": [
+            "om",
+            "op",
+            "bij",
+            "voor"
+        ],
+        "correct_answer": "om",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 17,
+        "sentence": "Ik gebruik de computer ___ een mail te schrijven.",
+        "options": [
+            "om",
+            "op",
+            "bij",
+            "voor"
+        ],
+        "correct_answer": "om",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 18,
+        "sentence": "Zij gaat naar de markt ___ vers fruit te halen.",
+        "options": [
+            "om",
+            "op",
+            "bij",
+            "voor"
+        ],
+        "correct_answer": "om",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 19,
+        "sentence": "Wij bellen de nieuwe buren ___ kennis te maken.",
+        "options": [
+            "om",
+            "op",
+            "bij",
+            "voor"
+        ],
+        "correct_answer": "om",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 20,
+        "sentence": "Ik ga nu naar bed ___ te gaan slapen.",
+        "options": [
+            "om",
+            "op",
+            "bij",
+            "voor"
+        ],
+        "correct_answer": "om",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 21,
+        "sentence": "Ik heb geen tijd om de krant ___ lezen.",
+        "options": [
+            "te",
+            "de",
+            "het",
+            "ten"
+        ],
+        "correct_answer": "te",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 22,
+        "sentence": "Het is leuk om het huis schoon ___ maken.",
+        "options": [
+            "te",
+            "de",
+            "het",
+            "ten"
+        ],
+        "correct_answer": "te",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 23,
+        "sentence": "Hij vergeet om de ramen ___ sluiten.",
+        "options": [
+            "te",
+            "de",
+            "het",
+            "ten"
+        ],
+        "correct_answer": "te",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 24,
+        "sentence": "Zij vindt het moeilijk om Nederlands ___ spreken.",
+        "options": [
+            "te",
+            "de",
+            "het",
+            "ten"
+        ],
+        "correct_answer": "te",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 25,
+        "sentence": "Het is gezond om elke dag ___ wandelen.",
+        "options": [
+            "te",
+            "de",
+            "het",
+            "ten"
+        ],
+        "correct_answer": "te",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 26,
+        "sentence": "Ik ben te moe om nu ___ koken.",
+        "options": [
+            "te",
+            "de",
+            "het",
+            "ten"
+        ],
+        "correct_answer": "te",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 27,
+        "sentence": "Wij proberen om morgen op tijd ___ komen.",
+        "options": [
+            "te",
+            "de",
+            "het",
+            "ten"
+        ],
+        "correct_answer": "te",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 28,
+        "sentence": "Het is belangrijk om veel water ___ drinken.",
+        "options": [
+            "te",
+            "de",
+            "het",
+            "ten"
+        ],
+        "correct_answer": "te",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 29,
+        "sentence": "Hij heeft zin om een zoete taart ___ bakken.",
+        "options": [
+            "te",
+            "de",
+            "het",
+            "ten"
+        ],
+        "correct_answer": "te",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 30,
+        "sentence": "Zij heeft de mogelijkheid om een auto ___ huren.",
+        "options": [
+            "te",
+            "de",
+            "het",
+            "ten"
+        ],
+        "correct_answer": "te",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 31,
+        "sentence": "Het is helemaal niet nodig om ___ rennen.",
+        "options": [
+            "te",
+            "de",
+            "het",
+            "ten"
+        ],
+        "correct_answer": "te",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 32,
+        "sentence": "Ik heb veel hulp nodig om dit ___ begrijpen.",
+        "options": [
+            "te",
+            "de",
+            "het",
+            "ten"
+        ],
+        "correct_answer": "te",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 33,
+        "sentence": "Wij hebben zin om naar huis ___ gaan.",
+        "options": [
+            "te",
+            "de",
+            "het",
+            "ten"
+        ],
+        "correct_answer": "te",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 34,
+        "sentence": "Het is verboden om hier ___ roken.",
+        "options": [
+            "te",
+            "de",
+            "het",
+            "ten"
+        ],
+        "correct_answer": "te",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 35,
+        "sentence": "Zij leert om de piano ___ spelen.",
+        "options": [
+            "te",
+            "de",
+            "het",
+            "ten"
+        ],
+        "correct_answer": "te",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 36,
+        "sentence": "Ik ben van plan om mijn oma op ___ bellen.",
+        "options": [
+            "te",
+            "de",
+            "het",
+            "ten"
+        ],
+        "correct_answer": "te",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 37,
+        "sentence": "Het is koud om buiten in de zee ___ zwemmen.",
+        "options": [
+            "te",
+            "de",
+            "het",
+            "ten"
+        ],
+        "correct_answer": "te",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 38,
+        "sentence": "Hij hoopt om een goede baan ___ vinden.",
+        "options": [
+            "te",
+            "de",
+            "het",
+            "ten"
+        ],
+        "correct_answer": "te",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 39,
+        "sentence": "Het is fijn om vanavond samen ___ eten.",
+        "options": [
+            "te",
+            "de",
+            "het",
+            "ten"
+        ],
+        "correct_answer": "te",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 40,
+        "sentence": "Ik vergeet altijd om mijn huiswerk ___ maken.",
+        "options": [
+            "te",
+            "de",
+            "het",
+            "ten"
+        ],
+        "correct_answer": "te",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 41,
+        "sentence": "Ik ga naar de keuken om een ei te ___.",
+        "options": [
+            "koken",
+            "kookt",
+            "gekookt",
+            "tafel"
+        ],
+        "correct_answer": "koken",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 42,
+        "sentence": "Hij gaat naar het zwembad om te ___.",
+        "options": [
+            "zwemmen",
+            "zwemt",
+            "gezwommen",
+            "koud"
+        ],
+        "correct_answer": "zwemmen",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 43,
+        "sentence": "Zij gaat naar de winkel om melk te ___.",
+        "options": [
+            "kopen",
+            "koopt",
+            "gekocht",
+            "blauw"
+        ],
+        "correct_answer": "kopen",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 44,
+        "sentence": "Wij gaan naar de leraar om een vraag te ___.",
+        "options": [
+            "stellen",
+            "stelt",
+            "gesteld",
+            "gisteren"
+        ],
+        "correct_answer": "stellen",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 45,
+        "sentence": "Ik gebruik de telefoon om mijn moeder op te ___.",
+        "options": [
+            "bellen",
+            "belt",
+            "gebeld",
+            "warm"
+        ],
+        "correct_answer": "bellen",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 46,
+        "sentence": "De kleine kinderen gaan naar buiten om te ___.",
+        "options": [
+            "spelen",
+            "speelt",
+            "gespeeld",
+            "altijd"
+        ],
+        "correct_answer": "spelen",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 47,
+        "sentence": "De man koopt de krant om te ___.",
+        "options": [
+            "lezen",
+            "leest",
+            "gelezen",
+            "boek"
+        ],
+        "correct_answer": "lezen",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 48,
+        "sentence": "De student doet zijn best om de toets te ___.",
+        "options": [
+            "maken",
+            "maakt",
+            "gemaakt",
+            "pen"
+        ],
+        "correct_answer": "maken",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 49,
+        "sentence": "Wij gaan naar het grote bos om te ___.",
+        "options": [
+            "wandelen",
+            "wandelt",
+            "gewandeld",
+            "mooi"
+        ],
+        "correct_answer": "wandelen",
+        "language": "nl",
+        "difficulty": "A2"
+    },
+    {
+        "question_id": 50,
+        "sentence": "Ik ga naar de kapper om mijn haar te ___.",
+        "options": [
+            "knippen",
+            "knipt",
+            "geknipt",
+            "stoel"
+        ],
+        "correct_answer": "knippen",
+        "language": "nl",
+        "difficulty": "A2"
+    }
+]

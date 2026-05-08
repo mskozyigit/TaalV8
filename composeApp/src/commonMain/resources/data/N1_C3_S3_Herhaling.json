@@ -1,0 +1,652 @@
+[
+    {
+        "question_id": 1,
+        "sentence": "Ik ___ gisteren brood bij de bakker gekocht.",
+        "options": [
+            "heb",
+            "wil",
+            "hebt",
+            "warm"
+        ],
+        "correct_answer": "heb",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 2,
+        "sentence": "Ik ___ morgen brood bij de bakker kopen.",
+        "options": [
+            "wil",
+            "heb",
+            "wilt",
+            "koud"
+        ],
+        "correct_answer": "wil",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 3,
+        "sentence": "Jij ___ nu je tanden goed poetsen.",
+        "options": [
+            "moet",
+            "hebt",
+            "moeten",
+            "wit"
+        ],
+        "correct_answer": "moet",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 4,
+        "sentence": "Jij ___ je tanden al goed gepoetst.",
+        "options": [
+            "hebt",
+            "moet",
+            "heb",
+            "gisteren"
+        ],
+        "correct_answer": "hebt",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 5,
+        "sentence": "Wij ___ naar het grote museum gegaan.",
+        "options": [
+            "zijn",
+            "kunnen",
+            "is",
+            "mooi"
+        ],
+        "correct_answer": "zijn",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 6,
+        "sentence": "Wij ___ naar het grote museum gaan.",
+        "options": [
+            "kunnen",
+            "zijn",
+            "kunt",
+            "vaak"
+        ],
+        "correct_answer": "kunnen",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 7,
+        "sentence": "De student ___ hard voor het examen geleerd.",
+        "options": [
+            "heeft",
+            "moet",
+            "hebben",
+            "goedkoop"
+        ],
+        "correct_answer": "heeft",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 8,
+        "sentence": "De student ___ hard for het examen leren.",
+        "options": [
+            "moet",
+            "heeft",
+            "moeten",
+            "laat"
+        ],
+        "correct_answer": "moet",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 9,
+        "sentence": "Jullie ___ de nieuwe buren gisteren gebeld.",
+        "options": [
+            "hebben",
+            "mogen",
+            "heeft",
+            "tafel"
+        ],
+        "correct_answer": "hebben",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 10,
+        "sentence": "Jullie ___ de nieuwe buren vanavond bellen.",
+        "options": [
+            "mogen",
+            "hebben",
+            "mag",
+            "groen"
+        ],
+        "correct_answer": "mogen",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 11,
+        "sentence": "Ik ___ een glas koud water gedronken.",
+        "options": [
+            "heb",
+            "zal",
+            "hebt",
+            "banaan"
+        ],
+        "correct_answer": "heb",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 12,
+        "sentence": "Ik ___ een glas koud water drinken.",
+        "options": [
+            "zal",
+            "heb",
+            "zullen",
+            "gisteren"
+        ],
+        "correct_answer": "zal",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 13,
+        "sentence": "Mijn broer ___ heel erg goed zwemmen.",
+        "options": [
+            "kan",
+            "is",
+            "kunt",
+            "altijd"
+        ],
+        "correct_answer": "kan",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 14,
+        "sentence": "Mijn broer ___ gisteren in de zee gezwommen.",
+        "options": [
+            "heeft",
+            "kan",
+            "hebben",
+            "koud"
+        ],
+        "correct_answer": "heeft",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 15,
+        "sentence": "De baby ___ de hele nacht geslapen.",
+        "options": [
+            "heeft",
+            "mag",
+            "hebben",
+            "bijna"
+        ],
+        "correct_answer": "heeft",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 16,
+        "sentence": "De baby ___ nu eindelijk even slapen.",
+        "options": [
+            "mag",
+            "heeft",
+            "mogen",
+            "morgen"
+        ],
+        "correct_answer": "mag",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 17,
+        "sentence": "Wij ___ de brief vandaag verstuurd.",
+        "options": [
+            "hebben",
+            "zullen",
+            "heeft",
+            "blauw"
+        ],
+        "correct_answer": "hebben",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 18,
+        "sentence": "Wij ___ de brief vandaag versturen.",
+        "options": [
+            "zullen",
+            "hebben",
+            "zal",
+            "vroeg"
+        ],
+        "correct_answer": "zullen",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 19,
+        "sentence": "Jij ___ gisteren te laat gekomen.",
+        "options": [
+            "bent",
+            "kun",
+            "ben",
+            "tafel"
+        ],
+        "correct_answer": "bent",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 20,
+        "sentence": "Jij ___ morgen niet te laat komen.",
+        "options": [
+            "kun",
+            "bent",
+            "kunt",
+            "altijd"
+        ],
+        "correct_answer": "kun",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 21,
+        "sentence": "De vrouw ___ in een appartement gewoond.",
+        "options": [
+            "heeft",
+            "wil",
+            "hebben",
+            "vaak"
+        ],
+        "correct_answer": "heeft",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 22,
+        "sentence": "De vrouw ___ in een appartement wonen.",
+        "options": [
+            "wil",
+            "heeft",
+            "wilt",
+            "altijd"
+        ],
+        "correct_answer": "wil",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 23,
+        "sentence": "Ik ___ mijn huiswerk na school gemaakt.",
+        "options": [
+            "heb",
+            "moet",
+            "hebt",
+            "groen"
+        ],
+        "correct_answer": "heb",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 24,
+        "sentence": "Ik ___ mijn huiswerk na school maken.",
+        "options": [
+            "moet",
+            "heb",
+            "moeten",
+            "kantoor"
+        ],
+        "correct_answer": "moet",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 25,
+        "sentence": "De kinderen ___ buiten op straat gespeeld.",
+        "options": [
+            "hebben",
+            "mogen",
+            "heeft",
+            "warm"
+        ],
+        "correct_answer": "hebben",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 26,
+        "sentence": "De kinderen ___ buiten op straat spelen.",
+        "options": [
+            "mogen",
+            "hebben",
+            "mag",
+            "goed"
+        ],
+        "correct_answer": "mogen",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 27,
+        "sentence": "Wij ___ samen lekkere koffie gedronken.",
+        "options": [
+            "hebben",
+            "willen",
+            "heeft",
+            "goedkoop"
+        ],
+        "correct_answer": "hebben",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 28,
+        "sentence": "Wij ___ samen lekkere koffie drinken.",
+        "options": [
+            "willen",
+            "hebben",
+            "wilt",
+            "morgen"
+        ],
+        "correct_answer": "willen",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 29,
+        "sentence": "De zon ___ vandaag heel hard geschenen.",
+        "options": [
+            "heeft",
+            "zal",
+            "hebben",
+            "koud"
+        ],
+        "correct_answer": "heeft",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 30,
+        "sentence": "De zon ___ vandaag heel hard schijnen.",
+        "options": [
+            "zal",
+            "heeft",
+            "zullen",
+            "gisteren"
+        ],
+        "correct_answer": "zal",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 31,
+        "sentence": "Jij ___ een mooie foto gemaakt.",
+        "options": [
+            "hebt",
+            "wil",
+            "heb",
+            "blauw"
+        ],
+        "correct_answer": "hebt",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 32,
+        "sentence": "Jij ___ een mooie foto maken.",
+        "options": [
+            "wil",
+            "hebt",
+            "wilt",
+            "gisteren"
+        ],
+        "correct_answer": "wil",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 33,
+        "sentence": "De man ___ op de harde grond gevallen.",
+        "options": [
+            "is",
+            "moet",
+            "zijn",
+            "bijna"
+        ],
+        "correct_answer": "is",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 34,
+        "sentence": "De man ___ niet op de grond vallen.",
+        "options": [
+            "moet",
+            "is",
+            "moeten",
+            "altijd"
+        ],
+        "correct_answer": "moet",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 35,
+        "sentence": "Ik ___ vorig year naar Turkije gereisd.",
+        "options": [
+            "ben",
+            "kan",
+            "bent",
+            "warm"
+        ],
+        "correct_answer": "ben",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 36,
+        "sentence": "Ik ___ volgend year naar Turkije reizen.",
+        "options": [
+            "kan",
+            "ben",
+            "kunt",
+            "koud"
+        ],
+        "correct_answer": "kan",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 37,
+        "sentence": "Wij ___ de auto van vader gewassen.",
+        "options": [
+            "hebben",
+            "zullen",
+            "heeft",
+            "tafel"
+        ],
+        "correct_answer": "hebben",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 38,
+        "sentence": "Wij ___ de auto van vader wassen.",
+        "options": [
+            "zullen",
+            "hebben",
+            "zal",
+            "groen"
+        ],
+        "correct_answer": "zullen",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 39,
+        "sentence": "Jullie ___ veel nieuwe woorden geleerd.",
+        "options": [
+            "hebben",
+            "kunnen",
+            "heeft",
+            "goed"
+        ],
+        "correct_answer": "hebben",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 40,
+        "sentence": "Jullie ___ veel nieuwe woorden leren.",
+        "options": [
+            "kunnen",
+            "hebben",
+            "kunt",
+            "laat"
+        ],
+        "correct_answer": "kunnen",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 41,
+        "sentence": "De trein ___ al uit het station vertrokken.",
+        "options": [
+            "is",
+            "zal",
+            "zijn",
+            "vroeg"
+        ],
+        "correct_answer": "is",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 42,
+        "sentence": "De trein ___ over een minuut vertrekken.",
+        "options": [
+            "zal",
+            "is",
+            "zullen",
+            "koud"
+        ],
+        "correct_answer": "zal",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 43,
+        "sentence": "Ik ___ gisteren op het kantoor gewerkt.",
+        "options": [
+            "heb",
+            "mag",
+            "hebt",
+            "gisteren"
+        ],
+        "correct_answer": "heb",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 44,
+        "sentence": "Ik ___ vandaag op het kantoor werken.",
+        "options": [
+            "mag",
+            "heb",
+            "mag je",
+            "altijd"
+        ],
+        "correct_answer": "mag",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 45,
+        "sentence": "Jij ___ de fietssleutels in de kast gevonden.",
+        "options": [
+            "hebt",
+            "kunt",
+            "heb",
+            "blauw"
+        ],
+        "correct_answer": "hebt",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 46,
+        "sentence": "Jij ___ de fietssleutels in de kast vinden.",
+        "options": [
+            "kunt",
+            "hebt",
+            "kun",
+            "tafel"
+        ],
+        "correct_answer": "kunt",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 47,
+        "sentence": "De leraar ___ het boek al gelezen.",
+        "options": [
+            "heeft",
+            "moet",
+            "hebben",
+            "morgen"
+        ],
+        "correct_answer": "heeft",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 48,
+        "sentence": "De leraar ___ het boek nu lezen.",
+        "options": [
+            "moet",
+            "heeft",
+            "moeten",
+            "laat"
+        ],
+        "correct_answer": "moet",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 49,
+        "sentence": "Wij ___ naar de bioscoop gegaan.",
+        "options": [
+            "zijn",
+            "willen",
+            "is",
+            "vaak"
+        ],
+        "correct_answer": "zijn",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    },
+    {
+        "question_id": 50,
+        "sentence": "Wij ___ naar de bioscoop gaan.",
+        "options": [
+            "willen",
+            "zijn",
+            "wilt",
+            "gisteren"
+        ],
+        "correct_answer": "willen",
+        "language": "nl",
+        "difficulty": "A1-A2"
+    }
+]

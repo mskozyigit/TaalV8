@@ -31,9 +31,11 @@ fun App() {
 
     val categories = remember {
         listOf(
-            Category("a2", "Niveau A2", Color(0xFF58CC02), Color(0xFF46A302)),
-            Category("b1", "Niveau B1", Color(0xFF1CB0F6), Color(0xFF1899D6)),
-            Category("b2", "Niveau B2", Color(0xFFCE82FF), Color(0xFFA568CC))
+            Category("c1", "Basis Zinnen", Color(0xFF58CC02), Color(0xFF46A302)),
+            Category("c2", "Vragen Stellen", Color(0xFF1CB0F6), Color(0xFF1899D6)),
+            Category("c3", "Werkwoorden & Tijden", Color(0xFFCE82FF), Color(0xFFA568CC)),
+            Category("c4", "Verbindingswoorden", Color(0xFFF96060), Color(0xFFD64A4A)),
+            Category("c5", "Zinsstructuur", Color(0xFFFFC107), Color(0xFFE5AD06))
         )
     }
 
@@ -171,9 +173,33 @@ fun CategoryDetailScreen(
             Spacer(modifier = Modifier.height(24.dp))
 
             val lessons = remember(category) {
-                (1..5).map { 
-                    val title = if (category.id == "a2" && it == 1) "Eerste Group" else "Oefening $it"
-                    Lesson("${category.id}_$it", title)
+                when (category.id) {
+                    "c1" -> listOf(
+                        Lesson("c1_1", "De Basis Zin", "N1_C1_S1_De_Basis_Zin.json"),
+                        Lesson("c1_2", "Inversie", "N1_C1_S2_Inversie.json"),
+                        Lesson("c1_3", "Herhaling", "N1_C1_S3_Herhaling.json")
+                    )
+                    "c2" -> listOf(
+                        Lesson("c2_1", "Ja / Nee Vragen", "N1_C2_S1_Ja_Nee_Vragen.json"),
+                        Lesson("c2_2", "Vraagwoord Vragen", "N1_C2_S2_Vraagwoord_Vragen.json"),
+                        Lesson("c2_3", "Herhaling", "N1_C2_S3_Herhaling.json")
+                    )
+                    "c3" -> listOf(
+                        Lesson("c3_1", "Modale Werkwoorden", "N1_C3_S1_Modale_Werkwoorden.json"),
+                        Lesson("c3_2", "Voltooid Tegenwoordig", "N1_C3_S2_Voltooid_Tegenwoordige_Tijd.json"),
+                        Lesson("c3_3", "Herhaling", "N1_C3_S3_Herhaling.json")
+                    )
+                    "c4" -> listOf(
+                        Lesson("c4_1", "Nevenschikkend", "N1_C4_S1_Nevenschikkende_Voegwoorden.json"),
+                        Lesson("c4_2", "Aan Het + Infinitief", "N1_C4_S2_Aan_Het_Infinitief.json"),
+                        Lesson("c4_3", "Om Te + Infinitief", "N1_C4_S3_Om_Te_Infinitief.json"),
+                        Lesson("c4_4", "Herhaling", "N1_C4_S4_Herhaling.json")
+                    )
+                    "c5" -> listOf(
+                        Lesson("c5_1", "Inversie (Extra)", "N1_5_S1_Inversie.json"),
+                        Lesson("c5_2", "Bijzin", "N1_5_S2_Bijzin.json")
+                    )
+                    else -> emptyList()
                 }
             }
 
@@ -196,6 +222,20 @@ fun CategoryDetailScreen(
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun LessonScreen(lesson: Lesson, category: Category, onHome: () -> Unit, onBack: () -> Unit) {
+    var sentences by remember(lesson.id) { mutableStateOf<List<SentenceData>?>(null) }
+    var isLoading by remember(lesson.id) { mutableStateOf(true) }
+
+    LaunchedEffect(lesson.id) {
+        isLoading = true
+        val fileName = lesson.fileName
+        if (fileName != null) {
+            val all = loadExercisesFromJson(fileName)
+            // Her girişte farklı soru havuzu için karıştır ve 20 tane al
+            sentences = all.shuffled().take(20)
+        }
+        isLoading = false
+    }
+
     Scaffold(
         topBar = {
             TopAppBar(
@@ -228,64 +268,51 @@ fun LessonScreen(lesson: Lesson, category: Category, onHome: () -> Unit, onBack:
                 .padding(padding),
             contentAlignment = Alignment.Center
         ) {
-            // --- DATA MODULE START ---
-            // In the future, this data can be loaded from a JSON file based on lesson.id
-            val rawSentences = remember(lesson.id) {
-                when (lesson.id) {
-                    "a2_1" -> listOf(
-                        SentenceData("1", "Ik eet een appel.", "eet", listOf("drink", "ben", "heb")),
-                        SentenceData("2", "Ik wil naar huis gaan.", "wil", listOf("kan", "zal", "moet")),
-                        SentenceData("3", "Jij bent erg aardig.", "bent", listOf("is", "zijn", "heb")),
-                        SentenceData("4", "De auto is erg snel.", "is", listOf("was", "wordt", "lijkt")),
-                        SentenceData("5", "Wij wonen in Amsterdam.", "wonen", listOf("werkt", "slaapt", "loopt")),
-                        SentenceData("6", "Het regent vandaag veel.", "vandaag", listOf("gisteren", "morgen", "nooit")),
-                        SentenceData("7", "Hoe gaat het met jou?", "gaat", listOf("is", "ben", "hebt")),
-                        SentenceData("8", "Ik spreek een beetje Nederlands.", "beetje", listOf("veel", "alles", "niets")),
-                        SentenceData("9", "Zij luistert naar de muziek.", "luistert", listOf("kijkt", "leest", "eet")),
-                        SentenceData("10", "Morgen gaan we naar zee.", "gaan", listOf("komen", "staan", "zitten"))
-                    )
-                    // Add more lessons here: "a2_2", "b1_1", etc.
-                    else -> emptyList()
+            if (isLoading) {
+                Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                    CircularProgressIndicator(color = category.color)
+                    Spacer(Modifier.height(16.dp))
+                    Text("Laden...", color = Color.Gray)
                 }
-            }
-            // --- DATA MODULE END ---
-
-            if (rawSentences.isNotEmpty()) {
-                QuizModule(
-                    sentences = rawSentences,
-                    category = category,
-                    onBack = onBack
-                )
             } else {
-                Column(
-                    horizontalAlignment = Alignment.CenterHorizontally,
-                    verticalArrangement = Arrangement.Center
-                ) {
-                    Text(
-                        text = "Je bent nu bij ${lesson.title}",
-                        fontSize = 24.sp,
-                        fontWeight = FontWeight.Bold,
-                        color = Color(0xFF4B4B4B)
+                val currentSentences = sentences
+                if (currentSentences != null && currentSentences.isNotEmpty()) {
+                    QuizModule(
+                        sentences = currentSentences,
+                        category = category,
+                        onBack = onBack
                     )
+                } else {
+                    Column(
+                        horizontalAlignment = Alignment.CenterHorizontally,
+                        verticalArrangement = Arrangement.Center
+                    ) {
+                        Text(
+                            text = "Geen oefeningen gevonden",
+                            fontSize = 24.sp,
+                            fontWeight = FontWeight.Bold,
+                            color = Color(0xFF4B4B4B)
+                        )
 
-                    Spacer(modifier = Modifier.height(12.dp))
+                        Spacer(modifier = Modifier.height(12.dp))
 
-                    Text(
-                        text = "Laten we beginnen met leren!",
-                        fontSize = 18.sp,
-                        color = Color.Gray,
-                        modifier = Modifier.padding(bottom = 32.dp)
-                    )
+                        Text(
+                            text = "Probeer het later opnieuw.",
+                            fontSize = 18.sp,
+                            color = Color.Gray,
+                            modifier = Modifier.padding(bottom = 32.dp)
+                        )
 
-                    Spacer(modifier = Modifier.height(24.dp))
+                        Spacer(modifier = Modifier.height(24.dp))
 
-                    DuolingoButton(
-                        text = "Terug",
-                        baseColor = Color(0xFF58CC02),
-                        shadowColor = Color(0xFF46A302),
-                        onClick = onBack,
-                        modifier = Modifier.width(280.dp)
-                    )
+                        DuolingoButton(
+                            text = "Terug",
+                            baseColor = Color(0xFF58CC02),
+                            shadowColor = Color(0xFF46A302),
+                            onClick = onBack,
+                            modifier = Modifier.width(280.dp)
+                        )
+                    }
                 }
             }
         }
