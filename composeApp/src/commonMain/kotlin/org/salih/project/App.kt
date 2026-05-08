@@ -44,8 +44,8 @@ fun App() {
     val categories = remember {
         listOf(
             Category("a2", "Niveau A2", Color(0xFF58CC02), Color(0xFF46A302)),
-            Category("b1", "Niveau B1", Color(0xFF58CC02), Color(0xFF46A302)),
-            Category("b2", "Niveau B2", Color(0xFF58CC02), Color(0xFF46A302))
+            Category("b1", "Niveau B1", Color(0xFF1CB0F6), Color(0xFF1899D6)),
+            Category("b2", "Niveau B2", Color(0xFFCE82FF), Color(0xFFA568CC))
         )
     }
 
@@ -112,10 +112,10 @@ fun HomeScreen(categories: List<Category>, onCategoryClick: (Category) -> Unit) 
         Spacer(modifier = Modifier.height(40.dp))
         
         Text(
-            text = "Welkom bij Taal",
+            text = "Kies je niveau",
             fontSize = 32.sp,
             fontWeight = FontWeight.ExtraBold,
-            color = Color(0xFF58CC02),
+            color = Color(0xFF4B4B4B),
             modifier = Modifier.padding(bottom = 48.dp)
         )
 
@@ -162,19 +162,18 @@ fun CategoryDetailScreen(category: Category, onBack: () -> Unit, onLessonClick: 
             Spacer(modifier = Modifier.height(24.dp))
 
             val lessons = remember(category) {
-                (1..5).map { Lesson("${category.id}_$it", "${category.title} Les $it") }
+                (1..5).map { Lesson("${category.id}_$it", "Oefening $it") }
             }
 
             lessons.forEach { lesson ->
                 DuolingoButton(
                     text = lesson.title,
-                    baseColor = Color.White,
-                    shadowColor = Color(0xFFE5E5E5),
-                    textColor = Color.DarkGray,
+                    baseColor = category.color,
+                    shadowColor = category.shadowColor,
                     onClick = { onLessonClick(lesson) },
                     modifier = Modifier.widthIn(min = 280.dp, max = 400.dp).fillMaxWidth(0.9f)
                 )
-                Spacer(modifier = Modifier.height(16.dp))
+                Spacer(modifier = Modifier.height(20.dp))
             }
             
             Spacer(modifier = Modifier.height(24.dp))
@@ -209,10 +208,19 @@ fun LessonScreen(lesson: Lesson, onBack: () -> Unit) {
                 verticalArrangement = Arrangement.Center
             ) {
                 Text(
-                    text = "Inhoud van ${lesson.title} komt hier...",
+                    text = "Je bent nu bij ${lesson.title}",
                     fontSize = 24.sp,
                     fontWeight = FontWeight.Bold,
-                    color = Color(0xFF58CC02)
+                    color = Color(0xFF4B4B4B)
+                )
+
+                Spacer(modifier = Modifier.height(12.dp))
+
+                Text(
+                    text = "Laten we beginnen met leren!",
+                    fontSize = 18.sp,
+                    color = Color.Gray,
+                    modifier = Modifier.padding(bottom = 32.dp)
                 )
 
                 Spacer(modifier = Modifier.height(24.dp))

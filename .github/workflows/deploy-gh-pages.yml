@@ -25,13 +25,8 @@ jobs:
 
       # Diagnostic step removed to avoid YAML parsing issues; deployment will use the PAT in 'TOKEN_TOKEN' secret.
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-
-      - name: Make gradlew executable
-        run: chmod +x ./gradlew
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
 
       - name: Build production webpack bundle
         run: ./gradlew :composeApp:wasmJsBrowserProductionWebpack --no-daemon --no-parallel
@@ -46,31 +41,12 @@ jobs:
             cp composeApp/src/commonMain/resources/index.html "$PUBLISH_DIR/"
             cp composeApp/src/commonMain/resources/styles.css "$PUBLISH_DIR/"
 
-      - name: Test PAT access (do not print token)
-        env:
-          TOKEN: ${{ secrets.TOKEN_TOKEN }}
-        run: |
-          echo "Checking PAT access to GitHub API..."
-          user_status=$(curl -o /dev/null -s -w "%{http_code}" -H "Authorization: token $TOKEN" https://api.github.com/user)
-          echo "User endpoint HTTP status: $user_status"
-          if [ "$user_status" -ne 200 ]; then
-            echo "PAT cannot access user endpoint (status $user_status). Check token or SSO/permissions."
-            exit 1
-          fi
-          repo_status=$(curl -o /dev/null -s -w "%{http_code}" -H "Authorization: token $TOKEN" https://api.github.com/repos/${{ github.repository }})
-          echo "Repo endpoint HTTP status: $repo_status"
-          if [ "$repo_status" -ne 200 ]; then
-            echo "PAT cannot access repository endpoint (status $repo_status). Ensure token has repo access and is authorized for this org/repo."
-            exit 1
-          fi
-          echo "PAT appears valid for repo access."
-
-      - name: Publish to GitHub Pages with peaceiris
-        # Use peaceiris action which pushes directly to gh-pages and does not pull in the deprecated upload-artifact v3
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          # use personal token stored in repo secrets
-          personal_token: ${{ secrets.TOKEN_TOKEN }}
-          publish_dir: ./build/site
-          keep_files: false
+          path: ./build/site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
 
