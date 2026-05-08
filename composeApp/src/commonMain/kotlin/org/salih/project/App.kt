@@ -58,6 +58,13 @@ data class Lesson(
     val title: String
 )
 
+data class AnswerRecord(
+    val id: String,
+    val type: ExerciseType,
+    val userAnswer: String,
+    val isCorrect: Boolean
+)
+
 @Composable
 fun App() {
     var currentScreen by remember { mutableStateOf(Screen.HOME) }
@@ -325,23 +332,51 @@ fun LessonScreen(lesson: Lesson, category: Category, onHome: () -> Unit, onBack:
 @Composable
 fun QuizContent(exercises: List<Exercise>, category: Category, onBack: () -> Unit) {
     var currentIndex by remember { mutableStateOf(0) }
+    var showSummary by remember { mutableStateOf(false) }
+    val results = remember { mutableStateListOf<AnswerRecord>() }
     val currentExercise = exercises[currentIndex]
     
     var selectedAnswer by remember(currentIndex) { mutableStateOf<String?>(null) }
     var husselaarWords by remember(currentIndex) { mutableStateOf(listOf<String>()) }
     var isAnswered by remember(currentIndex) { mutableStateOf(false) }
     var isCorrect by remember(currentIndex) { mutableStateOf(false) }
+    var resultRecorded by remember(currentIndex) { mutableStateOf(false) }
 
-    // Auto-advance for correct answers
+    // Auto-advance for correct answers and record results
     LaunchedEffect(isAnswered, isCorrect) {
+        if (isAnswered && !resultRecorded) {
+            val userAnswerStr = when (currentExercise.type) {
+                ExerciseType.FILL_IN_THE_BLANK -> selectedAnswer ?: ""
+                ExerciseType.HUSSELAAR -> husselaarWords.joinToString(" ")
+            }
+            results.add(
+                AnswerRecord(
+                    id = currentExercise.id,
+                    type = currentExercise.type,
+                    userAnswer = userAnswerStr,
+                    isCorrect = isCorrect
+                )
+            )
+            resultRecorded = true
+        }
         if (isAnswered && isCorrect) {
             kotlinx.coroutines.delay(1200) // Give time to see "GOED BEZIG"
             if (currentIndex < exercises.size - 1) {
                 currentIndex++
             } else {
-                onBack()
+                showSummary = true
             }
         }
+    }
+
+    if (showSummary) {
+        QuizSummaryView(
+            exercises = exercises,
+            results = results,
+            category = category,
+            onDone = onBack
+        )
+        return
     }
 
     Column(
@@ -395,12 +430,6 @@ fun QuizContent(exercises: List<Exercise>, category: Category, onBack: () -> Uni
                             } else {
                                 husselaarWords = husselaarWords - word
                             }
-                            
-                            val currentSentence = husselaarWords.joinToString(" ")
-                            if (currentSentence == currentExercise.correctSentence) {
-                                isCorrect = true
-                                isAnswered = true
-                            }
                         }
                     }
                 )
@@ -431,10 +460,25 @@ fun QuizContent(exercises: List<Exercise>, category: Category, onBack: () -> Uni
                         baseColor = if (isCorrect) Color(0xFF58CC02) else Color(0xFFFF4B4B),
                         shadowColor = if (isCorrect) Color(0xFF46A302) else Color(0xFFD13B3B),
                         onClick = {
+                            if (!resultRecorded) {
+                                val userAnswerStr = when (currentExercise.type) {
+                                    ExerciseType.FILL_IN_THE_BLANK -> selectedAnswer ?: ""
+                                    ExerciseType.HUSSELAAR -> husselaarWords.joinToString(" ")
+                                }
+                                results.add(
+                                    AnswerRecord(
+                                        id = currentExercise.id,
+                                        type = currentExercise.type,
+                                        userAnswer = userAnswerStr,
+                                        isCorrect = isCorrect
+                                    )
+                                )
+                                resultRecorded = true
+                            }
                             if (currentIndex < exercises.size - 1) {
                                 currentIndex++
                             } else {
-                                onBack()
+                                showSummary = true
                             }
                         },
                         modifier = Modifier.fillMaxWidth(),
@@ -451,6 +495,19 @@ fun QuizContent(exercises: List<Exercise>, category: Category, onBack: () -> Uni
                 onClick = {
                     isAnswered = true
                     isCorrect = selectedAnswer == currentExercise.correctAnswer
+                },
+                modifier = Modifier.fillMaxWidth().padding(16.dp),
+                isUppercase = false
+            )
+        } else if (currentExercise.type == ExerciseType.HUSSELAAR && husselaarWords.size == currentExercise.shuffledWords.size) {
+            // Show check when all words are placed
+            DuolingoButton(
+                text = "Controleer",
+                baseColor = category.color,
+                shadowColor = category.shadowColor,
+                onClick = {
+                    isAnswered = true
+                    isCorrect = husselaarWords.joinToString(" ") == currentExercise.correctSentence
                 },
                 modifier = Modifier.fillMaxWidth().padding(16.dp),
                 isUppercase = false
@@ -848,5 +905,90 @@ fun NavIconButton(
                 )
             }
         }
+    }
+}
+
+@Composable
+fun QuizSummaryView(
+    exercises: List<Exercise>,
+    results: List<AnswerRecord>,
+    category: Category,
+    onDone: () -> Unit
+) {
+    val total = exercises.size
+    val correctCount = results.count { it.isCorrect }
+    val wrongCount = total - correctCount
+
+    Column(
+        modifier = Modifier.fillMaxSize().padding(16.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text(
+            text = "Resultaten",
+            fontSize = 28.sp,
+            fontWeight = FontWeight.ExtraBold,
+            color = Color(0xFF4B4B4B)
+        )
+        Spacer(modifier = Modifier.height(8.dp))
+        Text(
+            text = "Goed: $correctCount  |  Fout: $wrongCount",
+            fontSize = 18.sp,
+            color = Color.Gray
+        )
+        Spacer(modifier = Modifier.height(24.dp))
+
+        // Basit tablo başlıkları
+        Row(
+            modifier = Modifier.fillMaxWidth().padding(horizontal = 8.dp),
+            horizontalArrangement = Arrangement.SpaceBetween,
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Text("#", fontWeight = FontWeight.Bold)
+            Text("Type", fontWeight = FontWeight.Bold)
+            Text("Resultaat", fontWeight = FontWeight.Bold)
+        }
+
+        Spacer(modifier = Modifier.height(8.dp))
+
+        // Sonuç satırları
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .weight(1f)
+                .verticalScroll(rememberScrollState())
+        ) {
+            exercises.forEachIndexed { index, ex ->
+                val rec = results.getOrNull(index)
+                val ok = rec?.isCorrect == true
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(vertical = 6.dp, horizontal = 8.dp)
+                        .clip(RoundedCornerShape(10.dp))
+                        .background(if (ok) Color(0xFFD7FFB8) else Color(0xFFFFDFE0))
+                        .padding(12.dp),
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Text("${index + 1}")
+                    Text(if (ex.type == ExerciseType.FILL_IN_THE_BLANK) "Lege plek" else "Husselaar")
+                    Text(
+                        if (ok) "Goed" else "Fout",
+                        fontWeight = FontWeight.SemiBold,
+                        color = if (ok) Color(0xFF58A700) else Color(0xFFEA2B2B)
+                    )
+                }
+            }
+        }
+
+        Spacer(modifier = Modifier.height(16.dp))
+        DuolingoButton(
+            text = "Terug",
+            baseColor = category.color,
+            shadowColor = category.shadowColor,
+            onClick = onDone,
+            modifier = Modifier.fillMaxWidth(),
+            isUppercase = false
+        )
     }
 }
