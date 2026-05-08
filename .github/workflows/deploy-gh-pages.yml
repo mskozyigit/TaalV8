@@ -28,18 +28,22 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Build production webpack bundle
-        run: ./gradlew :composeApp:wasmJsBrowserProductionWebpack --no-daemon --no-parallel
+      - name: Build production deployment
+        run: |
+          chmod +x gradlew
+          ./gradlew :composeApp:wasmJsBrowserDistribution --no-daemon --no-parallel
 
       - name: Prepare site directory
         run: |
-            PUBLISH_DIR=./build/site
-            rm -rf "$PUBLISH_DIR"
-            mkdir -p "$PUBLISH_DIR"
-            cp composeApp/build/kotlin-webpack/wasmJs/productionExecutable/*.wasm "$PUBLISH_DIR/" || true
-            cp composeApp/build/kotlin-webpack/wasmJs/productionExecutable/*.js "$PUBLISH_DIR/"
-            cp composeApp/src/commonMain/resources/index.html "$PUBLISH_DIR/"
-            cp composeApp/src/commonMain/resources/styles.css "$PUBLISH_DIR/"
+          PUBLISH_DIR=./build/site
+          rm -rf "$PUBLISH_DIR"
+          mkdir -p "$PUBLISH_DIR"
+          # Kotlin 2.0+ distribution path
+          DIST_DIR=composeApp/build/dist/wasmJs/productionExecutable
+          cp -r $DIST_DIR/* "$PUBLISH_DIR/"
+          # Ensure index.html and styles.css are present (they should be copied by the task, but just in case)
+          cp composeApp/src/commonMain/resources/index.html "$PUBLISH_DIR/" || true
+          cp composeApp/src/commonMain/resources/styles.css "$PUBLISH_DIR/" || true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
