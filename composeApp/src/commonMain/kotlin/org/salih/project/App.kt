@@ -20,22 +20,31 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 enum class Screen {
-    HOME, CATEGORY_DETAIL, LESSON_PAGE
+    LEVEL_SELECTION, CATEGORY_SELECTION, LESSON_SELECTION, QUIZ
 }
 
 @Composable
 fun App() {
-    var currentScreen by remember { mutableStateOf(Screen.HOME) }
+    var currentScreen by remember { mutableStateOf(Screen.LEVEL_SELECTION) }
+    var selectedLevel by remember { mutableStateOf<Level?>(null) }
     var selectedCategory by remember { mutableStateOf<Category?>(null) }
     var selectedLesson by remember { mutableStateOf<Lesson?>(null) }
 
+    val levels = remember {
+        listOf(
+            Level("n1", "Niveau 1 (A2)", Color(0xFF58CC02), Color(0xFF46A302)),
+            Level("n2", "Niveau 2 (B1)", Color(0xFF1CB0F6), Color(0xFF1899D6)),
+            Level("n3", "Niveau 3 (B2)", Color(0xFFCE82FF), Color(0xFFA568CC))
+        )
+    }
+
     val categories = remember {
         listOf(
-            Category("c1", "Basis Zinnen", Color(0xFF58CC02), Color(0xFF46A302)),
-            Category("c2", "Vragen Stellen", Color(0xFF1CB0F6), Color(0xFF1899D6)),
-            Category("c3", "Werkwoorden & Tijden", Color(0xFFCE82FF), Color(0xFFA568CC)),
-            Category("c4", "Verbindingswoorden", Color(0xFFF96060), Color(0xFFD64A4A)),
-            Category("c5", "Zinsstructuur", Color(0xFFFFC107), Color(0xFFE5AD06))
+            Category("c1", "Werkwoord Eerste", Color(0xFF58CC02), Color(0xFF46A302)),
+            Category("c2", "Werkwoord Vragen", Color(0xFF1CB0F6), Color(0xFF1899D6)),
+            Category("c3", "Werkwoord Extra", Color(0xFFCE82FF), Color(0xFFA568CC)),
+            Category("c4", "Hoger Niveau", Color(0xFFF96060), Color(0xFFD64A4A)),
+            Category("c5", "Eindoefeningen", Color(0xFFFFC107), Color(0xFFE5AD06))
         )
     }
 
@@ -56,33 +65,50 @@ fun App() {
                 }
             ) { screen ->
                 when (screen) {
-                    Screen.HOME -> HomeScreen(
-                        categories = categories,
-                        onCategoryClick = { 
-                            selectedCategory = it
-                            currentScreen = Screen.CATEGORY_DETAIL
+                    Screen.LEVEL_SELECTION -> LevelSelectionScreen(
+                        levels = levels,
+                        onLevelClick = {
+                            selectedLevel = it
+                            currentScreen = Screen.CATEGORY_SELECTION
                         }
                     )
-                    Screen.CATEGORY_DETAIL -> {
-                        selectedCategory?.let { category ->
-                    CategoryDetailScreen(
-                        category = category,
-                        onHome = { currentScreen = Screen.HOME },
-                        onBack = { currentScreen = Screen.HOME },
-                        onLessonClick = { lesson ->
-                            selectedLesson = lesson
-                            currentScreen = Screen.LESSON_PAGE
-                        }
-                    )
+                    Screen.CATEGORY_SELECTION -> {
+                        selectedLevel?.let { level ->
+                            CategorySelectionScreen(
+                                level = level,
+                                categories = categories,
+                                onHome = { currentScreen = Screen.LEVEL_SELECTION },
+                                onBack = { currentScreen = Screen.LEVEL_SELECTION },
+                                onCategoryClick = {
+                                    selectedCategory = it
+                                    currentScreen = Screen.LESSON_SELECTION
+                                }
+                            )
                         }
                     }
-                    Screen.LESSON_PAGE -> {
+                    Screen.LESSON_SELECTION -> {
+                        val level = selectedLevel
+                        val category = selectedCategory
+                        if (level != null && category != null) {
+                            LessonSelectionScreen(
+                                level = level,
+                                category = category,
+                                onHome = { currentScreen = Screen.LEVEL_SELECTION },
+                                onBack = { currentScreen = Screen.CATEGORY_SELECTION },
+                                onLessonClick = {
+                                    selectedLesson = it
+                                    currentScreen = Screen.QUIZ
+                                }
+                            )
+                        }
+                    }
+                    Screen.QUIZ -> {
                         selectedLesson?.let { lesson ->
                             LessonScreen(
                                 lesson = lesson,
                                 category = selectedCategory ?: categories[0],
-                                onHome = { currentScreen = Screen.HOME },
-                                onBack = { currentScreen = Screen.CATEGORY_DETAIL }
+                                onHome = { currentScreen = Screen.LEVEL_SELECTION },
+                                onBack = { currentScreen = Screen.LESSON_SELECTION }
                             )
                         }
                     }
@@ -93,7 +119,7 @@ fun App() {
 }
 
 @Composable
-fun HomeScreen(categories: List<Category>, onCategoryClick: (Category) -> Unit) {
+fun LevelSelectionScreen(levels: List<Level>, onLevelClick: (Level) -> Unit) {
     val scrollState = rememberScrollState()
     Column(
         modifier = Modifier
@@ -112,12 +138,12 @@ fun HomeScreen(categories: List<Category>, onCategoryClick: (Category) -> Unit) 
             modifier = Modifier.padding(bottom = 48.dp)
         )
 
-        categories.forEach { category ->
+        levels.forEach { level ->
             DuolingoButton(
-                text = category.title,
-                baseColor = category.color,
-                shadowColor = category.shadowColor,
-                onClick = { onCategoryClick(category) },
+                text = level.title,
+                baseColor = level.color,
+                shadowColor = level.shadowColor,
+                onClick = { onLevelClick(level) },
                 modifier = Modifier.widthIn(min = 280.dp, max = 400.dp).fillMaxWidth(0.9f)
             )
             Spacer(modifier = Modifier.height(20.dp))
@@ -129,33 +155,26 @@ fun HomeScreen(categories: List<Category>, onCategoryClick: (Category) -> Unit) 
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun CategoryDetailScreen(
-    category: Category,
+fun CategorySelectionScreen(
+    level: Level,
+    categories: List<Category>,
     onHome: () -> Unit,
     onBack: () -> Unit,
-    onLessonClick: (Lesson) -> Unit
+    onCategoryClick: (Category) -> Unit
 ) {
     val scrollState = rememberScrollState()
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text(category.title, fontWeight = FontWeight.Bold) },
+                title = { Text(level.title, fontWeight = FontWeight.Bold) },
                 navigationIcon = {
                     Row(
                         verticalAlignment = Alignment.CenterVertically,
                         modifier = Modifier.padding(start = 8.dp)
                     ) {
-                        NavIconButton(
-                            isHome = true,
-                            onClick = onHome,
-                            color = category.color
-                        )
+                        NavIconButton(isHome = true, onClick = onHome, color = level.color)
                         Spacer(modifier = Modifier.width(8.dp))
-                        NavIconButton(
-                            isHome = false,
-                            onClick = onBack,
-                            color = category.color
-                        )
+                        NavIconButton(isHome = false, onClick = onBack, color = level.color)
                     }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(containerColor = Color.White)
@@ -171,51 +190,153 @@ fun CategoryDetailScreen(
             verticalArrangement = Arrangement.Top
         ) {
             Spacer(modifier = Modifier.height(24.dp))
-
-            val lessons = remember(category) {
-                when (category.id) {
-                    "c1" -> listOf(
-                        Lesson("c1_1", "De Basis Zin", "N1_C1_S1_De_Basis_Zin.json"),
-                        Lesson("c1_2", "Inversie", "N1_C1_S2_Inversie.json"),
-                        Lesson("c1_3", "Herhaling", "N1_C1_S3_Herhaling.json")
-                    )
-                    "c2" -> listOf(
-                        Lesson("c2_1", "Ja / Nee Vragen", "N1_C2_S1_Ja_Nee_Vragen.json"),
-                        Lesson("c2_2", "Vraagwoord Vragen", "N1_C2_S2_Vraagwoord_Vragen.json"),
-                        Lesson("c2_3", "Herhaling", "N1_C2_S3_Herhaling.json")
-                    )
-                    "c3" -> listOf(
-                        Lesson("c3_1", "Modale Werkwoorden", "N1_C3_S1_Modale_Werkwoorden.json"),
-                        Lesson("c3_2", "Voltooid Tegenwoordig", "N1_C3_S2_Voltooid_Tegenwoordige_Tijd.json"),
-                        Lesson("c3_3", "Herhaling", "N1_C3_S3_Herhaling.json")
-                    )
-                    "c4" -> listOf(
-                        Lesson("c4_1", "Nevenschikkend", "N1_C4_S1_Nevenschikkende_Voegwoorden.json"),
-                        Lesson("c4_2", "Aan Het + Infinitief", "N1_C4_S2_Aan_Het_Infinitief.json"),
-                        Lesson("c4_3", "Om Te + Infinitief", "N1_C4_S3_Om_Te_Infinitief.json"),
-                        Lesson("c4_4", "Herhaling", "N1_C4_S4_Herhaling.json")
-                    )
-                    "c5" -> listOf(
-                        Lesson("c5_1", "Inversie (Extra)", "N1_5_S1_Inversie.json"),
-                        Lesson("c5_2", "Bijzin", "N1_5_S2_Bijzin.json")
-                    )
-                    else -> emptyList()
-                }
+            categories.forEach { category ->
+                DuolingoButton(
+                    text = category.title,
+                    baseColor = level.color,
+                    shadowColor = level.shadowColor,
+                    onClick = { onCategoryClick(category) },
+                    modifier = Modifier.widthIn(min = 280.dp, max = 400.dp).fillMaxWidth(0.9f)
+                )
+                Spacer(modifier = Modifier.height(20.dp))
             }
+            Spacer(modifier = Modifier.height(24.dp))
+        }
+    }
+}
 
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun LessonSelectionScreen(
+    level: Level,
+    category: Category,
+    onHome: () -> Unit,
+    onBack: () -> Unit,
+    onLessonClick: (Lesson) -> Unit
+) {
+    val lessons = remember(level, category) { getLessonsFor(level, category) }
+    val scrollState = rememberScrollState()
+    Scaffold(
+        topBar = {
+            TopAppBar(
+                title = { Text(category.title, fontWeight = FontWeight.Bold) },
+                navigationIcon = {
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        modifier = Modifier.padding(start = 8.dp)
+                    ) {
+                        NavIconButton(isHome = true, onClick = onHome, color = level.color)
+                        Spacer(modifier = Modifier.width(8.dp))
+                        NavIconButton(isHome = false, onClick = onBack, color = level.color)
+                    }
+                },
+                colors = TopAppBarDefaults.topAppBarColors(containerColor = Color.White)
+            )
+        }
+    ) { padding ->
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(padding)
+                .verticalScroll(scrollState),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Top
+        ) {
+            Spacer(modifier = Modifier.height(24.dp))
             lessons.forEach { lesson ->
                 DuolingoButton(
                     text = lesson.title,
-                    baseColor = category.color,
-                    shadowColor = category.shadowColor,
+                    baseColor = level.color,
+                    shadowColor = level.shadowColor,
                     onClick = { onLessonClick(lesson) },
                     modifier = Modifier.widthIn(min = 280.dp, max = 400.dp).fillMaxWidth(0.9f)
                 )
                 Spacer(modifier = Modifier.height(20.dp))
             }
-            
             Spacer(modifier = Modifier.height(24.dp))
         }
+    }
+}
+
+fun getLessonsFor(level: Level, category: Category): List<Lesson> {
+    val l = level.id.uppercase()
+    val c = category.id.uppercase()
+    
+    return when ("${l}_${c}") {
+        "N1_C1" -> listOf(
+            Lesson("N1_C1_S1", "De Basis Zin", "N1_C1_S1_De_Basis_Zin.json"),
+            Lesson("N1_C1_S2", "Inversie", "N1_C1_S2_Inversie.json"),
+            Lesson("N1_C1_S3", "Herhaling", "N1_C1_S3_Herhaling.json")
+        )
+        "N1_C2" -> listOf(
+            Lesson("N1_C2_S1", "Ja / Nee Vragen", "N1_C2_S1_Ja_Nee_Vragen.json"),
+            Lesson("N1_C2_S2", "Vraagwoord Vragen", "N1_C2_S2_Vraagwoord_Vragen.json"),
+            Lesson("N1_C2_S3", "Herhaling", "N1_C2_S3_Herhaling.json")
+        )
+        "N1_C3" -> listOf(
+            Lesson("N1_C3_S1", "Modale Werkwoorden", "N1_C3_S1_Modale_Werkwoorden.json"),
+            Lesson("N1_C3_S2", "Voltooid Tegenwoordige Tijd", "N1_C3_S2_Voltooid_Tegenwoordige_Tijd.json"),
+            Lesson("N1_C3_S3", "Herhaling", "N1_C3_S3_Herhaling.json")
+        )
+        "N1_C4" -> listOf(
+            Lesson("N1_C4_S1", "Nevenschikkende Voegwoorden", "N1_C4_S1_Nevenschikkende_Voegwoorden.json"),
+            Lesson("N1_C4_S2", "Aan Het Infinitief", "N1_C4_S2_Aan_Het_Infinitief.json"),
+            Lesson("N1_C4_S3", "Om Te Infinitief", "N1_C4_S3_Om_Te_Infinitief.json"),
+            Lesson("N1_C4_S4", "Herhaling", "N1_C4_S4_Herhaling.json")
+        )
+        "N1_C5" -> listOf(
+            Lesson("N1_C5_S1", "Invuloefening", "N1_C5_S1_Invuloefening.json"),
+            Lesson("N1_C5_S2", "Husselaar", "N1_C5_S2_Husselaar.json")
+        )
+        "N2_C1" -> listOf(
+            Lesson("N2_C1_S1", "De Bijzin", "N2_C1_S1_De_Bijzin.json"),
+            Lesson("N2_C1_S2", "Inversie in Bijzinnen", "N2_C1_S2_Inversie_In_Bijzinnen.json"),
+            Lesson("N2_C1_S3", "Herhaling", "N2_C1_S3_Herhaling.json")
+        )
+        "N2_C2" -> listOf(
+            Lesson("N2_C2_S1", "Verleden Tijd Vragen", "N2_C2_S1_Verleden_Tijd.json"),
+            Lesson("N2_C2_S2", "Indirecte Vragen", "N2_C2_S2_Indirecte_Vragen.json"),
+            Lesson("N2_C2_S3", "Herhaling", "N2_C2_S3_Herhaling.json")
+        )
+        "N2_C3" -> listOf(
+            Lesson("N2_C3_S1", "Scheidbare Werkwoorden", "N2_C3_S1_Scheidbare_Werkwoorden.json"),
+            Lesson("N2_C3_S2", "Te Infinitief", "N2_C3_S2_Te_Infinitief.json"),
+            Lesson("N2_C3_S3", "Herhaling", "N2_C3_S3_Herhaling.json")
+        )
+        "N2_C4" -> listOf(
+            Lesson("N2_C4_S1", "Onderschikkende Voegwoorden", "N2_C4_S1_Onderschikkende_Voegwoorden.json"),
+            Lesson("N2_C4_S2", "Relatieve Bijzinnen", "N2_C4_S2_Relatieve_Bijzinnen.json"),
+            Lesson("N2_C4_S3", "Herhaling", "N2_C4_S3_Herhaling.json")
+        )
+        "N2_C5" -> listOf(
+            Lesson("N2_C5_S1", "Invuloefening", "N2_C5_S1_Invuloefening.json"),
+            Lesson("N2_C5_S2", "Husselaar", "N2_C5_S2_Husselaar.json")
+        )
+        "N3_C1" -> listOf(
+            Lesson("N3_C1_S1", "Lange Hoofdzinnen", "N3_C1_S1_Lange_Hoofdzinnen.json"),
+            Lesson("N3_C1_S2", "Complexe Inversie", "N3_C1_S2_Complexe_Inversie.json"),
+            Lesson("N3_C1_S3", "Herhaling", "N3_C1_S3_Herhaling.json")
+        )
+        "N3_C2" -> listOf(
+            Lesson("N3_C2_S1", "Passieve Vragen", "N3_C2_S1_Passieve_Vragen.json"),
+            Lesson("N3_C2_S2", "Hypothetische Vragen", "N3_C2_S2_Hypothetische_Vragen.json"),
+            Lesson("N3_C2_S3", "Herhaling", "N3_C2_S3_Herhaling.json")
+        )
+        "N3_C3" -> listOf(
+            Lesson("N3_C3_S1", "Plusquamperfectum", "N3_C3_S1_Plusquamperfectum.json"),
+            Lesson("N3_C3_S2", "Dubbele Infinitief", "N3_C3_S2_Dubbele_Infinitief.json"),
+            Lesson("N3_C3_S3", "Herhaling", "N3_C3_S3_Herhaling.json")
+        )
+        "N3_C4" -> listOf(
+            Lesson("N3_C4_S1", "De Passieve Vorm", "N3_C4_S1_De_Passieve_Vorm.json"),
+            Lesson("N3_C4_S2", "Officiële Voegwoorden", "N3_C4_S2_Officiele_Voegwoorden.json"),
+            Lesson("N3_C4_S3", "Herhaling", "N3_C4_S3_Herhaling.json")
+        )
+        "N3_C5" -> listOf(
+            Lesson("N3_C5_S1", "Invuloefening", "N3_C5_S1_Invuloefening.json"),
+            Lesson("N3_C5_S2", "Husselaar", "N3_C5_S2_Husselaar.json")
+        )
+        else -> emptyList()
     }
 }
 

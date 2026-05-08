@@ -10,6 +10,13 @@ enum class ExerciseType {
     HUSSELAAR
 }
 
+data class Level(
+    val id: String,
+    val title: String,
+    val color: Color,
+    val shadowColor: Color
+)
+
 data class Category(
     val id: String,
     val title: String,
@@ -20,7 +27,7 @@ data class Category(
 data class Lesson(
     val id: String,
     val title: String,
-    val fileName: String? = null
+    val fileName: String
 )
 
 @Serializable
