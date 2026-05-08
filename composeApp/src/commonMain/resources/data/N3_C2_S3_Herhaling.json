@@ -1,0 +1,132 @@
+[
+    {
+        "question_id": 1,
+        "sentence": "___ de nieuwe richtlijnen door alle afdelingshoofden geaccepteerd?",
+        "options": [
+            "Worden",
+            "Wordt",
+            "Zijn",
+            "Zal"
+        ],
+        "correct_answer": "Worden",
+        "language": "nl",
+        "difficulty": "N3"
+    },
+    {
+        "question_id": 2,
+        "sentence": "Wanneer ___ het definitieve besluit over de reorganisatie genomen?",
+        "options": [
+            "wordt",
+            "worden",
+            "is",
+            "zal"
+        ],
+        "correct_answer": "wordt",
+        "language": "nl",
+        "difficulty": "N3"
+    },
+    {
+        "question_id": 3,
+        "sentence": "Door wie ___ de presentatie voor de belangrijke klant voorbereid?",
+        "options": [
+            "wordt",
+            "worden",
+            "is",
+            "zal"
+        ],
+        "correct_answer": "wordt",
+        "language": "nl",
+        "difficulty": "N3"
+    },
+    {
+        "question_id": 4,
+        "sentence": "___ de factuur al door de financiële administratie betaald?",
+        "options": [
+            "Is",
+            "Wordt",
+            "Zal",
+            "Zijn"
+        ],
+        "correct_answer": "Is",
+        "language": "nl",
+        "difficulty": "N3"
+    },
+    {
+        "question_id": 5,
+        "sentence": "Hoe ___ de kwaliteit van de producten in de fabriek gecontroleerd?",
+        "options": [
+            "wordt",
+            "worden",
+            "is",
+            "zijn"
+        ],
+        "correct_answer": "wordt",
+        "language": "nl",
+        "difficulty": "N3"
+    },
+    {
+        "question_id": 6,
+        "sentence": "___ u ons kunnen informeren over de status van de levering?",
+        "options": [
+            "Zou",
+            "Zouden",
+            "Wilt",
+            "Kunt"
+        ],
+        "correct_answer": "Zou",
+        "language": "nl",
+        "difficulty": "N3"
+    },
+    {
+        "question_id": 7,
+        "sentence": "Hoe ___ de directie reageren op een plotselinge daling van de winst?",
+        "options": [
+            "zou",
+            "zouden",
+            "zal",
+            "wordt"
+        ],
+        "correct_answer": "zou",
+        "language": "nl",
+        "difficulty": "N3"
+    },
+    {
+        "question_id": 8,
+        "sentence": "___ zij bereid zijn om over de voorwaarden van het contract te onderhandelen?",
+        "options": [
+            "Zouden",
+            "Zou",
+            "Willen",
+            "Kunnen"
+        ],
+        "correct_answer": "Zouden",
+        "language": "nl",
+        "difficulty": "N3"
+    },
+    {
+        "question_id": 9,
+        "sentence": "Wat ___ de gevolgen zijn als we de deadline niet halen?",
+        "options": [
+            "zouden",
+            "zou",
+            "zullen",
+            "worden"
+        ],
+        "correct_answer": "zouden",
+        "language": "nl",
+        "difficulty": "N3"
+    },
+    {
+        "question_id": 10,
+        "sentence": "___ je de notulen van de vergadering naar alle deelnemers willen sturen?",
+        "options": [
+            "Zou",
+            "Zouden",
+            "Wilt",
+            "Kunnen"
+        ],
+        "correct_answer": "Zou",
+        "language": "nl",
+        "difficulty": "N3"
+    }
+]

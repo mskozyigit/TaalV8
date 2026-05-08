@@ -1,0 +1,12 @@
+[
+    {"question_id": 1, "sentence": "De accountant heeft de fout in de jaarcijfers helaas niet kunnen ___ .", "options": ["vinden", "vindt", "vond", "gevonden"], "correct_answer": "vinden", "language": "nl", "difficulty": "N3"},
+    {"question_id": 2, "sentence": "Wij hebben de presentatie gisteren vanwege de tijd niet kunnen ___ .", "options": ["afronden", "afrondt", "afrondde", "geproduceerd"], "correct_answer": "afronden", "language": "nl", "difficulty": "N3"},
+    {"question_id": 3, "sentence": "De secretaresse heeft de brief gisteren nog moeten ___ .", "options": ["versturen", "verstuurt", "verstuurde", "verstuurd"], "correct_answer": "versturen", "language": "nl", "difficulty": "N3"},
+    {"question_id": 4, "sentence": "Ik heb de nieuwe software nog niet willen ___ .", "options": ["installeren", "installeert", "installeerde", "geïnstalleerd"], "correct_answer": "installeren", "language": "nl", "difficulty": "N3"},
+    {"question_id": 5, "sentence": "Hadden jullie de vergadering niet eerder moeten ___ ?", "options": ["plannen", "plant", "plande", "gepland"], "correct_answer": "plannen", "language": "nl", "difficulty": "N3"},
+    {"question_id": 6, "sentence": "De manager heeft de medewerkers niet mogen ___ .", "options": ["ontslaan", "ontslaat", "ontsloeg", "ontslagen"], "correct_answer": "ontslaan", "language": "nl", "difficulty": "N3"},
+    {"question_id": 7, "sentence": "Heeft u de nieuwe collega al zien ___ ?", "options": ["werken", "werkt", "werkte", "gewerkt"], "correct_answer": "werken", "language": "nl", "difficulty": "N3"},
+    {"question_id": 8, "sentence": "Wij hebben de hele middag moeten ___ .", "options": ["wachten", "wacht", "wachtte", "gewacht"], "correct_answer": "wachten", "language": "nl", "difficulty": "N3"},
+    {"question_id": 9, "sentence": "De directie heeft het voorstel niet willen ___ .", "options": ["bespreken", "bespreekt", "besprak", "besproken"], "correct_answer": "bespreken", "language": "nl", "difficulty": "N3"},
+    {"question_id": 10, "sentence": "Hebben jullie de auto gisteren laten ___ ?", "options": ["repareren", "repareert", "repareerde", "gerepareerd"], "correct_answer": "repareren", "language": "nl", "difficulty": "N3"}
+]

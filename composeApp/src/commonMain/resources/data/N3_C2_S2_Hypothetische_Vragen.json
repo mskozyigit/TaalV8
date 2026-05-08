@@ -1,0 +1,12 @@
+[
+    {"question_id": 1, "sentence": "___ u ons kunnen informeren over de status van de levering?", "options": ["Zou", "Zouden", "Wilt", "Kunt"], "correct_answer": "Zou", "language": "nl", "difficulty": "N3"},
+    {"question_id": 2, "sentence": "Hoe ___ de directie reageren op een plotselinge daling van de winst?", "options": ["zou", "zouden", "zal", "wordt"], "correct_answer": "zou", "language": "nl", "difficulty": "N3"},
+    {"question_id": 3, "sentence": "___ zij bereid zijn om over de voorwaarden van het contract te onderhandelen?", "options": ["Zouden", "Zou", "Willen", "Kunnen"], "correct_answer": "Zouden", "language": "nl", "difficulty": "N3"},
+    {"question_id": 4, "sentence": "Wat ___ de gevolgen zijn als we de deadline niet halen?", "options": ["zouden", "zou", "zullen", "worden"], "correct_answer": "zouden", "language": "nl", "difficulty": "N3"},
+    {"question_id": 5, "sentence": "___ je de notulen van de vergadering naar alle deelnemers willen sturen?", "options": ["Zou", "Zouden", "Wilt", "Kunnen"], "correct_answer": "Zou", "language": "nl", "difficulty": "N3"},
+    {"question_id": 6, "sentence": "Waarom ___ we dit project op dit moment moeten stoppen?", "options": ["zouden", "zou", "moeten", "zullen"], "correct_answer": "zouden", "language": "nl", "difficulty": "N3"},
+    {"question_id": 7, "sentence": "___ het mogelijk zijn om de afspraak naar volgende week te verplaatsen?", "options": ["Zou", "Zouden", "Kan", "Wordt"], "correct_answer": "Zou", "language": "nl", "difficulty": "N3"},
+    {"question_id": 8, "sentence": "Wie ___ de leiding nemen als de manager afwezig is?", "options": ["zou", "zouden", "zal", "moet"], "correct_answer": "zou", "language": "nl", "difficulty": "N3"},
+    {"question_id": 9, "sentence": "___ u mij kunnen uitleggen hoe deze yeni software werkt?", "options": ["Zou", "Zouden", "Kunt", "Wilt"], "correct_answer": "Zou", "language": "nl", "difficulty": "N3"},
+    {"question_id": 10, "sentence": "Hoeveel tijd ___ het kosten om het hele systeem te vernieuwen?", "options": ["zou", "zouden", "zal", "moet"], "correct_answer": "zou", "language": "nl", "difficulty": "N3"}
+]

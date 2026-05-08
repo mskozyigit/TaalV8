@@ -1,0 +1,12 @@
+[
+    {"question_id": 1, "sentence": "Toen de CEO de presentatie begon, ___ de assistent de relevante data al verzameld.", "options": ["had", "heeft", "was", "zou"], "correct_answer": "had", "language": "nl", "difficulty": "N3"},
+    {"question_id": 2, "sentence": "Wij hebben de technische storing gisteren helaas niet kunnen ___ .", "options": ["oplossen", "oplost", "oploste", "opgelost"], "correct_answer": "oplossen", "language": "nl", "difficulty": "N3"},
+    {"question_id": 3, "sentence": "Nadat de accountant de jaarrekening ___ gecontroleerd, kon het jaarverslag worden gepubliceerd.", "options": ["had", "heeft", "was", "zou"], "correct_answer": "had", "language": "nl", "difficulty": "N3"},
+    {"question_id": 4, "sentence": "De manager heeft het projectplan vorige week nog moeten ___ .", "options": ["herzien", "herziet", "herzag", "herzien"], "correct_answer": "herzien", "language": "nl", "difficulty": "N3"},
+    {"question_id": 5, "sentence": "Voordat de klant belde, ___ wij de factuur al verstuurd.", "options": ["hadden", "hebben", "waren", "zouden"], "correct_answer": "hadden", "language": "nl", "difficulty": "N3"},
+    {"question_id": 6, "sentence": "Ik heb de nieuwe beveiligingssoftware nog niet willen ___ .", "options": ["installeren", "installeert", "installeerde", "geïnstalleerd"], "correct_answer": "installeren", "language": "nl", "difficulty": "N3"},
+    {"question_id": 7, "sentence": "Hadden de werknemers de nieuwe regels niet eerder moeten ___ ?", "options": ["lezen", "leest", "lazen", "gelezen"], "correct_answer": "lezen", "language": "nl", "difficulty": "N3"},
+    {"question_id": 8, "sentence": "Toen ik op kantoor arriveerde, ___ mijn collega het licht al aangedaan.", "options": ["had", "heeft", "was", "zou"], "correct_answer": "had", "language": "nl", "difficulty": "N3"},
+    {"question_id": 9, "sentence": "Zij heeft de complexe situatie gisteren niet goed kunnen ___ .", "options": ["inschatten", "inschat", "inschatte", "ingeschat"], "correct_answer": "inschatten", "language": "nl", "difficulty": "N3"},
+    {"question_id": 10, "sentence": "De directeur ___ al vertrokken voordat de vergadering was afgelopen.", "options": ["was", "had", "is", "werd"], "correct_answer": "was", "language": "nl", "difficulty": "N3"}
+]

@@ -1,0 +1,652 @@
+[
+    {
+        "question_id": 1,
+        "sentence": "We passen het beleid aan omdat de markt momenteel snel ___.",
+        "options": [
+            "verandert",
+            "veranderen",
+            "veranderde",
+            "markt"
+        ],
+        "correct_answer": "verandert",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 2,
+        "sentence": "De klant tekent het contract hoewel de totale prijs erg hoog ___.",
+        "options": [
+            "is",
+            "zijn",
+            "was",
+            "wordt"
+        ],
+        "correct_answer": "is",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 3,
+        "sentence": "Ik stuur de factuur direct zodra de manager het dossier ___.",
+        "options": [
+            "bekijkt",
+            "bekijken",
+            "bekeken",
+            "map"
+        ],
+        "correct_answer": "bekijkt",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 4,
+        "sentence": "De nieuwe vergadering begint nadat de secretaresse de notulen ___.",
+        "options": [
+            "leest",
+            "lezen",
+            "las",
+            "pen"
+        ],
+        "correct_answer": "leest",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 5,
+        "sentence": "We wachten met de campagne totdat de directeur een besluit ___.",
+        "options": [
+            "neemt",
+            "nemen",
+            "nam",
+            "tijd"
+        ],
+        "correct_answer": "neemt",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 6,
+        "sentence": "Het project gaat gewoon door tenzij de raad het plan ___.",
+        "options": [
+            "afwijst",
+            "afwijzen",
+            "wijst",
+            "budget"
+        ],
+        "correct_answer": "afwijst",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 7,
+        "sentence": "U krijgt de jaarlijkse bonus mits u de gestelde doelen ___.",
+        "options": [
+            "haalt",
+            "halen",
+            "haalde",
+            "winst"
+        ],
+        "correct_answer": "haalt",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 8,
+        "sentence": "De werksfeer is uitstekend hoewel de werkdruk op kantoor ___ .",
+        "options": [
+            "stijgt",
+            "stijgen",
+            "steeg",
+            "hoog"
+        ],
+        "correct_answer": "stijgt",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 9,
+        "sentence": "De kwartaalcijfers verbeteren omdat het team heel efficiënt ___.",
+        "options": [
+            "werkt",
+            "werken",
+            "werkte",
+            "succes"
+        ],
+        "correct_answer": "werkt",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 10,
+        "sentence": "Bel me direct even op zodra u de onderzoeksresultaten ___.",
+        "options": [
+            "ontvangt",
+            "ontvangen",
+            "ontving",
+            "bericht"
+        ],
+        "correct_answer": "ontvangt",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 11,
+        "sentence": "De manager is tevreden mits de kwaliteit van het product ___.",
+        "options": [
+            "verbetert",
+            "verbeteren",
+            "verbeterde",
+            "goed"
+        ],
+        "correct_answer": "verbetert",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 12,
+        "sentence": "We starten de presentatie nadat de klant in de zaal ___.",
+        "options": [
+            "verschijnt",
+            "verschijnen",
+            "verscheen",
+            "stoel"
+        ],
+        "correct_answer": "verschijnt",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 13,
+        "sentence": "Hij leest het rapport terwijl hij in de trein naar kantoor ___.",
+        "options": [
+            "zit",
+            "zitten",
+            "zat",
+            "station"
+        ],
+        "correct_answer": "zit",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 14,
+        "sentence": "De directeur vraagt of de administratie de factuur al ___.",
+        "options": [
+            "betaalt",
+            "betalen",
+            "betaalde",
+            "geld"
+        ],
+        "correct_answer": "betaalt",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 15,
+        "sentence": "Hoewel de markt dit jaar duidelijk ___ , blijft onze omzet hoog.",
+        "options": [
+            "krimpt",
+            "krimpen",
+            "kromp",
+            "klein"
+        ],
+        "correct_answer": "krimpt",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 16,
+        "sentence": "We kunnen de orders niet verwerken omdat het systeem niet ___.",
+        "options": [
+            "werkt",
+            "werken",
+            "werkte",
+            "computer"
+        ],
+        "correct_answer": "werkt",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 17,
+        "sentence": "De overheid past de wet aan nadat de commissie het advies ___.",
+        "options": [
+            "geeft",
+            "geven",
+            "gaf",
+            "wet"
+        ],
+        "correct_answer": "geeft",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 18,
+        "sentence": "Ik weet niet of de collega morgen op tijd op kantoor ___.",
+        "options": [
+            "arriveert",
+            "arriveren",
+            "arriveerde",
+            "tijd"
+        ],
+        "correct_answer": "arriveert",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 19,
+        "sentence": "De manager stelt voor dat we de taken morgen eerlijk ___.",
+        "options": [
+            "verdelen",
+            "verdeelt",
+            "verdeelde",
+            "succes"
+        ],
+        "correct_answer": "verdelen",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 20,
+        "sentence": "Omdat de zon 's avonds tegenwoordig weer vroeg ___ , gaan de lichten aan.",
+        "options": [
+            "ondergaat",
+            "ondergaan",
+            "gaat",
+            "avond"
+        ],
+        "correct_answer": "ondergaat",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 21,
+        "sentence": "Het bedrijf groeit hoewel de concurrentie momenteel erg groot ___.",
+        "options": [
+            "is",
+            "zijn",
+            "was",
+            "wordt"
+        ],
+        "correct_answer": "is",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 22,
+        "sentence": "We stuurden de uitnodiging zodra de datum voor het overleg ___.",
+        "options": [
+            "vaststond",
+            "vaststaan",
+            "staat",
+            "agenda"
+        ],
+        "correct_answer": "vaststond",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 23,
+        "sentence": "U kunt de laptop gebruiken tenzij een andere collega hem ___.",
+        "options": [
+            "gebruikt",
+            "gebruiken",
+            "gebruikte",
+            "bureau"
+        ],
+        "correct_answer": "gebruikt",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 24,
+        "sentence": "De secretaresse vraagt of u de bijlage in de e-mail ___.",
+        "options": [
+            "ontvangt",
+            "ontvangen",
+            "ontving",
+            "bericht"
+        ],
+        "correct_answer": "ontvangt",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 25,
+        "sentence": "De directeur twijfelt of hij de nieuwe strategie wel ___.",
+        "options": [
+            "accepteert",
+            "accepteren",
+            "accepteerde",
+            "baas"
+        ],
+        "correct_answer": "accepteert",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 26,
+        "sentence": "Hoewel het project bij de klant bijna klaar ___ , zijn er fouten.",
+        "options": [
+            "is",
+            "zijn",
+            "was",
+            "wordt"
+        ],
+        "correct_answer": "is",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 27,
+        "sentence": "We reserveren de zaal nadat we de definitieve bevestiging ___.",
+        "options": [
+            "hebben",
+            "heeft",
+            "hadden",
+            "kamer"
+        ],
+        "correct_answer": "hebben",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 28,
+        "sentence": "De klant geeft feedback omdat het product niet goed ___.",
+        "options": [
+            "bevalt",
+            "bevallen",
+            "beviel",
+            "succes"
+        ],
+        "correct_answer": "bevalt",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 29,
+        "sentence": "Ik stuur je de link zodra de online meeting morgen ___.",
+        "options": [
+            "begint",
+            "beginnen",
+            "begon",
+            "laptop"
+        ],
+        "correct_answer": "begint",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 30,
+        "sentence": "De baas beslist pas nadat hij de cijfers grondig ___.",
+        "options": [
+            "analyseert",
+            "analyseren",
+            "analyseerde",
+            "grafiek"
+        ],
+        "correct_answer": "analyseert",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 31,
+        "sentence": "Het is noodzakelijk dat iedereen de nieuwe regels goed ___.",
+        "options": [
+            "kent",
+            "kennen",
+            "kende",
+            "taal"
+        ],
+        "correct_answer": "kent",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 32,
+        "sentence": "We blijven op kantoor totdat we het verslag helemaal ___.",
+        "options": [
+            "afronden",
+            "afrondt",
+            "afrondde",
+            "tijd"
+        ],
+        "correct_answer": "afronden",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 33,
+        "sentence": "Hoewel de cursus voor het team erg duur ___ , leren we veel.",
+        "options": [
+            "is",
+            "zijn",
+            "was",
+            "wordt"
+        ],
+        "correct_answer": "is",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 34,
+        "sentence": "De werknemer vraagt of hij volgende week eindelijk verlof ___ .",
+        "options": [
+            "krijgt",
+            "krijgen",
+            "kreeg",
+            "vakantie"
+        ],
+        "correct_answer": "krijgt",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 35,
+        "sentence": "Ik ben niet bereikbaar omdat ik morgen een externe training ___.",
+        "options": [
+            "volg",
+            "volgt",
+            "volgen",
+            "school"
+        ],
+        "correct_answer": "volg",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 36,
+        "sentence": "Zodra de manager de kamer voor het gesprek ___ , wordt het stil.",
+        "options": [
+            "binnenkomt",
+            "binnenkomen",
+            "komt",
+            "deur"
+        ],
+        "correct_answer": "binnenkomt",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 37,
+        "sentence": "Het is onzeker of the minister morgen op de brief ___.",
+        "options": [
+            "reageert",
+            "reageren",
+            "reageerde",
+            "post"
+        ],
+        "correct_answer": "reageert",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 38,
+        "sentence": "We passen de planning aan mits de leverancier op tijd ___.",
+        "options": [
+            "komt",
+            "komen",
+            "kwam",
+            "vrachtwagen"
+        ],
+        "correct_answer": "komt",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 39,
+        "sentence": "Hoewel het buiten momenteel heel hard ___ , gaan wij naar de klant.",
+        "options": [
+            "regent",
+            "regenen",
+            "regende",
+            "koud"
+        ],
+        "correct_answer": "regent",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 40,
+        "sentence": "De technicus repareert de server omdat de website niet ___.",
+        "options": [
+            "draait",
+            "draaien",
+            "draaide",
+            "fout"
+        ],
+        "correct_answer": "draait",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 41,
+        "sentence": "De stagiair krijgt een certificaat nadat hij de opdracht ___.",
+        "options": [
+            "voltooit",
+            "voltooien",
+            "voltooide",
+            "succes"
+        ],
+        "correct_answer": "voltooit",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 42,
+        "sentence": "Ik vraag me af wanneer de technische problemen eindelijk ___.",
+        "options": [
+            "stoppen",
+            "stopt",
+            "stopten",
+            "scherm"
+        ],
+        "correct_answer": "stoppen",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 43,
+        "sentence": "De manager vraagt of je morgen bij de presentatie ___.",
+        "options": [
+            "bent",
+            "is",
+            "zijn",
+            "was"
+        ],
+        "correct_answer": "bent",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 44,
+        "sentence": "We annuleren de afspraak tenzij de klant de factuur ___ .",
+        "options": [
+            "betaalt",
+            "betalen",
+            "betaalde",
+            "geld"
+        ],
+        "correct_answer": "betaalt",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 45,
+        "sentence": "Zodra ik het dossier in de kast gevonden ___ , bel ik u.",
+        "options": [
+            "heb",
+            "heeft",
+            "ben",
+            "was"
+        ],
+        "correct_answer": "heb",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 46,
+        "sentence": "Hoewel de directeur nu over het beleid ___ , luistert niemand.",
+        "options": [
+            "spreekt",
+            "spreken",
+            "sprak",
+            "stil"
+        ],
+        "correct_answer": "spreekt",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 47,
+        "sentence": "De planning verandert zodra de directie het budget ___ .",
+        "options": [
+            "beperkt",
+            "beperken",
+            "beperkte",
+            "geld"
+        ],
+        "correct_answer": "beperkt",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 48,
+        "sentence": "Ik weet zeker dat we de doelen dit jaar samen ___.",
+        "options": [
+            "halen",
+            "haalt",
+            "haalden",
+            "winst"
+        ],
+        "correct_answer": "halen",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 49,
+        "sentence": "De secretaresse vraagt of u dit formulier volledig ___ .",
+        "options": [
+            "invult",
+            "invullen",
+            "vult",
+            "pen"
+        ],
+        "correct_answer": "invult",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 50,
+        "sentence": "We kunnen niet starten totdat de nieuwe software goed ___.",
+        "options": [
+            "werkt",
+            "werken",
+            "werkte",
+            "computer"
+        ],
+        "correct_answer": "werkt",
+        "language": "nl",
+        "difficulty": "N2"
+    }
+]

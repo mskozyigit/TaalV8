@@ -1,0 +1,652 @@
+[
+    {
+        "question_id": 1,
+        "sentence": "Vorig jaar ___ ik een nieuwe uitdaging bij dit grote bedrijf.",
+        "options": [
+            "vond",
+            "vindt",
+            "vinden",
+            "vondte"
+        ],
+        "correct_answer": "vond",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 2,
+        "sentence": "Kunt u mij vertellen wanneer de manager de belangrijke e-mail ___?",
+        "options": [
+            "beantwoordt",
+            "beantwoordde",
+            "beantwoorden",
+            "pen"
+        ],
+        "correct_answer": "beantwoordt",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 3,
+        "sentence": "Gisteren ___ de directeur de jaarcijfers tijdens de vergadering.",
+        "options": [
+            "presenteerde",
+            "presenteert",
+            "presenteren",
+            "noteerde"
+        ],
+        "correct_answer": "presenteerde",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 4,
+        "sentence": "Ik vraag me af of de klant de factuur al ___ .",
+        "options": [
+            "betaalt",
+            "betaalde",
+            "betalen",
+            "geld"
+        ],
+        "correct_answer": "betaalt",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 5,
+        "sentence": "Tijdens de presentatie vorige week ___ de cursisten veel notities.",
+        "options": [
+            "maakten",
+            "maken",
+            "maakt",
+            "maakde"
+        ],
+        "correct_answer": "maakten",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 6,
+        "sentence": "Weet u misschien waar de map met de documenten ___?",
+        "options": [
+            "ligt",
+            "lag",
+            "liggen",
+            "bureau"
+        ],
+        "correct_answer": "ligt",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 7,
+        "sentence": "Vorig jaar ___ wij aan een internationaal project in Londen.",
+        "options": [
+            "werkten",
+            "werken",
+            "werkt",
+            "werkde"
+        ],
+        "correct_answer": "werkten",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 8,
+        "sentence": "Kunt u aangeven wie de notulen van vandaag ___?",
+        "options": [
+            "schrijft",
+            "schreef",
+            "schrijven",
+            "papier"
+        ],
+        "correct_answer": "schrijft",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 9,
+        "sentence": "Gisteren ___ de technicus de server in de nacht.",
+        "options": [
+            "repareerde",
+            "repareert",
+            "repareren",
+            "repareerte"
+        ],
+        "correct_answer": "repareerde",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 10,
+        "sentence": "Ik wil graag weten of u de bijlage in de mail ___ .",
+        "options": [
+            "ontvangt",
+            "ontving",
+            "ontvangen",
+            "bericht"
+        ],
+        "correct_answer": "ontvangt",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 11,
+        "sentence": "Mijn collega ___ gisteren pas om tien uur op het kantoor.",
+        "options": [
+            "kwam",
+            "komt",
+            "komen",
+            "kwamt"
+        ],
+        "correct_answer": "kwam",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 12,
+        "sentence": "Kunt u uitleggen waarom het systeem momenteel niet ___?",
+        "options": [
+            "werkt",
+            "werken",
+            "werkte",
+            "apparaat"
+        ],
+        "correct_answer": "werkt",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 13,
+        "sentence": "Vorige maand ___ ik mijn cv naar de personeelsafdeling.",
+        "options": [
+            "stuurde",
+            "stuurt",
+            "sturen",
+            "stuurte"
+        ],
+        "correct_answer": "stuurde",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 14,
+        "sentence": "Ik vraag me af wanneer de lunchpauze precies ___ .",
+        "options": [
+            "begint",
+            "begon",
+            "beginnen",
+            "honger"
+        ],
+        "correct_answer": "begint",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 15,
+        "sentence": "De directeur ___ gisteren een belangrijke beslissing over het budget.",
+        "options": [
+            "nam",
+            "neemt",
+            "nemen",
+            "name"
+        ],
+        "correct_answer": "nam",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 16,
+        "sentence": "Kunt u voor mij controleren of de printer nog papier ___?",
+        "options": [
+            "heeft",
+            "hebt",
+            "hebben",
+            "tekst"
+        ],
+        "correct_answer": "heeft",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 17,
+        "sentence": "Vorig jaar ___ u op de marketingafdeling van dit bedrijf.",
+        "options": [
+            "werkte",
+            "werkt",
+            "werken",
+            "werkten"
+        ],
+        "correct_answer": "werkte",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 18,
+        "sentence": "Laat me even weten hoe laat u morgen op kantoor ___ .",
+        "options": [
+            "arriveert",
+            "arriveren",
+            "arriveerde",
+            "tijd"
+        ],
+        "correct_answer": "arriveert",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 19,
+        "sentence": "Gisteren ___ de zon fel op de ramen van het kantoor.",
+        "options": [
+            "scheen",
+            "schijnt",
+            "schijnen",
+            "scheende"
+        ],
+        "correct_answer": "scheen",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 20,
+        "sentence": "Kunt u mij vertellen of u hulp bij het project ___?",
+        "options": [
+            "hebt",
+            "heeft",
+            "hebben",
+            "was"
+        ],
+        "correct_answer": "hebt",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 21,
+        "sentence": "Tijdens de pauze ___ de collega's over hun vakantieplannen.",
+        "options": [
+            "praatten",
+            "praten",
+            "praat",
+            "praatsten"
+        ],
+        "correct_answer": "praatten",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 22,
+        "sentence": "Ik vraag me af of de sfeer op kantoor binnenkort ___ .",
+        "options": [
+            "verbetert",
+            "verbeteren",
+            "verbeterde",
+            "goed"
+        ],
+        "correct_answer": "verbetert",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 23,
+        "sentence": "De secretaresse ___ gisteren alle afspraken in de agenda.",
+        "options": [
+            "noteerde",
+            "noteert",
+            "noteren",
+            "noteerte"
+        ],
+        "correct_answer": "noteerde",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 24,
+        "sentence": "Weet u wie gisteren de laatste mail naar de klant ___?",
+        "options": [
+            "schreef",
+            "schrijft",
+            "schrijven",
+            "post"
+        ],
+        "correct_answer": "schreef",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 25,
+        "sentence": "Vorige week ___ de prijzen van de grondstoffen erg hard.",
+        "options": [
+            "stegen",
+            "stijgen",
+            "stijgt",
+            "steegden"
+        ],
+        "correct_answer": "stegen",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 26,
+        "sentence": "Kunt u nakijken of deze specifieke informatie wel ___?",
+        "options": [
+            "klopt",
+            "kloppen",
+            "klopte",
+            "feit"
+        ],
+        "correct_answer": "klopt",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 27,
+        "sentence": "Gisteren ___ ik mijn computer direct na het werk af.",
+        "options": [
+            "sloot",
+            "sluit",
+            "sluiten",
+            "slootte"
+        ],
+        "correct_answer": "sloot",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 28,
+        "sentence": "Ik wil graag weten wanneer u het contract ___ .",
+        "options": [
+            "ondertekent",
+            "ondertekenen",
+            "ondertekende",
+            "pen"
+        ],
+        "correct_answer": "ondertekent",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 29,
+        "sentence": "De manager ___ mij gisteren naar de voortgang van het project.",
+        "options": [
+            "vroeg",
+            "vraagt",
+            "vragen",
+            "vraagte"
+        ],
+        "correct_answer": "vroeg",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 30,
+        "sentence": "Kunt u mij zeggen of de technicus de fout al ___?",
+        "options": [
+            "vindt",
+            "vinden",
+            "vond",
+            "machine"
+        ],
+        "correct_answer": "vindt",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 31,
+        "sentence": "Vorig jaar ___ hij veel ervaring op de afdeling administratie.",
+        "options": [
+            "kreeg",
+            "krijgt",
+            "krijgen",
+            "kreegde"
+        ],
+        "correct_answer": "kreeg",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 32,
+        "sentence": "Ik vraag me af of de manager het rapport al ___ .",
+        "options": [
+            "leest",
+            "las",
+            "lezen",
+            "pen"
+        ],
+        "correct_answer": "leest",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 33,
+        "sentence": "Gisteren ___ de werknemers over de hoge werkdruk.",
+        "options": [
+            "klaagden",
+            "klagen",
+            "klaagt",
+            "klaagten"
+        ],
+        "correct_answer": "klaagden",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 34,
+        "sentence": "Kunt u aangeven waar ik mijn jas ___?",
+        "options": [
+            "ophang",
+            "ophangen",
+            "hang",
+            "kast"
+        ],
+        "correct_answer": "ophang",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 35,
+        "sentence": "Tijdens de vergadering ___ de manager veel kritische vragen.",
+        "options": [
+            "stelde",
+            "stelt",
+            "stellen",
+            "stelte"
+        ],
+        "correct_answer": "stelde",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 36,
+        "sentence": "Weet u wanneer de directeur weer op kantoor ___?",
+        "options": [
+            "verschijnt",
+            "verscheen",
+            "verschijnen",
+            "agenda"
+        ],
+        "correct_answer": "verschijnt",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 37,
+        "sentence": "Vorige week ___ de directeur de formulieren voor de reis.",
+        "options": [
+            "ondertekende",
+            "ondertekent",
+            "ondertekenen",
+            "ondertekente"
+        ],
+        "correct_answer": "ondertekende",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 38,
+        "sentence": "Kunt u mij informeren hoe ik dit nieuwe bestand ___?",
+        "options": [
+            "open",
+            "opent",
+            "openen",
+            "map"
+        ],
+        "correct_answer": "open",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 39,
+        "sentence": "De stagiair ___ gisteren de post naar de juiste afdeling.",
+        "options": [
+            "bracht",
+            "brengt",
+            "bringen",
+            "brachte"
+        ],
+        "correct_answer": "bracht",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 40,
+        "sentence": "Ik hoor graag of de klant akkoord met ons ___ .",
+        "options": [
+            "gaat",
+            "gaan",
+            "ging",
+            "succes"
+        ],
+        "correct_answer": "gaat",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 41,
+        "sentence": "Vorig jaar ___ ons bedrijf een grote winst in Europa.",
+        "options": [
+            "maakte",
+            "maakt",
+            "maken",
+            "maakten"
+        ],
+        "correct_answer": "maakte",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 42,
+        "sentence": "Kunt u mij vertellen wat de reden van de vertraging ___?",
+        "options": [
+            "is",
+            "zijn",
+            "was",
+            "tijd"
+        ],
+        "correct_answer": "is",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 43,
+        "sentence": "Mijn baas ___ gisteren dat hij erg tevreden was.",
+        "options": [
+            "zei",
+            "zegt",
+            "zeggen",
+            "zeide"
+        ],
+        "correct_answer": "zei",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 44,
+        "sentence": "Ik vraag me af of u de uitnodiging al ___ .",
+        "options": [
+            "verstuurt",
+            "versturen",
+            "verstuurde",
+            "gast"
+        ],
+        "correct_answer": "verstuurt",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 45,
+        "sentence": "Gisteren ___ de bus naar kantoor precies op tijd.",
+        "options": [
+            "vertrok",
+            "vertrekt",
+            "vertrekken",
+            "vertrokte"
+        ],
+        "correct_answer": "vertrok",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 46,
+        "sentence": "Weet u misschien wie er momenteel bij de balie ___?",
+        "options": [
+            "staat",
+            "staan",
+            "stond",
+            "gast"
+        ],
+        "correct_answer": "staat",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 47,
+        "sentence": "Wij ___ vorig jaar veel nieuwe woorden tijdens de cursus.",
+        "options": [
+            "leerden",
+            "leren",
+            "leert",
+            "leerte"
+        ],
+        "correct_answer": "leerden",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 48,
+        "sentence": "Ik vraag me af of u dit belangrijke bestand veilig ___ .",
+        "options": [
+            "bewaart",
+            "bewaren",
+            "bewaarde",
+            "map"
+        ],
+        "correct_answer": "bewaart",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 49,
+        "sentence": "Gisteren ___ de lichten op de gang automatisch uit.",
+        "options": [
+            "gingen",
+            "gaan",
+            "gaat",
+            "gingt"
+        ],
+        "correct_answer": "gingen",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 50,
+        "sentence": "Kunt u mij vertellen of u de doelen dit jaar ___?",
+        "options": [
+            "haalt",
+            "halen",
+            "haalde",
+            "winst"
+        ],
+        "correct_answer": "haalt",
+        "language": "nl",
+        "difficulty": "N2"
+    }
+]

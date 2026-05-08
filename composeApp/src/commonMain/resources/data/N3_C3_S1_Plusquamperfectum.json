@@ -1,0 +1,12 @@
+[
+    {"question_id": 1, "sentence": "Toen de directeur de vergadering opende, ___ de assistent de notulen al voorbereid.", "options": ["had", "heeft", "was", "zou"], "correct_answer": "had", "language": "nl", "difficulty": "N3"},
+    {"question_id": 2, "sentence": "Wij ___ de offerte al verstuurd voordat de klant om een korting vroeg.", "options": ["hadden", "hebben", "waren", "zouden"], "correct_answer": "hadden", "language": "nl", "difficulty": "N3"},
+    {"question_id": 3, "sentence": "Nadat de technicus het systeem ___ hersteld, werkte de website weer optimaal.", "options": ["had", "heeft", "was", "zou"], "correct_answer": "had", "language": "nl", "difficulty": "N3"},
+    {"question_id": 4, "sentence": "De manager wist niet dat de werknemer al ontslag ___ genomen.", "options": ["had", "heeft", "was", "zou"], "correct_answer": "had", "language": "nl", "difficulty": "N3"},
+    {"question_id": 5, "sentence": "Voordat het nieuwe beleid werd ingevoerd, ___ de ondernemingsraad hierover al geadviseerd.", "options": ["had", "heeft", "was", "zou"], "correct_answer": "had", "language": "nl", "difficulty": "N3"},
+    {"question_id": 6, "sentence": "Zodra de presentatie was afgelopen, ___ iedereen de zaal verlaten.", "options": ["had", "heeft", "was", "zou"], "correct_answer": "had", "language": "nl", "difficulty": "N3"},
+    {"question_id": 7, "sentence": "De patiënt ___ al medicijnen gekregen voordat de arts arriveerde.", "options": ["had", "heeft", "was", "zou"], "correct_answer": "had", "language": "nl", "difficulty": "N3"},
+    {"question_id": 8, "sentence": "Nadat de brandweer de brand ___ geblust, begon het onderzoek naar de oorzaak.", "options": ["had", "heeft", "was", "zou"], "correct_answer": "had", "language": "nl", "difficulty": "N3"},
+    {"question_id": 9, "sentence": "Wij dachten dat u de documenten al ___ ondertekend.", "options": ["had", "heeft", "was", "zou"], "correct_answer": "had", "language": "nl", "difficulty": "N3"},
+    {"question_id": 10, "sentence": "Voordat de winter begon, ___ de boeren de oogst al binnengehaald.", "options": ["hadden", "hebben", "waren", "zouden"], "correct_answer": "hadden", "language": "nl", "difficulty": "N3"}
+]

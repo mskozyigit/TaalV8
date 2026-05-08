@@ -1,0 +1,12 @@
+[
+    {"question_id": 1, "sentence": "Door de aanhoudende daling van de mondiale beurskoersen ___ de directie direct een strategisch beraad in.", "options": ["plant", "plannen", "gepland", "planten"], "correct_answer": "plant", "language": "nl", "difficulty": "N3"},
+    {"question_id": 2, "sentence": "De senior consultants van ons kantoor ___ momenteel aan een uitgebreide risicoanalyse voor de cliënt.", "options": ["werken", "werkt", "werkten", "gewerkt"], "correct_answer": "werken", "language": "nl", "difficulty": "N3"},
+    {"question_id": 3, "sentence": "Na de succesvolle implementatie van het nieuwe ERP-systeem ___ de efficiëntie op de logistieke afdeling.", "options": ["stijgt", "stijgen", "steeg", "gestegen"], "correct_answer": "stijgt", "language": "nl", "difficulty": "N3"},
+    {"question_id": 4, "sentence": "In het meest recente kwartaalverslag over de omzetcijfers ___ u alle relevante statistieken.", "options": ["vindt", "vinden", "vond", "gevonden"], "correct_answer": "vindt", "language": "nl", "difficulty": "N3"},
+    {"question_id": 5, "sentence": "Vanwege de technische storing in het datacenter ___ de online diensten momenteel helaas niet.", "options": ["werken", "werkt", "werkte", "gewerkt"], "correct_answer": "werken", "language": "nl", "difficulty": "N3"},
+    {"question_id": 6, "sentence": "De raad van bestuur ___ morgenmiddag een definitieve beslissing over de geplande fusie.", "options": ["neemt", "nemen", "nam", "genomen"], "correct_answer": "neemt", "language": "nl", "difficulty": "N3"},
+    {"question_id": 7, "sentence": "Ondanks de felle concurrentie in de sector ___ ons marktaandeel dit jaar aanzienlijk.", "options": ["groeit", "groeien", "groeide", "gegroeid"], "correct_answer": "groeit", "language": "nl", "difficulty": "N3"},
+    {"question_id": 8, "sentence": "Sinds de introductie van de nieuwe privacywetgeving ___ de eisen voor databescherming.", "options": ["veranderen", "verandert", "veranderde", "veranderd"], "correct_answer": "veranderen", "language": "nl", "difficulty": "N3"},
+    {"question_id": 9, "sentence": "Op basis van de resultaten van het marktonderzoek ___ wij onze marketingstrategie voor 2026.", "options": ["bepalen", "bepaalt", "bepaalden", "bepaald"], "correct_answer": "bepalen", "language": "nl", "difficulty": "N3"},
+    {"question_id": 10, "sentence": "Dankzij de nauwe samenwerking tussen beide afdelingen ___ we de strakke deadline.", "options": ["haalden", "halen", "haalt", "gehaald"], "correct_answer": "haalden", "language": "nl", "difficulty": "N3"}
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "question_id": 1,
+        "sentence": "___ de winstgevendheid dit kwartaal tegenvalt, zal de directie de investeringen moeten beperken.",
+        "options": ["Aangezien", "Hoewel", "Zodra", "Tenzij"],
+        "correct_answer": "Aangezien",
+        "language": "nl",
+        "difficulty": "N3"
+    },
+    {
+        "question_id": 2,
+        "sentence": "U ontvangt de jaarlijkse bonus, ___ u de gestelde persoonlijke doelen volledig behaalt.",
+        "options": ["mits", "tenzij", "hoewel", "voordat"],
+        "correct_answer": "mits",
+        "language": "nl",
+        "difficulty": "N3"
+    },
+    {
+        "question_id": 3,
+        "sentence": "De omzet is aanzienlijk gestegen, ___ blijft de cashflow een punt van aandacht voor de CFO.",
+        "options": ["desalniettemin", "daarom", "omdat", "zodat"],
+        "correct_answer": "desalniettemin",
+        "language": "nl",
+        "difficulty": "N3"
+    },
+    {
+        "question_id": 4,
+        "sentence": "Wij kunnen de nieuwe machines niet bestellen, ___ de raad van toezicht formeel akkoord gaat.",
+        "options": ["tenzij", "mits", "omdat", "hoewel"],
+        "correct_answer": "tenzij",
+        "language": "nl",
+        "difficulty": "N3"
+    },
+    {
+        "question_id": 5,
+        "sentence": "___ de markt in Europa verzadigd raakt, zoeken wij naar strategische partners in Azië.",
+        "options": ["Daar", "Ondanks", "Zodra", "Tenzij"],
+        "correct_answer": "Daar",
+        "language": "nl",
+        "difficulty": "N3"
+    },
+    {
+        "question_id": 6,
+        "sentence": "De implementatie is vertraagd, ___ alle medewerkers extra uren hebben gewerkt.",
+        "options": ["hoewel", "omdat", "zodat", "mits"],
+        "correct_answer": "hoewel",
+        "language": "nl",
+        "difficulty": "N3"
+    },
+    {
+        "question_id": 7,
+        "sentence": "Wij zullen u onverwijld informeren ___ er meer concrete informatie beschikbaar is.",
+        "options": ["zodra", "tenzij", "mits", "hoewel"],
+        "correct_answer": "zodra",
+        "language": "nl",
+        "difficulty": "N3"
+    },
+    {
+        "question_id": 8,
+        "sentence": "De samenwerking wordt per direct beëindigd, ___ de contractuele voorwaarden worden geschonden.",
+        "options": ["indien", "hoewel", "omdat", "mits"],
+        "correct_answer": "indien",
+        "language": "nl",
+        "difficulty": "N3"
+    },
+    {
+        "question_id": 9,
+        "sentence": "De algemeen manager is momenteel afwezig, ___ zal de adjunct-directeur de honneurs waarnemen.",
+        "options": ["derhalve", "hoewel", "mits", "zodat"],
+        "correct_answer": "derhalve",
+        "language": "nl",
+        "difficulty": "N3"
+    },
+    {
+        "question_id": 10,
+        "sentence": "De huidige planning is zeer ambitieus, ___ de haalbaarheid ervan nogmaals wordt getoetst.",
+        "options": ["vandaar", "hoewel", "mits", "zodat"],
+        "correct_answer": "vandaar",
+        "language": "nl",
+        "difficulty": "N3"
+    }
+]

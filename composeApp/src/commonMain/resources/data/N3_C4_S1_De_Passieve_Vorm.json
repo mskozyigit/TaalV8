@@ -1,0 +1,12 @@
+[
+    {"question_id": 1, "sentence": "De kwartaalrapportage ___ morgen door de financiële afdeling gepubliceerd.", "options": ["wordt", "is", "zal", "heeft"], "correct_answer": "wordt", "language": "nl", "difficulty": "N3"},
+    {"question_id": 2, "sentence": "Alle vertrouwelijke gegevens ___ gisteren direct uit het systeem verwijderd.", "options": ["zijn", "worden", "zullen", "hadden"], "correct_answer": "zijn", "language": "nl", "difficulty": "N3"},
+    {"question_id": 3, "sentence": "Er ___ momenteel hard gewerkt aan een nieuwe mobiele applicatie.", "options": ["wordt", "is", "zal", "heeft"], "correct_answer": "wordt", "language": "nl", "difficulty": "N3"},
+    {"question_id": 4, "sentence": "Wanneer ___ de definitieve beslissing over de reorganisatie genomen?", "options": ["wordt", "is", "zal", "heeft"], "correct_answer": "wordt", "language": "nl", "difficulty": "N3"},
+    {"question_id": 5, "sentence": "De facturen ___ pas betaald nadat de goederen zijn geleverd.", "options": ["worden", "zijn", "zullen", "hebben"], "correct_answer": "worden", "language": "nl", "difficulty": "N3"},
+    {"question_id": 6, "sentence": "Door wie ___ de presentatie voor de aandeelhouders voorbereid?", "options": ["wordt", "is", "zal", "werd"], "correct_answer": "wordt", "language": "nl", "difficulty": "N3"},
+    {"question_id": 7, "sentence": "Het project ___ vorig jaar wegens een gebrek aan budget stopgezet.", "options": ["werd", "is", "wordt", "was"], "correct_answer": "werd", "language": "nl", "difficulty": "N3"},
+    {"question_id": 8, "sentence": "In dit rapport ___ de resultaten van het pazar-onderzoek beschreven.", "options": ["worden", "zijn", "zullen", "hebben"], "correct_answer": "worden", "language": "nl", "difficulty": "N3"},
+    {"question_id": 9, "sentence": "De werknemers ___ wekelijks via een interne nieuwsbrief geïnformeerd.", "options": ["worden", "zijn", "zullen", "zitten"], "correct_answer": "worden", "language": "nl", "difficulty": "N3"},
+    {"question_id": 10, "sentence": "___ dit document al door de juridische afdeling gecontroleerd?", "options": ["Is", "Wordt", "Zal", "Heeft"], "correct_answer": "Is", "language": "nl", "difficulty": "N3"}
+]

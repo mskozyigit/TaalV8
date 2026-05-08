@@ -1,0 +1,652 @@
+[
+    {
+        "question_id": 1,
+        "sentence": "Gisteren ___ de directeur de nieuwe plannen voor het jaar.",
+        "options": [
+            "presenteerde",
+            "presenteert",
+            "presenteren",
+            "presenteerte"
+        ],
+        "correct_answer": "presenteerde",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 2,
+        "sentence": "Vorige week ___ ik een belangrijk verslag over de verkoop.",
+        "options": [
+            "schreef",
+            "schrijf",
+            "schrijven",
+            "schreeft"
+        ],
+        "correct_answer": "schreef",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 3,
+        "sentence": "De secretaresse ___ gisteren alle afspraken in de agenda.",
+        "options": [
+            "noteerde",
+            "noteert",
+            "noteren",
+            "noteerte"
+        ],
+        "correct_answer": "noteerde",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 4,
+        "sentence": "Tijdens de vergadering ___ de manager veel vragen.",
+        "options": [
+            "stelde",
+            "stelt",
+            "stellen",
+            "stelte"
+        ],
+        "correct_answer": "stelde",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 5,
+        "sentence": "Vorig jaar ___ wij aan een groot project in Amsterdam.",
+        "options": [
+            "werkten",
+            "werken",
+            "werkt",
+            "werkde"
+        ],
+        "correct_answer": "werkten",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 6,
+        "sentence": "Mijn collega ___ gisteren pas om tien uur op kantoor.",
+        "options": [
+            "kam",
+            "komt",
+            "komen",
+            "kwamt"
+        ],
+        "correct_answer": "kwam",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 7,
+        "sentence": "De klant ___ vorige maand eindelijk de factuur.",
+        "options": [
+            "betaalde",
+            "betaalt",
+            "betalen",
+            "betaalte"
+        ],
+        "correct_answer": "betaalde",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 8,
+        "sentence": "Gisteren ___ ik mijn computer direct na het werk af.",
+        "options": [
+            "sloot",
+            "sluit",
+            "sluiten",
+            "slootte"
+        ],
+        "correct_answer": "sloot",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 9,
+        "sentence": "De directeur ___ vorige week een presentatie in Londen.",
+        "options": [
+            "gaf",
+            "geeft",
+            "geven",
+            "gaven"
+        ],
+        "correct_answer": "gaf",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 10,
+        "sentence": "Vorig jaar ___ hij veel ervaring op de administratie.",
+        "options": [
+            "kreeg",
+            "krijgt",
+            "krijgen",
+            "kreegde"
+        ],
+        "correct_answer": "kreeg",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 11,
+        "sentence": "Wij ___ gisteren urenlang over de nieuwe strategie.",
+        "options": [
+            "praatten",
+            "praten",
+            "praat",
+            "praatsten"
+        ],
+        "correct_answer": "praatten",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 12,
+        "sentence": "De technicus ___ de server vorige nacht helemaal.",
+        "options": [
+            "repareerde",
+            "repareert",
+            "repareren",
+            "repareerte"
+        ],
+        "correct_answer": "repareerde",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 13,
+        "sentence": "Gisteren ___ de werknemers over de hoge werkdruk.",
+        "options": [
+            "klaagden",
+            "klagen",
+            "klaagt",
+            "klaagten"
+        ],
+        "correct_answer": "klaagden",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 14,
+        "sentence": "Ik ___ gisteren de notulen van het overleg direct.",
+        "options": [
+            "maakte",
+            "maakt",
+            "maken",
+            "maakten"
+        ],
+        "correct_answer": "maakte",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 15,
+        "sentence": "Vorige week ___ de directeur de formulieren voor de reis.",
+        "options": [
+            "ondertekende",
+            "ondertekent",
+            "ondertekenen",
+            "ondertekente"
+        ],
+        "correct_answer": "ondertekende",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 16,
+        "sentence": "Tijdens de presentatie ___ de cursisten veel aantekeningen.",
+        "options": [
+            "maakten",
+            "maken",
+            "maakt",
+            "maakde"
+        ],
+        "correct_answer": "maakten",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 17,
+        "sentence": "De stagiair ___ gisteren de post naar de juiste afdeling.",
+        "options": [
+            "bracht",
+            "brengt",
+            "brengen",
+            "brachte"
+        ],
+        "correct_answer": "bracht",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 18,
+        "sentence": "Vorig jaar ___ ons bedrijf een grote winst in Europa.",
+        "options": [
+            "maakte",
+            "maakt",
+            "maken",
+            "maakten"
+        ],
+        "correct_answer": "maakte",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 19,
+        "sentence": "Mijn baas ___ gisteren dat hij erg tevreden was.",
+        "options": [
+            "zei",
+            "zegt",
+            "zeggen",
+            "zeide"
+        ],
+        "correct_answer": "zei",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 20,
+        "sentence": "Wij ___ vorige week een nieuwe medewerker op kantoor.",
+        "options": [
+            "zochten",
+            "zoeken",
+            "zoekt",
+            "zoekten"
+        ],
+        "correct_answer": "zochten",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 21,
+        "sentence": "Gisteren ___ de bus naar kantoor precies op tijd.",
+        "options": [
+            "vertrok",
+            "vertrekt",
+            "vertrekken",
+            "vertrokte"
+        ],
+        "correct_answer": "vertrok",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 22,
+        "sentence": "De manager ___ mij gisteren om hulp bij het dossier.",
+        "options": [
+            "vroeg",
+            "vraagt",
+            "vragen",
+            "vraagte"
+        ],
+        "correct_answer": "vroeg",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 23,
+        "sentence": "Vorige maand ___ ik mijn cv naar dit grote bedrijf.",
+        "options": [
+            "stuurde",
+            "stuurt",
+            "sturen",
+            "stuurte"
+        ],
+        "correct_answer": "stuurde",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 24,
+        "sentence": "De werknemer ___ gisteren tot laat in de avond over.",
+        "options": [
+            "werkte",
+            "werkt",
+            "werken",
+            "werkten"
+        ],
+        "correct_answer": "werkte",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 25,
+        "sentence": "Vorig jaar ___ u op de marketingafdeling in Utrecht.",
+        "options": [
+            "werkte",
+            "werkt",
+            "werken",
+            "werkten"
+        ],
+        "correct_answer": "werkte",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 26,
+        "sentence": "Gisteren ___ de zon fel op de ramen van het kantoor.",
+        "options": [
+            "scheen",
+            "schijnt",
+            "schijnen",
+            "scheende"
+        ],
+        "correct_answer": "scheen",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 27,
+        "sentence": "De directeur ___ de vergadering gisteren heel erg kort.",
+        "options": [
+            "hield",
+            "houdt",
+            "houden",
+            "hielde"
+        ],
+        "correct_answer": "hield",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 28,
+        "sentence": "Mijn collega ___ gisteren de koffie voor het hele team.",
+        "options": [
+            "betaalde",
+            "betaalt",
+            "betalen",
+            "betaalte"
+        ],
+        "correct_answer": "betaalde",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 29,
+        "sentence": "Wij ___ vorig jaar veel nieuwe woorden tijdens de cursus.",
+        "options": [
+            "leerden",
+            "leren",
+            "leert",
+            "leerte"
+        ],
+        "correct_answer": "leerden",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 30,
+        "sentence": "Gisteren ___ ik de hele dag op mijn nieuwe bureau.",
+        "options": [
+            "zat",
+            "zit",
+            "zitten",
+            "zitte"
+        ],
+        "correct_answer": "zat",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 31,
+        "sentence": "De secretaresse ___ gisteren de gasten vrolijk naar binnen.",
+        "options": [
+            "liet",
+            "laat",
+            "laten",
+            "liete"
+        ],
+        "correct_answer": "liet",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 32,
+        "sentence": "Vorige week ___ de prijzen van de woningen erg hard.",
+        "options": [
+            "stegen",
+            "stijgen",
+            "stijgt",
+            "steegden"
+        ],
+        "correct_answer": "stegen",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 33,
+        "sentence": "Gisteren ___ de leraar de grammatica nog een keer uit.",
+        "options": [
+            "legde",
+            "legt",
+            "leggen",
+            "legte"
+        ],
+        "correct_answer": "legde",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 34,
+        "sentence": "Mijn vriend ___ vorig jaar een mooie baan bij de overheid.",
+        "options": [
+            "vond",
+            "vindt",
+            "vinden",
+            "vondte"
+        ],
+        "correct_answer": "vond",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 35,
+        "sentence": "De baby van de collega ___ de hele middag rustig.",
+        "options": [
+            "sliep",
+            "slaapt",
+            "slapen",
+            "sliepte"
+        ],
+        "correct_answer": "sliep",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 36,
+        "sentence": "Wij ___ gisteren naar de supermarkt voor de lunch.",
+        "options": [
+            "liepen",
+            "lopen",
+            "loopt",
+            "loopten"
+        ],
+        "correct_answer": "liepen",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 37,
+        "sentence": "Gisteren ___ je het formulier voor de vakantie volledig in.",
+        "options": [
+            "vulde",
+            "vult",
+            "vullen",
+            "vulte"
+        ],
+        "correct_answer": "vulde",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 38,
+        "sentence": "De baas ___ gisteren direct op mijn belangrijke mail.",
+        "options": [
+            "reageerde",
+            "reageert",
+            "reageren",
+            "reageerte"
+        ],
+        "correct_answer": "reageerde",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 39,
+        "sentence": "Vorige week ___ ik mijn tas op de tafel op kantoor.",
+        "options": [
+            "legde",
+            "legt",
+            "leggen",
+            "legte"
+        ],
+        "correct_answer": "legde",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 40,
+        "sentence": "Gisteren ___ de honden buiten op het terrein.",
+        "options": [
+            "speelden",
+            "spielen",
+            "speelt",
+            "speelte"
+        ],
+        "correct_answer": "speelden",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 41,
+        "sentence": "Tijdens de pauze ___ de collega's over de vakantie.",
+        "options": [
+            "praatten",
+            "praten",
+            "praat",
+            "praatsten"
+        ],
+        "correct_answer": "praatten",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 42,
+        "sentence": "Gisteren ___ ik de bevestiging van de afspraak per mail.",
+        "options": [
+            "ontving",
+            "ontvangt",
+            "ontvangen",
+            "ontvingte"
+        ],
+        "correct_answer": "ontving",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 43,
+        "sentence": "De leraar ___ gisteren of iedereen de tekst begreep.",
+        "options": [
+            "vroeg",
+            "vraagt",
+            "vragen",
+            "vraagte"
+        ],
+        "correct_answer": "vroeg",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 44,
+        "sentence": "Wij ___ vorig jaar naar een groot kantoor in Den Haag.",
+        "options": [
+            "verhuisden",
+            "verhuizen",
+            "verhuist",
+            "verhuisten"
+        ],
+        "correct_answer": "verhuisden",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 45,
+        "sentence": "Gisteren ___ de stagiair de vuile auto van de zaak.",
+        "options": [
+            "waste",
+            "wast",
+            "wassen",
+            "wasten"
+        ],
+        "correct_answer": "waste",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 46,
+        "sentence": "Vorige week ___ ik mijn wachtwoord voor de server.",
+        "options": [
+            "vergat",
+            "vergeet",
+            "vergeten",
+            "vergatte"
+        ],
+        "correct_answer": "vergat",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 47,
+        "sentence": "De directeur ___ gisteren een beslissing over het budget.",
+        "options": [
+            "nam",
+            "neemt",
+            "nemen",
+            "name"
+        ],
+        "correct_answer": "nam",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 48,
+        "sentence": "Gisteren ___ de lichten op de gang automatisch uit.",
+        "options": [
+            "gingen",
+            "gaan",
+            "gaat",
+            "gingt"
+        ],
+        "correct_answer": "gingen",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 49,
+        "sentence": "Vorige maand ___ u de weg naar het nieuwe gebouw.",
+        "options": [
+            "wees",
+            "wijst",
+            "wijzen",
+            "weesde"
+        ],
+        "correct_answer": "wees",
+        "language": "nl",
+        "difficulty": "N2"
+    },
+    {
+        "question_id": 50,
+        "sentence": "Gisteren ___ de minister op de vragen van de pers.",
+        "options": [
+            "antwoordde",
+            "antwoordt",
+            "antwoorden",
+            "antwoordte"
+        ],
+        "correct_answer": "antwoordde",
+        "language": "nl",
+        "difficulty": "N2"
+    }
+]
