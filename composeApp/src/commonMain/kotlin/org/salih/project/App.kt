@@ -317,6 +317,12 @@ fun DuolingoButton(
                 .background(baseColor, RoundedCornerShape(16.dp)),
             contentAlignment = Alignment.Center
         ) {
+            Text(
+                text = text.uppercase(),
+                fontSize = 18.sp,
+                fontWeight = FontWeight.Bold,
+                color = textColor
+            )
         }
     }
 }
