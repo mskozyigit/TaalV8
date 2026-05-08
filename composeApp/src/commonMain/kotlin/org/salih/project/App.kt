@@ -8,13 +8,18 @@ import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.interaction.collectIsPressedAsState
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.foundation.Canvas
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Path
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -88,11 +93,12 @@ fun App() {
                     }
                     Screen.LESSON_PAGE -> {
                         selectedLesson?.let { lesson ->
-                    LessonScreen(
-                        lesson = lesson,
-                        onHome = { currentScreen = Screen.HOME },
-                        onBack = { currentScreen = Screen.CATEGORY_DETAIL }
-                    )
+                            LessonScreen(
+                                lesson = lesson,
+                                categoryColor = selectedCategory?.color ?: Color(0xFF58CC02),
+                                onHome = { currentScreen = Screen.HOME },
+                                onBack = { currentScreen = Screen.CATEGORY_DETAIL }
+                            )
                         }
                     }
                 }
@@ -150,13 +156,21 @@ fun CategoryDetailScreen(
             TopAppBar(
                 title = { Text(category.title, fontWeight = FontWeight.Bold) },
                 navigationIcon = {
-                    Row(verticalAlignment = Alignment.CenterVertically) {
-                        IconButton(onClick = onHome) {
-                            Text("🏠", fontSize = 20.sp)
-                        }
-                        IconButton(onClick = onBack) {
-                            Text("←", fontSize = 24.sp, fontWeight = FontWeight.Bold)
-                        }
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        modifier = Modifier.padding(start = 8.dp)
+                    ) {
+                        NavIconButton(
+                            isHome = true,
+                            onClick = onHome,
+                            color = category.color
+                        )
+                        Spacer(modifier = Modifier.width(8.dp))
+                        NavIconButton(
+                            isHome = false,
+                            onClick = onBack,
+                            color = category.color
+                        )
                     }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(containerColor = Color.White)
@@ -195,19 +209,27 @@ fun CategoryDetailScreen(
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun LessonScreen(lesson: Lesson, onHome: () -> Unit, onBack: () -> Unit) {
+fun LessonScreen(lesson: Lesson, categoryColor: Color, onHome: () -> Unit, onBack: () -> Unit) {
     Scaffold(
         topBar = {
             TopAppBar(
                 title = { Text(lesson.title, fontWeight = FontWeight.Bold) },
                 navigationIcon = {
-                    Row(verticalAlignment = Alignment.CenterVertically) {
-                        IconButton(onClick = onHome) {
-                            Text("🏠", fontSize = 20.sp)
-                        }
-                        IconButton(onClick = onBack) {
-                            Text("←", fontSize = 24.sp, fontWeight = FontWeight.Bold)
-                        }
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        modifier = Modifier.padding(start = 8.dp)
+                    ) {
+                        NavIconButton(
+                            isHome = true,
+                            onClick = onHome,
+                            color = categoryColor
+                        )
+                        Spacer(modifier = Modifier.width(8.dp))
+                        NavIconButton(
+                            isHome = false,
+                            onClick = onBack,
+                            color = categoryColor
+                        )
                     }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(containerColor = Color.White)
@@ -295,12 +317,60 @@ fun DuolingoButton(
                 .background(baseColor, RoundedCornerShape(16.dp)),
             contentAlignment = Alignment.Center
         ) {
-            Text(
-                text = text.uppercase(),
-                fontSize = 18.sp,
-                fontWeight = FontWeight.Bold,
-                color = textColor
-            )
+        }
+    }
+}
+
+@Composable
+fun NavIconButton(
+    isHome: Boolean,
+    onClick: () -> Unit,
+    color: Color,
+    modifier: Modifier = Modifier
+) {
+    FilledIconButton(
+        onClick = onClick,
+        modifier = modifier.size(44.dp),
+        shape = CircleShape,
+        colors = IconButtonDefaults.filledIconButtonColors(
+            containerColor = color,
+            contentColor = Color.White
+        )
+    ) {
+        Canvas(modifier = Modifier.size(20.dp)) {
+            if (isHome) {
+                // Simple House Icon
+                val path = Path().apply {
+                    moveTo(size.width * 0.5f, size.height * 0.1f)
+                    lineTo(size.width * 0.1f, size.height * 0.5f)
+                    lineTo(size.width * 0.1f, size.height * 0.9f)
+                    lineTo(size.width * 0.9f, size.height * 0.9f)
+                    lineTo(size.width * 0.9f, size.height * 0.5f)
+                    close()
+                }
+                drawPath(path, color = Color.White)
+                // Door
+                drawRect(
+                    color = color,
+                    topLeft = androidx.compose.ui.geometry.Offset(size.width * 0.4f, size.height * 0.6f),
+                    size = androidx.compose.ui.geometry.Size(size.width * 0.2f, size.height * 0.3f)
+                )
+            } else {
+                // Simple Back Arrow Icon
+                val path = Path().apply {
+                    moveTo(size.width * 0.85f, size.height * 0.5f)
+                    lineTo(size.width * 0.15f, size.height * 0.5f)
+                    moveTo(size.width * 0.15f, size.height * 0.5f)
+                    lineTo(size.width * 0.45f, size.height * 0.2f)
+                    moveTo(size.width * 0.15f, size.height * 0.5f)
+                    lineTo(size.width * 0.45f, size.height * 0.8f)
+                }
+                drawPath(
+                    path = path,
+                    color = Color.White,
+                    style = Stroke(width = 3.dp.toPx(), cap = StrokeCap.Round)
+                )
+            }
         }
     }
 }
