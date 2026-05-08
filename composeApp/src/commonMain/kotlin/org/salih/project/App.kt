@@ -65,6 +65,38 @@ data class AnswerRecord(
     val isCorrect: Boolean
 )
 
+data class SentenceData(
+    val id: String,
+    val text: String,
+    val blankWord: String,
+    val distractors: List<String>
+)
+
+fun generateExercises(sentences: List<SentenceData>): List<Exercise> {
+    return sentences.mapIndexed { index, s ->
+        // Alternate between types for variety
+        val isBlankType = index % 2 == 0
+        if (isBlankType) {
+            Exercise(
+                id = s.id,
+                type = ExerciseType.FILL_IN_THE_BLANK,
+                context = s.text.replaceFirst(s.blankWord, "___"),
+                correctAnswer = s.blankWord,
+                options = (s.distractors + s.blankWord).shuffled()
+            )
+        } else {
+            // Split sentence into words, maintaining punctuation
+            val words = s.text.split(" ").filter { it.isNotEmpty() }
+            Exercise(
+                id = s.id,
+                type = ExerciseType.HUSSELAAR,
+                correctSentence = s.text,
+                shuffledWords = words.shuffled()
+            )
+        }
+    }
+}
+
 @Composable
 fun App() {
     var currentScreen by remember { mutableStateOf(Screen.HOME) }
@@ -270,25 +302,29 @@ fun LessonScreen(lesson: Lesson, category: Category, onHome: () -> Unit, onBack:
                 .padding(padding),
             contentAlignment = Alignment.Center
         ) {
-            // Quiz mock data
-            val mockExercises = remember {
+            // Sentence-based raw data
+            val rawSentences = remember {
                 listOf(
-                    Exercise("1", ExerciseType.FILL_IN_THE_BLANK, "Ik ___ een appel.", "eet", listOf("eet", "drink", "ben", "heb")),
-                    Exercise("2", ExerciseType.HUSSELAAR, "", "", emptyList(), "Ik wil naar huis gaan.", listOf("huis", "Ik", "gaan.", "wil", "naar")),
-                    Exercise("3", ExerciseType.FILL_IN_THE_BLANK, "Jij ___ erg aardig.", "bent", listOf("bent", "is", "zijn", "heb")),
-                    Exercise("4", ExerciseType.HUSSELAAR, "", "", emptyList(), "De auto is erg snel.", listOf("is", "De", "snel.", "auto", "erg")),
-                    Exercise("5", ExerciseType.FILL_IN_THE_BLANK, "Wij ___ in Amsterdam.", "wonen", listOf("wonen", "werkt", "slaapt", "loopt")),
-                    Exercise("6", ExerciseType.HUSSELAAR, "", "", emptyList(), "Het regent vandaag veel.", listOf("veel.", "Het", "vandaag", "regent")),
-                    Exercise("7", ExerciseType.FILL_IN_THE_BLANK, "Hoe ___ het met jou?", "gaat", listOf("gaat", "is", "ben", "hebt")),
-                    Exercise("8", ExerciseType.HUSSELAAR, "", "", emptyList(), "Ik spreek bir beetje Nederlands.", listOf("bir", "Ik", "Nederlands.", "beetje", "spreek")),
-                    Exercise("9", ExerciseType.FILL_IN_THE_BLANK, "Zij ___ naar de muziek.", "luistert", listOf("luistert", "kijkt", "leest", "eet")),
-                    Exercise("10", ExerciseType.HUSSELAAR, "", "", emptyList(), "Morgen gaan we naar zee.", listOf("we", "Morgen", "zee.", "gaan", "naar"))
+                    SentenceData("1", "Ik eet een appel.", "eet", listOf("drink", "ben", "heb")),
+                    SentenceData("2", "Ik wil naar huis gaan.", "wil", listOf("kan", "zal", "moet")),
+                    SentenceData("3", "Jij bent erg aardig.", "bent", listOf("is", "zijn", "heb")),
+                    SentenceData("4", "De auto is erg snel.", "is", listOf("was", "wordt", "lijkt")),
+                    SentenceData("5", "Wij wonen in Amsterdam.", "wonen", listOf("werkt", "slaapt", "loopt")),
+                    SentenceData("6", "Het regent vandaag veel.", "vandaag", listOf("gisteren", "morgen", "nooit")),
+                    SentenceData("7", "Hoe gaat het met jou?", "gaat", listOf("is", "ben", "hebt")),
+                    SentenceData("8", "Ik spreek een beetje Nederlands.", "beetje", listOf("veel", "alles", "niets")),
+                    SentenceData("9", "Zij luistert naar de muziek.", "luistert", listOf("kijkt", "leest", "eet")),
+                    SentenceData("10", "Morgen gaan we naar zee.", "gaan", listOf("komen", "staan", "zitten"))
                 )
+            }
+
+            val exercises = remember(rawSentences) {
+                generateExercises(rawSentences)
             }
 
             if (lesson.id == "a2_1") {
                 QuizContent(
-                    exercises = mockExercises,
+                    exercises = exercises,
                     category = category,
                     onBack = onBack
                 )
