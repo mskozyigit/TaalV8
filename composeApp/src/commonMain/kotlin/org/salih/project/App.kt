@@ -113,7 +113,7 @@ fun App() {
                         selectedLesson?.let { lesson ->
                             LessonScreen(
                                 lesson = lesson,
-                                categoryColor = selectedCategory?.color ?: Color(0xFF58CC02),
+                                category = selectedCategory ?: categories[0],
                                 onHome = { currentScreen = Screen.HOME },
                                 onBack = { currentScreen = Screen.CATEGORY_DETAIL }
                             )
@@ -230,7 +230,7 @@ fun CategoryDetailScreen(
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun LessonScreen(lesson: Lesson, categoryColor: Color, onHome: () -> Unit, onBack: () -> Unit) {
+fun LessonScreen(lesson: Lesson, category: Category, onHome: () -> Unit, onBack: () -> Unit) {
     Scaffold(
         topBar = {
             TopAppBar(
@@ -243,13 +243,13 @@ fun LessonScreen(lesson: Lesson, categoryColor: Color, onHome: () -> Unit, onBac
                         NavIconButton(
                             isHome = true,
                             onClick = onHome,
-                            color = categoryColor
+                            color = category.color
                         )
                         Spacer(modifier = Modifier.width(8.dp))
                         NavIconButton(
                             isHome = false,
                             onClick = onBack,
-                            color = categoryColor
+                            color = category.color
                         )
                     }
                 },
@@ -282,7 +282,7 @@ fun LessonScreen(lesson: Lesson, categoryColor: Color, onHome: () -> Unit, onBac
             if (lesson.id == "a2_1") {
                 QuizContent(
                     exercises = mockExercises,
-                    categoryColor = categoryColor,
+                    category = category,
                     onBack = onBack
                 )
             } else {
@@ -323,7 +323,7 @@ fun LessonScreen(lesson: Lesson, categoryColor: Color, onHome: () -> Unit, onBac
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-fun QuizContent(exercises: List<Exercise>, categoryColor: Color, onBack: () -> Unit) {
+fun QuizContent(exercises: List<Exercise>, category: Category, onBack: () -> Unit) {
     var currentIndex by remember { mutableStateOf(0) }
     val currentExercise = exercises[currentIndex]
     
@@ -331,6 +331,18 @@ fun QuizContent(exercises: List<Exercise>, categoryColor: Color, onBack: () -> U
     var husselaarWords by remember(currentIndex) { mutableStateOf(listOf<String>()) }
     var isAnswered by remember(currentIndex) { mutableStateOf(false) }
     var isCorrect by remember(currentIndex) { mutableStateOf(false) }
+
+    // Auto-advance for correct answers
+    LaunchedEffect(isAnswered, isCorrect) {
+        if (isAnswered && isCorrect) {
+            kotlinx.coroutines.delay(1200) // Give time to see "GOED BEZIG"
+            if (currentIndex < exercises.size - 1) {
+                currentIndex++
+            } else {
+                onBack()
+            }
+        }
+    }
 
     Column(
         modifier = Modifier.fillMaxSize().padding(16.dp),
@@ -340,7 +352,7 @@ fun QuizContent(exercises: List<Exercise>, categoryColor: Color, onBack: () -> U
         LinearProgressIndicator(
             progress = { (currentIndex + 1).toFloat() / exercises.size },
             modifier = Modifier.fillMaxWidth().height(12.dp).clip(CircleShape),
-            color = categoryColor,
+            color = category.color,
             trackColor = Color(0xFFE5E5E5)
         )
         
@@ -352,11 +364,20 @@ fun QuizContent(exercises: List<Exercise>, categoryColor: Color, onBack: () -> U
                     exercise = currentExercise,
                     selectedAnswer = selectedAnswer,
                     isAnswered = isAnswered,
+                    categoryColor = category.color,
                     onWordClick = { word ->
                         if (!isAnswered) {
                             selectedAnswer = word
-                            isCorrect = word == currentExercise.correctAnswer
-                            isAnswered = true
+                            // Check if correct for auto-advance
+                            if (word == currentExercise.correctAnswer) {
+                                isCorrect = true
+                                isAnswered = true
+                            }
+                        }
+                    },
+                    onRemoveAnswer = {
+                        if (!isAnswered) {
+                            selectedAnswer = null
                         }
                     }
                 )
@@ -366,6 +387,7 @@ fun QuizContent(exercises: List<Exercise>, categoryColor: Color, onBack: () -> U
                     exercise = currentExercise,
                     userWords = husselaarWords,
                     isAnswered = isAnswered,
+                    categoryColor = category.color,
                     onWordClick = { word, fromOptions ->
                         if (!isAnswered) {
                             if (fromOptions) {
@@ -387,7 +409,7 @@ fun QuizContent(exercises: List<Exercise>, categoryColor: Color, onBack: () -> U
 
         Spacer(modifier = Modifier.weight(1f))
 
-        // Feedback section
+        // Feedback section or Check Button
         if (isAnswered) {
             Box(
                 modifier = Modifier
@@ -419,6 +441,18 @@ fun QuizContent(exercises: List<Exercise>, categoryColor: Color, onBack: () -> U
                     )
                 }
             }
+        } else if (currentExercise.type == ExerciseType.FILL_IN_THE_BLANK && selectedAnswer != null) {
+            // Manual check for wrong answers
+            DuolingoButton(
+                text = "CONTROLEER",
+                baseColor = category.color,
+                shadowColor = category.shadowColor,
+                onClick = {
+                    isAnswered = true
+                    isCorrect = selectedAnswer == currentExercise.correctAnswer
+                },
+                modifier = Modifier.fillMaxWidth().padding(16.dp)
+            )
         }
     }
 }
@@ -429,8 +463,12 @@ fun FillInTheBlankUI(
     exercise: Exercise,
     selectedAnswer: String?,
     isAnswered: Boolean,
-    onWordClick: (String) -> Unit
+    categoryColor: Color,
+    onWordClick: (String) -> Unit,
+    onRemoveAnswer: () -> Unit
 ) {
+    val lightColors = remember(categoryColor) { getLightColors(categoryColor) }
+    
     Column(horizontalAlignment = Alignment.CenterHorizontally) {
         Text(
             text = "Vul de lege plek in",
@@ -451,12 +489,14 @@ fun FillInTheBlankUI(
             Box(
                 modifier = Modifier
                     .padding(horizontal = 8.dp)
-                    .widthIn(min = 80.dp)
+                    .widthIn(min = 100.dp)
+                    .clip(RoundedCornerShape(12.dp))
+                    .clickable(enabled = selectedAnswer != null && !isAnswered) { onRemoveAnswer() }
                     .drawBehind {
                         val strokeWidth = 2.dp.toPx()
                         val y = size.height - strokeWidth
                         drawLine(
-                            color = Color.LightGray,
+                            color = if (selectedAnswer != null) Color.Transparent else Color.LightGray,
                             start = androidx.compose.ui.geometry.Offset(0f, y),
                             end = androidx.compose.ui.geometry.Offset(size.width, y),
                             strokeWidth = strokeWidth
@@ -465,14 +505,18 @@ fun FillInTheBlankUI(
                 contentAlignment = Alignment.Center
             ) {
                 if (selectedAnswer != null) {
-                    Text(
-                        selectedAnswer,
-                        fontSize = 24.sp,
-                        fontWeight = FontWeight.Bold,
-                        color = if (isAnswered) (if (selectedAnswer == exercise.correctAnswer) Color(0xFF58CC02) else Color.Red) else Color.Black
+                    DuolingoButton(
+                        text = selectedAnswer.formatWord(),
+                        baseColor = if (isAnswered) (if (selectedAnswer == exercise.correctAnswer) Color(0xFF58CC02) else Color(0xFFFF4B4B)) else lightColors.first,
+                        shadowColor = if (isAnswered) (if (selectedAnswer == exercise.correctAnswer) Color(0xFF46A302) else Color(0xFFD13B3B)) else lightColors.second,
+                        textColor = if (isAnswered) Color.White else categoryColor,
+                        onClick = { if (!isAnswered) onRemoveAnswer() },
+                        modifier = Modifier.padding(vertical = 4.dp).widthIn(min = 100.dp),
+                        height = 45.dp,
+                        fontSize = 18.sp
                     )
                 } else {
-                    Text(" ", fontSize = 24.sp)
+                    Text(" ", fontSize = 24.sp, modifier = Modifier.padding(vertical = 12.dp))
                 }
             }
             
@@ -489,16 +533,29 @@ fun FillInTheBlankUI(
             maxItemsInEachRow = 2
         ) {
             exercise.options.forEach { option ->
-                DuolingoButton(
-                    text = option,
-                    baseColor = Color.White,
-                    shadowColor = Color(0xFFE5E5E5),
-                    textColor = Color(0xFF4B4B4B),
-                    onClick = { onWordClick(option) },
-                    modifier = Modifier.padding(8.dp).width(140.dp),
-                    height = 50.dp,
-                    fontSize = 16.sp
-                )
+                val isSelected = selectedAnswer == option
+                
+                Box(modifier = Modifier.padding(8.dp).width(140.dp).height(50.dp)) {
+                    if (!isSelected || isAnswered) {
+                        DuolingoButton(
+                            text = option.formatWord(),
+                            baseColor = lightColors.first,
+                            shadowColor = lightColors.second,
+                            textColor = categoryColor,
+                            onClick = { onWordClick(option) },
+                            modifier = Modifier.fillMaxSize(),
+                            height = 50.dp,
+                            fontSize = 16.sp
+                        )
+                    } else {
+                        // Placeholder
+                        Box(
+                            modifier = Modifier
+                                .fillMaxSize()
+                                .background(Color(0xFFE5E5E5), RoundedCornerShape(12.dp))
+                        )
+                    }
+                }
             }
         }
     }
@@ -510,8 +567,11 @@ fun HusselaarUI(
     exercise: Exercise,
     userWords: List<String>,
     isAnswered: Boolean,
+    categoryColor: Color,
     onWordClick: (String, Boolean) -> Unit
 ) {
+    val lightColors = remember(categoryColor) { getLightColors(categoryColor) }
+    
     Column(horizontalAlignment = Alignment.CenterHorizontally) {
         Text(
             text = "Maak de zin compleet",
@@ -542,10 +602,10 @@ fun HusselaarUI(
             FlowRow(horizontalArrangement = Arrangement.Center) {
                 userWords.forEach { word ->
                     DuolingoButton(
-                        text = word,
-                        baseColor = Color.White,
-                        shadowColor = Color(0xFFE5E5E5),
-                        textColor = Color(0xFF4B4B4B),
+                        text = word.formatWord(),
+                        baseColor = if (isAnswered) Color(0xFF58CC02) else Color.White,
+                        shadowColor = if (isAnswered) Color(0xFF46A302) else Color(0xFFE5E5E5),
+                        textColor = if (isAnswered) Color.White else Color(0xFF4B4B4B),
                         onClick = { onWordClick(word, false) },
                         modifier = Modifier.padding(4.dp).widthIn(min = 60.dp),
                         height = 45.dp,
@@ -559,24 +619,18 @@ fun HusselaarUI(
 
         // Available words (Options)
         FlowRow(horizontalArrangement = Arrangement.Center) {
-            val availableWords = exercise.shuffledWords.filter { word ->
-                val countInOptions = exercise.shuffledWords.count { it == word }
+            exercise.shuffledWords.forEachIndexed { index, word ->
                 val countInUser = userWords.count { it == word }
-                countInUser < countInOptions
-            }
-            
-            exercise.shuffledWords.forEach { word ->
-                val isUsed = userWords.contains(word) && 
-                    userWords.count { it == word } >= exercise.shuffledWords.count { it == word }
+                val countBeforeInShuffled = exercise.shuffledWords.take(index).count { it == word }
+                val isUsed = countInUser > countBeforeInShuffled
                 
-                // Keep the button there but make it "empty" or disabled if used
                 Box(modifier = Modifier.padding(4.dp).widthIn(min = 60.dp).height(45.dp)) {
                     if (!isUsed) {
                         DuolingoButton(
-                            text = word,
-                            baseColor = Color.White,
-                            shadowColor = Color(0xFFE5E5E5),
-                            textColor = Color(0xFF4B4B4B),
+                            text = word.formatWord(),
+                            baseColor = lightColors.first,
+                            shadowColor = lightColors.second,
+                            textColor = categoryColor,
                             onClick = { onWordClick(word, true) },
                             modifier = Modifier.fillMaxSize(),
                             height = 45.dp,
@@ -594,6 +648,20 @@ fun HusselaarUI(
             }
         }
     }
+}
+
+fun getLightColors(base: Color): Pair<Color, Color> {
+    return when (base.value.toLong()) {
+        Color(0xFF58CC02).value.toLong() -> Color(0xFFD7FFB8) to Color(0xFFB8E695) // Green
+        Color(0xFF1CB0F6).value.toLong() -> Color(0xFFD1F1FF) to Color(0xFFAADCF5) // Blue
+        Color(0xFFCE82FF).value.toLong() -> Color(0xFFF0D9FF) to Color(0xFFD4AFFF) // Purple
+        else -> Color(0xFFF7F7F7) to Color(0xFFE5E5E5)
+    }
+}
+
+fun String.formatWord(): String {
+    if (this.isEmpty()) return this
+    return this.lowercase().replaceFirstChar { it.uppercase() }
 }
 
 @Composable
