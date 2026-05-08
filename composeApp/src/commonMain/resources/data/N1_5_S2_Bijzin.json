@@ -1,652 +1,561 @@
-[
-    {
-        "question_id": 1,
-        "sentence": "Ik blijf vandaag thuis omdat ik ziek ___.",
-        "options": [
-            "ben",
-            "ben ik",
-            "bent",
-            "warm"
-        ],
-        "correct_answer": "ben",
-        "language": "nl",
-        "difficulty": "A2"
+{
+    "metadata": {
+        "level": "N1",
+        "category": "5",
+        "subject": "S2",
+        "title": "Bijzin",
+        "language": "nl"
     },
-    {
-        "question_id": 2,
-        "sentence": "Ik bel je morgen op als ik tijd ___.",
-        "options": [
-            "heb",
-            "heb ik",
-            "hebt",
-            "tafel"
-        ],
-        "correct_answer": "heb",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 3,
-        "sentence": "De docent zegt dat de les nu ___.",
-        "options": [
-            "begint",
-            "begint de les",
-            "beginnen",
-            "morgen"
-        ],
-        "correct_answer": "begint",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 4,
-        "sentence": "Ik weet niet zeker of hij morgen ___.",
-        "options": [
-            "komt",
-            "komt hij",
-            "komen",
-            "vroeg"
-        ],
-        "correct_answer": "komt",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 5,
-        "sentence": "Hij fluit vrolijk terwijl hij onder de douche ___.",
-        "options": [
-            "staat",
-            "staat hij",
-            "staan",
-            "bijna"
-        ],
-        "correct_answer": "staat",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 6,
-        "sentence": "Wij gaan wandelen als de zon vandaag ___.",
-        "options": [
-            "schijnt",
-            "schijnt de zon",
-            "schijnen",
-            "blau"
-        ],
-        "correct_answer": "schijnt",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 7,
-        "sentence": "Ik ben heel blij dat je hier ___.",
-        "options": [
-            "bent",
-            "bent je",
-            "ben",
-            "koud"
-        ],
-        "correct_answer": "bent",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 8,
-        "sentence": "Hij vraagt of de grote supermarkt open ___.",
-        "options": [
-            "is",
-            "is de supermarkt",
-            "zijn",
-            "kantoor"
-        ],
-        "correct_answer": "is",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 9,
-        "sentence": "Ik lees een boek terwijl de baby ___.",
-        "options": [
-            "slaapt",
-            "slaapt de baby",
-            "slapen",
-            "altijd"
-        ],
-        "correct_answer": "slaapt",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 10,
-        "sentence": "Zij is erg moe omdat zij hard ___.",
-        "options": [
-            "werkt",
-            "werkt zij",
-            "werken",
-            "groen"
-        ],
-        "correct_answer": "werkt",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 11,
-        "sentence": "Ik hoop dat het morgen niet ___.",
-        "options": [
-            "regent",
-            "regent het",
-            "regenen",
-            "tafel"
-        ],
-        "correct_answer": "regent",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 12,
-        "sentence": "Je moet stoppen als het licht rood ___.",
-        "options": [
-            "is",
-            "is het licht",
-            "zijn",
-            "koud"
-        ],
-        "correct_answer": "is",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 13,
-        "sentence": "Zij vertelt dat zij in de stad ___.",
-        "options": [
-            "woont",
-            "woont zij",
-            "wonen",
-            "vaak"
-        ],
-        "correct_answer": "woont",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 14,
-        "sentence": "Wij vragen of de blauwe bus op tijd ___.",
-        "options": [
-            "komt",
-            "komt de bus",
-            "komen",
-            "gisteren"
-        ],
-        "correct_answer": "komt",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 15,
-        "sentence": "Ik kook terwijl mijn vriend de krant ___.",
-        "options": [
-            "leest",
-            "leest mijn vriend",
-            "lezen",
-            "tafel"
-        ],
-        "correct_answer": "leest",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 16,
-        "sentence": "Hij komt vandaag niet omdat hij geen geld ___.",
-        "options": [
-            "heeft",
-            "heeft hij",
-            "hebt",
-            "rood"
-        ],
-        "correct_answer": "heeft",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 17,
-        "sentence": "Bel me direct op als je klaar ___.",
-        "options": [
-            "bent",
-            "bent je",
-            "zijn",
-            "vroeg"
-        ],
-        "correct_answer": "bent",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 18,
-        "sentence": "Ik denk echt dat de auto nieuw ___.",
-        "options": [
-            "is",
-            "is de auto",
-            "zijn",
-            "blauw"
-        ],
-        "correct_answer": "is",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 19,
-        "sentence": "Zij weet niet of zij vanavond ___.",
-        "options": [
-            "komt",
-            "komt zij",
-            "komen",
-            "bijna"
-        ],
-        "correct_answer": "komt",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 20,
-        "sentence": "De kinderen spelen terwijl de vader nu ___.",
-        "options": [
-            "werkt",
-            "werkt de vader",
-            "werken",
-            "kantoor"
-        ],
-        "correct_answer": "werkt",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 21,
-        "sentence": "Ik drink warme thee omdat ik het lekker ___.",
-        "options": [
-            "find",
-            "find ik",
-            "findt",
-            "warm"
-        ],
-        "correct_answer": "find",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 22,
-        "sentence": "We gaan naar buiten als de regen ___.",
-        "options": [
-            "stopt",
-            "stopt de regen",
-            "stoppen",
-            "gisteren"
-        ],
-        "correct_answer": "stopt",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 23,
-        "sentence": "De student zegt dat hij elke dag ___.",
-        "options": [
-            "leert",
-            "leert hij",
-            "leren",
-            "goedkoop"
-        ],
-        "correct_answer": "leert",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 24,
-        "sentence": "Zij vraagt of de leraar vandaag ___.",
-        "options": [
-            "komt",
-            "komt de leraar",
-            "komen",
-            "laat"
-        ],
-        "correct_answer": "komt",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 25,
-        "sentence": "Ik luister naar muziek terwijl ben ik ___.",
-        "options": [
-            "poets",
-            "poets ik",
-            "poetst",
-            "groen"
-        ],
-        "correct_answer": "poets",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 26,
-        "sentence": "Hij is vrolijk omdat hij een auto ___.",
-        "options": [
-            "koopt",
-            "koopt hij",
-            "kopen",
-            "nieuw"
-        ],
-        "correct_answer": "koopt",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 27,
-        "sentence": "Je mag morgen komen als je zin ___.",
-        "options": [
-            "hebt",
-            "hebt je",
-            "heb",
-            "altijd"
-        ],
-        "correct_answer": "hebt",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 28,
-        "sentence": "Ik weet dat jij heel goed Nederlands ___.",
-        "options": [
-            "spreekt",
-            "spreekt jij",
-            "spreken",
-            "mooi"
-        ],
-        "correct_answer": "spreekt",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 29,
-        "sentence": "Zij weet niet of de brief al ___.",
-        "options": [
-            "komt",
-            "komt de brief",
-            "komen",
-            "gisteren"
-        ],
-        "correct_answer": "komt",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 30,
-        "sentence": "Ik wacht even terwijl jij de sleutels ___.",
-        "options": [
-            "zoekt",
-            "zoekt jij",
-            "zoeken",
-            "kantoor"
-        ],
-        "correct_answer": "zoekt",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 31,
-        "sentence": "Wij gaan lekker eten omdat we honger ___.",
-        "options": [
-            "hebben",
-            "hebben we",
-            "heeft",
-            "tafel"
-        ],
-        "correct_answer": "hebben",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 32,
-        "sentence": "Het is fijn als de vakantie ___.",
-        "options": [
-            "begint",
-            "begint de vakantie",
-            "beginnen",
-            "morgen"
-        ],
-        "correct_answer": "begint",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 33,
-        "sentence": "De man vertelt dat hij een broer ___.",
-        "options": [
-            "heeft",
-            "heeft hij",
-            "hebt",
-            "rood"
-        ],
-        "correct_answer": "heeft",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 34,
-        "sentence": "Ik vraag me af of hij mij ___.",
-        "options": [
-            "helpt",
-            "helpt hij",
-            "helpen",
-            "warm"
-        ],
-        "correct_answer": "helpt",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 35,
-        "sentence": "Zij zingt terwijl zij een zoete taart ___.",
-        "options": [
-            "bakt",
-            "bakt zij",
-            "bakken",
-            "zoet"
-        ],
-        "correct_answer": "bakt",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 36,
-        "sentence": "Ik ben moe omdat ik erg slecht ___.",
-        "options": [
-            "slaap",
-            "slaap ik",
-            "slaapt",
-            "koud"
-        ],
-        "correct_answer": "slaap",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 37,
-        "sentence": "Het is koud als de zon niet ___.",
-        "options": [
-            "schijnt",
-            "schijnt de zon",
-            "schijnen",
-            "blauw"
-        ],
-        "correct_answer": "schijnt",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 38,
-        "sentence": "Ik geloof dat de trein nu bijna ___.",
-        "options": [
-            "vertrekt",
-            "vertrekt de trein",
-            "vertrekken",
-            "vroeg"
-        ],
-        "correct_answer": "vertrekt",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 39,
-        "sentence": "Hij vraagt of jij morgen naar school ___.",
-        "options": [
-            "gaat",
-            "gaat jij",
-            "gaan",
-            "tafel"
-        ],
-        "correct_answer": "gaat",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 40,
-        "sentence": "Wij drinken koffie terwijl we samen ___.",
-        "options": [
-            "praten",
-            "praten we",
-            "praat",
-            "altijd"
-        ],
-        "correct_answer": "praten",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 41,
-        "sentence": "Hij lacht veel omdat de film leuk ___.",
-        "options": [
-            "is",
-            "is de film",
-            "zijn",
-            "koud"
-        ],
-        "correct_answer": "is",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 42,
-        "sentence": "Ik help je als jij dat ___.",
-        "options": [
-            "wilt",
-            "wilt jij",
-            "wil",
-            "tafel"
-        ],
-        "correct_answer": "wilt",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 43,
-        "sentence": "Zij zegt dat de koffie erg warm ___.",
-        "options": [
-            "is",
-            "is de koffie",
-            "zijn",
-            "morgen"
-        ],
-        "correct_answer": "is",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 44,
-        "sentence": "Ik weet niet of de winkel morgen ___.",
-        "options": [
-            "open is",
-            "is de winkel open",
-            "zijn",
-            "vaak"
-        ],
-        "correct_answer": "open is",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 45,
-        "sentence": "De kat ligt terwijl de hond buiten ___.",
-        "options": [
-            "speelt",
-            "speelt de hond",
-            "spelen",
-            "bijna"
-        ],
-        "correct_answer": "speelt",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 46,
-        "sentence": "Ik ga naar de bakker omdat ik ___.",
-        "options": [
-            "wil",
-            "wil ik",
-            "willen",
-            "wit"
-        ],
-        "correct_answer": "wil",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 47,
-        "sentence": "Je kunt bellen als je veel hulp ___.",
-        "options": [
-            "nodig hebt",
-            "heb je nodig",
-            "hebt nodig",
-            "koud"
-        ],
-        "correct_answer": "nodig hebt",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 48,
-        "sentence": "De student denkt dat het examen ___.",
-        "options": [
-            "is",
-            "is het examen",
-            "zijn",
-            "gisteren"
-        ],
-        "correct_answer": "is",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 49,
-        "sentence": "Zij vraagt of de baby in het bed ___.",
-        "options": [
-            "ligt",
-            "ligt de baby",
-            "liggen",
-            "altijd"
-        ],
-        "correct_answer": "ligt",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 50,
-        "sentence": "Wij werken hard terwijl de andere mensen ___.",
-        "options": [
-            "rusten",
-            "rusten de mensen",
-            "rust",
-            "tafel"
-        ],
-        "correct_answer": "rusten",
-        "language": "nl",
-        "difficulty": "A2"
-    }
-]
+    "exercises": [
+        {
+            "id": 1,
+            "sentence": "Ik blijf vandaag thuis omdat ik ziek ___.",
+            "options": [
+                "ben",
+                "ben ik",
+                "bent",
+                "warm"
+            ],
+            "correct_answer": "ben"
+        },
+        {
+            "id": 2,
+            "sentence": "Ik bel je morgen op als ik tijd ___.",
+            "options": [
+                "heb",
+                "heb ik",
+                "hebt",
+                "tafel"
+            ],
+            "correct_answer": "heb"
+        },
+        {
+            "id": 3,
+            "sentence": "De docent zegt dat de les nu ___.",
+            "options": [
+                "begint",
+                "begint de les",
+                "beginnen",
+                "morgen"
+            ],
+            "correct_answer": "begint"
+        },
+        {
+            "id": 4,
+            "sentence": "Ik weet niet zeker of hij morgen ___.",
+            "options": [
+                "komt",
+                "komt hij",
+                "komen",
+                "vroeg"
+            ],
+            "correct_answer": "komt"
+        },
+        {
+            "id": 5,
+            "sentence": "Hij fluit vrolijk terwijl hij onder de douche ___.",
+            "options": [
+                "staat",
+                "staat hij",
+                "staan",
+                "bijna"
+            ],
+            "correct_answer": "staat"
+        },
+        {
+            "id": 6,
+            "sentence": "Wij gaan wandelen als de zon vandaag ___.",
+            "options": [
+                "schijnt",
+                "schijnt de zon",
+                "schijnen",
+                "blau"
+            ],
+            "correct_answer": "schijnt"
+        },
+        {
+            "id": 7,
+            "sentence": "Ik ben heel blij dat je hier ___.",
+            "options": [
+                "bent",
+                "bent je",
+                "ben",
+                "koud"
+            ],
+            "correct_answer": "bent"
+        },
+        {
+            "id": 8,
+            "sentence": "Hij vraagt of de grote supermarkt open ___.",
+            "options": [
+                "is",
+                "is de supermarkt",
+                "zijn",
+                "kantoor"
+            ],
+            "correct_answer": "is"
+        },
+        {
+            "id": 9,
+            "sentence": "Ik lees een boek terwijl de baby ___.",
+            "options": [
+                "slaapt",
+                "slaapt de baby",
+                "slapen",
+                "altijd"
+            ],
+            "correct_answer": "slaapt"
+        },
+        {
+            "id": 10,
+            "sentence": "Zij is erg moe omdat zij hard ___.",
+            "options": [
+                "werkt",
+                "werkt zij",
+                "werken",
+                "groen"
+            ],
+            "correct_answer": "werkt"
+        },
+        {
+            "id": 11,
+            "sentence": "Ik hoop dat het morgen niet ___.",
+            "options": [
+                "regent",
+                "regent het",
+                "regenen",
+                "tafel"
+            ],
+            "correct_answer": "regent"
+        },
+        {
+            "id": 12,
+            "sentence": "Je moet stoppen als het licht rood ___.",
+            "options": [
+                "is",
+                "is het licht",
+                "zijn",
+                "koud"
+            ],
+            "correct_answer": "is"
+        },
+        {
+            "id": 13,
+            "sentence": "Zij vertelt dat zij in de stad ___.",
+            "options": [
+                "woont",
+                "woont zij",
+                "wonen",
+                "vaak"
+            ],
+            "correct_answer": "woont"
+        },
+        {
+            "id": 14,
+            "sentence": "Wij vragen of de blauwe bus op tijd ___.",
+            "options": [
+                "komt",
+                "komt de bus",
+                "komen",
+                "gisteren"
+            ],
+            "correct_answer": "komt"
+        },
+        {
+            "id": 15,
+            "sentence": "Ik kook terwijl mijn vriend de krant ___.",
+            "options": [
+                "leest",
+                "leest mijn vriend",
+                "lezen",
+                "tafel"
+            ],
+            "correct_answer": "leest"
+        },
+        {
+            "id": 16,
+            "sentence": "Hij komt vandaag niet omdat hij geen geld ___.",
+            "options": [
+                "heeft",
+                "heeft hij",
+                "hebt",
+                "rood"
+            ],
+            "correct_answer": "heeft"
+        },
+        {
+            "id": 17,
+            "sentence": "Bel me direct op als je klaar ___.",
+            "options": [
+                "bent",
+                "bent je",
+                "zijn",
+                "vroeg"
+            ],
+            "correct_answer": "bent"
+        },
+        {
+            "id": 18,
+            "sentence": "Ik denk echt dat de auto nieuw ___.",
+            "options": [
+                "is",
+                "is de auto",
+                "zijn",
+                "blauw"
+            ],
+            "correct_answer": "is"
+        },
+        {
+            "id": 19,
+            "sentence": "Zij weet niet of zij vanavond ___.",
+            "options": [
+                "komt",
+                "komt zij",
+                "komen",
+                "bijna"
+            ],
+            "correct_answer": "komt"
+        },
+        {
+            "id": 20,
+            "sentence": "De kinderen spelen terwijl de vader nu ___.",
+            "options": [
+                "werkt",
+                "werkt de vader",
+                "werken",
+                "kantoor"
+            ],
+            "correct_answer": "werkt"
+        },
+        {
+            "id": 21,
+            "sentence": "Ik drink warme thee omdat ik het lekker ___.",
+            "options": [
+                "find",
+                "find ik",
+                "findt",
+                "warm"
+            ],
+            "correct_answer": "find"
+        },
+        {
+            "id": 22,
+            "sentence": "We gaan naar buiten als de regen ___.",
+            "options": [
+                "stopt",
+                "stopt de regen",
+                "stoppen",
+                "gisteren"
+            ],
+            "correct_answer": "stopt"
+        },
+        {
+            "id": 23,
+            "sentence": "De student zegt dat hij elke dag ___.",
+            "options": [
+                "leert",
+                "leert hij",
+                "leren",
+                "goedkoop"
+            ],
+            "correct_answer": "leert"
+        },
+        {
+            "id": 24,
+            "sentence": "Zij vraagt of de leraar vandaag ___.",
+            "options": [
+                "komt",
+                "komt de leraar",
+                "komen",
+                "laat"
+            ],
+            "correct_answer": "komt"
+        },
+        {
+            "id": 25,
+            "sentence": "Ik luister naar muziek terwijl ben ik ___.",
+            "options": [
+                "poets",
+                "poets ik",
+                "poetst",
+                "groen"
+            ],
+            "correct_answer": "poets"
+        },
+        {
+            "id": 26,
+            "sentence": "Hij is vrolijk omdat hij een auto ___.",
+            "options": [
+                "koopt",
+                "koopt hij",
+                "kopen",
+                "nieuw"
+            ],
+            "correct_answer": "koopt"
+        },
+        {
+            "id": 27,
+            "sentence": "Je mag morgen komen als je zin ___.",
+            "options": [
+                "hebt",
+                "hebt je",
+                "heb",
+                "altijd"
+            ],
+            "correct_answer": "hebt"
+        },
+        {
+            "id": 28,
+            "sentence": "Ik weet dat jij heel goed Nederlands ___.",
+            "options": [
+                "spreekt",
+                "spreekt jij",
+                "spreken",
+                "mooi"
+            ],
+            "correct_answer": "spreekt"
+        },
+        {
+            "id": 29,
+            "sentence": "Zij weet niet of de brief al ___.",
+            "options": [
+                "komt",
+                "komt de brief",
+                "komen",
+                "gisteren"
+            ],
+            "correct_answer": "komt"
+        },
+        {
+            "id": 30,
+            "sentence": "Ik wacht even terwijl jij de sleutels ___.",
+            "options": [
+                "zoekt",
+                "zoekt jij",
+                "zoeken",
+                "kantoor"
+            ],
+            "correct_answer": "zoekt"
+        },
+        {
+            "id": 31,
+            "sentence": "Wij gaan lekker eten omdat we honger ___.",
+            "options": [
+                "hebben",
+                "hebben we",
+                "heeft",
+                "tafel"
+            ],
+            "correct_answer": "hebben"
+        },
+        {
+            "id": 32,
+            "sentence": "Het is fijn als de vakantie ___.",
+            "options": [
+                "begint",
+                "begint de vakantie",
+                "beginnen",
+                "morgen"
+            ],
+            "correct_answer": "begint"
+        },
+        {
+            "id": 33,
+            "sentence": "De man vertelt dat hij een broer ___.",
+            "options": [
+                "heeft",
+                "heeft hij",
+                "hebt",
+                "rood"
+            ],
+            "correct_answer": "heeft"
+        },
+        {
+            "id": 34,
+            "sentence": "Ik vraag me af of hij mij ___.",
+            "options": [
+                "helpt",
+                "helpt hij",
+                "helpen",
+                "warm"
+            ],
+            "correct_answer": "helpt"
+        },
+        {
+            "id": 35,
+            "sentence": "Zij zingt terwijl zij een zoete taart ___.",
+            "options": [
+                "bakt",
+                "bakt zij",
+                "bakken",
+                "zoet"
+            ],
+            "correct_answer": "bakt"
+        },
+        {
+            "id": 36,
+            "sentence": "Ik ben moe omdat ik erg slecht ___.",
+            "options": [
+                "slaap",
+                "slaap ik",
+                "slaapt",
+                "koud"
+            ],
+            "correct_answer": "slaap"
+        },
+        {
+            "id": 37,
+            "sentence": "Het is koud als de zon niet ___.",
+            "options": [
+                "schijnt",
+                "schijnt de zon",
+                "schijnen",
+                "blauw"
+            ],
+            "correct_answer": "schijnt"
+        },
+        {
+            "id": 38,
+            "sentence": "Ik geloof dat de trein nu bijna ___.",
+            "options": [
+                "vertrekt",
+                "vertrekt de trein",
+                "vertrekken",
+                "vroeg"
+            ],
+            "correct_answer": "vertrekt"
+        },
+        {
+            "id": 39,
+            "sentence": "Hij vraagt of jij morgen naar school ___.",
+            "options": [
+                "gaat",
+                "gaat jij",
+                "gaan",
+                "tafel"
+            ],
+            "correct_answer": "gaat"
+        },
+        {
+            "id": 40,
+            "sentence": "Wij drinken koffie terwijl we samen ___.",
+            "options": [
+                "praten",
+                "praten we",
+                "praat",
+                "altijd"
+            ],
+            "correct_answer": "praten"
+        },
+        {
+            "id": 41,
+            "sentence": "Hij lacht veel omdat de film leuk ___.",
+            "options": [
+                "is",
+                "is de film",
+                "zijn",
+                "koud"
+            ],
+            "correct_answer": "is"
+        },
+        {
+            "id": 42,
+            "sentence": "Ik help je als jij dat ___.",
+            "options": [
+                "wilt",
+                "wilt jij",
+                "wil",
+                "tafel"
+            ],
+            "correct_answer": "wilt"
+        },
+        {
+            "id": 43,
+            "sentence": "Zij zegt dat de koffie erg warm ___.",
+            "options": [
+                "is",
+                "is de koffie",
+                "zijn",
+                "morgen"
+            ],
+            "correct_answer": "is"
+        },
+        {
+            "id": 44,
+            "sentence": "Ik weet niet of de winkel morgen ___.",
+            "options": [
+                "open is",
+                "is de winkel open",
+                "zijn",
+                "vaak"
+            ],
+            "correct_answer": "open is"
+        },
+        {
+            "id": 45,
+            "sentence": "De kat ligt terwijl de hond buiten ___.",
+            "options": [
+                "speelt",
+                "speelt de hond",
+                "spelen",
+                "bijna"
+            ],
+            "correct_answer": "speelt"
+        },
+        {
+            "id": 46,
+            "sentence": "Ik ga naar de bakker omdat ik ___.",
+            "options": [
+                "wil",
+                "wil ik",
+                "willen",
+                "wit"
+            ],
+            "correct_answer": "wil"
+        },
+        {
+            "id": 47,
+            "sentence": "Je kunt bellen als je veel hulp ___.",
+            "options": [
+                "nodig hebt",
+                "heb je nodig",
+                "hebt nodig",
+                "koud"
+            ],
+            "correct_answer": "nodig hebt"
+        },
+        {
+            "id": 48,
+            "sentence": "De student denkt dat het examen ___.",
+            "options": [
+                "is",
+                "is het examen",
+                "zijn",
+                "gisteren"
+            ],
+            "correct_answer": "is"
+        },
+        {
+            "id": 49,
+            "sentence": "Zij vraagt of de baby in het bed ___.",
+            "options": [
+                "ligt",
+                "ligt de baby",
+                "liggen",
+                "altijd"
+            ],
+            "correct_answer": "ligt"
+        },
+        {
+            "id": 50,
+            "sentence": "Wij werken hard terwijl de andere mensen ___.",
+            "options": [
+                "rusten",
+                "rusten de mensen",
+                "rust",
+                "tafel"
+            ],
+            "correct_answer": "rusten"
+        }
+    ]
+}

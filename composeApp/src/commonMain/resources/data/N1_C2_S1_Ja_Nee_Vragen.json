@@ -1,652 +1,561 @@
-[
-    {
-        "question_id": 1,
-        "sentence": "___ jij morgen naar de school?",
-        "options": [
-            "Ga",
-            "gaat",
-            "gaan",
-            "blauw"
-        ],
-        "correct_answer": "Ga",
-        "language": "nl",
-        "difficulty": "A1-A2"
+{
+    "metadata": {
+        "level": "N1",
+        "category": "C2",
+        "subject": "S1",
+        "title": "Ja Nee Vragen",
+        "language": "nl"
     },
-    {
-        "question_id": 2,
-        "sentence": "___ je vanavond een rode appel?",
-        "options": [
-            "Eet",
-            "eetst",
-            "eten",
-            "koud"
-        ],
-        "correct_answer": "Eet",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 3,
-        "sentence": "___ jullie elke dag op school?",
-        "options": [
-            "Leren",
-            "leert",
-            "leer",
-            "morgen"
-        ],
-        "correct_answer": "Leren",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 4,
-        "sentence": "___ hij bij een groot kantoor?",
-        "options": [
-            "Werkt",
-            "werk",
-            "werken",
-            "gisteren"
-        ],
-        "correct_answer": "Werkt",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 5,
-        "sentence": "___ je vanavond je moeder op?",
-        "options": [
-            "Bel",
-            "belt",
-            "bellen",
-            "warm"
-        ],
-        "correct_answer": "Bel",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 6,
-        "sentence": "___ wij vanmiddag een kop koffie?",
-        "options": [
-            "Drinken",
-            "drinkt",
-            "drink",
-            "tafel"
-        ],
-        "correct_answer": "Drinken",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 7,
-        "sentence": "___ jij je huiswerk na school?",
-        "options": [
-            "Maak",
-            "maakt",
-            "maken",
-            "groen"
-        ],
-        "correct_answer": "Maak",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 8,
-        "sentence": "___ de children in de tuin?",
-        "options": [
-            "Spelen",
-            "speelt",
-            "speel",
-            "altijd"
-        ],
-        "correct_answer": "Spelen",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 9,
-        "sentence": "___ je een nieuwe auto kopen?",
-        "options": [
-            "Wil",
-            "wilt",
-            "willen",
-            "bijna"
-        ],
-        "correct_answer": "Wil",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 10,
-        "sentence": "___ de vrouw in Amsterdam?",
-        "options": [
-            "Woont",
-            "woon",
-            "wonen",
-            "altijd"
-        ],
-        "correct_answer": "Woont",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 11,
-        "sentence": "___ jij graag naar de radio?",
-        "options": [
-            "Luister",
-            "luistert",
-            "luisteren",
-            "banaan"
-        ],
-        "correct_answer": "Luister",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 12,
-        "sentence": "___ zij morgen naar Amsterdam?",
-        "options": [
-            "Gaan",
-            "gaat",
-            "ga",
-            "gisteren"
-        ],
-        "correct_answer": "Gaan",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 13,
-        "sentence": "___ je vandaag met de bus?",
-        "options": [
-            "Kom",
-            "komt",
-            "komen",
-            "vroeg"
-        ],
-        "correct_answer": "Kom",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 14,
-        "sentence": "___ de man de auto wassen?",
-        "options": [
-            "Gaat",
-            "ga",
-            "gaan",
-            "blauw"
-        ],
-        "correct_answer": "Gaat",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 15,
-        "sentence": "___ jij elke ochtend een douche?",
-        "options": [
-            "Neem",
-            "neemt",
-            "nemen",
-            "warm"
-        ],
-        "correct_answer": "Neem",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 16,
-        "sentence": "___ de baby in het bed?",
-        "options": [
-            "Slaapt",
-            "slaap",
-            "slapen",
-            "bijna"
-        ],
-        "correct_answer": "Slaapt",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 17,
-        "sentence": "___ jullie morgen een taart bakken?",
-        "options": [
-            "Gaan",
-            "gaat",
-            "ga",
-            "gisteren"
-        ],
-        "correct_answer": "Gaan",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 18,
-        "sentence": "___ je de leraar bir soru?",
-        "options": [
-            "Stel",
-            "stelt",
-            "stellen",
-            "tafel"
-        ],
-        "correct_answer": "Stel",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 19,
-        "sentence": "___ het kind met de bal?",
-        "options": [
-            "Speelt",
-            "speel",
-            "spelen",
-            "altijd"
-        ],
-        "correct_answer": "Speelt",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 20,
-        "sentence": "___ wij de brief vandaag schrijven?",
-        "options": [
-            "Gaan",
-            "gaat",
-            "ga",
-            "koud"
-        ],
-        "correct_answer": "Gaan",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 21,
-        "sentence": "___ jij de sleutels op tafel?",
-        "options": [
-            "Leg",
-            "legt",
-            "leggen",
-            "gisteren"
-        ],
-        "correct_answer": "Leg",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 22,
-        "sentence": "___ je vriend in bir appartement?",
-        "options": [
-            "Woont",
-            "woon",
-            "wonen",
-            "vaak"
-        ],
-        "correct_answer": "Woont",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 23,
-        "sentence": "___ jullie vanavond lekker eten?",
-        "options": [
-            "Gaan",
-            "gaat",
-            "ga",
-            "kantoor"
-        ],
-        "correct_answer": "Gaan",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 24,
-        "sentence": "___ de student hard voor school?",
-        "options": [
-            "Leert",
-            "leer",
-            "leren",
-            "goedkoop"
-        ],
-        "correct_answer": "Leert",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 25,
-        "sentence": "___ jij de ramen helemaal schoon?",
-        "options": [
-            "Maak",
-            "maakt",
-            "maken",
-            "bijna"
-        ],
-        "correct_answer": "Maak",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 26,
-        "sentence": "___ de hond op de bank?",
-        "options": [
-            "Ligt",
-            "lig",
-            "liggen",
-            "altijd"
-        ],
-        "correct_answer": "Ligt",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 27,
-        "sentence": "___ je morgen naar de markt?",
-        "options": [
-            "Ga",
-            "gaat",
-            "gaan",
-            "groen"
-        ],
-        "correct_answer": "Ga",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 28,
-        "sentence": "___ zij bir yeni jurk?",
-        "options": [
-            "Koopt",
-            "koop",
-            "kopen",
-            "morgen"
-        ],
-        "correct_answer": "Koopt",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 29,
-        "sentence": "___ wij de bus naar school?",
-        "options": [
-            "Pakken",
-            "pakt",
-            "pak",
-            "her zaman"
-        ],
-        "correct_answer": "Pakken",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 30,
-        "sentence": "___ jij melk uit bir beker?",
-        "options": [
-            "Drink",
-            "drinkt",
-            "drinken",
-            "gisteren"
-        ],
-        "correct_answer": "Drink",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 31,
-        "sentence": "___ de leraar in de klas?",
-        "options": [
-            "Staat",
-            "sta",
-            "staan",
-            "morgen"
-        ],
-        "correct_answer": "Staat",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 32,
-        "sentence": "___ je vanavond naar müzik?",
-        "options": [
-            "Luister",
-            "luistert",
-            "luisteren",
-            "koud"
-        ],
-        "correct_answer": "Luister",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 33,
-        "sentence": "___ jullie in de stad wonen?",
-        "options": [
-            "Willen",
-            "wilt",
-            "wil",
-            "blauw"
-        ],
-        "correct_answer": "Willen",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 34,
-        "sentence": "___ hij de deur voor mij?",
-        "options": [
-            "Opent",
-            "open",
-            "openen",
-            "vroeg"
-        ],
-        "correct_answer": "Opent",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 35,
-        "sentence": "___ jij vanmiddag met mij?",
-        "options": [
-            "Wandelt",
-            "wandel",
-            "wandelen",
-            "tafel"
-        ],
-        "correct_answer": "Wandel",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 36,
-        "sentence": "___ de zon bugün erg hard?",
-        "options": [
-            "Schijnt",
-            "schijn",
-            "schijnen",
-            "koud"
-        ],
-        "correct_answer": "Schijnt",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 37,
-        "sentence": "___ je morgen je oma op?",
-        "options": [
-            "Bel",
-            "belt",
-            "bellen",
-            "gisteren"
-        ],
-        "correct_answer": "Bel",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 38,
-        "sentence": "___ de studenten veel in de klas?",
-        "options": [
-            "Praten",
-            "praat",
-            "praat",
-            "bijna"
-        ],
-        "correct_answer": "Praten",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 39,
-        "sentence": "___ jij brood bij de bakker?",
-        "options": [
-            "Koop",
-            "koopt",
-            "kopen",
-            "altijd"
-        ],
-        "correct_answer": "Koop",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 40,
-        "sentence": "___ de trein tam zamanında?",
-        "options": [
-            "Komt",
-            "kom",
-            "komen",
-            "koud"
-        ],
-        "correct_answer": "Komt",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 41,
-        "sentence": "___ je vanavond bir güzel şarkı?",
-        "options": [
-            "Zing",
-            "zingt",
-            "zingen",
-            "bijna"
-        ],
-        "correct_answer": "Zing",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 42,
-        "sentence": "___ wij de trap naar boven?",
-        "options": [
-            "Nemen",
-            "neemt",
-            "neem",
-            "groen"
-        ],
-        "correct_answer": "Nemen",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 43,
-        "sentence": "___ jij je tanden her sabah?",
-        "options": [
-            "Poets",
-            "poetst",
-            "poetsen",
-            "tafel"
-        ],
-        "correct_answer": "Poets",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 44,
-        "sentence": "___ de student de zor soruyu?",
-        "options": [
-            "Begrijpt",
-            "begrijp",
-            "begrijpen",
-            "laat"
-        ],
-        "correct_answer": "Begrijpt",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 45,
-        "sentence": "___ je bugün bir fotoğraf çekmek?",
-        "options": [
-            "Wil",
-            "wilt",
-            "willen",
-            "blauw"
-        ],
-        "correct_answer": "Wil",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 46,
-        "sentence": "___ de vrouw de brief bugün?",
-        "options": [
-            "Schrijft",
-            "schrijf",
-            "schrijven",
-            "her zaman"
-        ],
-        "correct_answer": "Schrijft",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 47,
-        "sentence": "___ jullie samen naar de film?",
-        "options": [
-            "Kijken",
-            "kijkt",
-            "kijk",
-            "morgen"
-        ],
-        "correct_answer": "Kijken",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 48,
-        "sentence": "___ jij de auto van baban?",
-        "options": [
-            "Was",
-            "wast",
-            "wassen",
-            "groen"
-        ],
-        "correct_answer": "Was",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 49,
-        "sentence": "___ hij morgen op kantoor werken?",
-        "options": [
-            "Gaat",
-            "ga",
-            "gaan",
-            "vroeg"
-        ],
-        "correct_answer": "Gaat",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 50,
-        "sentence": "___ je bugün in het park?",
-        "options": [
-            "Speel",
-            "speelt",
-            "spelen",
-            "warm"
-        ],
-        "correct_answer": "Speel",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    }
-]
+    "exercises": [
+        {
+            "id": 1,
+            "sentence": "___ jij morgen naar de school?",
+            "options": [
+                "Ga",
+                "gaat",
+                "gaan",
+                "blauw"
+            ],
+            "correct_answer": "Ga"
+        },
+        {
+            "id": 2,
+            "sentence": "___ je vanavond een rode appel?",
+            "options": [
+                "Eet",
+                "eetst",
+                "eten",
+                "koud"
+            ],
+            "correct_answer": "Eet"
+        },
+        {
+            "id": 3,
+            "sentence": "___ jullie elke dag op school?",
+            "options": [
+                "Leren",
+                "leert",
+                "leer",
+                "morgen"
+            ],
+            "correct_answer": "Leren"
+        },
+        {
+            "id": 4,
+            "sentence": "___ hij bij een groot kantoor?",
+            "options": [
+                "Werkt",
+                "werk",
+                "werken",
+                "gisteren"
+            ],
+            "correct_answer": "Werkt"
+        },
+        {
+            "id": 5,
+            "sentence": "___ je vanavond je moeder op?",
+            "options": [
+                "Bel",
+                "belt",
+                "bellen",
+                "warm"
+            ],
+            "correct_answer": "Bel"
+        },
+        {
+            "id": 6,
+            "sentence": "___ wij vanmiddag een kop koffie?",
+            "options": [
+                "Drinken",
+                "drinkt",
+                "drink",
+                "tafel"
+            ],
+            "correct_answer": "Drinken"
+        },
+        {
+            "id": 7,
+            "sentence": "___ jij je huiswerk na school?",
+            "options": [
+                "Maak",
+                "maakt",
+                "maken",
+                "groen"
+            ],
+            "correct_answer": "Maak"
+        },
+        {
+            "id": 8,
+            "sentence": "___ de children in de tuin?",
+            "options": [
+                "Spelen",
+                "speelt",
+                "speel",
+                "altijd"
+            ],
+            "correct_answer": "Spelen"
+        },
+        {
+            "id": 9,
+            "sentence": "___ je een nieuwe auto kopen?",
+            "options": [
+                "Wil",
+                "wilt",
+                "willen",
+                "bijna"
+            ],
+            "correct_answer": "Wil"
+        },
+        {
+            "id": 10,
+            "sentence": "___ de vrouw in Amsterdam?",
+            "options": [
+                "Woont",
+                "woon",
+                "wonen",
+                "altijd"
+            ],
+            "correct_answer": "Woont"
+        },
+        {
+            "id": 11,
+            "sentence": "___ jij graag naar de radio?",
+            "options": [
+                "Luister",
+                "luistert",
+                "luisteren",
+                "banaan"
+            ],
+            "correct_answer": "Luister"
+        },
+        {
+            "id": 12,
+            "sentence": "___ zij morgen naar Amsterdam?",
+            "options": [
+                "Gaan",
+                "gaat",
+                "ga",
+                "gisteren"
+            ],
+            "correct_answer": "Gaan"
+        },
+        {
+            "id": 13,
+            "sentence": "___ je vandaag met de bus?",
+            "options": [
+                "Kom",
+                "komt",
+                "komen",
+                "vroeg"
+            ],
+            "correct_answer": "Kom"
+        },
+        {
+            "id": 14,
+            "sentence": "___ de man de auto wassen?",
+            "options": [
+                "Gaat",
+                "ga",
+                "gaan",
+                "blauw"
+            ],
+            "correct_answer": "Gaat"
+        },
+        {
+            "id": 15,
+            "sentence": "___ jij elke ochtend een douche?",
+            "options": [
+                "Neem",
+                "neemt",
+                "nemen",
+                "warm"
+            ],
+            "correct_answer": "Neem"
+        },
+        {
+            "id": 16,
+            "sentence": "___ de baby in het bed?",
+            "options": [
+                "Slaapt",
+                "slaap",
+                "slapen",
+                "bijna"
+            ],
+            "correct_answer": "Slaapt"
+        },
+        {
+            "id": 17,
+            "sentence": "___ jullie morgen een taart bakken?",
+            "options": [
+                "Gaan",
+                "gaat",
+                "ga",
+                "gisteren"
+            ],
+            "correct_answer": "Gaan"
+        },
+        {
+            "id": 18,
+            "sentence": "___ je de leraar bir soru?",
+            "options": [
+                "Stel",
+                "stelt",
+                "stellen",
+                "tafel"
+            ],
+            "correct_answer": "Stel"
+        },
+        {
+            "id": 19,
+            "sentence": "___ het kind met de bal?",
+            "options": [
+                "Speelt",
+                "speel",
+                "spelen",
+                "altijd"
+            ],
+            "correct_answer": "Speelt"
+        },
+        {
+            "id": 20,
+            "sentence": "___ wij de brief vandaag schrijven?",
+            "options": [
+                "Gaan",
+                "gaat",
+                "ga",
+                "koud"
+            ],
+            "correct_answer": "Gaan"
+        },
+        {
+            "id": 21,
+            "sentence": "___ jij de sleutels op tafel?",
+            "options": [
+                "Leg",
+                "legt",
+                "leggen",
+                "gisteren"
+            ],
+            "correct_answer": "Leg"
+        },
+        {
+            "id": 22,
+            "sentence": "___ je vriend in bir appartement?",
+            "options": [
+                "Woont",
+                "woon",
+                "wonen",
+                "vaak"
+            ],
+            "correct_answer": "Woont"
+        },
+        {
+            "id": 23,
+            "sentence": "___ jullie vanavond lekker eten?",
+            "options": [
+                "Gaan",
+                "gaat",
+                "ga",
+                "kantoor"
+            ],
+            "correct_answer": "Gaan"
+        },
+        {
+            "id": 24,
+            "sentence": "___ de student hard voor school?",
+            "options": [
+                "Leert",
+                "leer",
+                "leren",
+                "goedkoop"
+            ],
+            "correct_answer": "Leert"
+        },
+        {
+            "id": 25,
+            "sentence": "___ jij de ramen helemaal schoon?",
+            "options": [
+                "Maak",
+                "maakt",
+                "maken",
+                "bijna"
+            ],
+            "correct_answer": "Maak"
+        },
+        {
+            "id": 26,
+            "sentence": "___ de hond op de bank?",
+            "options": [
+                "Ligt",
+                "lig",
+                "liggen",
+                "altijd"
+            ],
+            "correct_answer": "Ligt"
+        },
+        {
+            "id": 27,
+            "sentence": "___ je morgen naar de markt?",
+            "options": [
+                "Ga",
+                "gaat",
+                "gaan",
+                "groen"
+            ],
+            "correct_answer": "Ga"
+        },
+        {
+            "id": 28,
+            "sentence": "___ zij bir yeni jurk?",
+            "options": [
+                "Koopt",
+                "koop",
+                "kopen",
+                "morgen"
+            ],
+            "correct_answer": "Koopt"
+        },
+        {
+            "id": 29,
+            "sentence": "___ wij de bus naar school?",
+            "options": [
+                "Pakken",
+                "pakt",
+                "pak",
+                "her zaman"
+            ],
+            "correct_answer": "Pakken"
+        },
+        {
+            "id": 30,
+            "sentence": "___ jij melk uit bir beker?",
+            "options": [
+                "Drink",
+                "drinkt",
+                "drinken",
+                "gisteren"
+            ],
+            "correct_answer": "Drink"
+        },
+        {
+            "id": 31,
+            "sentence": "___ de leraar in de klas?",
+            "options": [
+                "Staat",
+                "sta",
+                "staan",
+                "morgen"
+            ],
+            "correct_answer": "Staat"
+        },
+        {
+            "id": 32,
+            "sentence": "___ je vanavond naar müzik?",
+            "options": [
+                "Luister",
+                "luistert",
+                "luisteren",
+                "koud"
+            ],
+            "correct_answer": "Luister"
+        },
+        {
+            "id": 33,
+            "sentence": "___ jullie in de stad wonen?",
+            "options": [
+                "Willen",
+                "wilt",
+                "wil",
+                "blauw"
+            ],
+            "correct_answer": "Willen"
+        },
+        {
+            "id": 34,
+            "sentence": "___ hij de deur voor mij?",
+            "options": [
+                "Opent",
+                "open",
+                "openen",
+                "vroeg"
+            ],
+            "correct_answer": "Opent"
+        },
+        {
+            "id": 35,
+            "sentence": "___ jij vanmiddag met mij?",
+            "options": [
+                "Wandelt",
+                "wandel",
+                "wandelen",
+                "tafel"
+            ],
+            "correct_answer": "Wandel"
+        },
+        {
+            "id": 36,
+            "sentence": "___ de zon bugün erg hard?",
+            "options": [
+                "Schijnt",
+                "schijn",
+                "schijnen",
+                "koud"
+            ],
+            "correct_answer": "Schijnt"
+        },
+        {
+            "id": 37,
+            "sentence": "___ je morgen je oma op?",
+            "options": [
+                "Bel",
+                "belt",
+                "bellen",
+                "gisteren"
+            ],
+            "correct_answer": "Bel"
+        },
+        {
+            "id": 38,
+            "sentence": "___ de studenten veel in de klas?",
+            "options": [
+                "Praten",
+                "praat",
+                "praat",
+                "bijna"
+            ],
+            "correct_answer": "Praten"
+        },
+        {
+            "id": 39,
+            "sentence": "___ jij brood bij de bakker?",
+            "options": [
+                "Koop",
+                "koopt",
+                "kopen",
+                "altijd"
+            ],
+            "correct_answer": "Koop"
+        },
+        {
+            "id": 40,
+            "sentence": "___ de trein tam zamanında?",
+            "options": [
+                "Komt",
+                "kom",
+                "komen",
+                "koud"
+            ],
+            "correct_answer": "Komt"
+        },
+        {
+            "id": 41,
+            "sentence": "___ je vanavond bir güzel şarkı?",
+            "options": [
+                "Zing",
+                "zingt",
+                "zingen",
+                "bijna"
+            ],
+            "correct_answer": "Zing"
+        },
+        {
+            "id": 42,
+            "sentence": "___ wij de trap naar boven?",
+            "options": [
+                "Nemen",
+                "neemt",
+                "neem",
+                "groen"
+            ],
+            "correct_answer": "Nemen"
+        },
+        {
+            "id": 43,
+            "sentence": "___ jij je tanden her sabah?",
+            "options": [
+                "Poets",
+                "poetst",
+                "poetsen",
+                "tafel"
+            ],
+            "correct_answer": "Poets"
+        },
+        {
+            "id": 44,
+            "sentence": "___ de student de zor soruyu?",
+            "options": [
+                "Begrijpt",
+                "begrijp",
+                "begrijpen",
+                "laat"
+            ],
+            "correct_answer": "Begrijpt"
+        },
+        {
+            "id": 45,
+            "sentence": "___ je bugün bir fotoğraf çekmek?",
+            "options": [
+                "Wil",
+                "wilt",
+                "willen",
+                "blauw"
+            ],
+            "correct_answer": "Wil"
+        },
+        {
+            "id": 46,
+            "sentence": "___ de vrouw de brief bugün?",
+            "options": [
+                "Schrijft",
+                "schrijf",
+                "schrijven",
+                "her zaman"
+            ],
+            "correct_answer": "Schrijft"
+        },
+        {
+            "id": 47,
+            "sentence": "___ jullie samen naar de film?",
+            "options": [
+                "Kijken",
+                "kijkt",
+                "kijk",
+                "morgen"
+            ],
+            "correct_answer": "Kijken"
+        },
+        {
+            "id": 48,
+            "sentence": "___ jij de auto van baban?",
+            "options": [
+                "Was",
+                "wast",
+                "wassen",
+                "groen"
+            ],
+            "correct_answer": "Was"
+        },
+        {
+            "id": 49,
+            "sentence": "___ hij morgen op kantoor werken?",
+            "options": [
+                "Gaat",
+                "ga",
+                "gaan",
+                "vroeg"
+            ],
+            "correct_answer": "Gaat"
+        },
+        {
+            "id": 50,
+            "sentence": "___ je bugün in het park?",
+            "options": [
+                "Speel",
+                "speelt",
+                "spelen",
+                "warm"
+            ],
+            "correct_answer": "Speel"
+        }
+    ]
+}

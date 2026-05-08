@@ -1,652 +1,561 @@
-[
-    {
-        "question_id": 1,
-        "sentence": "Ik ___ gisteren mijn huiswerk gemaakt.",
-        "options": [
-            "heb",
-            "ben",
-            "hebt",
-            "altijd"
-        ],
-        "correct_answer": "heb",
-        "language": "nl",
-        "difficulty": "A1-A2"
+{
+    "metadata": {
+        "level": "N1",
+        "category": "C3",
+        "subject": "S2",
+        "title": "Voltooid Tegenwoordige Tijd",
+        "language": "nl"
     },
-    {
-        "question_id": 2,
-        "sentence": "De kinderen ___ naar huis gelopen.",
-        "options": [
-            "zijn",
-            "hebben",
-            "is",
-            "gisteren"
-        ],
-        "correct_answer": "zijn",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 3,
-        "sentence": "Hij ___ een nieuwe auto gekocht.",
-        "options": [
-            "heeft",
-            "is",
-            "hebben",
-            "morgen"
-        ],
-        "correct_answer": "heeft",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 4,
-        "sentence": "Wij ___ samen lekkere koffie gedronken.",
-        "options": [
-            "hebben",
-            "zijn",
-            "heeft",
-            "tafel"
-        ],
-        "correct_answer": "hebben",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 5,
-        "sentence": "Jij ___ gisteren heel laat gekomen.",
-        "options": [
-            "bent",
-            "hebt",
-            "ben",
-            "blauw"
-        ],
-        "correct_answer": "bent",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 6,
-        "sentence": "De vrouw ___ in Amsterdam gewoond.",
-        "options": [
-            "heeft",
-            "is",
-            "hebben",
-            "vaak"
-        ],
-        "correct_answer": "heeft",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 7,
-        "sentence": "Mijn vader ___ de vuile auto gewassen.",
-        "options": [
-            "heeft",
-            "is",
-            "hebt",
-            "koud"
-        ],
-        "correct_answer": "heeft",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 8,
-        "sentence": "Ik ___ naar de supermarkt gefietst.",
-        "options": [
-            "ben",
-            "heb",
-            "bent",
-            "vroeg"
-        ],
-        "correct_answer": "ben",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 9,
-        "sentence": "Jullie ___ veel nieuwe woorden geleerd.",
-        "options": [
-            "hebben",
-            "zijn",
-            "heeft",
-            "goed"
-        ],
-        "correct_answer": "hebben",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 10,
-        "sentence": "De baby ___ de hele nacht geslapen.",
-        "options": [
-            "heeft",
-            "is",
-            "hebben",
-            "bijna"
-        ],
-        "correct_answer": "heeft",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 11,
-        "sentence": "Wij ___ naar het grote museum geweest.",
-        "options": [
-            "zijn",
-            "hebben",
-            "is",
-            "morgen"
-        ],
-        "correct_answer": "zijn",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 12,
-        "sentence": "Hij ___ een korte brief geschreven.",
-        "options": [
-            "heeft",
-            "is",
-            "hebben",
-            "rood"
-        ],
-        "correct_answer": "heeft",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 13,
-        "sentence": "Gisteren ___ ik mijn oma opgebeld.",
-        "options": [
-            "heb",
-            "ben",
-            "hebt",
-            "warm"
-        ],
-        "correct_answer": "heb",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 14,
-        "sentence": "De student ___ het moeilijke examen gehaald.",
-        "options": [
-            "heeft",
-            "is",
-            "hebt",
-            "laat"
-        ],
-        "correct_answer": "heeft",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 15,
-        "sentence": "Jij ___ een mooie foto gemaakt.",
-        "options": [
-            "hebt",
-            "bent",
-            "heb",
-            "blauw"
-        ],
-        "correct_answer": "hebt",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 16,
-        "sentence": "Wij ___ een uur in het park gewandeld.",
-        "options": [
-            "hebben",
-            "zijn",
-            "heeft",
-            "groen"
-        ],
-        "correct_answer": "hebben",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 17,
-        "sentence": "Zij ___ naar de drukke markt gegaan.",
-        "options": [
-            "zijn",
-            "hebben",
-            "is",
-            "gisteren"
-        ],
-        "correct_answer": "zijn",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 18,
-        "sentence": "Ik ___ een glas koud water gedronken.",
-        "options": [
-            "heb",
-            "ben",
-            "hebt",
-            "koud"
-        ],
-        "correct_answer": "heb",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 19,
-        "sentence": "De zon ___ vandaag heel hard geschenen.",
-        "options": [
-            "heeft",
-            "is",
-            "hebben",
-            "altijd"
-        ],
-        "correct_answer": "heeft",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 20,
-        "sentence": "Jullie ___ de bus naar school gepakt.",
-        "options": [
-            "hebben",
-            "zijn",
-            "heeft",
-            "tafel"
-        ],
-        "correct_answer": "hebben",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 21,
-        "sentence": "De man ___ op de harde grond gevallen.",
-        "options": [
-            "is",
-            "heeft",
-            "zijn",
-            "bijna"
-        ],
-        "correct_answer": "is",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 22,
-        "sentence": "Ik ___ gisteren op kantoor gewerkt.",
-        "options": [
-            "heb",
-            "ben",
-            "hebt",
-            "kantoor"
-        ],
-        "correct_answer": "heb",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 23,
-        "sentence": "De kat ___ op de zachte bank gelegen.",
-        "options": [
-            "heeft",
-            "is",
-            "hebben",
-            "altijd"
-        ],
-        "correct_answer": "heeft",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 24,
-        "sentence": "Wij ___ naar het nieuwe huis verhuisd.",
-        "options": [
-            "zijn",
-            "hebben",
-            "is",
-            "gisteren"
-        ],
-        "correct_answer": "zijn",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 25,
-        "sentence": "Jij ___ je tanden heel goed gepoetst.",
-        "options": [
-            "hebt",
-            "bent",
-            "heb",
-            "wit"
-        ],
-        "correct_answer": "hebt",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 26,
-        "sentence": "Hij ___ met de leraar Nederlands gepraat.",
-        "options": [
-            "heeft",
-            "is",
-            "hebt",
-            "goed"
-        ],
-        "correct_answer": "heeft",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 27,
-        "sentence": "De trein ___ al uit het station vertrokken.",
-        "options": [
-            "is",
-            "heeft",
-            "zijn",
-            "vroeg"
-        ],
-        "correct_answer": "is",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 28,
-        "sentence": "Ik ___ een mooie nieuwe fiets gekregen.",
-        "options": [
-            "heb",
-            "ben",
-            "hebt",
-            "blauw"
-        ],
-        "correct_answer": "heb",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 29,
-        "sentence": "Jullie ___ in een lekker bed geslapen.",
-        "options": [
-            "hebben",
-            "zijn",
-            "heeft",
-            "lekker"
-        ],
-        "correct_answer": "hebben",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 30,
-        "sentence": "De leraar ___ het dikke boek gelezen.",
-        "options": [
-            "heeft",
-            "is",
-            "hebt",
-            "morgen"
-        ],
-        "correct_answer": "heeft",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 31,
-        "sentence": "Wij ___ naar de bioscoop gegaan.",
-        "options": [
-            "zijn",
-            "hebben",
-            "is",
-            "vaak"
-        ],
-        "correct_answer": "zijn",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 32,
-        "sentence": "Jij ___ de kleine fietssleutels verloren.",
-        "options": [
-            "hebt",
-            "bent",
-            "heb",
-            "gisteren"
-        ],
-        "correct_answer": "hebt",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 33,
-        "sentence": "Het kind ___ buiten op straat gespeeld.",
-        "options": [
-            "heeft",
-            "is",
-            "hebben",
-            "warm"
-        ],
-        "correct_answer": "heeft",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 34,
-        "sentence": "Ik ___ in de stad kleren gewinkeld.",
-        "options": [
-            "heb",
-            "ben",
-            "hebt",
-            "leuk"
-        ],
-        "correct_answer": "heb",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 35,
-        "sentence": "Zij ___ een heel mooi liedje gezongen.",
-        "options": [
-            "hebben",
-            "zijn",
-            "heeft",
-            "mooi"
-        ],
-        "correct_answer": "hebben",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 36,
-        "sentence": "De bus ___ precies om acht uur gekomen.",
-        "options": [
-            "is",
-            "heeft",
-            "zijn",
-            "koud"
-        ],
-        "correct_answer": "is",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 37,
-        "sentence": "Wij ___ de ramen helemaal schoongemaakt.",
-        "options": [
-            "hebben",
-            "zijn",
-            "heeft",
-            "bijna"
-        ],
-        "correct_answer": "hebben",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 38,
-        "sentence": "Jij ___ naar de radio geluisterd.",
-        "options": [
-            "hebt",
-            "bent",
-            "heb",
-            "banaan"
-        ],
-        "correct_answer": "hebt",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 39,
-        "sentence": "De student ___ de vraag goed begrepen.",
-        "options": [
-            "heeft",
-            "is",
-            "hebben",
-            "laat"
-        ],
-        "correct_answer": "heeft",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 40,
-        "sentence": "Ik ___ vorig jaar in Turkije geweest.",
-        "options": [
-            "ben",
-            "heb",
-            "bent",
-            "warm"
-        ],
-        "correct_answer": "ben",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 41,
-        "sentence": "De man ___ zijn lekkere ontbijt gegeten.",
-        "options": [
-            "heeft",
-            "is",
-            "hebt",
-            "morgen"
-        ],
-        "correct_answer": "heeft",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 42,
-        "sentence": "Wij ___ naar Utrecht gereden.",
-        "options": [
-            "zijn",
-            "hebben",
-            "is",
-            "snel"
-        ],
-        "correct_answer": "zijn",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 43,
-        "sentence": "Jullie ___ de nieuwe krant gelezen.",
-        "options": [
-            "hebben",
-            "zijn",
-            "heeft",
-            "elke"
-        ],
-        "correct_answer": "hebben",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 44,
-        "sentence": "De dokter ___ naar mijn hart gekeken.",
-        "options": [
-            "heeft",
-            "is",
-            "hebt",
-            "koud"
-        ],
-        "correct_answer": "heeft",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 45,
-        "sentence": "Ik ___ de brief vandaag verstuurd.",
-        "options": [
-            "heb",
-            "ben",
-            "hebt",
-            "gisteren"
-        ],
-        "correct_answer": "heb",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 46,
-        "sentence": "De leraar ___ de les al begonnen.",
-        "options": [
-            "is",
-            "heeft",
-            "zijn",
-            "tafel"
-        ],
-        "correct_answer": "is",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 47,
-        "sentence": "Jij ___ je oude moeder opgebeld.",
-        "options": [
-            "hebt",
-            "bent",
-            "heb",
-            "altijd"
-        ],
-        "correct_answer": "hebt",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 48,
-        "sentence": "De studenten ___ hard voor school geleerd.",
-        "options": [
-            "hebben",
-            "zijn",
-            "heeft",
-            "goedkoop"
-        ],
-        "correct_answer": "hebben",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 49,
-        "sentence": "Het ___ gisteren de hele dag geregend.",
-        "options": [
-            "heeft",
-            "is",
-            "hebben",
-            "nat"
-        ],
-        "correct_answer": "heeft",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 50,
-        "sentence": "Ik ___ een zoete taart gebakken.",
-        "options": [
-            "heb",
-            "ben",
-            "hebt",
-            "zoet"
-        ],
-        "correct_answer": "heb",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    }
-]
+    "exercises": [
+        {
+            "id": 1,
+            "sentence": "Ik ___ gisteren mijn huiswerk gemaakt.",
+            "options": [
+                "heb",
+                "ben",
+                "hebt",
+                "altijd"
+            ],
+            "correct_answer": "heb"
+        },
+        {
+            "id": 2,
+            "sentence": "De kinderen ___ naar huis gelopen.",
+            "options": [
+                "zijn",
+                "hebben",
+                "is",
+                "gisteren"
+            ],
+            "correct_answer": "zijn"
+        },
+        {
+            "id": 3,
+            "sentence": "Hij ___ een nieuwe auto gekocht.",
+            "options": [
+                "heeft",
+                "is",
+                "hebben",
+                "morgen"
+            ],
+            "correct_answer": "heeft"
+        },
+        {
+            "id": 4,
+            "sentence": "Wij ___ samen lekkere koffie gedronken.",
+            "options": [
+                "hebben",
+                "zijn",
+                "heeft",
+                "tafel"
+            ],
+            "correct_answer": "hebben"
+        },
+        {
+            "id": 5,
+            "sentence": "Jij ___ gisteren heel laat gekomen.",
+            "options": [
+                "bent",
+                "hebt",
+                "ben",
+                "blauw"
+            ],
+            "correct_answer": "bent"
+        },
+        {
+            "id": 6,
+            "sentence": "De vrouw ___ in Amsterdam gewoond.",
+            "options": [
+                "heeft",
+                "is",
+                "hebben",
+                "vaak"
+            ],
+            "correct_answer": "heeft"
+        },
+        {
+            "id": 7,
+            "sentence": "Mijn vader ___ de vuile auto gewassen.",
+            "options": [
+                "heeft",
+                "is",
+                "hebt",
+                "koud"
+            ],
+            "correct_answer": "heeft"
+        },
+        {
+            "id": 8,
+            "sentence": "Ik ___ naar de supermarkt gefietst.",
+            "options": [
+                "ben",
+                "heb",
+                "bent",
+                "vroeg"
+            ],
+            "correct_answer": "ben"
+        },
+        {
+            "id": 9,
+            "sentence": "Jullie ___ veel nieuwe woorden geleerd.",
+            "options": [
+                "hebben",
+                "zijn",
+                "heeft",
+                "goed"
+            ],
+            "correct_answer": "hebben"
+        },
+        {
+            "id": 10,
+            "sentence": "De baby ___ de hele nacht geslapen.",
+            "options": [
+                "heeft",
+                "is",
+                "hebben",
+                "bijna"
+            ],
+            "correct_answer": "heeft"
+        },
+        {
+            "id": 11,
+            "sentence": "Wij ___ naar het grote museum geweest.",
+            "options": [
+                "zijn",
+                "hebben",
+                "is",
+                "morgen"
+            ],
+            "correct_answer": "zijn"
+        },
+        {
+            "id": 12,
+            "sentence": "Hij ___ een korte brief geschreven.",
+            "options": [
+                "heeft",
+                "is",
+                "hebben",
+                "rood"
+            ],
+            "correct_answer": "heeft"
+        },
+        {
+            "id": 13,
+            "sentence": "Gisteren ___ ik mijn oma opgebeld.",
+            "options": [
+                "heb",
+                "ben",
+                "hebt",
+                "warm"
+            ],
+            "correct_answer": "heb"
+        },
+        {
+            "id": 14,
+            "sentence": "De student ___ het moeilijke examen gehaald.",
+            "options": [
+                "heeft",
+                "is",
+                "hebt",
+                "laat"
+            ],
+            "correct_answer": "heeft"
+        },
+        {
+            "id": 15,
+            "sentence": "Jij ___ een mooie foto gemaakt.",
+            "options": [
+                "hebt",
+                "bent",
+                "heb",
+                "blauw"
+            ],
+            "correct_answer": "hebt"
+        },
+        {
+            "id": 16,
+            "sentence": "Wij ___ een uur in het park gewandeld.",
+            "options": [
+                "hebben",
+                "zijn",
+                "heeft",
+                "groen"
+            ],
+            "correct_answer": "hebben"
+        },
+        {
+            "id": 17,
+            "sentence": "Zij ___ naar de drukke markt gegaan.",
+            "options": [
+                "zijn",
+                "hebben",
+                "is",
+                "gisteren"
+            ],
+            "correct_answer": "zijn"
+        },
+        {
+            "id": 18,
+            "sentence": "Ik ___ een glas koud water gedronken.",
+            "options": [
+                "heb",
+                "ben",
+                "hebt",
+                "koud"
+            ],
+            "correct_answer": "heb"
+        },
+        {
+            "id": 19,
+            "sentence": "De zon ___ vandaag heel hard geschenen.",
+            "options": [
+                "heeft",
+                "is",
+                "hebben",
+                "altijd"
+            ],
+            "correct_answer": "heeft"
+        },
+        {
+            "id": 20,
+            "sentence": "Jullie ___ de bus naar school gepakt.",
+            "options": [
+                "hebben",
+                "zijn",
+                "heeft",
+                "tafel"
+            ],
+            "correct_answer": "hebben"
+        },
+        {
+            "id": 21,
+            "sentence": "De man ___ op de harde grond gevallen.",
+            "options": [
+                "is",
+                "heeft",
+                "zijn",
+                "bijna"
+            ],
+            "correct_answer": "is"
+        },
+        {
+            "id": 22,
+            "sentence": "Ik ___ gisteren op kantoor gewerkt.",
+            "options": [
+                "heb",
+                "ben",
+                "hebt",
+                "kantoor"
+            ],
+            "correct_answer": "heb"
+        },
+        {
+            "id": 23,
+            "sentence": "De kat ___ op de zachte bank gelegen.",
+            "options": [
+                "heeft",
+                "is",
+                "hebben",
+                "altijd"
+            ],
+            "correct_answer": "heeft"
+        },
+        {
+            "id": 24,
+            "sentence": "Wij ___ naar het nieuwe huis verhuisd.",
+            "options": [
+                "zijn",
+                "hebben",
+                "is",
+                "gisteren"
+            ],
+            "correct_answer": "zijn"
+        },
+        {
+            "id": 25,
+            "sentence": "Jij ___ je tanden heel goed gepoetst.",
+            "options": [
+                "hebt",
+                "bent",
+                "heb",
+                "wit"
+            ],
+            "correct_answer": "hebt"
+        },
+        {
+            "id": 26,
+            "sentence": "Hij ___ met de leraar Nederlands gepraat.",
+            "options": [
+                "heeft",
+                "is",
+                "hebt",
+                "goed"
+            ],
+            "correct_answer": "heeft"
+        },
+        {
+            "id": 27,
+            "sentence": "De trein ___ al uit het station vertrokken.",
+            "options": [
+                "is",
+                "heeft",
+                "zijn",
+                "vroeg"
+            ],
+            "correct_answer": "is"
+        },
+        {
+            "id": 28,
+            "sentence": "Ik ___ een mooie nieuwe fiets gekregen.",
+            "options": [
+                "heb",
+                "ben",
+                "hebt",
+                "blauw"
+            ],
+            "correct_answer": "heb"
+        },
+        {
+            "id": 29,
+            "sentence": "Jullie ___ in een lekker bed geslapen.",
+            "options": [
+                "hebben",
+                "zijn",
+                "heeft",
+                "lekker"
+            ],
+            "correct_answer": "hebben"
+        },
+        {
+            "id": 30,
+            "sentence": "De leraar ___ het dikke boek gelezen.",
+            "options": [
+                "heeft",
+                "is",
+                "hebt",
+                "morgen"
+            ],
+            "correct_answer": "heeft"
+        },
+        {
+            "id": 31,
+            "sentence": "Wij ___ naar de bioscoop gegaan.",
+            "options": [
+                "zijn",
+                "hebben",
+                "is",
+                "vaak"
+            ],
+            "correct_answer": "zijn"
+        },
+        {
+            "id": 32,
+            "sentence": "Jij ___ de kleine fietssleutels verloren.",
+            "options": [
+                "hebt",
+                "bent",
+                "heb",
+                "gisteren"
+            ],
+            "correct_answer": "hebt"
+        },
+        {
+            "id": 33,
+            "sentence": "Het kind ___ buiten op straat gespeeld.",
+            "options": [
+                "heeft",
+                "is",
+                "hebben",
+                "warm"
+            ],
+            "correct_answer": "heeft"
+        },
+        {
+            "id": 34,
+            "sentence": "Ik ___ in de stad kleren gewinkeld.",
+            "options": [
+                "heb",
+                "ben",
+                "hebt",
+                "leuk"
+            ],
+            "correct_answer": "heb"
+        },
+        {
+            "id": 35,
+            "sentence": "Zij ___ een heel mooi liedje gezongen.",
+            "options": [
+                "hebben",
+                "zijn",
+                "heeft",
+                "mooi"
+            ],
+            "correct_answer": "hebben"
+        },
+        {
+            "id": 36,
+            "sentence": "De bus ___ precies om acht uur gekomen.",
+            "options": [
+                "is",
+                "heeft",
+                "zijn",
+                "koud"
+            ],
+            "correct_answer": "is"
+        },
+        {
+            "id": 37,
+            "sentence": "Wij ___ de ramen helemaal schoongemaakt.",
+            "options": [
+                "hebben",
+                "zijn",
+                "heeft",
+                "bijna"
+            ],
+            "correct_answer": "hebben"
+        },
+        {
+            "id": 38,
+            "sentence": "Jij ___ naar de radio geluisterd.",
+            "options": [
+                "hebt",
+                "bent",
+                "heb",
+                "banaan"
+            ],
+            "correct_answer": "hebt"
+        },
+        {
+            "id": 39,
+            "sentence": "De student ___ de vraag goed begrepen.",
+            "options": [
+                "heeft",
+                "is",
+                "hebben",
+                "laat"
+            ],
+            "correct_answer": "heeft"
+        },
+        {
+            "id": 40,
+            "sentence": "Ik ___ vorig jaar in Turkije geweest.",
+            "options": [
+                "ben",
+                "heb",
+                "bent",
+                "warm"
+            ],
+            "correct_answer": "ben"
+        },
+        {
+            "id": 41,
+            "sentence": "De man ___ zijn lekkere ontbijt gegeten.",
+            "options": [
+                "heeft",
+                "is",
+                "hebt",
+                "morgen"
+            ],
+            "correct_answer": "heeft"
+        },
+        {
+            "id": 42,
+            "sentence": "Wij ___ naar Utrecht gereden.",
+            "options": [
+                "zijn",
+                "hebben",
+                "is",
+                "snel"
+            ],
+            "correct_answer": "zijn"
+        },
+        {
+            "id": 43,
+            "sentence": "Jullie ___ de nieuwe krant gelezen.",
+            "options": [
+                "hebben",
+                "zijn",
+                "heeft",
+                "elke"
+            ],
+            "correct_answer": "hebben"
+        },
+        {
+            "id": 44,
+            "sentence": "De dokter ___ naar mijn hart gekeken.",
+            "options": [
+                "heeft",
+                "is",
+                "hebt",
+                "koud"
+            ],
+            "correct_answer": "heeft"
+        },
+        {
+            "id": 45,
+            "sentence": "Ik ___ de brief vandaag verstuurd.",
+            "options": [
+                "heb",
+                "ben",
+                "hebt",
+                "gisteren"
+            ],
+            "correct_answer": "heb"
+        },
+        {
+            "id": 46,
+            "sentence": "De leraar ___ de les al begonnen.",
+            "options": [
+                "is",
+                "heeft",
+                "zijn",
+                "tafel"
+            ],
+            "correct_answer": "is"
+        },
+        {
+            "id": 47,
+            "sentence": "Jij ___ je oude moeder opgebeld.",
+            "options": [
+                "hebt",
+                "bent",
+                "heb",
+                "altijd"
+            ],
+            "correct_answer": "hebt"
+        },
+        {
+            "id": 48,
+            "sentence": "De studenten ___ hard voor school geleerd.",
+            "options": [
+                "hebben",
+                "zijn",
+                "heeft",
+                "goedkoop"
+            ],
+            "correct_answer": "hebben"
+        },
+        {
+            "id": 49,
+            "sentence": "Het ___ gisteren de hele dag geregend.",
+            "options": [
+                "heeft",
+                "is",
+                "hebben",
+                "nat"
+            ],
+            "correct_answer": "heeft"
+        },
+        {
+            "id": 50,
+            "sentence": "Ik ___ een zoete taart gebakken.",
+            "options": [
+                "heb",
+                "ben",
+                "hebt",
+                "zoet"
+            ],
+            "correct_answer": "heb"
+        }
+    ]
+}

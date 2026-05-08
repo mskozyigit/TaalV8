@@ -1,652 +1,561 @@
-[
-    {
-        "question_id": 1,
-        "sentence": "___ is jouw beste vriend?",
-        "options": [
-            "Wie",
-            "Wat",
-            "Of",
-            "blauw"
-        ],
-        "correct_answer": "Wie",
-        "language": "nl",
-        "difficulty": "A1-A2"
+{
+    "metadata": {
+        "level": "N1",
+        "category": "C2",
+        "subject": "S2",
+        "title": "Vraagwoord Vragen",
+        "language": "nl"
     },
-    {
-        "question_id": 2,
-        "sentence": "___ doe je morgen middag?",
-        "options": [
-            "Wat",
-            "Wie",
-            "Ja",
-            "morgen"
-        ],
-        "correct_answer": "Wat",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 3,
-        "sentence": "___ woont jouw broer nu?",
-        "options": [
-            "Waar",
-            "Wanneer",
-            "Of",
-            "tafel"
-        ],
-        "correct_answer": "Waar",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 4,
-        "sentence": "___ begint de les morgen?",
-        "options": [
-            "Wanneer",
-            "Hoeveel",
-            "Ja",
-            "vroeg"
-        ],
-        "correct_answer": "Wanneer",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 5,
-        "sentence": "___ huilt dat kleine kind?",
-        "options": [
-            "Waarom",
-            "Waar",
-            "Of",
-            "altijd"
-        ],
-        "correct_answer": "Waarom",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 6,
-        "sentence": "___ heet jouw nieuwe buurvrouw?",
-        "options": [
-            "Hoe",
-            "Wat",
-            "Ja",
-            "mooi"
-        ],
-        "correct_answer": "Hoe",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 7,
-        "sentence": "___ euro kost die fiets?",
-        "options": [
-            "Hoeveel",
-            "Wanneer",
-            "Of",
-            "rood"
-        ],
-        "correct_answer": "Hoeveel",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 8,
-        "sentence": "___ is de leraar nu?",
-        "options": [
-            "Waar",
-            "Wie",
-            "Ja",
-            "gisteren"
-        ],
-        "correct_answer": "Waar",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 9,
-        "sentence": "___ drinken we vanavond samen?",
-        "options": [
-            "Wat",
-            "Hoeveel",
-            "Of",
-            "koud"
-        ],
-        "correct_answer": "Wat",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 10,
-        "sentence": "___ ben je gisteren niet gekomen?",
-        "options": [
-            "Waarom",
-            "Wanneer",
-            "Ja",
-            "tafel"
-        ],
-        "correct_answer": "Waarom",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 11,
-        "sentence": "___ gaan jullie op vakantie?",
-        "options": [
-            "Wanneer",
-            "Wie",
-            "Of",
-            "warm"
-        ],
-        "correct_answer": "Wanneer",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 12,
-        "sentence": "___ werkt in dit kantoor?",
-        "options": [
-            "Wie",
-            "Waar",
-            "Ja",
-            "morgen"
-        ],
-        "correct_answer": "Wie",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 13,
-        "sentence": "___ oud ben jij nu?",
-        "options": [
-            "Hoe",
-            "Wat",
-            "Of",
-            "blauw"
-        ],
-        "correct_answer": "Hoe",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 14,
-        "sentence": "___ appels koop je vandaag?",
-        "options": [
-            "Hoeveel",
-            "Waarom",
-            "Ja",
-            "groen"
-        ],
-        "correct_answer": "Hoeveel",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 15,
-        "sentence": "___ kom je vandaan, Ali?",
-        "options": [
-            "Waar",
-            "Wat",
-            "Of",
-            "gisteren"
-        ],
-        "correct_answer": "Waar",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 16,
-        "sentence": "___ is die man daar?",
-        "options": [
-            "Wie",
-            "Hoe",
-            "Ja",
-            "altijd"
-        ],
-        "correct_answer": "Wie",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 17,
-        "sentence": "___ zeg je tegen hem?",
-        "options": [
-            "Wat",
-            "Waar",
-            "Of",
-            "vroeg"
-        ],
-        "correct_answer": "Wat",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 18,
-        "sentence": "___ laat is het nu?",
-        "options": [
-            "Hoe",
-            "Wanneer",
-            "Ja",
-            "tafel"
-        ],
-        "correct_answer": "Hoe",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 19,
-        "sentence": "___ ga je naar huis?",
-        "options": [
-            "Wanneer",
-            "Wat",
-            "Of",
-            "koud"
-        ],
-        "correct_answer": "Wanneer",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 20,
-        "sentence": "___ zoek je mijn tas?",
-        "options": [
-            "Waarom",
-            "Wie",
-            "Ja",
-            "blauw"
-        ],
-        "correct_answer": "Waarom",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 21,
-        "sentence": "___ melk drinken de kinderen?",
-        "options": [
-            "Hoeveel",
-            "Waar",
-            "Of",
-            "groen"
-        ],
-        "correct_answer": "Hoeveel",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 22,
-        "sentence": "___ zijn de toiletten hier?",
-        "options": [
-            "Waar",
-            "Wie",
-            "Ja",
-            "morgen"
-        ],
-        "correct_answer": "Waar",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 23,
-        "sentence": "___ helpt mij bugün even?",
-        "options": [
-            "Wie",
-            "Wat",
-            "Of",
-            "warm"
-        ],
-        "correct_answer": "Wie",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 24,
-        "sentence": "___ koopt een nieuwe auto?",
-        "options": [
-            "Wie",
-            "Hoe",
-            "Ja",
-            "altijd"
-        ],
-        "correct_answer": "Wie",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 25,
-        "sentence": "___ is jouw moedertaal precies?",
-        "options": [
-            "Wat",
-            "Waar",
-            "Of",
-            "gisteren"
-        ],
-        "correct_answer": "Wat",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 26,
-        "sentence": "___ gaat het met u?",
-        "options": [
-            "Hoe",
-            "Waarom",
-            "Ja",
-            "koud"
-        ],
-        "correct_answer": "Hoe",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 27,
-        "sentence": "___ boeken lees je graag?",
-        "options": [
-            "Hoeveel",
-            "Wanneer",
-            "Of",
-            "mooi"
-        ],
-        "correct_answer": "Hoeveel",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 28,
-        "sentence": "___ staat de rode auto?",
-        "options": [
-            "Waar",
-            "Wie",
-            "Ja",
-            "tafel"
-        ],
-        "correct_answer": "Waar",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 29,
-        "sentence": "___ komt de trein aan?",
-        "options": [
-            "Wanneer",
-            "Hoe",
-            "Of",
-            "vroeg"
-        ],
-        "correct_answer": "Wanneer",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 30,
-        "sentence": "___ is jouw achternaam ook?",
-        "options": [
-            "Wat",
-            "Waarom",
-            "Ja",
-            "gisteren"
-        ],
-        "correct_answer": "Wat",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 31,
-        "sentence": "___ praten jullie zo hard?",
-        "options": [
-            "Waarom",
-            "Wat",
-            "Of",
-            "koud"
-        ],
-        "correct_answer": "Waarom",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 32,
-        "sentence": "___ spel je jouw naam?",
-        "options": [
-            "Hoe",
-            "Waar",
-            "Ja",
-            "morgen"
-        ],
-        "correct_answer": "Hoe",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 33,
-        "sentence": "___ kopjes koffie drink je?",
-        "options": [
-            "Hoeveel",
-            "Wie",
-            "Of",
-            "warm"
-        ],
-        "correct_answer": "Hoeveel",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 34,
-        "sentence": "___ is de koningin nu?",
-        "options": [
-            "Wie",
-            "Wanneer",
-            "Ja",
-            "altijd"
-        ],
-        "correct_answer": "Wie",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 35,
-        "sentence": "___ ligt mijn mobiele telefoon?",
-        "options": [
-            "Waar",
-            "Wat",
-            "Of",
-            "groen"
-        ],
-        "correct_answer": "Waar",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 36,
-        "sentence": "___ gaan we vanavond eten?",
-        "options": [
-            "Wat",
-            "Hoe",
-            "Ja",
-            "gisteren"
-        ],
-        "correct_answer": "Wat",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 37,
-        "sentence": "___ is het examen precies?",
-        "options": [
-            "Wanneer",
-            "Waarom",
-            "Of",
-            "koud"
-        ],
-        "correct_answer": "Wanneer",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 38,
-        "sentence": "___ werkt jouw vader nu?",
-        "options": [
-            "Waar",
-            "Wie",
-            "Ja",
-            "tafel"
-        ],
-        "correct_answer": "Waar",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 39,
-        "sentence": "___ kom je uit China?",
-        "options": [
-            "Waarom",
-            "Wat",
-            "Of",
-            "gisteren"
-        ],
-        "correct_answer": "Waarom",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 40,
-        "sentence": "___ laat kom je morgen?",
-        "options": [
-            "Hoe",
-            "Wanneer",
-            "Ja",
-            "vroeg"
-        ],
-        "correct_answer": "Hoe",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 41,
-        "sentence": "___ heeft mijn pen gepakt?",
-        "options": [
-            "Wie",
-            "Wat",
-            "Of",
-            "blauw"
-        ],
-        "correct_answer": "Wie",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 42,
-        "sentence": "___ ga je naar Utrecht?",
-        "options": [
-            "Wanneer",
-            "Wat",
-            "Of",
-            "tafel"
-        ],
-        "correct_answer": "Wanneer",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 43,
-        "sentence": "___ suiker wil je erin?",
-        "options": [
-            "Hoeveel",
-            "Waarom",
-            "Ja",
-            "koud"
-        ],
-        "correct_answer": "Hoeveel",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 44,
-        "sentence": "___ leer je elke dag?",
-        "options": [
-            "Wat",
-            "Wie",
-            "Of",
-            "morgen"
-        ],
-        "correct_answer": "Wat",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 45,
-        "sentence": "___ is het museum open?",
-        "options": [
-            "Wanneer",
-            "Waar",
-            "Ja",
-            "altijd"
-        ],
-        "correct_answer": "Wanneer",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 46,
-        "sentence": "___ is dat meisje daar?",
-        "options": [
-            "Wie",
-            "Hoe",
-            "Of",
-            "groen"
-        ],
-        "correct_answer": "Wie",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 47,
-        "sentence": "___ ben je zo blij?",
-        "options": [
-            "Waarom",
-            "Wat",
-            "Ja",
-            "gisteren"
-        ],
-        "correct_answer": "Waarom",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 48,
-        "sentence": "___ ver is de school?",
-        "options": [
-            "Hoe",
-            "Wanneer",
-            "Of",
-            "koud"
-        ],
-        "correct_answer": "Hoe",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 49,
-        "sentence": "___ is de melk vandaag?",
-        "options": [
-            "Waar",
-            "Wie",
-            "Ja",
-            "tafel"
-        ],
-        "correct_answer": "Waar",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 50,
-        "sentence": "___ doe je de lampen aan?",
-        "options": [
-            "Wanneer",
-            "Hoeveel",
-            "Of",
-            "vroeg"
-        ],
-        "correct_answer": "Wanneer",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    }
-]
+    "exercises": [
+        {
+            "id": 1,
+            "sentence": "___ is jouw beste vriend?",
+            "options": [
+                "Wie",
+                "Wat",
+                "Of",
+                "blauw"
+            ],
+            "correct_answer": "Wie"
+        },
+        {
+            "id": 2,
+            "sentence": "___ doe je morgen middag?",
+            "options": [
+                "Wat",
+                "Wie",
+                "Ja",
+                "morgen"
+            ],
+            "correct_answer": "Wat"
+        },
+        {
+            "id": 3,
+            "sentence": "___ woont jouw broer nu?",
+            "options": [
+                "Waar",
+                "Wanneer",
+                "Of",
+                "tafel"
+            ],
+            "correct_answer": "Waar"
+        },
+        {
+            "id": 4,
+            "sentence": "___ begint de les morgen?",
+            "options": [
+                "Wanneer",
+                "Hoeveel",
+                "Ja",
+                "vroeg"
+            ],
+            "correct_answer": "Wanneer"
+        },
+        {
+            "id": 5,
+            "sentence": "___ huilt dat kleine kind?",
+            "options": [
+                "Waarom",
+                "Waar",
+                "Of",
+                "altijd"
+            ],
+            "correct_answer": "Waarom"
+        },
+        {
+            "id": 6,
+            "sentence": "___ heet jouw nieuwe buurvrouw?",
+            "options": [
+                "Hoe",
+                "Wat",
+                "Ja",
+                "mooi"
+            ],
+            "correct_answer": "Hoe"
+        },
+        {
+            "id": 7,
+            "sentence": "___ euro kost die fiets?",
+            "options": [
+                "Hoeveel",
+                "Wanneer",
+                "Of",
+                "rood"
+            ],
+            "correct_answer": "Hoeveel"
+        },
+        {
+            "id": 8,
+            "sentence": "___ is de leraar nu?",
+            "options": [
+                "Waar",
+                "Wie",
+                "Ja",
+                "gisteren"
+            ],
+            "correct_answer": "Waar"
+        },
+        {
+            "id": 9,
+            "sentence": "___ drinken we vanavond samen?",
+            "options": [
+                "Wat",
+                "Hoeveel",
+                "Of",
+                "koud"
+            ],
+            "correct_answer": "Wat"
+        },
+        {
+            "id": 10,
+            "sentence": "___ ben je gisteren niet gekomen?",
+            "options": [
+                "Waarom",
+                "Wanneer",
+                "Ja",
+                "tafel"
+            ],
+            "correct_answer": "Waarom"
+        },
+        {
+            "id": 11,
+            "sentence": "___ gaan jullie op vakantie?",
+            "options": [
+                "Wanneer",
+                "Wie",
+                "Of",
+                "warm"
+            ],
+            "correct_answer": "Wanneer"
+        },
+        {
+            "id": 12,
+            "sentence": "___ werkt in dit kantoor?",
+            "options": [
+                "Wie",
+                "Waar",
+                "Ja",
+                "morgen"
+            ],
+            "correct_answer": "Wie"
+        },
+        {
+            "id": 13,
+            "sentence": "___ oud ben jij nu?",
+            "options": [
+                "Hoe",
+                "Wat",
+                "Of",
+                "blauw"
+            ],
+            "correct_answer": "Hoe"
+        },
+        {
+            "id": 14,
+            "sentence": "___ appels koop je vandaag?",
+            "options": [
+                "Hoeveel",
+                "Waarom",
+                "Ja",
+                "groen"
+            ],
+            "correct_answer": "Hoeveel"
+        },
+        {
+            "id": 15,
+            "sentence": "___ kom je vandaan, Ali?",
+            "options": [
+                "Waar",
+                "Wat",
+                "Of",
+                "gisteren"
+            ],
+            "correct_answer": "Waar"
+        },
+        {
+            "id": 16,
+            "sentence": "___ is die man daar?",
+            "options": [
+                "Wie",
+                "Hoe",
+                "Ja",
+                "altijd"
+            ],
+            "correct_answer": "Wie"
+        },
+        {
+            "id": 17,
+            "sentence": "___ zeg je tegen hem?",
+            "options": [
+                "Wat",
+                "Waar",
+                "Of",
+                "vroeg"
+            ],
+            "correct_answer": "Wat"
+        },
+        {
+            "id": 18,
+            "sentence": "___ laat is het nu?",
+            "options": [
+                "Hoe",
+                "Wanneer",
+                "Ja",
+                "tafel"
+            ],
+            "correct_answer": "Hoe"
+        },
+        {
+            "id": 19,
+            "sentence": "___ ga je naar huis?",
+            "options": [
+                "Wanneer",
+                "Wat",
+                "Of",
+                "koud"
+            ],
+            "correct_answer": "Wanneer"
+        },
+        {
+            "id": 20,
+            "sentence": "___ zoek je mijn tas?",
+            "options": [
+                "Waarom",
+                "Wie",
+                "Ja",
+                "blauw"
+            ],
+            "correct_answer": "Waarom"
+        },
+        {
+            "id": 21,
+            "sentence": "___ melk drinken de kinderen?",
+            "options": [
+                "Hoeveel",
+                "Waar",
+                "Of",
+                "groen"
+            ],
+            "correct_answer": "Hoeveel"
+        },
+        {
+            "id": 22,
+            "sentence": "___ zijn de toiletten hier?",
+            "options": [
+                "Waar",
+                "Wie",
+                "Ja",
+                "morgen"
+            ],
+            "correct_answer": "Waar"
+        },
+        {
+            "id": 23,
+            "sentence": "___ helpt mij bugün even?",
+            "options": [
+                "Wie",
+                "Wat",
+                "Of",
+                "warm"
+            ],
+            "correct_answer": "Wie"
+        },
+        {
+            "id": 24,
+            "sentence": "___ koopt een nieuwe auto?",
+            "options": [
+                "Wie",
+                "Hoe",
+                "Ja",
+                "altijd"
+            ],
+            "correct_answer": "Wie"
+        },
+        {
+            "id": 25,
+            "sentence": "___ is jouw moedertaal precies?",
+            "options": [
+                "Wat",
+                "Waar",
+                "Of",
+                "gisteren"
+            ],
+            "correct_answer": "Wat"
+        },
+        {
+            "id": 26,
+            "sentence": "___ gaat het met u?",
+            "options": [
+                "Hoe",
+                "Waarom",
+                "Ja",
+                "koud"
+            ],
+            "correct_answer": "Hoe"
+        },
+        {
+            "id": 27,
+            "sentence": "___ boeken lees je graag?",
+            "options": [
+                "Hoeveel",
+                "Wanneer",
+                "Of",
+                "mooi"
+            ],
+            "correct_answer": "Hoeveel"
+        },
+        {
+            "id": 28,
+            "sentence": "___ staat de rode auto?",
+            "options": [
+                "Waar",
+                "Wie",
+                "Ja",
+                "tafel"
+            ],
+            "correct_answer": "Waar"
+        },
+        {
+            "id": 29,
+            "sentence": "___ komt de trein aan?",
+            "options": [
+                "Wanneer",
+                "Hoe",
+                "Of",
+                "vroeg"
+            ],
+            "correct_answer": "Wanneer"
+        },
+        {
+            "id": 30,
+            "sentence": "___ is jouw achternaam ook?",
+            "options": [
+                "Wat",
+                "Waarom",
+                "Ja",
+                "gisteren"
+            ],
+            "correct_answer": "Wat"
+        },
+        {
+            "id": 31,
+            "sentence": "___ praten jullie zo hard?",
+            "options": [
+                "Waarom",
+                "Wat",
+                "Of",
+                "koud"
+            ],
+            "correct_answer": "Waarom"
+        },
+        {
+            "id": 32,
+            "sentence": "___ spel je jouw naam?",
+            "options": [
+                "Hoe",
+                "Waar",
+                "Ja",
+                "morgen"
+            ],
+            "correct_answer": "Hoe"
+        },
+        {
+            "id": 33,
+            "sentence": "___ kopjes koffie drink je?",
+            "options": [
+                "Hoeveel",
+                "Wie",
+                "Of",
+                "warm"
+            ],
+            "correct_answer": "Hoeveel"
+        },
+        {
+            "id": 34,
+            "sentence": "___ is de koningin nu?",
+            "options": [
+                "Wie",
+                "Wanneer",
+                "Ja",
+                "altijd"
+            ],
+            "correct_answer": "Wie"
+        },
+        {
+            "id": 35,
+            "sentence": "___ ligt mijn mobiele telefoon?",
+            "options": [
+                "Waar",
+                "Wat",
+                "Of",
+                "groen"
+            ],
+            "correct_answer": "Waar"
+        },
+        {
+            "id": 36,
+            "sentence": "___ gaan we vanavond eten?",
+            "options": [
+                "Wat",
+                "Hoe",
+                "Ja",
+                "gisteren"
+            ],
+            "correct_answer": "Wat"
+        },
+        {
+            "id": 37,
+            "sentence": "___ is het examen precies?",
+            "options": [
+                "Wanneer",
+                "Waarom",
+                "Of",
+                "koud"
+            ],
+            "correct_answer": "Wanneer"
+        },
+        {
+            "id": 38,
+            "sentence": "___ werkt jouw vader nu?",
+            "options": [
+                "Waar",
+                "Wie",
+                "Ja",
+                "tafel"
+            ],
+            "correct_answer": "Waar"
+        },
+        {
+            "id": 39,
+            "sentence": "___ kom je uit China?",
+            "options": [
+                "Waarom",
+                "Wat",
+                "Of",
+                "gisteren"
+            ],
+            "correct_answer": "Waarom"
+        },
+        {
+            "id": 40,
+            "sentence": "___ laat kom je morgen?",
+            "options": [
+                "Hoe",
+                "Wanneer",
+                "Ja",
+                "vroeg"
+            ],
+            "correct_answer": "Hoe"
+        },
+        {
+            "id": 41,
+            "sentence": "___ heeft mijn pen gepakt?",
+            "options": [
+                "Wie",
+                "Wat",
+                "Of",
+                "blauw"
+            ],
+            "correct_answer": "Wie"
+        },
+        {
+            "id": 42,
+            "sentence": "___ ga je naar Utrecht?",
+            "options": [
+                "Wanneer",
+                "Wat",
+                "Of",
+                "tafel"
+            ],
+            "correct_answer": "Wanneer"
+        },
+        {
+            "id": 43,
+            "sentence": "___ suiker wil je erin?",
+            "options": [
+                "Hoeveel",
+                "Waarom",
+                "Ja",
+                "koud"
+            ],
+            "correct_answer": "Hoeveel"
+        },
+        {
+            "id": 44,
+            "sentence": "___ leer je elke dag?",
+            "options": [
+                "Wat",
+                "Wie",
+                "Of",
+                "morgen"
+            ],
+            "correct_answer": "Wat"
+        },
+        {
+            "id": 45,
+            "sentence": "___ is het museum open?",
+            "options": [
+                "Wanneer",
+                "Waar",
+                "Ja",
+                "altijd"
+            ],
+            "correct_answer": "Wanneer"
+        },
+        {
+            "id": 46,
+            "sentence": "___ is dat meisje daar?",
+            "options": [
+                "Wie",
+                "Hoe",
+                "Of",
+                "groen"
+            ],
+            "correct_answer": "Wie"
+        },
+        {
+            "id": 47,
+            "sentence": "___ ben je zo blij?",
+            "options": [
+                "Waarom",
+                "Wat",
+                "Ja",
+                "gisteren"
+            ],
+            "correct_answer": "Waarom"
+        },
+        {
+            "id": 48,
+            "sentence": "___ ver is de school?",
+            "options": [
+                "Hoe",
+                "Wanneer",
+                "Of",
+                "koud"
+            ],
+            "correct_answer": "Hoe"
+        },
+        {
+            "id": 49,
+            "sentence": "___ is de melk vandaag?",
+            "options": [
+                "Waar",
+                "Wie",
+                "Ja",
+                "tafel"
+            ],
+            "correct_answer": "Waar"
+        },
+        {
+            "id": 50,
+            "sentence": "___ doe je de lampen aan?",
+            "options": [
+                "Wanneer",
+                "Hoeveel",
+                "Of",
+                "vroeg"
+            ],
+            "correct_answer": "Wanneer"
+        }
+    ]
+}

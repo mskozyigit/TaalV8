@@ -1,652 +1,561 @@
-[
-    {
-        "question_id": 1,
-        "sentence": "Ik drink warme koffie ___ ik eet een lekker broodje.",
-        "options": [
-            "en",
-            "want",
-            "om",
-            "bent"
-        ],
-        "correct_answer": "en",
-        "language": "nl",
-        "difficulty": "A2"
+{
+    "metadata": {
+        "level": "N1",
+        "category": "C4",
+        "subject": "S4",
+        "title": "Herhaling",
+        "language": "nl"
     },
-    {
-        "question_id": 2,
-        "sentence": "Wij ___ aan het werken op het grote kantoor.",
-        "options": [
-            "zijn",
-            "hebben",
-            "te",
-            "dus"
-        ],
-        "correct_answer": "zijn",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 3,
-        "sentence": "Ik ga naar de keuken ___ soep te maken.",
-        "options": [
-            "om",
-            "voor",
-            "want",
-            "bent"
-        ],
-        "correct_answer": "om",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 4,
-        "sentence": "Hij is erg moe ___ hij gaat nu naar bed.",
-        "options": [
-            "dus",
-            "maar",
-            "te",
-            "is"
-        ],
-        "correct_answer": "dus",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 5,
-        "sentence": "Jij ___ aan het bellen met jouw oude moeder.",
-        "options": [
-            "bent",
-            "hebt",
-            "te",
-            "want"
-        ],
-        "correct_answer": "bent",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 6,
-        "sentence": "Ik heb vandaag geen tijd om de krant ___ lezen.",
-        "options": [
-            "te",
-            "de",
-            "en",
-            "is"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 7,
-        "sentence": "De nieuwe jas is mooi ___ hij is erg duur.",
-        "options": [
-            "maar",
-            "en",
-            "om",
-            "zijn"
-        ],
-        "correct_answer": "maar",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 8,
-        "sentence": "De kinderen ___ aan het spelen in de tuin.",
-        "options": [
-            "zijn",
-            "hebben",
-            "te",
-            "want"
-        ],
-        "correct_answer": "zijn",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 9,
-        "sentence": "Hij spaart veel geld ___ een auto te kopen.",
-        "options": [
-            "om",
-            "voor",
-            "maar",
-            "bent"
-        ],
-        "correct_answer": "om",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 10,
-        "sentence": "Wil je water drinken ___ wil je liever sap?",
-        "options": [
-            "of",
-            "en",
-            "te",
-            "is"
-        ],
-        "correct_answer": "of",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 11,
-        "sentence": "Ik ___ mijn huiswerk voor school aan het maken.",
-        "options": [
-            "ben",
-            "heb",
-            "om",
-            "dus"
-        ],
-        "correct_answer": "ben",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 12,
-        "sentence": "Het is gezond ___ elke dag een uur te wandelen.",
-        "options": [
-            "om",
-            "voor",
-            "en",
-            "zijn"
-        ],
-        "correct_answer": "om",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 13,
-        "sentence": "De baby huilt hard ___ de fles is leeg.",
-        "options": [
-            "want",
-            "maar",
-            "te",
-            "ben"
-        ],
-        "correct_answer": "want",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 14,
-        "sentence": "De leraar ___ een dik boek aan het lezen.",
-        "options": [
-            "is",
-            "heeft",
-            "om",
-            "maar"
-        ],
-        "correct_answer": "is",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 15,
-        "sentence": "Wij bellen de buren om kennis ___ maken.",
-        "options": [
-            "te",
-            "het",
-            "en",
-            "dus"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 16,
-        "sentence": "Het regent erg hard ___ ik pak een paraplu.",
-        "options": [
-            "dus",
-            "want",
-            "om",
-            "bent"
-        ],
-        "correct_answer": "dus",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 17,
-        "sentence": "Jullie ___ hard aan het leren voor het examen.",
-        "options": [
-            "zijn",
-            "hebben",
-            "te",
-            "want"
-        ],
-        "correct_answer": "zijn",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 18,
-        "sentence": "Zij gaat naar de bakker ___ brood te kopen.",
-        "options": [
-            "om",
-            "voor",
-            "maar",
-            "is"
-        ],
-        "correct_answer": "om",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 19,
-        "sentence": "De zon schijnt ___ het is vandaag erg warm.",
-        "options": [
-            "en",
-            "maar",
-            "te",
-            "ben"
-        ],
-        "correct_answer": "en",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 20,
-        "sentence": "De baby ___ in het bed aan het slapen.",
-        "options": [
-            "is",
-            "heeft",
-            "om",
-            "want"
-        ],
-        "correct_answer": "is",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 21,
-        "sentence": "Ik gebruik een mes om het brood ___ snijden.",
-        "options": [
-            "te",
-            "de",
-            "en",
-            "dus"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 22,
-        "sentence": "Ik zoek mijn tas ___ ik vind hem niet.",
-        "options": [
-            "maar",
-            "dus",
-            "om",
-            "zijn"
-        ],
-        "correct_answer": "maar",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 23,
-        "sentence": "Nu ___ ik de nieuwe krant aan het lezen.",
-        "options": [
-            "ben",
-            "heb",
-            "te",
-            "want"
-        ],
-        "correct_answer": "ben",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 24,
-        "sentence": "Wij gaan vandaag naar buiten ___ te spelen.",
-        "options": [
-            "om",
-            "voor",
-            "want",
-            "bent"
-        ],
-        "correct_answer": "om",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 25,
-        "sentence": "Eet je graag kaas ___ ben je een vegetariër?",
-        "options": [
-            "of",
-            "dus",
-            "te",
-            "is"
-        ],
-        "correct_answer": "of",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 26,
-        "sentence": "De man ___ aan het werken in de tuin.",
-        "options": [
-            "is",
-            "heeft",
-            "om",
-            "maar"
-        ],
-        "correct_answer": "is",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 27,
-        "sentence": "Hij hoopt om snel een goede baan ___ vinden.",
-        "options": [
-            "te",
-            "de",
-            "en",
-            "want"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 28,
-        "sentence": "Ik bel mijn moeder ___ ik mis haar erg.",
-        "options": [
-            "want",
-            "en",
-            "te",
-            "ben"
-        ],
-        "correct_answer": "want",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 29,
-        "sentence": "Wij ___ nu aan het wandelen in het park.",
-        "options": [
-            "zijn",
-            "hebben",
-            "om",
-            "maar"
-        ],
-        "correct_answer": "zijn",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 30,
-        "sentence": "Ik ga nu naar bed ___ te gaan slapen.",
-        "options": [
-            "om",
-            "voor",
-            "dus",
-            "bent"
-        ],
-        "correct_answer": "om",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 31,
-        "sentence": "De winkel is al dicht ___ we gaan weg.",
-        "options": [
-            "dus",
-            "want",
-            "te",
-            "is"
-        ],
-        "correct_answer": "dus",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 32,
-        "sentence": "Jij ___ een rode appel aan het eten.",
-        "options": [
-            "bent",
-            "hebt",
-            "om",
-            "maar"
-        ],
-        "correct_answer": "bent",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 33,
-        "sentence": "Het is fijn om vanavond samen ___ eten.",
-        "options": [
-            "te",
-            "het",
-            "en",
-            "dus"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 34,
-        "sentence": "Mijn broer fietst ___ mijn zus wandelt graag.",
-        "options": [
-            "en",
-            "of",
-            "te",
-            "ben"
-        ],
-        "correct_answer": "en",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 35,
-        "sentence": "De studenten ___ de tekst aan het vertalen.",
-        "options": [
-            "zijn",
-            "hebben",
-            "om",
-            "want"
-        ],
-        "correct_answer": "zijn",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 36,
-        "sentence": "Zij gaat naar de markt ___ fruit te halen.",
-        "options": [
-            "om",
-            "voor",
-            "maar",
-            "is"
-        ],
-        "correct_answer": "om",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 37,
-        "sentence": "Ben je gelukkig ___ ben je een beetje moe?",
-        "options": [
-            "of",
-            "maar",
-            "te",
-            "ben"
-        ],
-        "correct_answer": "of",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 38,
-        "sentence": "Ik ___ aan het zwemmen in het zwembad.",
-        "options": [
-            "ben",
-            "heb",
-            "om",
-            "dus"
-        ],
-        "correct_answer": "ben",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 39,
-        "sentence": "Ik ben van plan om mijn oma op ___ bellen.",
-        "options": [
-            "te",
-            "de",
-            "en",
-            "maar"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 40,
-        "sentence": "Ik heb grote honger ___ ik eet een appel.",
-        "options": [
-            "dus",
-            "want",
-            "om",
-            "bent"
-        ],
-        "correct_answer": "dus",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 41,
-        "sentence": "De buurman ___ de vuile auto aan het wassen.",
-        "options": [
-            "is",
-            "heeft",
-            "te",
-            "want"
-        ],
-        "correct_answer": "is",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 42,
-        "sentence": "Wij gaan naar de leraar ___ een vraag te stellen.",
-        "options": [
-            "om",
-            "voor",
-            "en",
-            "zijn"
-        ],
-        "correct_answer": "om",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 43,
-        "sentence": "Jij werkt veel ___ je krijgt veel geld.",
-        "options": [
-            "dus",
-            "maar",
-            "te",
-            "ben"
-        ],
-        "correct_answer": "dus",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 44,
-        "sentence": "Wij ___ samen aan het koken voor vanavond.",
-        "options": [
-            "zijn",
-            "hebben",
-            "om",
-            "want"
-        ],
-        "correct_answer": "zijn",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 45,
-        "sentence": "Het is verboden om in deze kamer ___ roken.",
-        "options": [
-            "te",
-            "het",
-            "maar",
-            "ben"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 46,
-        "sentence": "Ik drink veel water ___ ik heb grote dorst.",
-        "options": [
-            "want",
-            "of",
-            "te",
-            "is"
-        ],
-        "correct_answer": "want",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 47,
-        "sentence": "Nu ___ jij je huiswerk aan het maken.",
-        "options": [
-            "ben",
-            "heb",
-            "om",
-            "maar"
-        ],
-        "correct_answer": "ben",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 48,
-        "sentence": "Ik gebruik de computer ___ een mail te schrijven.",
-        "options": [
-            "om",
-            "voor",
-            "en",
-            "zijn"
-        ],
-        "correct_answer": "om",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 49,
-        "sentence": "De trein stopt ___ de mensen stappen uit.",
-        "options": [
-            "en",
-            "dus",
-            "te",
-            "ben"
-        ],
-        "correct_answer": "en",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 50,
-        "sentence": "De honden ___ buiten in de tuin aan het lopen.",
-        "options": [
-            "zijn",
-            "hebben",
-            "om",
-            "want"
-        ],
-        "correct_answer": "zijn",
-        "language": "nl",
-        "difficulty": "A2"
-    }
-]
+    "exercises": [
+        {
+            "id": 1,
+            "sentence": "Ik drink warme koffie ___ ik eet een lekker broodje.",
+            "options": [
+                "en",
+                "want",
+                "om",
+                "bent"
+            ],
+            "correct_answer": "en"
+        },
+        {
+            "id": 2,
+            "sentence": "Wij ___ aan het werken op het grote kantoor.",
+            "options": [
+                "zijn",
+                "hebben",
+                "te",
+                "dus"
+            ],
+            "correct_answer": "zijn"
+        },
+        {
+            "id": 3,
+            "sentence": "Ik ga naar de keuken ___ soep te maken.",
+            "options": [
+                "om",
+                "voor",
+                "want",
+                "bent"
+            ],
+            "correct_answer": "om"
+        },
+        {
+            "id": 4,
+            "sentence": "Hij is erg moe ___ hij gaat nu naar bed.",
+            "options": [
+                "dus",
+                "maar",
+                "te",
+                "is"
+            ],
+            "correct_answer": "dus"
+        },
+        {
+            "id": 5,
+            "sentence": "Jij ___ aan het bellen met jouw oude moeder.",
+            "options": [
+                "bent",
+                "hebt",
+                "te",
+                "want"
+            ],
+            "correct_answer": "bent"
+        },
+        {
+            "id": 6,
+            "sentence": "Ik heb vandaag geen tijd om de krant ___ lezen.",
+            "options": [
+                "te",
+                "de",
+                "en",
+                "is"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 7,
+            "sentence": "De nieuwe jas is mooi ___ hij is erg duur.",
+            "options": [
+                "maar",
+                "en",
+                "om",
+                "zijn"
+            ],
+            "correct_answer": "maar"
+        },
+        {
+            "id": 8,
+            "sentence": "De kinderen ___ aan het spelen in de tuin.",
+            "options": [
+                "zijn",
+                "hebben",
+                "te",
+                "want"
+            ],
+            "correct_answer": "zijn"
+        },
+        {
+            "id": 9,
+            "sentence": "Hij spaart veel geld ___ een auto te kopen.",
+            "options": [
+                "om",
+                "voor",
+                "maar",
+                "bent"
+            ],
+            "correct_answer": "om"
+        },
+        {
+            "id": 10,
+            "sentence": "Wil je water drinken ___ wil je liever sap?",
+            "options": [
+                "of",
+                "en",
+                "te",
+                "is"
+            ],
+            "correct_answer": "of"
+        },
+        {
+            "id": 11,
+            "sentence": "Ik ___ mijn huiswerk voor school aan het maken.",
+            "options": [
+                "ben",
+                "heb",
+                "om",
+                "dus"
+            ],
+            "correct_answer": "ben"
+        },
+        {
+            "id": 12,
+            "sentence": "Het is gezond ___ elke dag een uur te wandelen.",
+            "options": [
+                "om",
+                "voor",
+                "en",
+                "zijn"
+            ],
+            "correct_answer": "om"
+        },
+        {
+            "id": 13,
+            "sentence": "De baby huilt hard ___ de fles is leeg.",
+            "options": [
+                "want",
+                "maar",
+                "te",
+                "ben"
+            ],
+            "correct_answer": "want"
+        },
+        {
+            "id": 14,
+            "sentence": "De leraar ___ een dik boek aan het lezen.",
+            "options": [
+                "is",
+                "heeft",
+                "om",
+                "maar"
+            ],
+            "correct_answer": "is"
+        },
+        {
+            "id": 15,
+            "sentence": "Wij bellen de buren om kennis ___ maken.",
+            "options": [
+                "te",
+                "het",
+                "en",
+                "dus"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 16,
+            "sentence": "Het regent erg hard ___ ik pak een paraplu.",
+            "options": [
+                "dus",
+                "want",
+                "om",
+                "bent"
+            ],
+            "correct_answer": "dus"
+        },
+        {
+            "id": 17,
+            "sentence": "Jullie ___ hard aan het leren voor het examen.",
+            "options": [
+                "zijn",
+                "hebben",
+                "te",
+                "want"
+            ],
+            "correct_answer": "zijn"
+        },
+        {
+            "id": 18,
+            "sentence": "Zij gaat naar de bakker ___ brood te kopen.",
+            "options": [
+                "om",
+                "voor",
+                "maar",
+                "is"
+            ],
+            "correct_answer": "om"
+        },
+        {
+            "id": 19,
+            "sentence": "De zon schijnt ___ het is vandaag erg warm.",
+            "options": [
+                "en",
+                "maar",
+                "te",
+                "ben"
+            ],
+            "correct_answer": "en"
+        },
+        {
+            "id": 20,
+            "sentence": "De baby ___ in het bed aan het slapen.",
+            "options": [
+                "is",
+                "heeft",
+                "om",
+                "want"
+            ],
+            "correct_answer": "is"
+        },
+        {
+            "id": 21,
+            "sentence": "Ik gebruik een mes om het brood ___ snijden.",
+            "options": [
+                "te",
+                "de",
+                "en",
+                "dus"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 22,
+            "sentence": "Ik zoek mijn tas ___ ik vind hem niet.",
+            "options": [
+                "maar",
+                "dus",
+                "om",
+                "zijn"
+            ],
+            "correct_answer": "maar"
+        },
+        {
+            "id": 23,
+            "sentence": "Nu ___ ik de nieuwe krant aan het lezen.",
+            "options": [
+                "ben",
+                "heb",
+                "te",
+                "want"
+            ],
+            "correct_answer": "ben"
+        },
+        {
+            "id": 24,
+            "sentence": "Wij gaan vandaag naar buiten ___ te spelen.",
+            "options": [
+                "om",
+                "voor",
+                "want",
+                "bent"
+            ],
+            "correct_answer": "om"
+        },
+        {
+            "id": 25,
+            "sentence": "Eet je graag kaas ___ ben je een vegetariër?",
+            "options": [
+                "of",
+                "dus",
+                "te",
+                "is"
+            ],
+            "correct_answer": "of"
+        },
+        {
+            "id": 26,
+            "sentence": "De man ___ aan het werken in de tuin.",
+            "options": [
+                "is",
+                "heeft",
+                "om",
+                "maar"
+            ],
+            "correct_answer": "is"
+        },
+        {
+            "id": 27,
+            "sentence": "Hij hoopt om snel een goede baan ___ vinden.",
+            "options": [
+                "te",
+                "de",
+                "en",
+                "want"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 28,
+            "sentence": "Ik bel mijn moeder ___ ik mis haar erg.",
+            "options": [
+                "want",
+                "en",
+                "te",
+                "ben"
+            ],
+            "correct_answer": "want"
+        },
+        {
+            "id": 29,
+            "sentence": "Wij ___ nu aan het wandelen in het park.",
+            "options": [
+                "zijn",
+                "hebben",
+                "om",
+                "maar"
+            ],
+            "correct_answer": "zijn"
+        },
+        {
+            "id": 30,
+            "sentence": "Ik ga nu naar bed ___ te gaan slapen.",
+            "options": [
+                "om",
+                "voor",
+                "dus",
+                "bent"
+            ],
+            "correct_answer": "om"
+        },
+        {
+            "id": 31,
+            "sentence": "De winkel is al dicht ___ we gaan weg.",
+            "options": [
+                "dus",
+                "want",
+                "te",
+                "is"
+            ],
+            "correct_answer": "dus"
+        },
+        {
+            "id": 32,
+            "sentence": "Jij ___ een rode appel aan het eten.",
+            "options": [
+                "bent",
+                "hebt",
+                "om",
+                "maar"
+            ],
+            "correct_answer": "bent"
+        },
+        {
+            "id": 33,
+            "sentence": "Het is fijn om vanavond samen ___ eten.",
+            "options": [
+                "te",
+                "het",
+                "en",
+                "dus"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 34,
+            "sentence": "Mijn broer fietst ___ mijn zus wandelt graag.",
+            "options": [
+                "en",
+                "of",
+                "te",
+                "ben"
+            ],
+            "correct_answer": "en"
+        },
+        {
+            "id": 35,
+            "sentence": "De studenten ___ de tekst aan het vertalen.",
+            "options": [
+                "zijn",
+                "hebben",
+                "om",
+                "want"
+            ],
+            "correct_answer": "zijn"
+        },
+        {
+            "id": 36,
+            "sentence": "Zij gaat naar de markt ___ fruit te halen.",
+            "options": [
+                "om",
+                "voor",
+                "maar",
+                "is"
+            ],
+            "correct_answer": "om"
+        },
+        {
+            "id": 37,
+            "sentence": "Ben je gelukkig ___ ben je een beetje moe?",
+            "options": [
+                "of",
+                "maar",
+                "te",
+                "ben"
+            ],
+            "correct_answer": "of"
+        },
+        {
+            "id": 38,
+            "sentence": "Ik ___ aan het zwemmen in het zwembad.",
+            "options": [
+                "ben",
+                "heb",
+                "om",
+                "dus"
+            ],
+            "correct_answer": "ben"
+        },
+        {
+            "id": 39,
+            "sentence": "Ik ben van plan om mijn oma op ___ bellen.",
+            "options": [
+                "te",
+                "de",
+                "en",
+                "maar"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 40,
+            "sentence": "Ik heb grote honger ___ ik eet een appel.",
+            "options": [
+                "dus",
+                "want",
+                "om",
+                "bent"
+            ],
+            "correct_answer": "dus"
+        },
+        {
+            "id": 41,
+            "sentence": "De buurman ___ de vuile auto aan het wassen.",
+            "options": [
+                "is",
+                "heeft",
+                "te",
+                "want"
+            ],
+            "correct_answer": "is"
+        },
+        {
+            "id": 42,
+            "sentence": "Wij gaan naar de leraar ___ een vraag te stellen.",
+            "options": [
+                "om",
+                "voor",
+                "en",
+                "zijn"
+            ],
+            "correct_answer": "om"
+        },
+        {
+            "id": 43,
+            "sentence": "Jij werkt veel ___ je krijgt veel geld.",
+            "options": [
+                "dus",
+                "maar",
+                "te",
+                "ben"
+            ],
+            "correct_answer": "dus"
+        },
+        {
+            "id": 44,
+            "sentence": "Wij ___ samen aan het koken voor vanavond.",
+            "options": [
+                "zijn",
+                "hebben",
+                "om",
+                "want"
+            ],
+            "correct_answer": "zijn"
+        },
+        {
+            "id": 45,
+            "sentence": "Het is verboden om in deze kamer ___ roken.",
+            "options": [
+                "te",
+                "het",
+                "maar",
+                "ben"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 46,
+            "sentence": "Ik drink veel water ___ ik heb grote dorst.",
+            "options": [
+                "want",
+                "of",
+                "te",
+                "is"
+            ],
+            "correct_answer": "want"
+        },
+        {
+            "id": 47,
+            "sentence": "Nu ___ jij je huiswerk aan het maken.",
+            "options": [
+                "ben",
+                "heb",
+                "om",
+                "maar"
+            ],
+            "correct_answer": "ben"
+        },
+        {
+            "id": 48,
+            "sentence": "Ik gebruik de computer ___ een mail te schrijven.",
+            "options": [
+                "om",
+                "voor",
+                "en",
+                "zijn"
+            ],
+            "correct_answer": "om"
+        },
+        {
+            "id": 49,
+            "sentence": "De trein stopt ___ de mensen stappen uit.",
+            "options": [
+                "en",
+                "dus",
+                "te",
+                "ben"
+            ],
+            "correct_answer": "en"
+        },
+        {
+            "id": 50,
+            "sentence": "De honden ___ buiten in de tuin aan het lopen.",
+            "options": [
+                "zijn",
+                "hebben",
+                "om",
+                "want"
+            ],
+            "correct_answer": "zijn"
+        }
+    ]
+}

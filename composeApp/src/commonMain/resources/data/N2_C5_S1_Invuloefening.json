@@ -1,652 +1,561 @@
-[
-    {
-        "question_id": 1,
-        "sentence": "(Inversie): Morgen ___ de raad van bestuur een definitief besluit over de nieuwe koers.",
-        "options": [
-            "neemt",
-            "nemen",
-            "nam",
-            "wordt"
-        ],
-        "correct_answer": "neemt",
-        "language": "nl",
-        "difficulty": "N2"
+{
+    "metadata": {
+        "level": "N2",
+        "category": "C5",
+        "subject": "S1",
+        "title": "Invuloefening",
+        "language": "nl"
     },
-    {
-        "question_id": 2,
-        "sentence": "(Relatieve Bijzin): Het rapport ___ de stagiair gisteren schreef, is zeer verhelderend.",
-        "options": [
-            "dat",
-            "die",
-            "wat",
-            "het"
-        ],
-        "correct_answer": "dat",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 3,
-        "sentence": "(Te-Infinitief): Het is essentieel om de server na het onderhoud direct uit ___ zetten.",
-        "options": [
-            "te",
-            "de",
-            "het",
-            "om"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 4,
-        "sentence": "(Onderschikkend): We passen de strategie aan omdat de markt momenteel snel ___.",
-        "options": [
-            "verandert",
-            "veranderen",
-            "veranderde",
-            "markt"
-        ],
-        "correct_answer": "verandert",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 5,
-        "sentence": "(Verleden Tijd): Vorige maand ___ ik een presentatie voor onze belangrijkste klanten.",
-        "options": [
-            "gaf",
-            "geeft",
-            "geven",
-            "gaven"
-        ],
-        "correct_answer": "gaf",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 6,
-        "sentence": "(Scheidbaar): De manager legt de nieuwe plannen voor het kwartaal aan het team ___.",
-        "options": [
-            "uit",
-            "af",
-            "op",
-            "in"
-        ],
-        "correct_answer": "uit",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 7,
-        "sentence": "(Relatieve Bijzin): De collega ___ de nieuwe software installeerde, is vandaag afwezig.",
-        "options": [
-            "die",
-            "dat",
-            "wie",
-            "deze"
-        ],
-        "correct_answer": "die",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 8,
-        "sentence": "(Inversie): Na het overleg ___ de directie de resultaten van het onderzoek.",
-        "options": [
-            "besprak",
-            "bespreekt",
-            "bespreken",
-            "besproken"
-        ],
-        "correct_answer": "besprak",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 9,
-        "sentence": "(Te-Infinitief): De directeur weigert de cijfers nu al aan de pers te ___ .",
-        "options": [
-            "tonen",
-            "toont",
-            "toonde",
-            "getoond"
-        ],
-        "correct_answer": "tonen",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 10,
-        "sentence": "(Onderschikkend): Ik stuur u de factuur direct zodra de manager het dossier ___ .",
-        "options": [
-            "bekijkt",
-            "bekijken",
-            "bekeek",
-            "map"
-        ],
-        "correct_answer": "bekijkt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 11,
-        "sentence": "(Scheidbaar): Ik ___ u morgenochtend over de afspraak met de klant op.",
-        "options": [
-            "bel",
-            "bellen",
-            "belt",
-            "op"
-        ],
-        "correct_answer": "bel",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 12,
-        "sentence": "(Verleden Tijd): Gisteren ___ de prijzen van de grondstoffen plotseling erg hard.",
-        "options": [
-            "stegen",
-            "stijgen",
-            "stijgt",
-            "steeg"
-        ],
-        "correct_answer": "stegen",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 13,
-        "sentence": "(Relatieve Bijzin): De doelen ___ de directie voor dit jaar stelde, zijn ambitieus.",
-        "options": [
-            "die",
-            "dat",
-            "wie",
-            "staan"
-        ],
-        "correct_answer": "die",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 14,
-        "sentence": "(Inversie): Sinds vorig jaar ___ dit bedrijf veel winst in de Europese markt.",
-        "options": [
-            "maakt",
-            "maken",
-            "maakte",
-            "maakten"
-        ],
-        "correct_answer": "maakt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 15,
-        "sentence": "(Te-Infinitief): Het is noodzakelijk om alle formulieren voor de deadline in ___ vullen.",
-        "options": [
-            "te",
-            "de",
-            "het",
-            "om"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 16,
-        "sentence": "(Onderschikkend): We wachten met de campagne totdat de directeur een besluit ___ .",
-        "options": [
-            "neemt",
-            "nemen",
-            "nam",
-            "tijd"
-        ],
-        "correct_answer": "neemt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 17,
-        "sentence": "(Scheidbaar): De medewerker levert het verslag direct bij de manager ___ .",
-        "options": [
-            "in",
-            "uit",
-            "af",
-            "op"
-        ],
-        "correct_answer": "in",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 18,
-        "sentence": "(Verleden Tijd): De manager ___ gisteren naar de voortgang van het project.",
-        "options": [
-            "vroeg",
-            "vraagt",
-            "vragen",
-            "vraagte"
-        ],
-        "correct_answer": "vroeg",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 19,
-        "sentence": "(Relatieve Bijzin): Het kantoor ___ we in het centrum huren, is erg modern.",
-        "options": [
-            "dat",
-            "die",
-            "het",
-            "daar"
-        ],
-        "correct_answer": "dat",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 20,
-        "sentence": "(Inversie): Op dit moment ___ we aan de lancering van het nieuwe product.",
-        "options": [
-            "werken",
-            "werkt",
-            "werk",
-            "werkten"
-        ],
-        "correct_answer": "werken",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 21,
-        "sentence": "(Te-Infinitief): Wij hopen het internationale project volgende week af te ___ .",
-        "options": [
-            "ronden",
-            "rondt",
-            "rondde",
-            "gerond"
-        ],
-        "correct_answer": "ronden",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 22,
-        "sentence": "(Onderschikkend): De manager vraagt of de administratie de factuur al ___ .",
-        "options": [
-            "betaalt",
-            "betalen",
-            "betaalde",
-            "geld"
-        ],
-        "correct_answer": "betaalt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 23,
-        "sentence": "(Scheidbaar): De secretaresse ___ alle gasten voor de productlancering uit.",
-        "options": [
-            "nodigt",
-            "nodig",
-            "nodigen",
-            "uit"
-        ],
-        "correct_answer": "nodigt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 24,
-        "sentence": "(Verleden Tijd): De directeur ___ het jaarverslag voordat de vergadering begon.",
-        "options": [
-            "las",
-            "leest",
-            "lezen",
-            "lase"
-        ],
-        "correct_answer": "las",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 25,
-        "sentence": "(Relatieve Bijzin): De machines ___ in de fabriek staan, worden wekelijks gecontroleerd.",
-        "options": [
-            "die",
-            "dat",
-            "wie",
-            "staan"
-        ],
-        "correct_answer": "die",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 26,
-        "sentence": "(Inversie): Tijdens de vergadering ___ er veel kritische vragen van de aandeelhouders.",
-        "options": [
-            "kwamen",
-            "kwam",
-            "komen",
-            "kom"
-        ],
-        "correct_answer": "kwamen",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 27,
-        "sentence": "(Te-Infinitief): Kun je proberen om de klant zo snel mogelijk terug ___ bellen?",
-        "options": [
-            "te",
-            "de",
-            "het",
-            "op"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 28,
-        "sentence": "(Onderschikkend): Hoewel de werkdruk momenteel hoog is, ___ we elke middag pauze.",
-        "options": [
-            "nemen",
-            "neemt",
-            "nam",
-            "koffie"
-        ],
-        "correct_answer": "nemen",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 29,
-        "sentence": "(Scheidbaar): De technicus start de server na het onderhoud direct weer ___ .",
-        "options": [
-            "op",
-            "af",
-            "uit",
-            "in"
-        ],
-        "correct_answer": "op",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 30,
-        "sentence": "(Verleden Tijd): Vorig jaar ___ hij veel ervaring op de afdeling administratie.",
-        "options": [
-            "kreeg",
-            "krijgt",
-            "krijgen",
-            "kreegde"
-        ],
-        "correct_answer": "kreeg",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 31,
-        "sentence": "(Relatieve Bijzin): De werknemer die de presentatie gisteren ___ , krijgt een compliment.",
-        "options": [
-            "hield",
-            "houdt",
-            "houden",
-            "hielden"
-        ],
-        "correct_answer": "hield",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 32,
-        "sentence": "(Inversie): Gisteren ___ de manager de nieuwe doelen aan het team voor.",
-        "options": [
-            "stelde",
-            "stellen",
-            "stelt",
-            "voor"
-        ],
-        "correct_answer": "stelde",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 33,
-        "sentence": "(Te-Infinitief): Het is handig om deze belangrijke map direct op ___ bergen.",
-        "options": [
-            "te",
-            "de",
-            "het",
-            "om"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 34,
-        "sentence": "(Onderschikkend): Het project gaat gewoon door tenzij de raad het plan ___ .",
-        "options": [
-            "afwijst",
-            "afwijzen",
-            "wijst",
-            "budget"
-        ],
-        "correct_answer": "afwijst",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 35,
-        "sentence": "(Scheidbaar): Wij ___ morgen om tien uur in de grote vergaderzaal af.",
-        "options": [
-            "spreken",
-            "spreekt",
-            "sprak",
-            "op"
-        ],
-        "correct_answer": "spreken",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 36,
-        "sentence": "(Verleden Tijd): De secretaresse ___ alle afspraken direct in de agenda.",
-        "options": [
-            "noteerde",
-            "noteert",
-            "noteren",
-            "noteerte"
-        ],
-        "correct_answer": "noteerde",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 37,
-        "sentence": "(Relatieve Bijzin): Het contract dat de klant zojuist ___ , is juridisch bindend.",
-        "options": [
-            "ondertekende",
-            "ondertekent",
-            "ondertekenen",
-            "tekent"
-        ],
-        "correct_answer": "ondertekende",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 38,
-        "sentence": "(Inversie): In dit dossier ___ u de details over de nieuwe klant.",
-        "options": [
-            "vindt",
-            "vinden",
-            "vond",
-            "vinder"
-        ],
-        "correct_answer": "vindt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 39,
-        "sentence": "(Te-Infinitief): De collega schijnt de instructies van de baas niet te ___ .",
-        "options": [
-            "begrijpen",
-            "begrijpt",
-            "begreep",
-            "begrepen"
-        ],
-        "correct_answer": "begrepen",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 40,
-        "sentence": "(Onderschikkend): U krijgt de jaarlijkse bonus mits u de doelen ___ .",
-        "options": [
-            "haalt",
-            "halen",
-            "haalde",
-            "winst"
-        ],
-        "correct_answer": "haalt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 41,
-        "sentence": "(Scheidbaar): De baas ___ de afspraak voor de training helaas af.",
-        "options": [
-            "zegt",
-            "zeggen",
-            "zegtst",
-            "op"
-        ],
-        "correct_answer": "zegt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 42,
-        "sentence": "(Verleden Tijd): Mijn collega ___ vorig jaar de markt in Azië grondig.",
-        "options": [
-            "onderzocht",
-            "onderzoekt",
-            "onderzoeken",
-            "onderzoek"
-        ],
-        "correct_answer": "onderzocht",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 43,
-        "sentence": "(Relatieve Bijzin): De mappen die op het bureau van de manager ___ , zijn vertrouwelijk.",
-        "options": [
-            "liggen",
-            "ligt",
-            "lagen",
-            "lig"
-        ],
-        "correct_answer": "liggen",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 44,
-        "sentence": "(Inversie): Volgende week ___ de CEO het nieuwe kantoor in Londen.",
-        "options": [
-            "bezoekt",
-            "bezoeken",
-            "bezocht",
-            "bezoeker"
-        ],
-        "correct_answer": "bezoekt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 45,
-        "sentence": "(Te-Infinitief): Het is belangrijk om op tijd bij de raadsvergadering ___ zijn.",
-        "options": [
-            "te",
-            "de",
-            "het",
-            "om"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 46,
-        "sentence": "(Onderschikkend): We annuleren de afspraak tenzij de klant de factuur ___ .",
-        "options": [
-            "betaalt",
-            "betalen",
-            "betaalde",
-            "geld"
-        ],
-        "correct_answer": "betaalt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 47,
-        "sentence": "(Scheidbaar): De manager deelt de taken voor het nieuwe project ___ .",
-        "options": [
-            "in",
-            "uit",
-            "af",
-            "op"
-        ],
-        "correct_answer": "in",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 48,
-        "sentence": "(Verleden Tijd): Tijdens het overleg ___ de directie de nieuwe plannen.",
-        "options": [
-            "presenteerde",
-            "presenteert",
-            "presenteren",
-            "presenteerte"
-        ],
-        "correct_answer": "presenterde",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 49,
-        "sentence": "(Relatieve Bijzin): De website ___ de marketingafdeling beheert, krijgt veel bezoekers.",
-        "options": [
-            "die",
-            "dat",
-            "wat",
-            "deze"
-        ],
-        "correct_answer": "die",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 50,
-        "sentence": "(Inversie): Soms ___ u de weg in de complexe hiërarchie niet.",
-        "options": [
-            "weet",
-            "weten",
-            "wist",
-            "weg"
-        ],
-        "correct_answer": "weet",
-        "language": "nl",
-        "difficulty": "N2"
-    }
-]
+    "exercises": [
+        {
+            "id": 1,
+            "sentence": "(Inversie): Morgen ___ de raad van bestuur een definitief besluit over de nieuwe koers.",
+            "options": [
+                "neemt",
+                "nemen",
+                "nam",
+                "wordt"
+            ],
+            "correct_answer": "neemt"
+        },
+        {
+            "id": 2,
+            "sentence": "(Relatieve Bijzin): Het rapport ___ de stagiair gisteren schreef, is zeer verhelderend.",
+            "options": [
+                "dat",
+                "die",
+                "wat",
+                "het"
+            ],
+            "correct_answer": "dat"
+        },
+        {
+            "id": 3,
+            "sentence": "(Te-Infinitief): Het is essentieel om de server na het onderhoud direct uit ___ zetten.",
+            "options": [
+                "te",
+                "de",
+                "het",
+                "om"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 4,
+            "sentence": "(Onderschikkend): We passen de strategie aan omdat de markt momenteel snel ___.",
+            "options": [
+                "verandert",
+                "veranderen",
+                "veranderde",
+                "markt"
+            ],
+            "correct_answer": "verandert"
+        },
+        {
+            "id": 5,
+            "sentence": "(Verleden Tijd): Vorige maand ___ ik een presentatie voor onze belangrijkste klanten.",
+            "options": [
+                "gaf",
+                "geeft",
+                "geven",
+                "gaven"
+            ],
+            "correct_answer": "gaf"
+        },
+        {
+            "id": 6,
+            "sentence": "(Scheidbaar): De manager legt de nieuwe plannen voor het kwartaal aan het team ___.",
+            "options": [
+                "uit",
+                "af",
+                "op",
+                "in"
+            ],
+            "correct_answer": "uit"
+        },
+        {
+            "id": 7,
+            "sentence": "(Relatieve Bijzin): De collega ___ de nieuwe software installeerde, is vandaag afwezig.",
+            "options": [
+                "die",
+                "dat",
+                "wie",
+                "deze"
+            ],
+            "correct_answer": "die"
+        },
+        {
+            "id": 8,
+            "sentence": "(Inversie): Na het overleg ___ de directie de resultaten van het onderzoek.",
+            "options": [
+                "besprak",
+                "bespreekt",
+                "bespreken",
+                "besproken"
+            ],
+            "correct_answer": "besprak"
+        },
+        {
+            "id": 9,
+            "sentence": "(Te-Infinitief): De directeur weigert de cijfers nu al aan de pers te ___ .",
+            "options": [
+                "tonen",
+                "toont",
+                "toonde",
+                "getoond"
+            ],
+            "correct_answer": "tonen"
+        },
+        {
+            "id": 10,
+            "sentence": "(Onderschikkend): Ik stuur u de factuur direct zodra de manager het dossier ___ .",
+            "options": [
+                "bekijkt",
+                "bekijken",
+                "bekeek",
+                "map"
+            ],
+            "correct_answer": "bekijkt"
+        },
+        {
+            "id": 11,
+            "sentence": "(Scheidbaar): Ik ___ u morgenochtend over de afspraak met de klant op.",
+            "options": [
+                "bel",
+                "bellen",
+                "belt",
+                "op"
+            ],
+            "correct_answer": "bel"
+        },
+        {
+            "id": 12,
+            "sentence": "(Verleden Tijd): Gisteren ___ de prijzen van de grondstoffen plotseling erg hard.",
+            "options": [
+                "stegen",
+                "stijgen",
+                "stijgt",
+                "steeg"
+            ],
+            "correct_answer": "stegen"
+        },
+        {
+            "id": 13,
+            "sentence": "(Relatieve Bijzin): De doelen ___ de directie voor dit jaar stelde, zijn ambitieus.",
+            "options": [
+                "die",
+                "dat",
+                "wie",
+                "staan"
+            ],
+            "correct_answer": "die"
+        },
+        {
+            "id": 14,
+            "sentence": "(Inversie): Sinds vorig jaar ___ dit bedrijf veel winst in de Europese markt.",
+            "options": [
+                "maakt",
+                "maken",
+                "maakte",
+                "maakten"
+            ],
+            "correct_answer": "maakt"
+        },
+        {
+            "id": 15,
+            "sentence": "(Te-Infinitief): Het is noodzakelijk om alle formulieren voor de deadline in ___ vullen.",
+            "options": [
+                "te",
+                "de",
+                "het",
+                "om"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 16,
+            "sentence": "(Onderschikkend): We wachten met de campagne totdat de directeur een besluit ___ .",
+            "options": [
+                "neemt",
+                "nemen",
+                "nam",
+                "tijd"
+            ],
+            "correct_answer": "neemt"
+        },
+        {
+            "id": 17,
+            "sentence": "(Scheidbaar): De medewerker levert het verslag direct bij de manager ___ .",
+            "options": [
+                "in",
+                "uit",
+                "af",
+                "op"
+            ],
+            "correct_answer": "in"
+        },
+        {
+            "id": 18,
+            "sentence": "(Verleden Tijd): De manager ___ gisteren naar de voortgang van het project.",
+            "options": [
+                "vroeg",
+                "vraagt",
+                "vragen",
+                "vraagte"
+            ],
+            "correct_answer": "vroeg"
+        },
+        {
+            "id": 19,
+            "sentence": "(Relatieve Bijzin): Het kantoor ___ we in het centrum huren, is erg modern.",
+            "options": [
+                "dat",
+                "die",
+                "het",
+                "daar"
+            ],
+            "correct_answer": "dat"
+        },
+        {
+            "id": 20,
+            "sentence": "(Inversie): Op dit moment ___ we aan de lancering van het nieuwe product.",
+            "options": [
+                "werken",
+                "werkt",
+                "werk",
+                "werkten"
+            ],
+            "correct_answer": "werken"
+        },
+        {
+            "id": 21,
+            "sentence": "(Te-Infinitief): Wij hopen het internationale project volgende week af te ___ .",
+            "options": [
+                "ronden",
+                "rondt",
+                "rondde",
+                "gerond"
+            ],
+            "correct_answer": "ronden"
+        },
+        {
+            "id": 22,
+            "sentence": "(Onderschikkend): De manager vraagt of de administratie de factuur al ___ .",
+            "options": [
+                "betaalt",
+                "betalen",
+                "betaalde",
+                "geld"
+            ],
+            "correct_answer": "betaalt"
+        },
+        {
+            "id": 23,
+            "sentence": "(Scheidbaar): De secretaresse ___ alle gasten voor de productlancering uit.",
+            "options": [
+                "nodigt",
+                "nodig",
+                "nodigen",
+                "uit"
+            ],
+            "correct_answer": "nodigt"
+        },
+        {
+            "id": 24,
+            "sentence": "(Verleden Tijd): De directeur ___ het jaarverslag voordat de vergadering begon.",
+            "options": [
+                "las",
+                "leest",
+                "lezen",
+                "lase"
+            ],
+            "correct_answer": "las"
+        },
+        {
+            "id": 25,
+            "sentence": "(Relatieve Bijzin): De machines ___ in de fabriek staan, worden wekelijks gecontroleerd.",
+            "options": [
+                "die",
+                "dat",
+                "wie",
+                "staan"
+            ],
+            "correct_answer": "die"
+        },
+        {
+            "id": 26,
+            "sentence": "(Inversie): Tijdens de vergadering ___ er veel kritische vragen van de aandeelhouders.",
+            "options": [
+                "kwamen",
+                "kwam",
+                "komen",
+                "kom"
+            ],
+            "correct_answer": "kwamen"
+        },
+        {
+            "id": 27,
+            "sentence": "(Te-Infinitief): Kun je proberen om de klant zo snel mogelijk terug ___ bellen?",
+            "options": [
+                "te",
+                "de",
+                "het",
+                "op"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 28,
+            "sentence": "(Onderschikkend): Hoewel de werkdruk momenteel hoog is, ___ we elke middag pauze.",
+            "options": [
+                "nemen",
+                "neemt",
+                "nam",
+                "koffie"
+            ],
+            "correct_answer": "nemen"
+        },
+        {
+            "id": 29,
+            "sentence": "(Scheidbaar): De technicus start de server na het onderhoud direct weer ___ .",
+            "options": [
+                "op",
+                "af",
+                "uit",
+                "in"
+            ],
+            "correct_answer": "op"
+        },
+        {
+            "id": 30,
+            "sentence": "(Verleden Tijd): Vorig jaar ___ hij veel ervaring op de afdeling administratie.",
+            "options": [
+                "kreeg",
+                "krijgt",
+                "krijgen",
+                "kreegde"
+            ],
+            "correct_answer": "kreeg"
+        },
+        {
+            "id": 31,
+            "sentence": "(Relatieve Bijzin): De werknemer die de presentatie gisteren ___ , krijgt een compliment.",
+            "options": [
+                "hield",
+                "houdt",
+                "houden",
+                "hielden"
+            ],
+            "correct_answer": "hield"
+        },
+        {
+            "id": 32,
+            "sentence": "(Inversie): Gisteren ___ de manager de nieuwe doelen aan het team voor.",
+            "options": [
+                "stelde",
+                "stellen",
+                "stelt",
+                "voor"
+            ],
+            "correct_answer": "stelde"
+        },
+        {
+            "id": 33,
+            "sentence": "(Te-Infinitief): Het is handig om deze belangrijke map direct op ___ bergen.",
+            "options": [
+                "te",
+                "de",
+                "het",
+                "om"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 34,
+            "sentence": "(Onderschikkend): Het project gaat gewoon door tenzij de raad het plan ___ .",
+            "options": [
+                "afwijst",
+                "afwijzen",
+                "wijst",
+                "budget"
+            ],
+            "correct_answer": "afwijst"
+        },
+        {
+            "id": 35,
+            "sentence": "(Scheidbaar): Wij ___ morgen om tien uur in de grote vergaderzaal af.",
+            "options": [
+                "spreken",
+                "spreekt",
+                "sprak",
+                "op"
+            ],
+            "correct_answer": "spreken"
+        },
+        {
+            "id": 36,
+            "sentence": "(Verleden Tijd): De secretaresse ___ alle afspraken direct in de agenda.",
+            "options": [
+                "noteerde",
+                "noteert",
+                "noteren",
+                "noteerte"
+            ],
+            "correct_answer": "noteerde"
+        },
+        {
+            "id": 37,
+            "sentence": "(Relatieve Bijzin): Het contract dat de klant zojuist ___ , is juridisch bindend.",
+            "options": [
+                "ondertekende",
+                "ondertekent",
+                "ondertekenen",
+                "tekent"
+            ],
+            "correct_answer": "ondertekende"
+        },
+        {
+            "id": 38,
+            "sentence": "(Inversie): In dit dossier ___ u de details over de nieuwe klant.",
+            "options": [
+                "vindt",
+                "vinden",
+                "vond",
+                "vinder"
+            ],
+            "correct_answer": "vindt"
+        },
+        {
+            "id": 39,
+            "sentence": "(Te-Infinitief): De collega schijnt de instructies van de baas niet te ___ .",
+            "options": [
+                "begrijpen",
+                "begrijpt",
+                "begreep",
+                "begrepen"
+            ],
+            "correct_answer": "begrepen"
+        },
+        {
+            "id": 40,
+            "sentence": "(Onderschikkend): U krijgt de jaarlijkse bonus mits u de doelen ___ .",
+            "options": [
+                "haalt",
+                "halen",
+                "haalde",
+                "winst"
+            ],
+            "correct_answer": "haalt"
+        },
+        {
+            "id": 41,
+            "sentence": "(Scheidbaar): De baas ___ de afspraak voor de training helaas af.",
+            "options": [
+                "zegt",
+                "zeggen",
+                "zegtst",
+                "op"
+            ],
+            "correct_answer": "zegt"
+        },
+        {
+            "id": 42,
+            "sentence": "(Verleden Tijd): Mijn collega ___ vorig jaar de markt in Azië grondig.",
+            "options": [
+                "onderzocht",
+                "onderzoekt",
+                "onderzoeken",
+                "onderzoek"
+            ],
+            "correct_answer": "onderzocht"
+        },
+        {
+            "id": 43,
+            "sentence": "(Relatieve Bijzin): De mappen die op het bureau van de manager ___ , zijn vertrouwelijk.",
+            "options": [
+                "liggen",
+                "ligt",
+                "lagen",
+                "lig"
+            ],
+            "correct_answer": "liggen"
+        },
+        {
+            "id": 44,
+            "sentence": "(Inversie): Volgende week ___ de CEO het nieuwe kantoor in Londen.",
+            "options": [
+                "bezoekt",
+                "bezoeken",
+                "bezocht",
+                "bezoeker"
+            ],
+            "correct_answer": "bezoekt"
+        },
+        {
+            "id": 45,
+            "sentence": "(Te-Infinitief): Het is belangrijk om op tijd bij de raadsvergadering ___ zijn.",
+            "options": [
+                "te",
+                "de",
+                "het",
+                "om"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 46,
+            "sentence": "(Onderschikkend): We annuleren de afspraak tenzij de klant de factuur ___ .",
+            "options": [
+                "betaalt",
+                "betalen",
+                "betaalde",
+                "geld"
+            ],
+            "correct_answer": "betaalt"
+        },
+        {
+            "id": 47,
+            "sentence": "(Scheidbaar): De manager deelt de taken voor het nieuwe project ___ .",
+            "options": [
+                "in",
+                "uit",
+                "af",
+                "op"
+            ],
+            "correct_answer": "in"
+        },
+        {
+            "id": 48,
+            "sentence": "(Verleden Tijd): Tijdens het overleg ___ de directie de nieuwe plannen.",
+            "options": [
+                "presenteerde",
+                "presenteert",
+                "presenteren",
+                "presenteerte"
+            ],
+            "correct_answer": "presenterde"
+        },
+        {
+            "id": 49,
+            "sentence": "(Relatieve Bijzin): De website ___ de marketingafdeling beheert, krijgt veel bezoekers.",
+            "options": [
+                "die",
+                "dat",
+                "wat",
+                "deze"
+            ],
+            "correct_answer": "die"
+        },
+        {
+            "id": 50,
+            "sentence": "(Inversie): Soms ___ u de weg in de complexe hiërarchie niet.",
+            "options": [
+                "weet",
+                "weten",
+                "wist",
+                "weg"
+            ],
+            "correct_answer": "weet"
+        }
+    ]
+}

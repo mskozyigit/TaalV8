@@ -51,6 +51,21 @@ data class SentenceData(
 )
 
 @Serializable
+data class QuizMetadata(
+    val level: String,
+    val category: String,
+    val subject: String,
+    val title: String,
+    val language: String = "nl"
+)
+
+@Serializable
+data class QuizFile(
+    val metadata: QuizMetadata,
+    val exercises: List<RawExercise>
+)
+
+@Serializable
 data class RawExercise(
     val id: Int? = null,
     @SerialName("question_id") val questionId: Int? = null,

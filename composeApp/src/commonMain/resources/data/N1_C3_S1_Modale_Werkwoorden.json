@@ -1,652 +1,561 @@
-[
-    {
-        "question_id": 1,
-        "sentence": "Ik ___ morgen naar het museum gaan.",
-        "options": [
-            "wil",
-            "willen",
-            "eet",
-            "blauw"
-        ],
-        "correct_answer": "wil",
-        "language": "nl",
-        "difficulty": "A1-A2"
+{
+    "metadata": {
+        "level": "N1",
+        "category": "C3",
+        "subject": "S1",
+        "title": "Modale Werkwoorden",
+        "language": "nl"
     },
-    {
-        "question_id": 2,
-        "sentence": "Jij ___ nu je tanden poetsen.",
-        "options": [
-            "moet",
-            "moeten",
-            "leest",
-            "koud"
-        ],
-        "correct_answer": "moet",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 3,
-        "sentence": "Wij ___ heel goed Nederlands spreken.",
-        "options": [
-            "kunnen",
-            "kunt",
-            "bakken",
-            "altijd"
-        ],
-        "correct_answer": "kunnen",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 4,
-        "sentence": "Jullie ___ hier absoluut niet roken.",
-        "options": [
-            "mogen",
-            "mag",
-            "vliegen",
-            "bijna"
-        ],
-        "correct_answer": "mogen",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 5,
-        "sentence": "Vanavond ___ we samen lekker eten.",
-        "options": [
-            "zullen",
-            "zal",
-            "praten",
-            "groen"
-        ],
-        "correct_answer": "zullen",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 6,
-        "sentence": "De student ___ hard voor school leren.",
-        "options": [
-            "moet",
-            "moeten",
-            "slaapt",
-            "laat"
-        ],
-        "correct_answer": "moet",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 7,
-        "sentence": "Ik ___ morgen een nieuwe fiets kopen.",
-        "options": [
-            "wil",
-            "willen",
-            "drink",
-            "vroeg"
-        ],
-        "correct_answer": "wil",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 8,
-        "sentence": "Mijn broer ___ heel erg goed zwemmen.",
-        "options": [
-            "kan",
-            "kunnen",
-            "staat",
-            "tafel"
-        ],
-        "correct_answer": "kan",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 9,
-        "sentence": "___ ik hier mijn auto parkeren?",
-        "options": [
-            "Mag",
-            "mogen",
-            "staat",
-            "gisteren"
-        ],
-        "correct_answer": "Mag",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 10,
-        "sentence": "Wij ___ nu echt naar huis gaan.",
-        "options": [
-            "moeten",
-            "moet",
-            "vliegen",
-            "koud"
-        ],
-        "correct_answer": "moeten",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 11,
-        "sentence": "Morgen ___ ik een taart bakken.",
-        "options": [
-            "wil",
-            "willen",
-            "drinkt",
-            "warm"
-        ],
-        "correct_answer": "wil",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 12,
-        "sentence": "Vandaag ___ jij je moeder bellen.",
-        "options": [
-            "moet",
-            "moeten",
-            "leest",
-            "altijd"
-        ],
-        "correct_answer": "moet",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 13,
-        "sentence": "In de stad ___ we winkelen.",
-        "options": [
-            "kunnen",
-            "kunt",
-            "eten",
-            "blauw"
-        ],
-        "correct_answer": "kunnen",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 14,
-        "sentence": "Nu ___ de kinderen buiten spelen.",
-        "options": [
-            "mogen",
-            "mag",
-            "rennen",
-            "goed"
-        ],
-        "correct_answer": "mogen",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 15,
-        "sentence": "Morgen ___ het weer beter worden.",
-        "options": [
-            "zal",
-            "zullen",
-            "koopt",
-            "vroeg"
-        ],
-        "correct_answer": "zal",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 16,
-        "sentence": "Volgende week ___ wij gaan wandelen.",
-        "options": [
-            "willen",
-            "wilt",
-            "bakken",
-            "vaak"
-        ],
-        "correct_answer": "willen",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 17,
-        "sentence": "Hier ___ u geen koffie drinken.",
-        "options": [
-            "mag",
-            "mogen",
-            "staat",
-            "tafel"
-        ],
-        "correct_answer": "mag",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 18,
-        "sentence": "___ je mij even helpen?",
-        "options": [
-            "Kun",
-            "kunnen",
-            "staat",
-            "bijna"
-        ],
-        "correct_answer": "Kun",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 19,
-        "sentence": "Vanavond ___ ik mijn vriend opbellen.",
-        "options": [
-            "zal",
-            "zullen",
-            "woont",
-            "gisteren"
-        ],
-        "correct_answer": "zal",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 20,
-        "sentence": "Jullie ___ nu de koffers pakken.",
-        "options": [
-            "moeten",
-            "moet",
-            "praten",
-            "kantoor"
-        ],
-        "correct_answer": "moeten",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 21,
-        "sentence": "___ u iets bij ons drinken?",
-        "options": [
-            "Wilt",
-            "willen",
-            "staat",
-            "morgen"
-        ],
-        "correct_answer": "Wilt",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 22,
-        "sentence": "___ we vanavond een film kijken?",
-        "options": [
-            "Zullen",
-            "zal",
-            "vliegen",
-            "altijd"
-        ],
-        "correct_answer": "Zullen",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 23,
-        "sentence": "___ jij dit zware boek lezen?",
-        "options": [
-            "Wil",
-            "willen",
-            "ziet",
-            "koud"
-        ],
-        "correct_answer": "Wil",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 24,
-        "sentence": "___ ik hier even binnenkomen?",
-        "options": [
-            "Mag",
-            "mogen",
-            "loopt",
-            "vroeg"
-        ],
-        "correct_answer": "Mag",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 25,
-        "sentence": "___ de kinderen goed piano spelen?",
-        "options": [
-            "Kunnen",
-            "kunt",
-            "rennen",
-            "mooi"
-        ],
-        "correct_answer": "Kunnen",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 26,
-        "sentence": "___ jij morgen naar school komen?",
-        "options": [
-            "Kun",
-            "kunnen",
-            "gaat",
-            "warm"
-        ],
-        "correct_answer": "Kun",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 27,
-        "sentence": "___ we samen een kopje koffie drinken?",
-        "options": [
-            "Zullen",
-            "zal",
-            "bakken",
-            "tafel"
-        ],
-        "correct_answer": "Zullen",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 28,
-        "sentence": "___ u deze moeilijke vraag herhalen?",
-        "options": [
-            "Wilt",
-            "willen",
-            "begrijpt",
-            "laat"
-        ],
-        "correct_answer": "Wilt",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 29,
-        "sentence": "___ ik de leraar iets vragen?",
-        "options": [
-            "Mag",
-            "mogen",
-            "luistert",
-            "altijd"
-        ],
-        "correct_answer": "Mag",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 30,
-        "sentence": "___ wij vandaag de ramen schoonmaken?",
-        "options": [
-            "Moeten",
-            "moet",
-            "maken",
-            "bijna"
-        ],
-        "correct_answer": "Moeten",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 31,
-        "sentence": "Morgen ___ ik je in het park zien.",
-        "options": [
-            "zal",
-            "zullen",
-            "zie",
-            "warm"
-        ],
-        "correct_answer": "zal",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 32,
-        "sentence": "Jij ___ niet zo veel suiker eten.",
-        "options": [
-            "moet",
-            "moeten",
-            "drinkt",
-            "koud"
-        ],
-        "correct_answer": "moet",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 33,
-        "sentence": "Hier ___ je niet met de auto rijden.",
-        "options": [
-            "mag",
-            "mogen",
-            "staat",
-            "altijd"
-        ],
-        "correct_answer": "mag",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 34,
-        "sentence": "In het weekend ___ we gaan zwemmen.",
-        "options": [
-            "willen",
-            "wilt",
-            "praten",
-            "tafel"
-        ],
-        "correct_answer": "willen",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 35,
-        "sentence": "___ u mij de weg wijzen?",
-        "options": [
-            "Kunt",
-            "kunnen",
-            "staat",
-            "bijna"
-        ],
-        "correct_answer": "Kunt",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 36,
-        "sentence": "Vandaag ___ de studenten een toets maken.",
-        "options": [
-            "moeten",
-            "moet",
-            "leert",
-            "tafel"
-        ],
-        "correct_answer": "moeten",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 37,
-        "sentence": "___ jij een foto van mij maken?",
-        "options": [
-            "Wil",
-            "willen",
-            "ziet",
-            "gisteren"
-        ],
-        "correct_answer": "Wil",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 38,
-        "sentence": "In de winter ___ we jassen dragen.",
-        "options": [
-            "moeten",
-            "moet",
-            "drinken",
-            "gisteren"
-        ],
-        "correct_answer": "moeten",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 39,
-        "sentence": "Morgen ___ ik op de fiets komen.",
-        "options": [
-            "wil",
-            "willen",
-            "fietst",
-            "vroeg"
-        ],
-        "correct_answer": "wil",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 40,
-        "sentence": "___ ik u even storen?",
-        "options": [
-            "Mag",
-            "mogen",
-            "spreekt",
-            "tafel"
-        ],
-        "correct_answer": "Mag",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 41,
-        "sentence": "Jullie ___ goed naar de les luisteren.",
-        "options": [
-            "moeten",
-            "moet",
-            "praten",
-            "bijna"
-        ],
-        "correct_answer": "moeten",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 42,
-        "sentence": "Morgen ___ wij de nieuwe buren bellen.",
-        "options": [
-            "zullen",
-            "zal",
-            "gaan",
-            "koud"
-        ],
-        "correct_answer": "zullen",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 43,
-        "sentence": "___ je vandaag een appel eten?",
-        "options": [
-            "Wil",
-            "willen",
-            "eet",
-            "groen"
-        ],
-        "correct_answer": "Wil",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 44,
-        "sentence": "Hier ___ zij niet in de zon zitten.",
-        "options": [
-            "mogen",
-            "mag",
-            "liggen",
-            "altijd"
-        ],
-        "correct_answer": "mogen",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 45,
-        "sentence": "___ ik morgen bij jou slapen?",
-        "options": [
-            "Kan",
-            "kunnen",
-            "woont",
-            "koud"
-        ],
-        "correct_answer": "Kan",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 46,
-        "sentence": "Jij ___ je tanden elke ochtend poetsen.",
-        "options": [
-            "moet",
-            "moeten",
-            "bakt",
-            "vroeg"
-        ],
-        "correct_answer": "moet",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 47,
-        "sentence": "Vanavond ___ we naar een feest gaan.",
-        "options": [
-            "zullen",
-            "zal",
-            "kijken",
-            "kantoor"
-        ],
-        "correct_answer": "zullen",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 48,
-        "sentence": "___ u deze brief even schrijven?",
-        "options": [
-            "Wilt",
-            "willen",
-            "geeft",
-            "morgen"
-        ],
-        "correct_answer": "Wilt",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 49,
-        "sentence": "Morgen ___ de baby weer lachen.",
-        "options": [
-            "zal",
-            "zullen",
-            "slaapt",
-            "blauw"
-        ],
-        "correct_answer": "zal",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    },
-    {
-        "question_id": 50,
-        "sentence": "Wij ___ morgen heel vroeg opstaan.",
-        "options": [
-            "moeten",
-            "moet",
-            "vliegen",
-            "tafel"
-        ],
-        "correct_answer": "moeten",
-        "language": "nl",
-        "difficulty": "A1-A2"
-    }
-]
+    "exercises": [
+        {
+            "id": 1,
+            "sentence": "Ik ___ morgen naar het museum gaan.",
+            "options": [
+                "wil",
+                "willen",
+                "eet",
+                "blauw"
+            ],
+            "correct_answer": "wil"
+        },
+        {
+            "id": 2,
+            "sentence": "Jij ___ nu je tanden poetsen.",
+            "options": [
+                "moet",
+                "moeten",
+                "leest",
+                "koud"
+            ],
+            "correct_answer": "moet"
+        },
+        {
+            "id": 3,
+            "sentence": "Wij ___ heel goed Nederlands spreken.",
+            "options": [
+                "kunnen",
+                "kunt",
+                "bakken",
+                "altijd"
+            ],
+            "correct_answer": "kunnen"
+        },
+        {
+            "id": 4,
+            "sentence": "Jullie ___ hier absoluut niet roken.",
+            "options": [
+                "mogen",
+                "mag",
+                "vliegen",
+                "bijna"
+            ],
+            "correct_answer": "mogen"
+        },
+        {
+            "id": 5,
+            "sentence": "Vanavond ___ we samen lekker eten.",
+            "options": [
+                "zullen",
+                "zal",
+                "praten",
+                "groen"
+            ],
+            "correct_answer": "zullen"
+        },
+        {
+            "id": 6,
+            "sentence": "De student ___ hard voor school leren.",
+            "options": [
+                "moet",
+                "moeten",
+                "slaapt",
+                "laat"
+            ],
+            "correct_answer": "moet"
+        },
+        {
+            "id": 7,
+            "sentence": "Ik ___ morgen een nieuwe fiets kopen.",
+            "options": [
+                "wil",
+                "willen",
+                "drink",
+                "vroeg"
+            ],
+            "correct_answer": "wil"
+        },
+        {
+            "id": 8,
+            "sentence": "Mijn broer ___ heel erg goed zwemmen.",
+            "options": [
+                "kan",
+                "kunnen",
+                "staat",
+                "tafel"
+            ],
+            "correct_answer": "kan"
+        },
+        {
+            "id": 9,
+            "sentence": "___ ik hier mijn auto parkeren?",
+            "options": [
+                "Mag",
+                "mogen",
+                "staat",
+                "gisteren"
+            ],
+            "correct_answer": "Mag"
+        },
+        {
+            "id": 10,
+            "sentence": "Wij ___ nu echt naar huis gaan.",
+            "options": [
+                "moeten",
+                "moet",
+                "vliegen",
+                "koud"
+            ],
+            "correct_answer": "moeten"
+        },
+        {
+            "id": 11,
+            "sentence": "Morgen ___ ik een taart bakken.",
+            "options": [
+                "wil",
+                "willen",
+                "drinkt",
+                "warm"
+            ],
+            "correct_answer": "wil"
+        },
+        {
+            "id": 12,
+            "sentence": "Vandaag ___ jij je moeder bellen.",
+            "options": [
+                "moet",
+                "moeten",
+                "leest",
+                "altijd"
+            ],
+            "correct_answer": "moet"
+        },
+        {
+            "id": 13,
+            "sentence": "In de stad ___ we winkelen.",
+            "options": [
+                "kunnen",
+                "kunt",
+                "eten",
+                "blauw"
+            ],
+            "correct_answer": "kunnen"
+        },
+        {
+            "id": 14,
+            "sentence": "Nu ___ de kinderen buiten spelen.",
+            "options": [
+                "mogen",
+                "mag",
+                "rennen",
+                "goed"
+            ],
+            "correct_answer": "mogen"
+        },
+        {
+            "id": 15,
+            "sentence": "Morgen ___ het weer beter worden.",
+            "options": [
+                "zal",
+                "zullen",
+                "koopt",
+                "vroeg"
+            ],
+            "correct_answer": "zal"
+        },
+        {
+            "id": 16,
+            "sentence": "Volgende week ___ wij gaan wandelen.",
+            "options": [
+                "willen",
+                "wilt",
+                "bakken",
+                "vaak"
+            ],
+            "correct_answer": "willen"
+        },
+        {
+            "id": 17,
+            "sentence": "Hier ___ u geen koffie drinken.",
+            "options": [
+                "mag",
+                "mogen",
+                "staat",
+                "tafel"
+            ],
+            "correct_answer": "mag"
+        },
+        {
+            "id": 18,
+            "sentence": "___ je mij even helpen?",
+            "options": [
+                "Kun",
+                "kunnen",
+                "staat",
+                "bijna"
+            ],
+            "correct_answer": "Kun"
+        },
+        {
+            "id": 19,
+            "sentence": "Vanavond ___ ik mijn vriend opbellen.",
+            "options": [
+                "zal",
+                "zullen",
+                "woont",
+                "gisteren"
+            ],
+            "correct_answer": "zal"
+        },
+        {
+            "id": 20,
+            "sentence": "Jullie ___ nu de koffers pakken.",
+            "options": [
+                "moeten",
+                "moet",
+                "praten",
+                "kantoor"
+            ],
+            "correct_answer": "moeten"
+        },
+        {
+            "id": 21,
+            "sentence": "___ u iets bij ons drinken?",
+            "options": [
+                "Wilt",
+                "willen",
+                "staat",
+                "morgen"
+            ],
+            "correct_answer": "Wilt"
+        },
+        {
+            "id": 22,
+            "sentence": "___ we vanavond een film kijken?",
+            "options": [
+                "Zullen",
+                "zal",
+                "vliegen",
+                "altijd"
+            ],
+            "correct_answer": "Zullen"
+        },
+        {
+            "id": 23,
+            "sentence": "___ jij dit zware boek lezen?",
+            "options": [
+                "Wil",
+                "willen",
+                "ziet",
+                "koud"
+            ],
+            "correct_answer": "Wil"
+        },
+        {
+            "id": 24,
+            "sentence": "___ ik hier even binnenkomen?",
+            "options": [
+                "Mag",
+                "mogen",
+                "loopt",
+                "vroeg"
+            ],
+            "correct_answer": "Mag"
+        },
+        {
+            "id": 25,
+            "sentence": "___ de kinderen goed piano spelen?",
+            "options": [
+                "Kunnen",
+                "kunt",
+                "rennen",
+                "mooi"
+            ],
+            "correct_answer": "Kunnen"
+        },
+        {
+            "id": 26,
+            "sentence": "___ jij morgen naar school komen?",
+            "options": [
+                "Kun",
+                "kunnen",
+                "gaat",
+                "warm"
+            ],
+            "correct_answer": "Kun"
+        },
+        {
+            "id": 27,
+            "sentence": "___ we samen een kopje koffie drinken?",
+            "options": [
+                "Zullen",
+                "zal",
+                "bakken",
+                "tafel"
+            ],
+            "correct_answer": "Zullen"
+        },
+        {
+            "id": 28,
+            "sentence": "___ u deze moeilijke vraag herhalen?",
+            "options": [
+                "Wilt",
+                "willen",
+                "begrijpt",
+                "laat"
+            ],
+            "correct_answer": "Wilt"
+        },
+        {
+            "id": 29,
+            "sentence": "___ ik de leraar iets vragen?",
+            "options": [
+                "Mag",
+                "mogen",
+                "luistert",
+                "altijd"
+            ],
+            "correct_answer": "Mag"
+        },
+        {
+            "id": 30,
+            "sentence": "___ wij vandaag de ramen schoonmaken?",
+            "options": [
+                "Moeten",
+                "moet",
+                "maken",
+                "bijna"
+            ],
+            "correct_answer": "Moeten"
+        },
+        {
+            "id": 31,
+            "sentence": "Morgen ___ ik je in het park zien.",
+            "options": [
+                "zal",
+                "zullen",
+                "zie",
+                "warm"
+            ],
+            "correct_answer": "zal"
+        },
+        {
+            "id": 32,
+            "sentence": "Jij ___ niet zo veel suiker eten.",
+            "options": [
+                "moet",
+                "moeten",
+                "drinkt",
+                "koud"
+            ],
+            "correct_answer": "moet"
+        },
+        {
+            "id": 33,
+            "sentence": "Hier ___ je niet met de auto rijden.",
+            "options": [
+                "mag",
+                "mogen",
+                "staat",
+                "altijd"
+            ],
+            "correct_answer": "mag"
+        },
+        {
+            "id": 34,
+            "sentence": "In het weekend ___ we gaan zwemmen.",
+            "options": [
+                "willen",
+                "wilt",
+                "praten",
+                "tafel"
+            ],
+            "correct_answer": "willen"
+        },
+        {
+            "id": 35,
+            "sentence": "___ u mij de weg wijzen?",
+            "options": [
+                "Kunt",
+                "kunnen",
+                "staat",
+                "bijna"
+            ],
+            "correct_answer": "Kunt"
+        },
+        {
+            "id": 36,
+            "sentence": "Vandaag ___ de studenten een toets maken.",
+            "options": [
+                "moeten",
+                "moet",
+                "leert",
+                "tafel"
+            ],
+            "correct_answer": "moeten"
+        },
+        {
+            "id": 37,
+            "sentence": "___ jij een foto van mij maken?",
+            "options": [
+                "Wil",
+                "willen",
+                "ziet",
+                "gisteren"
+            ],
+            "correct_answer": "Wil"
+        },
+        {
+            "id": 38,
+            "sentence": "In de winter ___ we jassen dragen.",
+            "options": [
+                "moeten",
+                "moet",
+                "drinken",
+                "gisteren"
+            ],
+            "correct_answer": "moeten"
+        },
+        {
+            "id": 39,
+            "sentence": "Morgen ___ ik op de fiets komen.",
+            "options": [
+                "wil",
+                "willen",
+                "fietst",
+                "vroeg"
+            ],
+            "correct_answer": "wil"
+        },
+        {
+            "id": 40,
+            "sentence": "___ ik u even storen?",
+            "options": [
+                "Mag",
+                "mogen",
+                "spreekt",
+                "tafel"
+            ],
+            "correct_answer": "Mag"
+        },
+        {
+            "id": 41,
+            "sentence": "Jullie ___ goed naar de les luisteren.",
+            "options": [
+                "moeten",
+                "moet",
+                "praten",
+                "bijna"
+            ],
+            "correct_answer": "moeten"
+        },
+        {
+            "id": 42,
+            "sentence": "Morgen ___ wij de nieuwe buren bellen.",
+            "options": [
+                "zullen",
+                "zal",
+                "gaan",
+                "koud"
+            ],
+            "correct_answer": "zullen"
+        },
+        {
+            "id": 43,
+            "sentence": "___ je vandaag een appel eten?",
+            "options": [
+                "Wil",
+                "willen",
+                "eet",
+                "groen"
+            ],
+            "correct_answer": "Wil"
+        },
+        {
+            "id": 44,
+            "sentence": "Hier ___ zij niet in de zon zitten.",
+            "options": [
+                "mogen",
+                "mag",
+                "liggen",
+                "altijd"
+            ],
+            "correct_answer": "mogen"
+        },
+        {
+            "id": 45,
+            "sentence": "___ ik morgen bij jou slapen?",
+            "options": [
+                "Kan",
+                "kunnen",
+                "woont",
+                "koud"
+            ],
+            "correct_answer": "Kan"
+        },
+        {
+            "id": 46,
+            "sentence": "Jij ___ je tanden elke ochtend poetsen.",
+            "options": [
+                "moet",
+                "moeten",
+                "bakt",
+                "vroeg"
+            ],
+            "correct_answer": "moet"
+        },
+        {
+            "id": 47,
+            "sentence": "Vanavond ___ we naar een feest gaan.",
+            "options": [
+                "zullen",
+                "zal",
+                "kijken",
+                "kantoor"
+            ],
+            "correct_answer": "zullen"
+        },
+        {
+            "id": 48,
+            "sentence": "___ u deze brief even schrijven?",
+            "options": [
+                "Wilt",
+                "willen",
+                "geeft",
+                "morgen"
+            ],
+            "correct_answer": "Wilt"
+        },
+        {
+            "id": 49,
+            "sentence": "Morgen ___ de baby weer lachen.",
+            "options": [
+                "zal",
+                "zullen",
+                "slaapt",
+                "blauw"
+            ],
+            "correct_answer": "zal"
+        },
+        {
+            "id": 50,
+            "sentence": "Wij ___ morgen heel vroeg opstaan.",
+            "options": [
+                "moeten",
+                "moet",
+                "vliegen",
+                "tafel"
+            ],
+            "correct_answer": "moeten"
+        }
+    ]
+}

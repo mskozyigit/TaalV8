@@ -1,12 +1,121 @@
-[
-    {"question_id": 1, "sentence": "___ de nieuwe richtlijnen door alle afdelingshoofden geaccepteerd?", "options": ["Worden", "Wordt", "Zijn", "Zal"], "correct_answer": "Worden", "language": "nl", "difficulty": "N3"},
-    {"question_id": 2, "sentence": "Wanneer ___ het definitieve besluit over de reorganisatie genomen?", "options": ["wordt", "worden", "is", "zal"], "correct_answer": "wordt", "language": "nl", "difficulty": "N3"},
-    {"question_id": 3, "sentence": "Door wie ___ de presentatie voor de belangrijke klant voorbereid?", "options": ["wordt", "worden", "is", "zal"], "correct_answer": "wordt", "language": "nl", "difficulty": "N3"},
-    {"question_id": 4, "sentence": "___ de factuur al door de financiële administratie betaald?", "options": ["Is", "Wordt", "Zal", "Zijn"], "correct_answer": "Is", "language": "nl", "difficulty": "N3"},
-    {"question_id": 5, "sentence": "Hoe ___ de kwaliteit van de producten in de fabriek gecontroleerd?", "options": ["wordt", "worden", "is", "zijn"], "correct_answer": "wordt", "language": "nl", "difficulty": "N3"},
-    {"question_id": 6, "sentence": "Op welke manier ___ de werknemers over de wijzigingen geïnformeerd?", "options": ["worden", "wordt", "zijn", "zullen"], "correct_answer": "worden", "language": "nl", "difficulty": "N3"},
-    {"question_id": 7, "sentence": "___ de technische problemen gisteravond eindelijk opgelost?", "options": ["Zijn", "Worden", "Zal", "Wordt"], "correct_answer": "Zijn", "language": "nl", "difficulty": "N3"},
-    {"question_id": 8, "sentence": "Waarom ___ het projectplan nog niet door de directie goedgekeurd?", "options": ["is", "wordt", "worden", "zijn"], "correct_answer": "is", "language": "nl", "difficulty": "N3"},
-    {"question_id": 9, "sentence": "In hoeverre ___ de resultaten van het onderzoek serieus genomen?", "options": ["worden", "wordt", "zijn", "zullen"], "correct_answer": "worden", "language": "nl", "difficulty": "N3"},
-    {"question_id": 10, "sentence": "___ de jaarlijkse bonus dit year aan het personeel uitgekeerd?", "options": ["Wordt", "Worden", "Is", "Zal"], "correct_answer": "Wordt", "language": "nl", "difficulty": "N3"}
-]
+{
+    "metadata": {
+        "level": "N3",
+        "category": "C2",
+        "subject": "S1",
+        "title": "Passieve Vragen",
+        "language": "nl"
+    },
+    "exercises": [
+        {
+            "id": 1,
+            "sentence": "___ de nieuwe richtlijnen door alle afdelingshoofden geaccepteerd?",
+            "options": [
+                "Worden",
+                "Wordt",
+                "Zijn",
+                "Zal"
+            ],
+            "correct_answer": "Worden"
+        },
+        {
+            "id": 2,
+            "sentence": "Wanneer ___ het definitieve besluit over de reorganisatie genomen?",
+            "options": [
+                "wordt",
+                "worden",
+                "is",
+                "zal"
+            ],
+            "correct_answer": "wordt"
+        },
+        {
+            "id": 3,
+            "sentence": "Door wie ___ de presentatie voor de belangrijke klant voorbereid?",
+            "options": [
+                "wordt",
+                "worden",
+                "is",
+                "zal"
+            ],
+            "correct_answer": "wordt"
+        },
+        {
+            "id": 4,
+            "sentence": "___ de factuur al door de financiële administratie betaald?",
+            "options": [
+                "Is",
+                "Wordt",
+                "Zal",
+                "Zijn"
+            ],
+            "correct_answer": "Is"
+        },
+        {
+            "id": 5,
+            "sentence": "Hoe ___ de kwaliteit van de producten in de fabriek gecontroleerd?",
+            "options": [
+                "wordt",
+                "worden",
+                "is",
+                "zijn"
+            ],
+            "correct_answer": "wordt"
+        },
+        {
+            "id": 6,
+            "sentence": "Op welke manier ___ de werknemers over de wijzigingen geïnformeerd?",
+            "options": [
+                "worden",
+                "wordt",
+                "zijn",
+                "zullen"
+            ],
+            "correct_answer": "worden"
+        },
+        {
+            "id": 7,
+            "sentence": "___ de technische problemen gisteravond eindelijk opgelost?",
+            "options": [
+                "Zijn",
+                "Worden",
+                "Zal",
+                "Wordt"
+            ],
+            "correct_answer": "Zijn"
+        },
+        {
+            "id": 8,
+            "sentence": "Waarom ___ het projectplan nog niet door de directie goedgekeurd?",
+            "options": [
+                "is",
+                "wordt",
+                "worden",
+                "zijn"
+            ],
+            "correct_answer": "is"
+        },
+        {
+            "id": 9,
+            "sentence": "In hoeverre ___ de resultaten van het onderzoek serieus genomen?",
+            "options": [
+                "worden",
+                "wordt",
+                "zijn",
+                "zullen"
+            ],
+            "correct_answer": "worden"
+        },
+        {
+            "id": 10,
+            "sentence": "___ de jaarlijkse bonus dit year aan het personeel uitgekeerd?",
+            "options": [
+                "Wordt",
+                "Worden",
+                "Is",
+                "Zal"
+            ],
+            "correct_answer": "Wordt"
+        }
+    ]
+}

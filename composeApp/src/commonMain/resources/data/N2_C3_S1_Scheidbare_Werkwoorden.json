@@ -1,652 +1,561 @@
-[
-    {
-        "question_id": 1,
-        "sentence": "Ik ___ je morgenmiddag over dat belangrijke project op.",
-        "options": [
-            "bel",
-            "bellen",
-            "belt",
-            "op"
-        ],
-        "correct_answer": "bel",
-        "language": "nl",
-        "difficulty": "N2"
+{
+    "metadata": {
+        "level": "N2",
+        "category": "C3",
+        "subject": "S1",
+        "title": "Scheidbare Werkwoorden",
+        "language": "nl"
     },
-    {
-        "question_id": 2,
-        "sentence": "De medewerker levert het verslag direct bij de manager ___.",
-        "options": [
-            "in",
-            "uit",
-            "af",
-            "op"
-        ],
-        "correct_answer": "in",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 3,
-        "sentence": "De secretaresse ___ alle gasten voor de vergadering uit.",
-        "options": [
-            "nodigt",
-            "nodig",
-            "nodigen",
-            "uit"
-        ],
-        "correct_answer": "nodigt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 4,
-        "sentence": "Ik sluit mijn computer aan het eind van de werkdag ___.",
-        "options": [
-            "af",
-            "uit",
-            "in",
-            "op"
-        ],
-        "correct_answer": "af",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 5,
-        "sentence": "De directeur ___ de nieuwe strategie aan het team uit.",
-        "options": [
-            "legt",
-            "leggen",
-            "legde",
-            "uit"
-        ],
-        "correct_answer": "legt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 6,
-        "sentence": "De collega ___ de informatie aan de rest van het team door.",
-        "options": [
-            "geeft",
-            "geven",
-            "gaf",
-            "door"
-        ],
-        "correct_answer": "geeft",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 7,
-        "sentence": "Ik ___ de cijfers in het systeem voor de presentatie aan.",
-        "options": [
-            "pas",
-            "passen",
-            "past",
-            "aan"
-        ],
-        "correct_answer": "pas",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 8,
-        "sentence": "De stagiair ruimt zijn bureau na de lunch netjes ___.",
-        "options": [
-            "op",
-            "af",
-            "in",
-            "uit"
-        ],
-        "correct_answer": "op",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 9,
-        "sentence": "Wij ___ morgen om tien uur met de klant af.",
-        "options": [
-            "spreken",
-            "spreekt",
-            "sprak",
-            "af"
-        ],
-        "correct_answer": "spreken",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 10,
-        "sentence": "De manager ___ de afspraak voor de training helaas af.",
-        "options": [
-            "zegt",
-            "zeggen",
-            "zegde",
-            "af"
-        ],
-        "correct_answer": "zegt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 11,
-        "sentence": "Ik meld me via het online portaal voor de cursus ___.",
-        "options": [
-            "aan",
-            "af",
-            "uit",
-            "in"
-        ],
-        "correct_answer": "aan",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 12,
-        "sentence": "De collega ___ de presentatie voor de vergadering grondig voor.",
-        "options": [
-            "bereidt",
-            "bereid",
-            "bereiden",
-            "voor"
-        ],
-        "correct_answer": "bereidt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 13,
-        "sentence": "Ik bel je over een uur even voor overleg ___.",
-        "options": [
-            "op",
-            "af",
-            "uit",
-            "bij"
-        ],
-        "correct_answer": "op",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 14,
-        "sentence": "De werknemer ___ het formulier voor de vakantie volledig in.",
-        "options": [
-            "vult",
-            "vullen",
-            "vulde",
-            "geeft"
-        ],
-        "correct_answer": "vult",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 15,
-        "sentence": "Wij leveren de offertes voor vrijdag bij de klant ___.",
-        "options": [
-            "in",
-            "uit",
-            "af",
-            "op"
-        ],
-        "correct_answer": "in",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 16,
-        "sentence": "De assistent ___ de oude documenten in het archief op.",
-        "options": [
-            "zoekt",
-            "zoeken",
-            "zocht",
-            "vindt"
-        ],
-        "correct_answer": "zoekt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 17,
-        "sentence": "Ik handel de administratie van deze week vandaag nog ___.",
-        "options": [
-            "af",
-            "uit",
-            "op",
-            "in"
-        ],
-        "correct_answer": "af",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 18,
-        "sentence": "De manager ___ de cursisten voor het examen in de middag uit.",
-        "options": [
-            "nodigt",
-            "nodig",
-            "nodigen",
-            "uit"
-        ],
-        "correct_answer": "nodigt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 19,
-        "sentence": "Wij ___ gezamenlijk aan de wekelijkse vergadering deel.",
-        "options": [
-            "nemen",
-            "neemt",
-            "nam",
-            "delen"
-        ],
-        "correct_answer": "nemen",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 20,
-        "sentence": "De baas sluit de presentatie met een positieve boodschap ___.",
-        "options": [
-            "af",
-            "uit",
-            "op",
-            "in"
-        ],
-        "correct_answer": "af",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 21,
-        "sentence": "Ik ___ mijn wachtwoord in het systeem elke maand aan.",
-        "options": [
-            "pas",
-            "passen",
-            "past",
-            "verander"
-        ],
-        "correct_answer": "pas",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 22,
-        "sentence": "De collega legt het probleem aan de technische dienst ___.",
-        "options": [
-            "uit",
-            "af",
-            "op",
-            "in"
-        ],
-        "correct_answer": "uit",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 23,
-        "sentence": "De manager ___ de resultaten van het onderzoek direct op.",
-        "options": [
-            "vraagt",
-            "vragen",
-            "vroeg",
-            "op"
-        ],
-        "correct_answer": "vraagt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 24,
-        "sentence": "Ik meld mijn afwezigheid voor de bijeenkomst vanmiddag ___.",
-        "options": [
-            "af",
-            "aan",
-            "uit",
-            "in"
-        ],
-        "correct_answer": "af",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 25,
-        "sentence": "De secretaresse ___ de gasten bij de balie hartelijk binnen.",
-        "options": [
-            "laat",
-            "laten",
-            "liet",
-            "binnen"
-        ],
-        "correct_answer": "laat",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 26,
-        "sentence": "Ik zoek het telefoonnummer van de leverancier even ___.",
-        "options": [
-            "op",
-            "uit",
-            "af",
-            "in"
-        ],
-        "correct_answer": "op",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 27,
-        "sentence": "De cursisten ___ de nieuwe woorden in hun schrift op.",
-        "options": [
-            "schrijven",
-            "schrijft",
-            "schreef",
-            "zetten"
-        ],
-        "correct_answer": "schrijven",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 28,
-        "sentence": "De baas spreekt de werknemer op zijn goede resultaten ___.",
-        "options": [
-            "aan",
-            "af",
-            "uit",
-            "op"
-        ],
-        "correct_answer": "aan",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 29,
-        "sentence": "Wij ___ deze belangrijke documenten veilig in de kluis op.",
-        "options": [
-            "bergen",
-            "berg",
-            "bergt",
-            "bewaren"
-        ],
-        "correct_answer": "bergen",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 30,
-        "sentence": "De collega deelt de folders aan de aanwezige gasten ___.",
-        "options": [
-            "uit",
-            "in",
-            "af",
-            "op"
-        ],
-        "correct_answer": "uit",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 31,
-        "sentence": "Ik ___ de lichten op kantoor voor vertrek altijd uit.",
-        "options": [
-            "doe",
-            "doet",
-            "doen",
-            "zet"
-        ],
-        "correct_answer": "doe",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 32,
-        "sentence": "De stagiair neemt de taken van de zieke collega ___.",
-        "options": [
-            "over",
-            "af",
-            "uit",
-            "aan"
-        ],
-        "correct_answer": "over",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 33,
-        "sentence": "Wij ___ de fouten in de factuur zo snel mogelijk aan.",
-        "options": [
-            "passen",
-            "past",
-            "pasten",
-            "aanpassen"
-        ],
-        "correct_answer": "passen",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 34,
-        "sentence": "De technicus start de server na het onderhoud weer ___.",
-        "options": [
-            "op",
-            "af",
-            "uit",
-            "in"
-        ],
-        "correct_answer": "op",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 35,
-        "sentence": "Ik ___ mijn jas bij binnenkomst op kantoor meteen op.",
-        "options": [
-            "hang",
-            "hangt",
-            "hangen",
-            "zet"
-        ],
-        "correct_answer": "hang",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 36,
-        "sentence": "De directeur zegt de lunch met de partners helaas ___.",
-        "options": [
-            "af",
-            "uit",
-            "op",
-            "in"
-        ],
-        "correct_answer": "af",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 37,
-        "sentence": "De medewerkers ___ de instructies voor de nieuwe machine door.",
-        "options": [
-            "nemen",
-            "neemt",
-            "nam",
-            "lezen"
-        ],
-        "correct_answer": "nemen",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 38,
-        "sentence": "De secretaresse werkt de agenda voor de volgende week ___.",
-        "options": [
-            "bij",
-            "af",
-            "uit",
-            "op"
-        ],
-        "correct_answer": "bij",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 39,
-        "sentence": "Ik ___ je direct terug als ik meer informatie heb.",
-        "options": [
-            "bel",
-            "bellen",
-            "belt",
-            "op"
-        ],
-        "correct_answer": "bel",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 40,
-        "sentence": "De collega ruimt de koffiekopjes in de keuken netjes ___.",
-        "options": [
-            "op",
-            "af",
-            "uit",
-            "in"
-        ],
-        "correct_answer": "op",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 41,
-        "sentence": "Wij ___ de notulen van de vergadering direct naar u op.",
-        "options": [
-            "sturen",
-            "stuurt",
-            "stuurde",
-            "verzenden"
-        ],
-        "correct_answer": "sturen",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 42,
-        "sentence": "De manager deelt de taken voor het nieuwe project ___.",
-        "options": [
-            "in",
-            "uit",
-            "af",
-            "op"
-        ],
-        "correct_answer": "in",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 43,
-        "sentence": "Ik ___ de deur van het kantoor 's avonds altijd af.",
-        "options": [
-            "sluit",
-            "sluiten",
-            "sluitte",
-            "doe"
-        ],
-        "correct_answer": "sluit",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 44,
-        "sentence": "De baas legt de reden voor de verhuizing duidelijk ___.",
-        "options": [
-            "uit",
-            "af",
-            "op",
-            "in"
-        ],
-        "correct_answer": "uit",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 45,
-        "sentence": "Wij ___ morgen de plannen voor het personeelsfeest af.",
-        "options": [
-            "spreken",
-            "spreekt",
-            "sprak",
-            "overeen"
-        ],
-        "correct_answer": "spreken",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 46,
-        "sentence": "De cursist meldt zich voor de extra les op zaterdag ___.",
-        "options": [
-            "aan",
-            "af",
-            "uit",
-            "in"
-        ],
-        "correct_answer": "aan",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 47,
-        "sentence": "Ik ___ de belangrijke bijlage bij de e-mail voor u bij.",
-        "options": [
-            "voeg",
-            "voegen",
-            "voegt",
-            "zet"
-        ],
-        "correct_answer": "voeg",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 48,
-        "sentence": "De collega haalt de post voor de afdeling elke ochtend ___.",
-        "options": [
-            "op",
-            "af",
-            "uit",
-            "in"
-        ],
-        "correct_answer": "op",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 49,
-        "sentence": "Wij ___ de sollicitant voor een gesprek op kantoor uit.",
-        "options": [
-            "nodigen",
-            "nodigt",
-            "nodigde",
-            "uitnodigen"
-        ],
-        "correct_answer": "nodigen",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 50,
-        "sentence": "De manager stelt de nieuwe medewerker aan het team ___.",
-        "options": [
-            "voor",
-            "af",
-            "uit",
-            "op"
-        ],
-        "correct_answer": "voor",
-        "language": "nl",
-        "difficulty": "N2"
-    }
-]
+    "exercises": [
+        {
+            "id": 1,
+            "sentence": "Ik ___ je morgenmiddag over dat belangrijke project op.",
+            "options": [
+                "bel",
+                "bellen",
+                "belt",
+                "op"
+            ],
+            "correct_answer": "bel"
+        },
+        {
+            "id": 2,
+            "sentence": "De medewerker levert het verslag direct bij de manager ___.",
+            "options": [
+                "in",
+                "uit",
+                "af",
+                "op"
+            ],
+            "correct_answer": "in"
+        },
+        {
+            "id": 3,
+            "sentence": "De secretaresse ___ alle gasten voor de vergadering uit.",
+            "options": [
+                "nodigt",
+                "nodig",
+                "nodigen",
+                "uit"
+            ],
+            "correct_answer": "nodigt"
+        },
+        {
+            "id": 4,
+            "sentence": "Ik sluit mijn computer aan het eind van de werkdag ___.",
+            "options": [
+                "af",
+                "uit",
+                "in",
+                "op"
+            ],
+            "correct_answer": "af"
+        },
+        {
+            "id": 5,
+            "sentence": "De directeur ___ de nieuwe strategie aan het team uit.",
+            "options": [
+                "legt",
+                "leggen",
+                "legde",
+                "uit"
+            ],
+            "correct_answer": "legt"
+        },
+        {
+            "id": 6,
+            "sentence": "De collega ___ de informatie aan de rest van het team door.",
+            "options": [
+                "geeft",
+                "geven",
+                "gaf",
+                "door"
+            ],
+            "correct_answer": "geeft"
+        },
+        {
+            "id": 7,
+            "sentence": "Ik ___ de cijfers in het systeem voor de presentatie aan.",
+            "options": [
+                "pas",
+                "passen",
+                "past",
+                "aan"
+            ],
+            "correct_answer": "pas"
+        },
+        {
+            "id": 8,
+            "sentence": "De stagiair ruimt zijn bureau na de lunch netjes ___.",
+            "options": [
+                "op",
+                "af",
+                "in",
+                "uit"
+            ],
+            "correct_answer": "op"
+        },
+        {
+            "id": 9,
+            "sentence": "Wij ___ morgen om tien uur met de klant af.",
+            "options": [
+                "spreken",
+                "spreekt",
+                "sprak",
+                "af"
+            ],
+            "correct_answer": "spreken"
+        },
+        {
+            "id": 10,
+            "sentence": "De manager ___ de afspraak voor de training helaas af.",
+            "options": [
+                "zegt",
+                "zeggen",
+                "zegde",
+                "af"
+            ],
+            "correct_answer": "zegt"
+        },
+        {
+            "id": 11,
+            "sentence": "Ik meld me via het online portaal voor de cursus ___.",
+            "options": [
+                "aan",
+                "af",
+                "uit",
+                "in"
+            ],
+            "correct_answer": "aan"
+        },
+        {
+            "id": 12,
+            "sentence": "De collega ___ de presentatie voor de vergadering grondig voor.",
+            "options": [
+                "bereidt",
+                "bereid",
+                "bereiden",
+                "voor"
+            ],
+            "correct_answer": "bereidt"
+        },
+        {
+            "id": 13,
+            "sentence": "Ik bel je over een uur even voor overleg ___.",
+            "options": [
+                "op",
+                "af",
+                "uit",
+                "bij"
+            ],
+            "correct_answer": "op"
+        },
+        {
+            "id": 14,
+            "sentence": "De werknemer ___ het formulier voor de vakantie volledig in.",
+            "options": [
+                "vult",
+                "vullen",
+                "vulde",
+                "geeft"
+            ],
+            "correct_answer": "vult"
+        },
+        {
+            "id": 15,
+            "sentence": "Wij leveren de offertes voor vrijdag bij de klant ___.",
+            "options": [
+                "in",
+                "uit",
+                "af",
+                "op"
+            ],
+            "correct_answer": "in"
+        },
+        {
+            "id": 16,
+            "sentence": "De assistent ___ de oude documenten in het archief op.",
+            "options": [
+                "zoekt",
+                "zoeken",
+                "zocht",
+                "vindt"
+            ],
+            "correct_answer": "zoekt"
+        },
+        {
+            "id": 17,
+            "sentence": "Ik handel de administratie van deze week vandaag nog ___.",
+            "options": [
+                "af",
+                "uit",
+                "op",
+                "in"
+            ],
+            "correct_answer": "af"
+        },
+        {
+            "id": 18,
+            "sentence": "De manager ___ de cursisten voor het examen in de middag uit.",
+            "options": [
+                "nodigt",
+                "nodig",
+                "nodigen",
+                "uit"
+            ],
+            "correct_answer": "nodigt"
+        },
+        {
+            "id": 19,
+            "sentence": "Wij ___ gezamenlijk aan de wekelijkse vergadering deel.",
+            "options": [
+                "nemen",
+                "neemt",
+                "nam",
+                "delen"
+            ],
+            "correct_answer": "nemen"
+        },
+        {
+            "id": 20,
+            "sentence": "De baas sluit de presentatie met een positieve boodschap ___.",
+            "options": [
+                "af",
+                "uit",
+                "op",
+                "in"
+            ],
+            "correct_answer": "af"
+        },
+        {
+            "id": 21,
+            "sentence": "Ik ___ mijn wachtwoord in het systeem elke maand aan.",
+            "options": [
+                "pas",
+                "passen",
+                "past",
+                "verander"
+            ],
+            "correct_answer": "pas"
+        },
+        {
+            "id": 22,
+            "sentence": "De collega legt het probleem aan de technische dienst ___.",
+            "options": [
+                "uit",
+                "af",
+                "op",
+                "in"
+            ],
+            "correct_answer": "uit"
+        },
+        {
+            "id": 23,
+            "sentence": "De manager ___ de resultaten van het onderzoek direct op.",
+            "options": [
+                "vraagt",
+                "vragen",
+                "vroeg",
+                "op"
+            ],
+            "correct_answer": "vraagt"
+        },
+        {
+            "id": 24,
+            "sentence": "Ik meld mijn afwezigheid voor de bijeenkomst vanmiddag ___.",
+            "options": [
+                "af",
+                "aan",
+                "uit",
+                "in"
+            ],
+            "correct_answer": "af"
+        },
+        {
+            "id": 25,
+            "sentence": "De secretaresse ___ de gasten bij de balie hartelijk binnen.",
+            "options": [
+                "laat",
+                "laten",
+                "liet",
+                "binnen"
+            ],
+            "correct_answer": "laat"
+        },
+        {
+            "id": 26,
+            "sentence": "Ik zoek het telefoonnummer van de leverancier even ___.",
+            "options": [
+                "op",
+                "uit",
+                "af",
+                "in"
+            ],
+            "correct_answer": "op"
+        },
+        {
+            "id": 27,
+            "sentence": "De cursisten ___ de nieuwe woorden in hun schrift op.",
+            "options": [
+                "schrijven",
+                "schrijft",
+                "schreef",
+                "zetten"
+            ],
+            "correct_answer": "schrijven"
+        },
+        {
+            "id": 28,
+            "sentence": "De baas spreekt de werknemer op zijn goede resultaten ___.",
+            "options": [
+                "aan",
+                "af",
+                "uit",
+                "op"
+            ],
+            "correct_answer": "aan"
+        },
+        {
+            "id": 29,
+            "sentence": "Wij ___ deze belangrijke documenten veilig in de kluis op.",
+            "options": [
+                "bergen",
+                "berg",
+                "bergt",
+                "bewaren"
+            ],
+            "correct_answer": "bergen"
+        },
+        {
+            "id": 30,
+            "sentence": "De collega deelt de folders aan de aanwezige gasten ___.",
+            "options": [
+                "uit",
+                "in",
+                "af",
+                "op"
+            ],
+            "correct_answer": "uit"
+        },
+        {
+            "id": 31,
+            "sentence": "Ik ___ de lichten op kantoor voor vertrek altijd uit.",
+            "options": [
+                "doe",
+                "doet",
+                "doen",
+                "zet"
+            ],
+            "correct_answer": "doe"
+        },
+        {
+            "id": 32,
+            "sentence": "De stagiair neemt de taken van de zieke collega ___.",
+            "options": [
+                "over",
+                "af",
+                "uit",
+                "aan"
+            ],
+            "correct_answer": "over"
+        },
+        {
+            "id": 33,
+            "sentence": "Wij ___ de fouten in de factuur zo snel mogelijk aan.",
+            "options": [
+                "passen",
+                "past",
+                "pasten",
+                "aanpassen"
+            ],
+            "correct_answer": "passen"
+        },
+        {
+            "id": 34,
+            "sentence": "De technicus start de server na het onderhoud weer ___.",
+            "options": [
+                "op",
+                "af",
+                "uit",
+                "in"
+            ],
+            "correct_answer": "op"
+        },
+        {
+            "id": 35,
+            "sentence": "Ik ___ mijn jas bij binnenkomst op kantoor meteen op.",
+            "options": [
+                "hang",
+                "hangt",
+                "hangen",
+                "zet"
+            ],
+            "correct_answer": "hang"
+        },
+        {
+            "id": 36,
+            "sentence": "De directeur zegt de lunch met de partners helaas ___.",
+            "options": [
+                "af",
+                "uit",
+                "op",
+                "in"
+            ],
+            "correct_answer": "af"
+        },
+        {
+            "id": 37,
+            "sentence": "De medewerkers ___ de instructies voor de nieuwe machine door.",
+            "options": [
+                "nemen",
+                "neemt",
+                "nam",
+                "lezen"
+            ],
+            "correct_answer": "nemen"
+        },
+        {
+            "id": 38,
+            "sentence": "De secretaresse werkt de agenda voor de volgende week ___.",
+            "options": [
+                "bij",
+                "af",
+                "uit",
+                "op"
+            ],
+            "correct_answer": "bij"
+        },
+        {
+            "id": 39,
+            "sentence": "Ik ___ je direct terug als ik meer informatie heb.",
+            "options": [
+                "bel",
+                "bellen",
+                "belt",
+                "op"
+            ],
+            "correct_answer": "bel"
+        },
+        {
+            "id": 40,
+            "sentence": "De collega ruimt de koffiekopjes in de keuken netjes ___.",
+            "options": [
+                "op",
+                "af",
+                "uit",
+                "in"
+            ],
+            "correct_answer": "op"
+        },
+        {
+            "id": 41,
+            "sentence": "Wij ___ de notulen van de vergadering direct naar u op.",
+            "options": [
+                "sturen",
+                "stuurt",
+                "stuurde",
+                "verzenden"
+            ],
+            "correct_answer": "sturen"
+        },
+        {
+            "id": 42,
+            "sentence": "De manager deelt de taken voor het nieuwe project ___.",
+            "options": [
+                "in",
+                "uit",
+                "af",
+                "op"
+            ],
+            "correct_answer": "in"
+        },
+        {
+            "id": 43,
+            "sentence": "Ik ___ de deur van het kantoor 's avonds altijd af.",
+            "options": [
+                "sluit",
+                "sluiten",
+                "sluitte",
+                "doe"
+            ],
+            "correct_answer": "sluit"
+        },
+        {
+            "id": 44,
+            "sentence": "De baas legt de reden voor de verhuizing duidelijk ___.",
+            "options": [
+                "uit",
+                "af",
+                "op",
+                "in"
+            ],
+            "correct_answer": "uit"
+        },
+        {
+            "id": 45,
+            "sentence": "Wij ___ morgen de plannen voor het personeelsfeest af.",
+            "options": [
+                "spreken",
+                "spreekt",
+                "sprak",
+                "overeen"
+            ],
+            "correct_answer": "spreken"
+        },
+        {
+            "id": 46,
+            "sentence": "De cursist meldt zich voor de extra les op zaterdag ___.",
+            "options": [
+                "aan",
+                "af",
+                "uit",
+                "in"
+            ],
+            "correct_answer": "aan"
+        },
+        {
+            "id": 47,
+            "sentence": "Ik ___ de belangrijke bijlage bij de e-mail voor u bij.",
+            "options": [
+                "voeg",
+                "voegen",
+                "voegt",
+                "zet"
+            ],
+            "correct_answer": "voeg"
+        },
+        {
+            "id": 48,
+            "sentence": "De collega haalt de post voor de afdeling elke ochtend ___.",
+            "options": [
+                "op",
+                "af",
+                "uit",
+                "in"
+            ],
+            "correct_answer": "op"
+        },
+        {
+            "id": 49,
+            "sentence": "Wij ___ de sollicitant voor een gesprek op kantoor uit.",
+            "options": [
+                "nodigen",
+                "nodigt",
+                "nodigde",
+                "uitnodigen"
+            ],
+            "correct_answer": "nodigen"
+        },
+        {
+            "id": 50,
+            "sentence": "De manager stelt de nieuwe medewerker aan het team ___.",
+            "options": [
+                "voor",
+                "af",
+                "uit",
+                "op"
+            ],
+            "correct_answer": "voor"
+        }
+    ]
+}

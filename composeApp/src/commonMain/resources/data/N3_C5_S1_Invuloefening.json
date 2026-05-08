@@ -1,12 +1,121 @@
-[
-    {"question_id": 1, "sentence": "Gisteren ___ de directeur de nieuwe plannen voor 2026 aan het team voor.", "options": ["stelde", "stelt", "stellen", "gesteld"], "correct_answer": "stelde", "language": "nl", "difficulty": "N3"},
-    {"question_id": 2, "sentence": "Heeft de assistent de notulen van de vorige vergadering al kunnen ___ ?", "options": ["uitwerken", "uitwerkt", "uitwerkte", "uitgewerkt"], "correct_answer": "uitwerken", "language": "nl", "difficulty": "N3"},
-    {"question_id": 3, "sentence": "De nieuwe software ___ volgende week op alle computers geïnstalleerd.", "options": ["wordt", "is", "zal", "heeft"], "correct_answer": "wordt", "language": "nl", "difficulty": "N3"},
-    {"question_id": 4, "sentence": "Nadat de crisis ___ bezworen, kon de normale bedrijfsvoering weer doorgaan.", "options": ["was", "had", "is", "werd"], "correct_answer": "was", "language": "nl", "difficulty": "N3"},
-    {"question_id": 5, "sentence": "___ u bereid zijn om deel te nemen aan dit innovatieve project?", "options": ["Zou", "Zal", "Kan", "Wilt"], "correct_answer": "Zou", "language": "nl", "difficulty": "N3"},
-    {"question_id": 6, "sentence": "Door de onverwachte daling van de koersen ___ de directie direct actie.", "options": ["ondernam", "onderneemt", "ondernemen", "ondernomen"], "correct_answer": "ondernam", "language": "nl", "difficulty": "N3"},
-    {"question_id": 7, "sentence": "Wij accepteren de voorwaarden, ___ de leveringstermijn wordt verkort.", "options": ["mits", "tenzij", "hoewel", "omdat"], "correct_answer": "mits", "language": "nl", "difficulty": "N3"},
-    {"question_id": 8, "sentence": "Hadden jullie de factuur niet eerder moeten ___ ?", "options": ["betalen", "betaalt", "betaalde", "betaald"], "correct_answer": "betalen", "language": "nl", "difficulty": "N3"},
-    {"question_id": 9, "sentence": "Wanneer ___ de resultaten van het klanttevredenheidsonderzoek bekend?", "options": ["worden", "wordt", "zijn", "zullen"], "correct_answer": "worden", "language": "nl", "difficulty": "N3"},
-    {"question_id": 10, "sentence": "___ de markt verzadigd is, zoeken we naar alternatieve inkomstenbronnen.", "options": ["Aangezien", "Hoewel", "Zodra", "Tenzij"], "correct_answer": "Aangezien", "language": "nl", "difficulty": "N3"}
-]
+{
+    "metadata": {
+        "level": "N3",
+        "category": "C5",
+        "subject": "S1",
+        "title": "Invuloefening",
+        "language": "nl"
+    },
+    "exercises": [
+        {
+            "id": 1,
+            "sentence": "Gisteren ___ de directeur de nieuwe plannen voor 2026 aan het team voor.",
+            "options": [
+                "stelde",
+                "stelt",
+                "stellen",
+                "gesteld"
+            ],
+            "correct_answer": "stelde"
+        },
+        {
+            "id": 2,
+            "sentence": "Heeft de assistent de notulen van de vorige vergadering al kunnen ___ ?",
+            "options": [
+                "uitwerken",
+                "uitwerkt",
+                "uitwerkte",
+                "uitgewerkt"
+            ],
+            "correct_answer": "uitwerken"
+        },
+        {
+            "id": 3,
+            "sentence": "De nieuwe software ___ volgende week op alle computers geïnstalleerd.",
+            "options": [
+                "wordt",
+                "is",
+                "zal",
+                "heeft"
+            ],
+            "correct_answer": "wordt"
+        },
+        {
+            "id": 4,
+            "sentence": "Nadat de crisis ___ bezworen, kon de normale bedrijfsvoering weer doorgaan.",
+            "options": [
+                "was",
+                "had",
+                "is",
+                "werd"
+            ],
+            "correct_answer": "was"
+        },
+        {
+            "id": 5,
+            "sentence": "___ u bereid zijn om deel te nemen aan dit innovatieve project?",
+            "options": [
+                "Zou",
+                "Zal",
+                "Kan",
+                "Wilt"
+            ],
+            "correct_answer": "Zou"
+        },
+        {
+            "id": 6,
+            "sentence": "Door de onverwachte daling van de koersen ___ de directie direct actie.",
+            "options": [
+                "ondernam",
+                "onderneemt",
+                "ondernemen",
+                "ondernomen"
+            ],
+            "correct_answer": "ondernam"
+        },
+        {
+            "id": 7,
+            "sentence": "Wij accepteren de voorwaarden, ___ de leveringstermijn wordt verkort.",
+            "options": [
+                "mits",
+                "tenzij",
+                "hoewel",
+                "omdat"
+            ],
+            "correct_answer": "mits"
+        },
+        {
+            "id": 8,
+            "sentence": "Hadden jullie de factuur niet eerder moeten ___ ?",
+            "options": [
+                "betalen",
+                "betaalt",
+                "betaalde",
+                "betaald"
+            ],
+            "correct_answer": "betalen"
+        },
+        {
+            "id": 9,
+            "sentence": "Wanneer ___ de resultaten van het klanttevredenheidsonderzoek bekend?",
+            "options": [
+                "worden",
+                "wordt",
+                "zijn",
+                "zullen"
+            ],
+            "correct_answer": "worden"
+        },
+        {
+            "id": 10,
+            "sentence": "___ de markt verzadigd is, zoeken we naar alternatieve inkomstenbronnen.",
+            "options": [
+                "Aangezien",
+                "Hoewel",
+                "Zodra",
+                "Tenzij"
+            ],
+            "correct_answer": "Aangezien"
+        }
+    ]
+}

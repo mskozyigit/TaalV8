@@ -1,12 +1,121 @@
-[
-    {"question_id": 1, "sentence": "De manager ___ het verslag al gelezen.", "options": ["had", "heeft", "was", "wordt"], "correct_answer": "had", "language": "nl", "difficulty": "N3"},
-    {"question_id": 2, "sentence": "Morgen ___ de nieuwe strategie gepresenteerd.", "options": ["wordt", "is", "zal", "heeft"], "correct_answer": "wordt", "language": "nl", "difficulty": "N3"},
-    {"question_id": 3, "sentence": "Wij ___ geen tijd kunnen vinden.", "options": ["hadden", "hebben", "waren", "zullen"], "correct_answer": "hadden", "language": "nl", "difficulty": "N3"},
-    {"question_id": 4, "sentence": "Het is essentieel dat we de doelstellingen van dit kwartaal ___.", "options": ["halen", "haalt", "haalden", "gehaald"], "correct_answer": "halen", "language": "nl", "difficulty": "N3"},
-    {"question_id": 5, "sentence": "Ondanks de tegenslagen ___ het project succesvol afgerond.", "options": ["werd", "was", "is", "wordt"], "correct_answer": "werd", "language": "nl", "difficulty": "N3"},
-    {"question_id": 6, "sentence": "De raad van commissarissen heeft het jaarverslag gisteren ___.", "options": ["goedgekeurd", "goedkeuren", "goedkeurt", "goedgekeurde"], "correct_answer": "goedgekeurd", "language": "nl", "difficulty": "N3"},
-    {"question_id": 7, "sentence": "Indien de koersen blijven dalen, ___ we direct moeten ingrijpen.", "options": ["zullen", "zou", "zijn", "hebben"], "correct_answer": "zullen", "language": "nl", "difficulty": "N3"},
-    {"question_id": 8, "sentence": "Het is niet toegestaan om zonder toestemming het pand te ___.", "options": ["betreden", "betreedt", "betrad", "betreden"], "correct_answer": "betreden", "language": "nl", "difficulty": "N3"},
-    {"question_id": 9, "sentence": "Men ___ ervan uit dat de economie volgend jaar weer zal groeien.", "options": ["gaat", "gaan", "ging", "gegaan"], "correct_answer": "gaat", "language": "nl", "difficulty": "N3"},
-    {"question_id": 10, "sentence": "Er ___ momenteel hard gewerkt aan een oplossing voor het probleem.", "options": ["wordt", "is", "was", "worden"], "correct_answer": "wordt", "language": "nl", "difficulty": "N3"}
-]
+{
+    "metadata": {
+        "level": "N3",
+        "category": "C5",
+        "subject": "S2",
+        "title": "Husselaar",
+        "language": "nl"
+    },
+    "exercises": [
+        {
+            "id": 1,
+            "sentence": "De manager ___ het verslag al gelezen.",
+            "options": [
+                "had",
+                "heeft",
+                "was",
+                "wordt"
+            ],
+            "correct_answer": "had"
+        },
+        {
+            "id": 2,
+            "sentence": "Morgen ___ de nieuwe strategie gepresenteerd.",
+            "options": [
+                "wordt",
+                "is",
+                "zal",
+                "heeft"
+            ],
+            "correct_answer": "wordt"
+        },
+        {
+            "id": 3,
+            "sentence": "Wij ___ geen tijd kunnen vinden.",
+            "options": [
+                "hadden",
+                "hebben",
+                "waren",
+                "zullen"
+            ],
+            "correct_answer": "hadden"
+        },
+        {
+            "id": 4,
+            "sentence": "Het is essentieel dat we de doelstellingen van dit kwartaal ___.",
+            "options": [
+                "halen",
+                "haalt",
+                "haalden",
+                "gehaald"
+            ],
+            "correct_answer": "halen"
+        },
+        {
+            "id": 5,
+            "sentence": "Ondanks de tegenslagen ___ het project succesvol afgerond.",
+            "options": [
+                "werd",
+                "was",
+                "is",
+                "wordt"
+            ],
+            "correct_answer": "werd"
+        },
+        {
+            "id": 6,
+            "sentence": "De raad van commissarissen heeft het jaarverslag gisteren ___.",
+            "options": [
+                "goedgekeurd",
+                "goedkeuren",
+                "goedkeurt",
+                "goedgekeurde"
+            ],
+            "correct_answer": "goedgekeurd"
+        },
+        {
+            "id": 7,
+            "sentence": "Indien de koersen blijven dalen, ___ we direct moeten ingrijpen.",
+            "options": [
+                "zullen",
+                "zou",
+                "zijn",
+                "hebben"
+            ],
+            "correct_answer": "zullen"
+        },
+        {
+            "id": 8,
+            "sentence": "Het is niet toegestaan om zonder toestemming het pand te ___.",
+            "options": [
+                "betreden",
+                "betreedt",
+                "betrad",
+                "betreden"
+            ],
+            "correct_answer": "betreden"
+        },
+        {
+            "id": 9,
+            "sentence": "Men ___ ervan uit dat de economie volgend jaar weer zal groeien.",
+            "options": [
+                "gaat",
+                "gaan",
+                "ging",
+                "gegaan"
+            ],
+            "correct_answer": "gaat"
+        },
+        {
+            "id": 10,
+            "sentence": "Er ___ momenteel hard gewerkt aan een oplossing voor het probleem.",
+            "options": [
+                "wordt",
+                "is",
+                "was",
+                "worden"
+            ],
+            "correct_answer": "wordt"
+        }
+    ]
+}

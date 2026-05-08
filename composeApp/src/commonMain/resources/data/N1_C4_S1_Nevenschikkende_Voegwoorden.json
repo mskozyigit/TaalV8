@@ -1,652 +1,561 @@
-[
-    {
-        "question_id": 1,
-        "sentence": "Ik drink warme melk ___ ik eet brood.",
-        "options": [
-            "en",
-            "want",
-            "omdat",
-            "blauw"
-        ],
-        "correct_answer": "en",
-        "language": "nl",
-        "difficulty": "A2"
+{
+    "metadata": {
+        "level": "N1",
+        "category": "C4",
+        "subject": "S1",
+        "title": "Nevenschikkende Voegwoorden",
+        "language": "nl"
     },
-    {
-        "question_id": 2,
-        "sentence": "De man zingt luid ___ de vrouw danst.",
-        "options": [
-            "en",
-            "maar",
-            "hoewel",
-            "gisteren"
-        ],
-        "correct_answer": "en",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 3,
-        "sentence": "Wij wonen hier ___ wij werken daar ook.",
-        "options": [
-            "en",
-            "dus",
-            "als",
-            "koud"
-        ],
-        "correct_answer": "en",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 4,
-        "sentence": "Het kind speelt buiten ___ de hond slaapt.",
-        "options": [
-            "en",
-            "want",
-            "omdat",
-            "bijna"
-        ],
-        "correct_answer": "en",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 5,
-        "sentence": "Ik koop rode appels ___ jij koopt bananen.",
-        "options": [
-            "en",
-            "of",
-            "hoewel",
-            "tafel"
-        ],
-        "correct_answer": "en",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 6,
-        "sentence": "De zon schijnt ___ het is erg warm.",
-        "options": [
-            "en",
-            "maar",
-            "omdat",
-            "vroeg"
-        ],
-        "correct_answer": "en",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 7,
-        "sentence": "Jij bent een leraar ___ ik ben student.",
-        "options": [
-            "en",
-            "dus",
-            "hoewel",
-            "school"
-        ],
-        "correct_answer": "en",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 8,
-        "sentence": "We lezen boeken ___ we kijken veel televisie.",
-        "options": [
-            "en",
-            "want",
-            "omdat",
-            "altijd"
-        ],
-        "correct_answer": "en",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 9,
-        "sentence": "De trein stopt ___ de mensen stappen uit.",
-        "options": [
-            "en",
-            "of",
-            "als",
-            "koud"
-        ],
-        "correct_answer": "en",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 10,
-        "sentence": "Mijn broer fietst ___ mijn zus wandelt graag.",
-        "options": [
-            "en",
-            "maar",
-            "omdat",
-            "morgen"
-        ],
-        "correct_answer": "en",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 11,
-        "sentence": "Ik wil buiten spelen ___ het regent hard.",
-        "options": [
-            "maar",
-            "en",
-            "omdat",
-            "warm"
-        ],
-        "correct_answer": "maar",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 12,
-        "sentence": "Hij is erg moe ___ hij slaapt niet.",
-        "options": [
-            "maar",
-            "dus",
-            "hoewel",
-            "kantoor"
-        ],
-        "correct_answer": "maar",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 13,
-        "sentence": "De jas is mooi ___ hij is duur.",
-        "options": [
-            "maar",
-            "want",
-            "als",
-            "nieuw"
-        ],
-        "correct_answer": "maar",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 14,
-        "sentence": "Ik zoek mijn tas ___ ik vind hem niet.",
-        "options": [
-            "maar",
-            "en",
-            "omdat",
-            "tafel"
-        ],
-        "correct_answer": "maar",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 15,
-        "sentence": "Het is nu winter ___ het is niet koud.",
-        "options": [
-            "maar",
-            "of",
-            "hoewel",
-            "zon"
-        ],
-        "correct_answer": "maar",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 16,
-        "sentence": "Wij gaan naar school ___ hij blijft thuis.",
-        "options": [
-            "maar",
-            "want",
-            "als",
-            "vaak"
-        ],
-        "correct_answer": "maar",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 17,
-        "sentence": "Jij spreekt Nederlands ___ zij spreekt alleen Turks.",
-        "options": [
-            "maar",
-            "dus",
-            "omdat",
-            "altijd"
-        ],
-        "correct_answer": "maar",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 18,
-        "sentence": "Ik heb grote honger ___ ik eet niets.",
-        "options": [
-            "maar",
-            "en",
-            "hoewel",
-            "banaan"
-        ],
-        "correct_answer": "maar",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 19,
-        "sentence": "De bus komt ___ ik stap niet in.",
-        "options": [
-            "maar",
-            "of",
-            "omdat",
-            "vroeg"
-        ],
-        "correct_answer": "maar",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 20,
-        "sentence": "Zij leert hard ___ de toets is moeilijk.",
-        "options": [
-            "maar",
-            "want",
-            "als",
-            "goedkoop"
-        ],
-        "correct_answer": "maar",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 21,
-        "sentence": "Ik drink veel water ___ ik heb dorst.",
-        "options": [
-            "want",
-            "maar",
-            "omdat",
-            "koud"
-        ],
-        "correct_answer": "want",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 22,
-        "sentence": "Hij gaat nu slapen ___ hij is moe.",
-        "options": [
-            "want",
-            "dus",
-            "hoewel",
-            "laat"
-        ],
-        "correct_answer": "want",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 23,
-        "sentence": "Wij kopen vers brood ___ we hebben honger.",
-        "options": [
-            "want",
-            "en",
-            "omdat",
-            "tafel"
-        ],
-        "correct_answer": "want",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 24,
-        "sentence": "De baby huilt ___ de fles is leeg.",
-        "options": [
-            "want",
-            "of",
-            "als",
-            "melk"
-        ],
-        "correct_answer": "want",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 25,
-        "sentence": "Ik bel mijn moeder ___ ik mis haar.",
-        "options": [
-            "want",
-            "maar",
-            "hoewel",
-            "gisteren"
-        ],
-        "correct_answer": "want",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 26,
-        "sentence": "Zij koopt schoenen ___ zij heeft ze nodig.",
-        "options": [
-            "want",
-            "dus",
-            "omdat",
-            "altijd"
-        ],
-        "correct_answer": "want",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 27,
-        "sentence": "Wij dragen jassen ___ het is koud buiten.",
-        "options": [
-            "want",
-            "en",
-            "als",
-            "koud"
-        ],
-        "correct_answer": "want",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 28,
-        "sentence": "De leraar helpt ___ de vraag is moeilijk.",
-        "options": [
-            "want",
-            "maar",
-            "omdat",
-            "goed"
-        ],
-        "correct_answer": "want",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 29,
-        "sentence": "Ik eet een appel ___ fruit is gezond.",
-        "options": [
-            "want",
-            "of",
-            "als",
-            "rood"
-        ],
-        "correct_answer": "want",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 30,
-        "sentence": "Hij lacht veel ___ de film is leuk.",
-        "options": [
-            "want",
-            "dus",
-            "hoewel",
-            "altijd"
-        ],
-        "correct_answer": "want",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 31,
-        "sentence": "Wil je sap ___ wil je water drinken?",
-        "options": [
-            "of",
-            "en",
-            "omdat",
-            "glas"
-        ],
-        "correct_answer": "of",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 32,
-        "sentence": "Gaan we vliegen ___ pakken we de trein?",
-        "options": [
-            "of",
-            "maar",
-            "hoewel",
-            "station"
-        ],
-        "correct_answer": "of",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 33,
-        "sentence": "Is hij je broer ___ is hij je neef?",
-        "options": [
-            "of",
-            "dus",
-            "als",
-            "familie"
-        ],
-        "correct_answer": "of",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 34,
-        "sentence": "Kom je nu ___ kom je vanavond pas?",
-        "options": [
-            "of",
-            "want",
-            "omdat",
-            "gisteren"
-        ],
-        "correct_answer": "of",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 35,
-        "sentence": "Eet je kaas ___ ben je een vegetariër?",
-        "options": [
-            "of",
-            "en",
-            "hoewel",
-            "lekker"
-        ],
-        "correct_answer": "of",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 36,
-        "sentence": "Koop je de krant ___ lees je online?",
-        "options": [
-            "of",
-            "maar",
-            "als",
-            "internet"
-        ],
-        "correct_answer": "of",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 37,
-        "sentence": "Ben je gelukkig ___ ben je een beetje moe?",
-        "options": [
-            "of",
-            "dus",
-            "omdat",
-            "altijd"
-        ],
-        "correct_answer": "of",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 38,
-        "sentence": "Is het huis wit ___ is het huis blauw?",
-        "options": [
-            "of",
-            "want",
-            "hoewel",
-            "mooi"
-        ],
-        "correct_answer": "of",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 39,
-        "sentence": "Fiets je naar school ___ ga je lopen?",
-        "options": [
-            "of",
-            "en",
-            "omdat",
-            "vroeg"
-        ],
-        "correct_answer": "of",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 40,
-        "sentence": "Kijk je een film ___ lees je liever?",
-        "options": [
-            "of",
-            "maar",
-            "als",
-            "boek"
-        ],
-        "correct_answer": "of",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 41,
-        "sentence": "Ik ben ziek ___ ik blijf vandaag thuis.",
-        "options": [
-            "dus",
-            "want",
-            "omdat",
-            "warm"
-        ],
-        "correct_answer": "dus",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 42,
-        "sentence": "Het regent hard ___ ik pak een paraplu.",
-        "options": [
-            "dus",
-            "maar",
-            "hoewel",
-            "water"
-        ],
-        "correct_answer": "dus",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 43,
-        "sentence": "De winkel is dicht ___ we gaan weg.",
-        "options": [
-            "dus",
-            "en",
-            "als",
-            "gisteren"
-        ],
-        "correct_answer": "dus",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 44,
-        "sentence": "Hij heeft vakantie ___ hij gaat nu reizen.",
-        "options": [
-            "dus",
-            "of",
-            "omdat",
-            "zon"
-        ],
-        "correct_answer": "dus",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 45,
-        "sentence": "Wij hebben geld ___ we kopen die auto.",
-        "options": [
-            "dus",
-            "want",
-            "hoewel",
-            "blauw"
-        ],
-        "correct_answer": "dus",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 46,
-        "sentence": "De fiets is kapot ___ we lopen nu.",
-        "options": [
-            "dus",
-            "en",
-            "omdat",
-            "straat"
-        ],
-        "correct_answer": "dus",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 47,
-        "sentence": "Jij werkt veel ___ je krijgt veel geld.",
-        "options": [
-            "dus",
-            "maar",
-            "als",
-            "goed"
-        ],
-        "correct_answer": "dus",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 48,
-        "sentence": "Het is laat ___ de kinderen moeten slapen.",
-        "options": [
-            "dus",
-            "want",
-            "hoewel",
-            "bed"
-        ],
-        "correct_answer": "dus",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 49,
-        "sentence": "Ik heb geen tijd ___ ik help niet.",
-        "options": [
-            "dus",
-            "of",
-            "omdat",
-            "bijna"
-        ],
-        "correct_answer": "dus",
-        "language": "nl",
-        "difficulty": "A2"
-    },
-    {
-        "question_id": 50,
-        "sentence": "Zij is jarig ___ we geven een feestje.",
-        "options": [
-            "dus",
-            "en",
-            "als",
-            "vrolijk"
-        ],
-        "correct_answer": "dus",
-        "language": "nl",
-        "difficulty": "A2"
-    }
-]
+    "exercises": [
+        {
+            "id": 1,
+            "sentence": "Ik drink warme melk ___ ik eet brood.",
+            "options": [
+                "en",
+                "want",
+                "omdat",
+                "blauw"
+            ],
+            "correct_answer": "en"
+        },
+        {
+            "id": 2,
+            "sentence": "De man zingt luid ___ de vrouw danst.",
+            "options": [
+                "en",
+                "maar",
+                "hoewel",
+                "gisteren"
+            ],
+            "correct_answer": "en"
+        },
+        {
+            "id": 3,
+            "sentence": "Wij wonen hier ___ wij werken daar ook.",
+            "options": [
+                "en",
+                "dus",
+                "als",
+                "koud"
+            ],
+            "correct_answer": "en"
+        },
+        {
+            "id": 4,
+            "sentence": "Het kind speelt buiten ___ de hond slaapt.",
+            "options": [
+                "en",
+                "want",
+                "omdat",
+                "bijna"
+            ],
+            "correct_answer": "en"
+        },
+        {
+            "id": 5,
+            "sentence": "Ik koop rode appels ___ jij koopt bananen.",
+            "options": [
+                "en",
+                "of",
+                "hoewel",
+                "tafel"
+            ],
+            "correct_answer": "en"
+        },
+        {
+            "id": 6,
+            "sentence": "De zon schijnt ___ het is erg warm.",
+            "options": [
+                "en",
+                "maar",
+                "omdat",
+                "vroeg"
+            ],
+            "correct_answer": "en"
+        },
+        {
+            "id": 7,
+            "sentence": "Jij bent een leraar ___ ik ben student.",
+            "options": [
+                "en",
+                "dus",
+                "hoewel",
+                "school"
+            ],
+            "correct_answer": "en"
+        },
+        {
+            "id": 8,
+            "sentence": "We lezen boeken ___ we kijken veel televisie.",
+            "options": [
+                "en",
+                "want",
+                "omdat",
+                "altijd"
+            ],
+            "correct_answer": "en"
+        },
+        {
+            "id": 9,
+            "sentence": "De trein stopt ___ de mensen stappen uit.",
+            "options": [
+                "en",
+                "of",
+                "als",
+                "koud"
+            ],
+            "correct_answer": "en"
+        },
+        {
+            "id": 10,
+            "sentence": "Mijn broer fietst ___ mijn zus wandelt graag.",
+            "options": [
+                "en",
+                "maar",
+                "omdat",
+                "morgen"
+            ],
+            "correct_answer": "en"
+        },
+        {
+            "id": 11,
+            "sentence": "Ik wil buiten spelen ___ het regent hard.",
+            "options": [
+                "maar",
+                "en",
+                "omdat",
+                "warm"
+            ],
+            "correct_answer": "maar"
+        },
+        {
+            "id": 12,
+            "sentence": "Hij is erg moe ___ hij slaapt niet.",
+            "options": [
+                "maar",
+                "dus",
+                "hoewel",
+                "kantoor"
+            ],
+            "correct_answer": "maar"
+        },
+        {
+            "id": 13,
+            "sentence": "De jas is mooi ___ hij is duur.",
+            "options": [
+                "maar",
+                "want",
+                "als",
+                "nieuw"
+            ],
+            "correct_answer": "maar"
+        },
+        {
+            "id": 14,
+            "sentence": "Ik zoek mijn tas ___ ik vind hem niet.",
+            "options": [
+                "maar",
+                "en",
+                "omdat",
+                "tafel"
+            ],
+            "correct_answer": "maar"
+        },
+        {
+            "id": 15,
+            "sentence": "Het is nu winter ___ het is niet koud.",
+            "options": [
+                "maar",
+                "of",
+                "hoewel",
+                "zon"
+            ],
+            "correct_answer": "maar"
+        },
+        {
+            "id": 16,
+            "sentence": "Wij gaan naar school ___ hij blijft thuis.",
+            "options": [
+                "maar",
+                "want",
+                "als",
+                "vaak"
+            ],
+            "correct_answer": "maar"
+        },
+        {
+            "id": 17,
+            "sentence": "Jij spreekt Nederlands ___ zij spreekt alleen Turks.",
+            "options": [
+                "maar",
+                "dus",
+                "omdat",
+                "altijd"
+            ],
+            "correct_answer": "maar"
+        },
+        {
+            "id": 18,
+            "sentence": "Ik heb grote honger ___ ik eet niets.",
+            "options": [
+                "maar",
+                "en",
+                "hoewel",
+                "banaan"
+            ],
+            "correct_answer": "maar"
+        },
+        {
+            "id": 19,
+            "sentence": "De bus komt ___ ik stap niet in.",
+            "options": [
+                "maar",
+                "of",
+                "omdat",
+                "vroeg"
+            ],
+            "correct_answer": "maar"
+        },
+        {
+            "id": 20,
+            "sentence": "Zij leert hard ___ de toets is moeilijk.",
+            "options": [
+                "maar",
+                "want",
+                "als",
+                "goedkoop"
+            ],
+            "correct_answer": "maar"
+        },
+        {
+            "id": 21,
+            "sentence": "Ik drink veel water ___ ik heb dorst.",
+            "options": [
+                "want",
+                "maar",
+                "omdat",
+                "koud"
+            ],
+            "correct_answer": "want"
+        },
+        {
+            "id": 22,
+            "sentence": "Hij gaat nu slapen ___ hij is moe.",
+            "options": [
+                "want",
+                "dus",
+                "hoewel",
+                "laat"
+            ],
+            "correct_answer": "want"
+        },
+        {
+            "id": 23,
+            "sentence": "Wij kopen vers brood ___ we hebben honger.",
+            "options": [
+                "want",
+                "en",
+                "omdat",
+                "tafel"
+            ],
+            "correct_answer": "want"
+        },
+        {
+            "id": 24,
+            "sentence": "De baby huilt ___ de fles is leeg.",
+            "options": [
+                "want",
+                "of",
+                "als",
+                "melk"
+            ],
+            "correct_answer": "want"
+        },
+        {
+            "id": 25,
+            "sentence": "Ik bel mijn moeder ___ ik mis haar.",
+            "options": [
+                "want",
+                "maar",
+                "hoewel",
+                "gisteren"
+            ],
+            "correct_answer": "want"
+        },
+        {
+            "id": 26,
+            "sentence": "Zij koopt schoenen ___ zij heeft ze nodig.",
+            "options": [
+                "want",
+                "dus",
+                "omdat",
+                "altijd"
+            ],
+            "correct_answer": "want"
+        },
+        {
+            "id": 27,
+            "sentence": "Wij dragen jassen ___ het is koud buiten.",
+            "options": [
+                "want",
+                "en",
+                "als",
+                "koud"
+            ],
+            "correct_answer": "want"
+        },
+        {
+            "id": 28,
+            "sentence": "De leraar helpt ___ de vraag is moeilijk.",
+            "options": [
+                "want",
+                "maar",
+                "omdat",
+                "goed"
+            ],
+            "correct_answer": "want"
+        },
+        {
+            "id": 29,
+            "sentence": "Ik eet een appel ___ fruit is gezond.",
+            "options": [
+                "want",
+                "of",
+                "als",
+                "rood"
+            ],
+            "correct_answer": "want"
+        },
+        {
+            "id": 30,
+            "sentence": "Hij lacht veel ___ de film is leuk.",
+            "options": [
+                "want",
+                "dus",
+                "hoewel",
+                "altijd"
+            ],
+            "correct_answer": "want"
+        },
+        {
+            "id": 31,
+            "sentence": "Wil je sap ___ wil je water drinken?",
+            "options": [
+                "of",
+                "en",
+                "omdat",
+                "glas"
+            ],
+            "correct_answer": "of"
+        },
+        {
+            "id": 32,
+            "sentence": "Gaan we vliegen ___ pakken we de trein?",
+            "options": [
+                "of",
+                "maar",
+                "hoewel",
+                "station"
+            ],
+            "correct_answer": "of"
+        },
+        {
+            "id": 33,
+            "sentence": "Is hij je broer ___ is hij je neef?",
+            "options": [
+                "of",
+                "dus",
+                "als",
+                "familie"
+            ],
+            "correct_answer": "of"
+        },
+        {
+            "id": 34,
+            "sentence": "Kom je nu ___ kom je vanavond pas?",
+            "options": [
+                "of",
+                "want",
+                "omdat",
+                "gisteren"
+            ],
+            "correct_answer": "of"
+        },
+        {
+            "id": 35,
+            "sentence": "Eet je kaas ___ ben je een vegetariër?",
+            "options": [
+                "of",
+                "en",
+                "hoewel",
+                "lekker"
+            ],
+            "correct_answer": "of"
+        },
+        {
+            "id": 36,
+            "sentence": "Koop je de krant ___ lees je online?",
+            "options": [
+                "of",
+                "maar",
+                "als",
+                "internet"
+            ],
+            "correct_answer": "of"
+        },
+        {
+            "id": 37,
+            "sentence": "Ben je gelukkig ___ ben je een beetje moe?",
+            "options": [
+                "of",
+                "dus",
+                "omdat",
+                "altijd"
+            ],
+            "correct_answer": "of"
+        },
+        {
+            "id": 38,
+            "sentence": "Is het huis wit ___ is het huis blauw?",
+            "options": [
+                "of",
+                "want",
+                "hoewel",
+                "mooi"
+            ],
+            "correct_answer": "of"
+        },
+        {
+            "id": 39,
+            "sentence": "Fiets je naar school ___ ga je lopen?",
+            "options": [
+                "of",
+                "en",
+                "omdat",
+                "vroeg"
+            ],
+            "correct_answer": "of"
+        },
+        {
+            "id": 40,
+            "sentence": "Kijk je een film ___ lees je liever?",
+            "options": [
+                "of",
+                "maar",
+                "als",
+                "boek"
+            ],
+            "correct_answer": "of"
+        },
+        {
+            "id": 41,
+            "sentence": "Ik ben ziek ___ ik blijf vandaag thuis.",
+            "options": [
+                "dus",
+                "want",
+                "omdat",
+                "warm"
+            ],
+            "correct_answer": "dus"
+        },
+        {
+            "id": 42,
+            "sentence": "Het regent hard ___ ik pak een paraplu.",
+            "options": [
+                "dus",
+                "maar",
+                "hoewel",
+                "water"
+            ],
+            "correct_answer": "dus"
+        },
+        {
+            "id": 43,
+            "sentence": "De winkel is dicht ___ we gaan weg.",
+            "options": [
+                "dus",
+                "en",
+                "als",
+                "gisteren"
+            ],
+            "correct_answer": "dus"
+        },
+        {
+            "id": 44,
+            "sentence": "Hij heeft vakantie ___ hij gaat nu reizen.",
+            "options": [
+                "dus",
+                "of",
+                "omdat",
+                "zon"
+            ],
+            "correct_answer": "dus"
+        },
+        {
+            "id": 45,
+            "sentence": "Wij hebben geld ___ we kopen die auto.",
+            "options": [
+                "dus",
+                "want",
+                "hoewel",
+                "blauw"
+            ],
+            "correct_answer": "dus"
+        },
+        {
+            "id": 46,
+            "sentence": "De fiets is kapot ___ we lopen nu.",
+            "options": [
+                "dus",
+                "en",
+                "omdat",
+                "straat"
+            ],
+            "correct_answer": "dus"
+        },
+        {
+            "id": 47,
+            "sentence": "Jij werkt veel ___ je krijgt veel geld.",
+            "options": [
+                "dus",
+                "maar",
+                "als",
+                "goed"
+            ],
+            "correct_answer": "dus"
+        },
+        {
+            "id": 48,
+            "sentence": "Het is laat ___ de kinderen moeten slapen.",
+            "options": [
+                "dus",
+                "want",
+                "hoewel",
+                "bed"
+            ],
+            "correct_answer": "dus"
+        },
+        {
+            "id": 49,
+            "sentence": "Ik heb geen tijd ___ ik help niet.",
+            "options": [
+                "dus",
+                "of",
+                "omdat",
+                "bijna"
+            ],
+            "correct_answer": "dus"
+        },
+        {
+            "id": 50,
+            "sentence": "Zij is jarig ___ we geven een feestje.",
+            "options": [
+                "dus",
+                "en",
+                "als",
+                "vrolijk"
+            ],
+            "correct_answer": "dus"
+        }
+    ]
+}

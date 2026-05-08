@@ -1,12 +1,121 @@
-[
-    {"question_id": 1, "sentence": "Door de onverwachte daling van de beurskoersen ___ de directie direct een crisisoverleg in.", "options": ["plant", "plannen", "gepland", "planten"], "correct_answer": "plant", "language": "nl", "difficulty": "N3"},
-    {"question_id": 2, "sentence": "Na de succesvolle afronding van de testfase ___ het team met de landelijke uitrol.", "options": ["begint", "beginnen", "begon", "begonnen"], "correct_answer": "begint", "language": "nl", "difficulty": "N3"},
-    {"question_id": 3, "sentence": "In het uitgebreide verslag over de kwartaalcijfers ___ u alle relevante financiële details.", "options": ["vindt", "vinden", "vond", "gevonden"], "correct_answer": "vindt", "language": "nl", "difficulty": "N3"},
-    {"question_id": 4, "sentence": "Ondanks de felle concurrentie op de Europese markt ___ onze omzet dit jaar aanzienlijk.", "options": ["stijgt", "stijgen", "steeg", "gestegen"], "correct_answer": "stijgt", "language": "nl", "difficulty": "N3"},
-    {"question_id": 5, "sentence": "Op basis van de meest recente marktanalyses ___ wij onze marketingstrategie voor volgend jaar.", "options": ["bepalen", "bepaalt", "bepaalden", "bepaald"], "correct_answer": "bepalen", "language": "nl", "difficulty": "N3"},
-    {"question_id": 6, "sentence": "Sinds de introductie van het hybride werkbeleid ___ de productiviteit op de afdeling administratie.", "options": ["verbetert", "verbeteren", "verbeterde", "verbeterd"], "correct_answer": "verbetert", "language": "nl", "difficulty": "N3"},
-    {"question_id": 7, "sentence": "Tijdens de vergadering met de raad van toezicht ___ de voorzitter zijn zorgen.", "options": ["uitte", "uit", "uiten", "geuit"], "correct_answer": "uitte", "language": "nl", "difficulty": "N3"},
-    {"question_id": 8, "sentence": "Vanwege de technische storing in het datacentrum ___ de website momenteel helaas niet.", "options": ["werkt", "werken", "werkte", "gewerkt"], "correct_answer": "werkt", "language": "nl", "difficulty": "N3"},
-    {"question_id": 9, "sentence": "Dankzij de inzet van alle betrokken medewerkers ___ we het project binnen het budget.", "options": ["voltooien", "voltooit", "voltooiden", "voltooid"], "correct_answer": "voltooien", "language": "nl", "difficulty": "N3"},
-    {"question_id": 10, "sentence": "Zonder een duidelijke goedkeuring van de financiële afdeling ___ de inkoopmanager geen bestelling.", "options": ["plaatst", "plaatsen", "geplaatst", "plaats"], "correct_answer": "plaatst", "language": "nl", "difficulty": "N3"}
-]
+{
+    "metadata": {
+        "level": "N3",
+        "category": "C1",
+        "subject": "S2",
+        "title": "Complexe Inversie",
+        "language": "nl"
+    },
+    "exercises": [
+        {
+            "id": 1,
+            "sentence": "Door de onverwachte daling van de beurskoersen ___ de directie direct een crisisoverleg in.",
+            "options": [
+                "plant",
+                "plannen",
+                "gepland",
+                "planten"
+            ],
+            "correct_answer": "plant"
+        },
+        {
+            "id": 2,
+            "sentence": "Na de succesvolle afronding van de testfase ___ het team met de landelijke uitrol.",
+            "options": [
+                "begint",
+                "beginnen",
+                "begon",
+                "begonnen"
+            ],
+            "correct_answer": "begint"
+        },
+        {
+            "id": 3,
+            "sentence": "In het uitgebreide verslag over de kwartaalcijfers ___ u alle relevante financiële details.",
+            "options": [
+                "vindt",
+                "vinden",
+                "vond",
+                "gevonden"
+            ],
+            "correct_answer": "vindt"
+        },
+        {
+            "id": 4,
+            "sentence": "Ondanks de felle concurrentie op de Europese markt ___ onze omzet dit jaar aanzienlijk.",
+            "options": [
+                "stijgt",
+                "stijgen",
+                "steeg",
+                "gestegen"
+            ],
+            "correct_answer": "stijgt"
+        },
+        {
+            "id": 5,
+            "sentence": "Op basis van de meest recente marktanalyses ___ wij onze marketingstrategie voor volgend jaar.",
+            "options": [
+                "bepalen",
+                "bepaalt",
+                "bepaalden",
+                "bepaald"
+            ],
+            "correct_answer": "bepalen"
+        },
+        {
+            "id": 6,
+            "sentence": "Sinds de introductie van het hybride werkbeleid ___ de productiviteit op de afdeling administratie.",
+            "options": [
+                "verbetert",
+                "verbeteren",
+                "verbeterde",
+                "verbeterd"
+            ],
+            "correct_answer": "verbetert"
+        },
+        {
+            "id": 7,
+            "sentence": "Tijdens de vergadering met de raad van toezicht ___ de voorzitter zijn zorgen.",
+            "options": [
+                "uitte",
+                "uit",
+                "uiten",
+                "geuit"
+            ],
+            "correct_answer": "uitte"
+        },
+        {
+            "id": 8,
+            "sentence": "Vanwege de technische storing in het datacentrum ___ de website momenteel helaas niet.",
+            "options": [
+                "werkt",
+                "werken",
+                "werkte",
+                "gewerkt"
+            ],
+            "correct_answer": "werkt"
+        },
+        {
+            "id": 9,
+            "sentence": "Dankzij de inzet van alle betrokken medewerkers ___ we het project binnen het budget.",
+            "options": [
+                "voltooien",
+                "voltooit",
+                "voltooiden",
+                "voltooid"
+            ],
+            "correct_answer": "voltooien"
+        },
+        {
+            "id": 10,
+            "sentence": "Zonder een duidelijke goedkeuring van de financiële afdeling ___ de inkoopmanager geen bestelling.",
+            "options": [
+                "plaatst",
+                "plaatsen",
+                "geplaatst",
+                "plaats"
+            ],
+            "correct_answer": "plaatst"
+        }
+    ]
+}

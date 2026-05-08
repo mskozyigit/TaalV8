@@ -1,651 +1,560 @@
-[
-    {
-        "question_id": 1,
-        "sentence": "Ik ___ de klant direct over de nieuwe factuur op.",
-        "options": [
-            "bel",
-            "bellen",
-            "belt",
-            "op"
-        ],
-        "correct_answer": "bel",
-        "language": "nl",
-        "difficulty": "N2"
+{
+    "metadata": {
+        "level": "N2",
+        "category": "C3",
+        "subject": "S3",
+        "title": "Herhaling",
+        "language": "nl"
     },
-    {
-        "question_id": 2,
-        "sentence": "Het is essentieel om de server op tijd uit ___ zetten.",
-        "options": [
-            "te",
-            "de",
-            "het",
-            "om"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 3,
-        "sentence": "De directeur ___ de nieuwe strategie aan het team uit.",
-        "options": [
-            "legt",
-            "leggen",
-            "legde",
-            "uit"
-        ],
-        "correct_answer": "legt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 4,
-        "sentence": "Vergeet niet om de belangrijke documenten op ___ bergen.",
-        "options": [
-            "te",
-            "de",
-            "het",
-            "om"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 5,
-        "sentence": "De assistent ___ de oude dossiers in het archief op.",
-        "options": [
-            "zoekt",
-            "zoeken",
-            "zocht",
-            "vindt"
-        ],
-        "correct_answer": "zoekt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 6,
-        "sentence": "Wij hopen het verslag voor vrijdag af ___ ronden.",
-        "options": [
-            "te",
-            "de",
-            "het",
-            "om"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 7,
-        "sentence": "De medewerker ___ het projectplan bij de manager in.",
-        "options": [
-            "levert",
-            "leveren",
-            "leverde",
-            "geeft"
-        ],
-        "correct_answer": "levert",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 8,
-        "sentence": "Het is verboden om in de kleine vergaderzaal te ___ .",
-        "options": [
-            "roken",
-            "rookt",
-            "rookte",
-            "gerookt"
-        ],
-        "correct_answer": "roken",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 9,
-        "sentence": "Ik ___ mijn computer aan het eind van de dag af.",
-        "options": [
-            "sluit",
-            "sluiten",
-            "sluitte",
-            "op"
-        ],
-        "correct_answer": "sluit",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 10,
-        "sentence": "De manager stelt voor om de taken eerlijk te ___ .",
-        "options": [
-            "verdelen",
-            "verdeelt",
-            "verdeelde",
-            "verdeeld"
-        ],
-        "correct_answer": "verdelen",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 11,
-        "sentence": "Ik beloof om de e-mail vanavond nog ___ beantwoorden.",
-        "options": [
-            "te",
-            "de",
-            "het",
-            "om"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 12,
-        "sentence": "De collega ___ de informatie aan de rest door.",
-        "options": [
-            "geeft",
-            "geven",
-            "geeftst",
-            "door"
-        ],
-        "correct_answer": "geeft",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 13,
-        "sentence": "Het is moeilijk om deze ingewikkelde tekst ___ begrijpen.",
-        "options": [
-            "te",
-            "de",
-            "het",
-            "om"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 14,
-        "sentence": "De stagiair ruimt zijn bureau na de lunch netjes ___ .",
-        "options": [
-            "op",
-            "af",
-            "in",
-            "uit"
-        ],
-        "correct_answer": "op",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 15,
-        "sentence": "Wij proberen de presentatie voor morgen voor ___ bereiden.",
-        "options": [
-            "te",
-            "de",
-            "het",
-            "om"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 16,
-        "sentence": "De baas ___ de afspraak voor de training helaas af.",
-        "options": [
-            "zegt",
-            "zeggen",
-            "zegtst",
-            "op"
-        ],
-        "correct_answer": "zegt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 17,
-        "sentence": "Heb je zin om vanmiddag met ons mee ___ gaan?",
-        "options": [
-            "te",
-            "de",
-            "het",
-            "naar"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 18,
-        "sentence": "Ik ___ me via het portaal voor de cursus aan.",
-        "options": [
-            "meld",
-            "melden",
-            "meldt",
-            "aan"
-        ],
-        "correct_answer": "meld",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 19,
-        "sentence": "De directeur weigert de cijfers nu al te ___ .",
-        "options": [
-            "tonen",
-            "toont",
-            "toonde",
-            "getoond"
-        ],
-        "correct_answer": "tonen",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 20,
-        "sentence": "De secretaresse ___ de gasten bij de balie binnen.",
-        "options": [
-            "laat",
-            "laten",
-            "laatst",
-            "uit"
-        ],
-        "correct_answer": "laat",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 21,
-        "sentence": "Het is handig om de factuur direct in ___ boeken.",
-        "options": [
-            "te",
-            "de",
-            "het",
-            "uit"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 22,
-        "sentence": "De manager ___ de resultaten van het dossier op.",
-        "options": [
-            "vraagt",
-            "vragen",
-            "vraagtst",
-            "uit"
-        ],
-        "correct_answer": "vraagt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 23,
-        "sentence": "Wij besluiten om de nieuwe software niet te ___ .",
-        "options": [
-            "kopen",
-            "koopt",
-            "kocht",
-            "gekocht"
-        ],
-        "correct_answer": "kopen",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 24,
-        "sentence": "De collega ___ het probleem aan de technicus uit.",
-        "options": [
-            "legt",
-            "leggen",
-            "legde",
-            "uit"
-        ],
-        "correct_answer": "legt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 25,
-        "sentence": "Ik hoop u volgende week weer op kantoor ___ zien.",
-        "options": [
-            "te",
-            "de",
-            "het",
-            "om"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 26,
-        "sentence": "De technicus ___ de server na het onderhoud op.",
-        "options": [
-            "start",
-            "starten",
-            "startte",
-            "op"
-        ],
-        "correct_answer": "start",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 27,
-        "sentence": "Het team probeert de doelen dit jaar te ___ .",
-        "options": [
-            "halen",
-            "haalt",
-            "haalde",
-            "gehaald"
-        ],
-        "correct_answer": "halen",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 28,
-        "sentence": "Ik ___ de belangrijke bijlage bij de e-mail bij.",
-        "options": [
-            "voeg",
-            "voegen",
-            "voegt",
-            "zet"
-        ],
-        "correct_answer": "voeg",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 29,
-        "sentence": "Vergeet niet om de datum in de agenda te ___ .",
-        "options": [
-            "noteren",
-            "noteert",
-            "noteerde",
-            "genoteerd"
-        ],
-        "correct_answer": "noteren",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 30,
-        "sentence": "De werknemer ___ zijn afwezigheid voor morgen af.",
-        "options": [
-            "meldt",
-            "melden",
-            "meld"
-        ],
-        "correct_answer": "meldt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 31,
-        "sentence": "Wij proberen om de klant direct terug ___ bellen.",
-        "options": [
-            "te",
-            "de",
-            "het",
-            "op"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 32,
-        "sentence": "De manager ___ de nieuwe medewerker aan ons voor.",
-        "options": [
-            "stelt",
-            "stellen",
-            "stelde",
-            "voor"
-        ],
-        "correct_answer": "stelt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 33,
-        "sentence": "Het is noodzakelijk om alle formulieren ___ vullen.",
-        "options": [
-            "te",
-            "de",
-            "het",
-            "om"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 34,
-        "sentence": "Ik ___ de cijfers in het systeem voor overleg aan.",
-        "options": [
-            "pas",
-            "passen",
-            "past",
-            "op"
-        ],
-        "correct_answer": "pas",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 35,
-        "sentence": "De directeur lijkt de resultaten niet te ___ .",
-        "options": [
-            "begrijpen",
-            "begrijpt",
-            "begreep",
-            "begrepen"
-        ],
-        "correct_answer": "begrepen",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 36,
-        "sentence": "De collega deelt de folders aan de gasten ___ .",
-        "options": [
-            "uit",
-            "in",
-            "af",
-            "op"
-        ],
-        "correct_answer": "uit",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 37,
-        "sentence": "Ik ben vergeten om de printer weer ___ zetten.",
-        "options": [
-            "aan",
-            "te",
-            "de",
-            "het"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 38,
-        "sentence": "De secretaresse ___ de agenda voor de week bij.",
-        "options": [
-            "werkt",
-            "werken",
-            "werk",
-            "op"
-        ],
-        "correct_answer": "werkt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 39,
-        "sentence": "Het is fijn om na het werk even ___ rusten.",
-        "options": [
-            "te",
-            "de",
-            "het",
-            "om"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 40,
-        "sentence": "Wij ___ morgen om tien uur met de klant af.",
-        "options": [
-            "spreken",
-            "spreekt",
-            "sprak",
-            "op"
-        ],
-        "correct_answer": "spreken",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 41,
-        "sentence": "Ik beloof de notulen voor maandag af ___ leveren.",
-        "options": [
-            "te",
-            "de",
-            "het",
-            "om"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 42,
-        "sentence": "De stagiair ___ de taken van de zieke collega over.",
-        "options": [
-            "neemt",
-            "nemen",
-            "nam",
-            "aan"
-        ],
-        "correct_answer": "neemt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 43,
-        "sentence": "Probeer de notities tijdens de vergadering ___ maken.",
-        "options": [
-            "te",
-            "de",
-            "het",
-            "om"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 44,
-        "sentence": "De baas ___ de reden voor de verhuizing uit.",
-        "options": [
-            "legt",
-            "leggen",
-            "legde",
-            "uit"
-        ],
-        "correct_answer": "legt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 45,
-        "sentence": "Heb je besloten om met het project ___ stoppen?",
-        "options": [
-            "te",
-            "de",
-            "het",
-            "om"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 46,
-        "sentence": "Ik ___ mi jn wachtwoord in het systeem aan.",
-        "options": [
-            "pas",
-            "passen",
-            "past",
-            "verander"
-        ],
-        "correct_answer": "pas",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 47,
-        "sentence": "Wij zijn begonnen om de dossiers ___ scannen.",
-        "options": [
-            "te",
-            "de",
-            "het",
-            "om"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 48,
-        "sentence": "De collega haalt de post voor de afdeling ___ .",
-        "options": [
-            "op",
-            "af",
-            "uit",
-            "in"
-        ],
-        "correct_answer": "op",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 49,
-        "sentence": "De leraar adviseert om meer met collega's ___ praten.",
-        "options": [
-            "te",
-            "de",
-            "het",
-            "om"
-        ],
-        "correct_answer": "te",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 50,
-        "sentence": "De directeur ___ de presentatie met een vraag af.",
-        "options": [
-            "sluit",
-            "sluiten",
-            "sloot",
-            "op"
-        ],
-        "correct_answer": "sluit",
-        "language": "nl",
-        "difficulty": "N2"
-    }
-]
+    "exercises": [
+        {
+            "id": 1,
+            "sentence": "Ik ___ de klant direct over de nieuwe factuur op.",
+            "options": [
+                "bel",
+                "bellen",
+                "belt",
+                "op"
+            ],
+            "correct_answer": "bel"
+        },
+        {
+            "id": 2,
+            "sentence": "Het is essentieel om de server op tijd uit ___ zetten.",
+            "options": [
+                "te",
+                "de",
+                "het",
+                "om"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 3,
+            "sentence": "De directeur ___ de nieuwe strategie aan het team uit.",
+            "options": [
+                "legt",
+                "leggen",
+                "legde",
+                "uit"
+            ],
+            "correct_answer": "legt"
+        },
+        {
+            "id": 4,
+            "sentence": "Vergeet niet om de belangrijke documenten op ___ bergen.",
+            "options": [
+                "te",
+                "de",
+                "het",
+                "om"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 5,
+            "sentence": "De assistent ___ de oude dossiers in het archief op.",
+            "options": [
+                "zoekt",
+                "zoeken",
+                "zocht",
+                "vindt"
+            ],
+            "correct_answer": "zoekt"
+        },
+        {
+            "id": 6,
+            "sentence": "Wij hopen het verslag voor vrijdag af ___ ronden.",
+            "options": [
+                "te",
+                "de",
+                "het",
+                "om"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 7,
+            "sentence": "De medewerker ___ het projectplan bij de manager in.",
+            "options": [
+                "levert",
+                "leveren",
+                "leverde",
+                "geeft"
+            ],
+            "correct_answer": "levert"
+        },
+        {
+            "id": 8,
+            "sentence": "Het is verboden om in de kleine vergaderzaal te ___ .",
+            "options": [
+                "roken",
+                "rookt",
+                "rookte",
+                "gerookt"
+            ],
+            "correct_answer": "roken"
+        },
+        {
+            "id": 9,
+            "sentence": "Ik ___ mijn computer aan het eind van de dag af.",
+            "options": [
+                "sluit",
+                "sluiten",
+                "sluitte",
+                "op"
+            ],
+            "correct_answer": "sluit"
+        },
+        {
+            "id": 10,
+            "sentence": "De manager stelt voor om de taken eerlijk te ___ .",
+            "options": [
+                "verdelen",
+                "verdeelt",
+                "verdeelde",
+                "verdeeld"
+            ],
+            "correct_answer": "verdelen"
+        },
+        {
+            "id": 11,
+            "sentence": "Ik beloof om de e-mail vanavond nog ___ beantwoorden.",
+            "options": [
+                "te",
+                "de",
+                "het",
+                "om"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 12,
+            "sentence": "De collega ___ de informatie aan de rest door.",
+            "options": [
+                "geeft",
+                "geven",
+                "geeftst",
+                "door"
+            ],
+            "correct_answer": "geeft"
+        },
+        {
+            "id": 13,
+            "sentence": "Het is moeilijk om deze ingewikkelde tekst ___ begrijpen.",
+            "options": [
+                "te",
+                "de",
+                "het",
+                "om"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 14,
+            "sentence": "De stagiair ruimt zijn bureau na de lunch netjes ___ .",
+            "options": [
+                "op",
+                "af",
+                "in",
+                "uit"
+            ],
+            "correct_answer": "op"
+        },
+        {
+            "id": 15,
+            "sentence": "Wij proberen de presentatie voor morgen voor ___ bereiden.",
+            "options": [
+                "te",
+                "de",
+                "het",
+                "om"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 16,
+            "sentence": "De baas ___ de afspraak voor de training helaas af.",
+            "options": [
+                "zegt",
+                "zeggen",
+                "zegtst",
+                "op"
+            ],
+            "correct_answer": "zegt"
+        },
+        {
+            "id": 17,
+            "sentence": "Heb je zin om vanmiddag met ons mee ___ gaan?",
+            "options": [
+                "te",
+                "de",
+                "het",
+                "naar"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 18,
+            "sentence": "Ik ___ me via het portaal voor de cursus aan.",
+            "options": [
+                "meld",
+                "melden",
+                "meldt",
+                "aan"
+            ],
+            "correct_answer": "meld"
+        },
+        {
+            "id": 19,
+            "sentence": "De directeur weigert de cijfers nu al te ___ .",
+            "options": [
+                "tonen",
+                "toont",
+                "toonde",
+                "getoond"
+            ],
+            "correct_answer": "tonen"
+        },
+        {
+            "id": 20,
+            "sentence": "De secretaresse ___ de gasten bij de balie binnen.",
+            "options": [
+                "laat",
+                "laten",
+                "laatst",
+                "uit"
+            ],
+            "correct_answer": "laat"
+        },
+        {
+            "id": 21,
+            "sentence": "Het is handig om de factuur direct in ___ boeken.",
+            "options": [
+                "te",
+                "de",
+                "het",
+                "uit"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 22,
+            "sentence": "De manager ___ de resultaten van het dossier op.",
+            "options": [
+                "vraagt",
+                "vragen",
+                "vraagtst",
+                "uit"
+            ],
+            "correct_answer": "vraagt"
+        },
+        {
+            "id": 23,
+            "sentence": "Wij besluiten om de nieuwe software niet te ___ .",
+            "options": [
+                "kopen",
+                "koopt",
+                "kocht",
+                "gekocht"
+            ],
+            "correct_answer": "kopen"
+        },
+        {
+            "id": 24,
+            "sentence": "De collega ___ het probleem aan de technicus uit.",
+            "options": [
+                "legt",
+                "leggen",
+                "legde",
+                "uit"
+            ],
+            "correct_answer": "legt"
+        },
+        {
+            "id": 25,
+            "sentence": "Ik hoop u volgende week weer op kantoor ___ zien.",
+            "options": [
+                "te",
+                "de",
+                "het",
+                "om"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 26,
+            "sentence": "De technicus ___ de server na het onderhoud op.",
+            "options": [
+                "start",
+                "starten",
+                "startte",
+                "op"
+            ],
+            "correct_answer": "start"
+        },
+        {
+            "id": 27,
+            "sentence": "Het team probeert de doelen dit jaar te ___ .",
+            "options": [
+                "halen",
+                "haalt",
+                "haalde",
+                "gehaald"
+            ],
+            "correct_answer": "halen"
+        },
+        {
+            "id": 28,
+            "sentence": "Ik ___ de belangrijke bijlage bij de e-mail bij.",
+            "options": [
+                "voeg",
+                "voegen",
+                "voegt",
+                "zet"
+            ],
+            "correct_answer": "voeg"
+        },
+        {
+            "id": 29,
+            "sentence": "Vergeet niet om de datum in de agenda te ___ .",
+            "options": [
+                "noteren",
+                "noteert",
+                "noteerde",
+                "genoteerd"
+            ],
+            "correct_answer": "noteren"
+        },
+        {
+            "id": 30,
+            "sentence": "De werknemer ___ zijn afwezigheid voor morgen af.",
+            "options": [
+                "meldt",
+                "melden",
+                "meld"
+            ],
+            "correct_answer": "meldt"
+        },
+        {
+            "id": 31,
+            "sentence": "Wij proberen om de klant direct terug ___ bellen.",
+            "options": [
+                "te",
+                "de",
+                "het",
+                "op"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 32,
+            "sentence": "De manager ___ de nieuwe medewerker aan ons voor.",
+            "options": [
+                "stelt",
+                "stellen",
+                "stelde",
+                "voor"
+            ],
+            "correct_answer": "stelt"
+        },
+        {
+            "id": 33,
+            "sentence": "Het is noodzakelijk om alle formulieren ___ vullen.",
+            "options": [
+                "te",
+                "de",
+                "het",
+                "om"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 34,
+            "sentence": "Ik ___ de cijfers in het systeem voor overleg aan.",
+            "options": [
+                "pas",
+                "passen",
+                "past",
+                "op"
+            ],
+            "correct_answer": "pas"
+        },
+        {
+            "id": 35,
+            "sentence": "De directeur lijkt de resultaten niet te ___ .",
+            "options": [
+                "begrijpen",
+                "begrijpt",
+                "begreep",
+                "begrepen"
+            ],
+            "correct_answer": "begrepen"
+        },
+        {
+            "id": 36,
+            "sentence": "De collega deelt de folders aan de gasten ___ .",
+            "options": [
+                "uit",
+                "in",
+                "af",
+                "op"
+            ],
+            "correct_answer": "uit"
+        },
+        {
+            "id": 37,
+            "sentence": "Ik ben vergeten om de printer weer ___ zetten.",
+            "options": [
+                "aan",
+                "te",
+                "de",
+                "het"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 38,
+            "sentence": "De secretaresse ___ de agenda voor de week bij.",
+            "options": [
+                "werkt",
+                "werken",
+                "werk",
+                "op"
+            ],
+            "correct_answer": "werkt"
+        },
+        {
+            "id": 39,
+            "sentence": "Het is fijn om na het werk even ___ rusten.",
+            "options": [
+                "te",
+                "de",
+                "het",
+                "om"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 40,
+            "sentence": "Wij ___ morgen om tien uur met de klant af.",
+            "options": [
+                "spreken",
+                "spreekt",
+                "sprak",
+                "op"
+            ],
+            "correct_answer": "spreken"
+        },
+        {
+            "id": 41,
+            "sentence": "Ik beloof de notulen voor maandag af ___ leveren.",
+            "options": [
+                "te",
+                "de",
+                "het",
+                "om"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 42,
+            "sentence": "De stagiair ___ de taken van de zieke collega over.",
+            "options": [
+                "neemt",
+                "nemen",
+                "nam",
+                "aan"
+            ],
+            "correct_answer": "neemt"
+        },
+        {
+            "id": 43,
+            "sentence": "Probeer de notities tijdens de vergadering ___ maken.",
+            "options": [
+                "te",
+                "de",
+                "het",
+                "om"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 44,
+            "sentence": "De baas ___ de reden voor de verhuizing uit.",
+            "options": [
+                "legt",
+                "leggen",
+                "legde",
+                "uit"
+            ],
+            "correct_answer": "legt"
+        },
+        {
+            "id": 45,
+            "sentence": "Heb je besloten om met het project ___ stoppen?",
+            "options": [
+                "te",
+                "de",
+                "het",
+                "om"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 46,
+            "sentence": "Ik ___ mi jn wachtwoord in het systeem aan.",
+            "options": [
+                "pas",
+                "passen",
+                "past",
+                "verander"
+            ],
+            "correct_answer": "pas"
+        },
+        {
+            "id": 47,
+            "sentence": "Wij zijn begonnen om de dossiers ___ scannen.",
+            "options": [
+                "te",
+                "de",
+                "het",
+                "om"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 48,
+            "sentence": "De collega haalt de post voor de afdeling ___ .",
+            "options": [
+                "op",
+                "af",
+                "uit",
+                "in"
+            ],
+            "correct_answer": "op"
+        },
+        {
+            "id": 49,
+            "sentence": "De leraar adviseert om meer met collega's ___ praten.",
+            "options": [
+                "te",
+                "de",
+                "het",
+                "om"
+            ],
+            "correct_answer": "te"
+        },
+        {
+            "id": 50,
+            "sentence": "De directeur ___ de presentatie met een vraag af.",
+            "options": [
+                "sluit",
+                "sluiten",
+                "sloot",
+                "op"
+            ],
+            "correct_answer": "sluit"
+        }
+    ]
+}

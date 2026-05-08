@@ -1,652 +1,561 @@
-[
-    {
-        "question_id": 1,
-        "sentence": "Kunt u mij vertellen hoe laat de vergadering morgen ___?",
-        "options": [
-            "begint",
-            "begon",
-            "beginnen",
-            "klok"
-        ],
-        "correct_answer": "begint",
-        "language": "nl",
-        "difficulty": "N2"
+{
+    "metadata": {
+        "level": "N2",
+        "category": "C2",
+        "subject": "S2",
+        "title": "Indirecte Vragen",
+        "language": "nl"
     },
-    {
-        "question_id": 2,
-        "sentence": "Ik vraag me af of de manager het rapport al ___ .",
-        "options": [
-            "leest",
-            "las",
-            "lezen",
-            "pen"
-        ],
-        "correct_answer": "leest",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 3,
-        "sentence": "Weet u wanneer de directeur weer op kantoor ___?",
-        "options": [
-            "verschijnt",
-            "verscheen",
-            "verschijnen",
-            "agenda"
-        ],
-        "correct_answer": "verschijnt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 4,
-        "sentence": "Ik wil graag weten wie het hoofd van deze afdeling ___ .",
-        "options": [
-            "is",
-            "zijn",
-            "bent",
-            "was"
-        ],
-        "correct_answer": "is",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 5,
-        "sentence": "De collega vraagt of u morgen bij de presentatie ___ .",
-        "options": [
-            "bent",
-            "is",
-            "zijn",
-            "was"
-        ],
-        "correct_answer": "bent",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 6,
-        "sentence": "Kunt u uitleggen waarom de beamer momenteel niet ___?",
-        "options": [
-            "werkt",
-            "werken",
-            "werkte",
-            "apparaat"
-        ],
-        "correct_answer": "werkt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 7,
-        "sentence": "Ik vraag me af of de klant de factuur al ___ .",
-        "options": [
-            "betaalt",
-            "betaalde",
-            "betalen",
-            "geld"
-        ],
-        "correct_answer": "betaalt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 8,
-        "sentence": "Kunt u aangeven wanneer het verslag eindelijk klaar ___?",
-        "options": [
-            "is",
-            "zijn",
-            "was",
-            "wordt"
-        ],
-        "correct_answer": "is",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 9,
-        "sentence": "De secretaresse vraagt of u dit formulier volledig ___ .",
-        "options": [
-            "invult",
-            "invullen",
-            "vult",
-            "pen"
-        ],
-        "correct_answer": "invult",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 10,
-        "sentence": "Ik weet niet zeker of de directie dit project ___ .",
-        "options": [
-            "goedkeurt",
-            "goedkeurde",
-            "goedkeuren",
-            "keurt"
-        ],
-        "correct_answer": "goedkeurt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 11,
-        "sentence": "Kunt u mij informeren hoe ik dit nieuwe bestand ___?",
-        "options": [
-            "open",
-            "opent",
-            "openen",
-            "map"
-        ],
-        "correct_answer": "open",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 12,
-        "sentence": "Laat me even weten hoe laat u naar huis ___ .",
-        "options": [
-            "gaat",
-            "gaan",
-            "ging",
-            "vroeg"
-        ],
-        "correct_answer": "gaat",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 13,
-        "sentence": "Kunt u mij zeggen wie deze notulen ___?",
-        "options": [
-            "schrijft",
-            "schreef",
-            "schrijven",
-            "papier"
-        ],
-        "correct_answer": "schrijft",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 14,
-        "sentence": "Ik vraag me af of de nieuwe software goed ___ .",
-        "options": [
-            "bevalt",
-            "bevallen",
-            "beviel",
-            "succes"
-        ],
-        "correct_answer": "bevalt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 15,
-        "sentence": "Kunt u voor mij uitzoeken waar het dossier ___?",
-        "options": [
-            "ligt",
-            "lag",
-            "liggen",
-            "bureau"
-        ],
-        "correct_answer": "ligt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 16,
-        "sentence": "Ik wil weten of de leverancier de goederen al ___ .",
-        "options": [
-            "verstuurt",
-            "versturen",
-            "verstuurde",
-            "post"
-        ],
-        "correct_answer": "verstuurt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 17,
-        "sentence": "Weet u misschien wanneer de lunchpauze precies ___?",
-        "options": [
-            "begint",
-            "begon",
-            "beginnen",
-            "honger"
-        ],
-        "correct_answer": "begint",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 18,
-        "sentence": "De manager vraagt wat u van de nieuwe strategie ___ .",
-        "options": [
-            "vindt",
-            "vind",
-            "vinden",
-            "mening"
-        ],
-        "correct_answer": "vindt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 19,
-        "sentence": "Kunt u mij vertellen hoe ik bij het station ___?",
-        "options": [
-            "kom",
-            "komt",
-            "komen",
-            "trein"
-        ],
-        "correct_answer": "kom",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 20,
-        "sentence": "Ik hoor graag of u de bijlage in de mail ___ .",
-        "options": [
-            "ontvangt",
-            "ontving",
-            "ontvangen",
-            "bericht"
-        ],
-        "correct_answer": "ontvangt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 21,
-        "sentence": "Kunt u uitleggen waarom u deze specifieke keuze ___?",
-        "options": [
-            "maakt",
-            "maakte",
-            "maken",
-            "kiest"
-        ],
-        "correct_answer": "maakt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 22,
-        "sentence": "Ik vraag me af of de sfeer op kantoor ___ .",
-        "options": [
-            "verbetert",
-            "verbeteren",
-            "verbeterde",
-            "goed"
-        ],
-        "correct_answer": "verbetert",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 23,
-        "sentence": "Kunt u voor mij controleren of de server ___?",
-        "options": [
-            "draait",
-            "draaien",
-            "draaide",
-            "fout"
-        ],
-        "correct_answer": "draait",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 24,
-        "sentence": "De collega vraagt waar ik mijn computer ___ .",
-        "options": [
-            "afsluit",
-            "afsloot",
-            "afsluiten",
-            "bureau"
-        ],
-        "correct_answer": "afsluit",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 25,
-        "sentence": "Ik weet niet of de marketingafdeling al ___ .",
-        "options": [
-            "reageert",
-            "reageerde",
-            "reageren",
-            "plan"
-        ],
-        "correct_answer": "reageert",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 26,
-        "sentence": "Laat me weten hoe laat u morgen op kantoor ___ .",
-        "options": [
-            "arriveert",
-            "arriveren",
-            "arriveerde",
-            "tijd"
-        ],
-        "correct_answer": "arriveert",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 27,
-        "sentence": "Kunt u mij vertellen of u de doelen dit jaar ___?",
-        "options": [
-            "haalt",
-            "halen",
-            "haalde",
-            "winst"
-        ],
-        "correct_answer": "haalt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 28,
-        "sentence": "Ik vraag me af of u dit bestand veilig ___ .",
-        "options": [
-            "bewaart",
-            "bewaren",
-            "bewaarde",
-            "map"
-        ],
-        "correct_answer": "bewaart",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 29,
-        "sentence": "Kunt u nakijken of the printer nog genoeg papier ___?",
-        "options": [
-            "heeft",
-            "hebt",
-            "hebben",
-            "tekst"
-        ],
-        "correct_answer": "heeft",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 30,
-        "sentence": "Ik wil graag weten of u de sollicitant al ___ .",
-        "options": [
-            "spreekt",
-            "sprak",
-            "spreken",
-            "baas"
-        ],
-        "correct_answer": "spreekt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 31,
-        "sentence": "Weet u wie gisteren de laatste mail ___?",
-        "options": [
-            "schreef",
-            "schrijft",
-            "schrijven",
-            "post"
-        ],
-        "correct_answer": "schreef",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 32,
-        "sentence": "Ik vraag me af wanneer u het contract ___ .",
-        "options": [
-            "ondertekent",
-            "ondertekenen",
-            "ondertekende",
-            "pen"
-        ],
-        "correct_answer": "ondertekent",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 33,
-        "sentence": "Kunt u mij informeren of de cursus morgen ___?",
-        "options": [
-            "doorgaat",
-            "doorgaan",
-            "gaat",
-            "school"
-        ],
-        "correct_answer": "doorgaat",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 34,
-        "sentence": "De manager vraagt of u de planning al ___ .",
-        "options": [
-            "kent",
-            "kende",
-            "kennen",
-            "agenda"
-        ],
-        "correct_answer": "kent",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 35,
-        "sentence": "Ik weet niet precies waarom hij gisteren afwezig ___ .",
-        "options": [
-            "was",
-            "is",
-            "zijn",
-            "waren"
-        ],
-        "correct_answer": "was",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 36,
-        "sentence": "Kunt u mij vertellen of u hulp bij het project ___?",
-        "options": [
-            "hebt",
-            "heeft",
-            "hebben",
-            "was"
-        ],
-        "correct_answer": "hebt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 37,
-        "sentence": "Ik hoor graag of de klant akkoord ___ .",
-        "options": [
-            "gaat",
-            "gaan",
-            "ging",
-            "succes"
-        ],
-        "correct_answer": "gaat",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 38,
-        "sentence": "Kunt u aangeven waar ik mijn jas ___?",
-        "options": [
-            "ophang",
-            "ophangen",
-            "hang",
-            "kast"
-        ],
-        "correct_answer": "ophang",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 39,
-        "sentence": "Ik vraag me af of de burgemeester de vergadering ___ .",
-        "options": [
-            "leidt",
-            "leiden",
-            "leidde",
-            "stad"
-        ],
-        "correct_answer": "leidt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 40,
-        "sentence": "Weet u misschien wie er momenteel bij de balie ___?",
-        "options": [
-            "staat",
-            "staan",
-            "stond",
-            "gast"
-        ],
-        "correct_answer": "staat",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 41,
-        "sentence": "Kunt u mij vertellen wat de reden van de vertraging ___?",
-        "options": [
-            "is",
-            "zijn",
-            "was",
-            "tijd"
-        ],
-        "correct_answer": "is",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 42,
-        "sentence": "Ik wil graag weten of dit plan wel ___ .",
-        "options": [
-            "slaagt",
-            "slagen",
-            "slaagde",
-            "goed"
-        ],
-        "correct_answer": "slaagt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 43,
-        "sentence": "Kunt u nakijken of deze informatie wel ___?",
-        "options": [
-            "klopt",
-            "kloppen",
-            "klopte",
-            "feit"
-        ],
-        "correct_answer": "klopt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 44,
-        "sentence": "De baas vraagt of u de presentatie al ___ .",
-        "options": [
-            "voorbereidt",
-            "voorbereiden",
-            "voorbereidde",
-            "klaar"
-        ],
-        "correct_answer": "voorbereidt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 45,
-        "sentence": "Ik vraag me af of u de offerte al ___ .",
-        "options": [
-            "bekijkt",
-            "bekijken",
-            "bekeek",
-            "prijs"
-        ],
-        "correct_answer": "bekijkt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 46,
-        "sentence": "Kunt u mij zeggen of de technicus de fout ___?",
-        "options": [
-            "vindt",
-            "vinden",
-            "vond",
-            "machine"
-        ],
-        "correct_answer": "vindt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 47,
-        "sentence": "Ik hoor graag wanneer u de resultaten ___ .",
-        "options": [
-            "stuurt",
-            "sturen",
-            "stuurde",
-            "bericht"
-        ],
-        "correct_answer": "stuurt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 48,
-        "sentence": "Weet u of de collega zijn telefoondienst ___?",
-        "options": [
-            "overneemt",
-            "overnemen",
-            "overnam",
-            "gesprek"
-        ],
-        "correct_answer": "overneemt",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 49,
-        "sentence": "Kunt u mij vertellen hoe u dit probleem ___?",
-        "options": [
-            "oplost",
-            "oplossen",
-            "oploste",
-            "oplossing"
-        ],
-        "correct_answer": "oplost",
-        "language": "nl",
-        "difficulty": "N2"
-    },
-    {
-        "question_id": 50,
-        "sentence": "Ik vraag me af of u de uitnodiging al ___ .",
-        "options": [
-            "verstuurt",
-            "versturen",
-            "verstuurde",
-            "gast"
-        ],
-        "correct_answer": "verstuurt",
-        "language": "nl",
-        "difficulty": "N2"
-    }
-]
+    "exercises": [
+        {
+            "id": 1,
+            "sentence": "Kunt u mij vertellen hoe laat de vergadering morgen ___?",
+            "options": [
+                "begint",
+                "begon",
+                "beginnen",
+                "klok"
+            ],
+            "correct_answer": "begint"
+        },
+        {
+            "id": 2,
+            "sentence": "Ik vraag me af of de manager het rapport al ___ .",
+            "options": [
+                "leest",
+                "las",
+                "lezen",
+                "pen"
+            ],
+            "correct_answer": "leest"
+        },
+        {
+            "id": 3,
+            "sentence": "Weet u wanneer de directeur weer op kantoor ___?",
+            "options": [
+                "verschijnt",
+                "verscheen",
+                "verschijnen",
+                "agenda"
+            ],
+            "correct_answer": "verschijnt"
+        },
+        {
+            "id": 4,
+            "sentence": "Ik wil graag weten wie het hoofd van deze afdeling ___ .",
+            "options": [
+                "is",
+                "zijn",
+                "bent",
+                "was"
+            ],
+            "correct_answer": "is"
+        },
+        {
+            "id": 5,
+            "sentence": "De collega vraagt of u morgen bij de presentatie ___ .",
+            "options": [
+                "bent",
+                "is",
+                "zijn",
+                "was"
+            ],
+            "correct_answer": "bent"
+        },
+        {
+            "id": 6,
+            "sentence": "Kunt u uitleggen waarom de beamer momenteel niet ___?",
+            "options": [
+                "werkt",
+                "werken",
+                "werkte",
+                "apparaat"
+            ],
+            "correct_answer": "werkt"
+        },
+        {
+            "id": 7,
+            "sentence": "Ik vraag me af of de klant de factuur al ___ .",
+            "options": [
+                "betaalt",
+                "betaalde",
+                "betalen",
+                "geld"
+            ],
+            "correct_answer": "betaalt"
+        },
+        {
+            "id": 8,
+            "sentence": "Kunt u aangeven wanneer het verslag eindelijk klaar ___?",
+            "options": [
+                "is",
+                "zijn",
+                "was",
+                "wordt"
+            ],
+            "correct_answer": "is"
+        },
+        {
+            "id": 9,
+            "sentence": "De secretaresse vraagt of u dit formulier volledig ___ .",
+            "options": [
+                "invult",
+                "invullen",
+                "vult",
+                "pen"
+            ],
+            "correct_answer": "invult"
+        },
+        {
+            "id": 10,
+            "sentence": "Ik weet niet zeker of de directie dit project ___ .",
+            "options": [
+                "goedkeurt",
+                "goedkeurde",
+                "goedkeuren",
+                "keurt"
+            ],
+            "correct_answer": "goedkeurt"
+        },
+        {
+            "id": 11,
+            "sentence": "Kunt u mij informeren hoe ik dit nieuwe bestand ___?",
+            "options": [
+                "open",
+                "opent",
+                "openen",
+                "map"
+            ],
+            "correct_answer": "open"
+        },
+        {
+            "id": 12,
+            "sentence": "Laat me even weten hoe laat u naar huis ___ .",
+            "options": [
+                "gaat",
+                "gaan",
+                "ging",
+                "vroeg"
+            ],
+            "correct_answer": "gaat"
+        },
+        {
+            "id": 13,
+            "sentence": "Kunt u mij zeggen wie deze notulen ___?",
+            "options": [
+                "schrijft",
+                "schreef",
+                "schrijven",
+                "papier"
+            ],
+            "correct_answer": "schrijft"
+        },
+        {
+            "id": 14,
+            "sentence": "Ik vraag me af of de nieuwe software goed ___ .",
+            "options": [
+                "bevalt",
+                "bevallen",
+                "beviel",
+                "succes"
+            ],
+            "correct_answer": "bevalt"
+        },
+        {
+            "id": 15,
+            "sentence": "Kunt u voor mij uitzoeken waar het dossier ___?",
+            "options": [
+                "ligt",
+                "lag",
+                "liggen",
+                "bureau"
+            ],
+            "correct_answer": "ligt"
+        },
+        {
+            "id": 16,
+            "sentence": "Ik wil weten of de leverancier de goederen al ___ .",
+            "options": [
+                "verstuurt",
+                "versturen",
+                "verstuurde",
+                "post"
+            ],
+            "correct_answer": "verstuurt"
+        },
+        {
+            "id": 17,
+            "sentence": "Weet u misschien wanneer de lunchpauze precies ___?",
+            "options": [
+                "begint",
+                "begon",
+                "beginnen",
+                "honger"
+            ],
+            "correct_answer": "begint"
+        },
+        {
+            "id": 18,
+            "sentence": "De manager vraagt wat u van de nieuwe strategie ___ .",
+            "options": [
+                "vindt",
+                "vind",
+                "vinden",
+                "mening"
+            ],
+            "correct_answer": "vindt"
+        },
+        {
+            "id": 19,
+            "sentence": "Kunt u mij vertellen hoe ik bij het station ___?",
+            "options": [
+                "kom",
+                "komt",
+                "komen",
+                "trein"
+            ],
+            "correct_answer": "kom"
+        },
+        {
+            "id": 20,
+            "sentence": "Ik hoor graag of u de bijlage in de mail ___ .",
+            "options": [
+                "ontvangt",
+                "ontving",
+                "ontvangen",
+                "bericht"
+            ],
+            "correct_answer": "ontvangt"
+        },
+        {
+            "id": 21,
+            "sentence": "Kunt u uitleggen waarom u deze specifieke keuze ___?",
+            "options": [
+                "maakt",
+                "maakte",
+                "maken",
+                "kiest"
+            ],
+            "correct_answer": "maakt"
+        },
+        {
+            "id": 22,
+            "sentence": "Ik vraag me af of de sfeer op kantoor ___ .",
+            "options": [
+                "verbetert",
+                "verbeteren",
+                "verbeterde",
+                "goed"
+            ],
+            "correct_answer": "verbetert"
+        },
+        {
+            "id": 23,
+            "sentence": "Kunt u voor mij controleren of de server ___?",
+            "options": [
+                "draait",
+                "draaien",
+                "draaide",
+                "fout"
+            ],
+            "correct_answer": "draait"
+        },
+        {
+            "id": 24,
+            "sentence": "De collega vraagt waar ik mijn computer ___ .",
+            "options": [
+                "afsluit",
+                "afsloot",
+                "afsluiten",
+                "bureau"
+            ],
+            "correct_answer": "afsluit"
+        },
+        {
+            "id": 25,
+            "sentence": "Ik weet niet of de marketingafdeling al ___ .",
+            "options": [
+                "reageert",
+                "reageerde",
+                "reageren",
+                "plan"
+            ],
+            "correct_answer": "reageert"
+        },
+        {
+            "id": 26,
+            "sentence": "Laat me weten hoe laat u morgen op kantoor ___ .",
+            "options": [
+                "arriveert",
+                "arriveren",
+                "arriveerde",
+                "tijd"
+            ],
+            "correct_answer": "arriveert"
+        },
+        {
+            "id": 27,
+            "sentence": "Kunt u mij vertellen of u de doelen dit jaar ___?",
+            "options": [
+                "haalt",
+                "halen",
+                "haalde",
+                "winst"
+            ],
+            "correct_answer": "haalt"
+        },
+        {
+            "id": 28,
+            "sentence": "Ik vraag me af of u dit bestand veilig ___ .",
+            "options": [
+                "bewaart",
+                "bewaren",
+                "bewaarde",
+                "map"
+            ],
+            "correct_answer": "bewaart"
+        },
+        {
+            "id": 29,
+            "sentence": "Kunt u nakijken of the printer nog genoeg papier ___?",
+            "options": [
+                "heeft",
+                "hebt",
+                "hebben",
+                "tekst"
+            ],
+            "correct_answer": "heeft"
+        },
+        {
+            "id": 30,
+            "sentence": "Ik wil graag weten of u de sollicitant al ___ .",
+            "options": [
+                "spreekt",
+                "sprak",
+                "spreken",
+                "baas"
+            ],
+            "correct_answer": "spreekt"
+        },
+        {
+            "id": 31,
+            "sentence": "Weet u wie gisteren de laatste mail ___?",
+            "options": [
+                "schreef",
+                "schrijft",
+                "schrijven",
+                "post"
+            ],
+            "correct_answer": "schreef"
+        },
+        {
+            "id": 32,
+            "sentence": "Ik vraag me af wanneer u het contract ___ .",
+            "options": [
+                "ondertekent",
+                "ondertekenen",
+                "ondertekende",
+                "pen"
+            ],
+            "correct_answer": "ondertekent"
+        },
+        {
+            "id": 33,
+            "sentence": "Kunt u mij informeren of de cursus morgen ___?",
+            "options": [
+                "doorgaat",
+                "doorgaan",
+                "gaat",
+                "school"
+            ],
+            "correct_answer": "doorgaat"
+        },
+        {
+            "id": 34,
+            "sentence": "De manager vraagt of u de planning al ___ .",
+            "options": [
+                "kent",
+                "kende",
+                "kennen",
+                "agenda"
+            ],
+            "correct_answer": "kent"
+        },
+        {
+            "id": 35,
+            "sentence": "Ik weet niet precies waarom hij gisteren afwezig ___ .",
+            "options": [
+                "was",
+                "is",
+                "zijn",
+                "waren"
+            ],
+            "correct_answer": "was"
+        },
+        {
+            "id": 36,
+            "sentence": "Kunt u mij vertellen of u hulp bij het project ___?",
+            "options": [
+                "hebt",
+                "heeft",
+                "hebben",
+                "was"
+            ],
+            "correct_answer": "hebt"
+        },
+        {
+            "id": 37,
+            "sentence": "Ik hoor graag of de klant akkoord ___ .",
+            "options": [
+                "gaat",
+                "gaan",
+                "ging",
+                "succes"
+            ],
+            "correct_answer": "gaat"
+        },
+        {
+            "id": 38,
+            "sentence": "Kunt u aangeven waar ik mijn jas ___?",
+            "options": [
+                "ophang",
+                "ophangen",
+                "hang",
+                "kast"
+            ],
+            "correct_answer": "ophang"
+        },
+        {
+            "id": 39,
+            "sentence": "Ik vraag me af of de burgemeester de vergadering ___ .",
+            "options": [
+                "leidt",
+                "leiden",
+                "leidde",
+                "stad"
+            ],
+            "correct_answer": "leidt"
+        },
+        {
+            "id": 40,
+            "sentence": "Weet u misschien wie er momenteel bij de balie ___?",
+            "options": [
+                "staat",
+                "staan",
+                "stond",
+                "gast"
+            ],
+            "correct_answer": "staat"
+        },
+        {
+            "id": 41,
+            "sentence": "Kunt u mij vertellen wat de reden van de vertraging ___?",
+            "options": [
+                "is",
+                "zijn",
+                "was",
+                "tijd"
+            ],
+            "correct_answer": "is"
+        },
+        {
+            "id": 42,
+            "sentence": "Ik wil graag weten of dit plan wel ___ .",
+            "options": [
+                "slaagt",
+                "slagen",
+                "slaagde",
+                "goed"
+            ],
+            "correct_answer": "slaagt"
+        },
+        {
+            "id": 43,
+            "sentence": "Kunt u nakijken of deze informatie wel ___?",
+            "options": [
+                "klopt",
+                "kloppen",
+                "klopte",
+                "feit"
+            ],
+            "correct_answer": "klopt"
+        },
+        {
+            "id": 44,
+            "sentence": "De baas vraagt of u de presentatie al ___ .",
+            "options": [
+                "voorbereidt",
+                "voorbereiden",
+                "voorbereidde",
+                "klaar"
+            ],
+            "correct_answer": "voorbereidt"
+        },
+        {
+            "id": 45,
+            "sentence": "Ik vraag me af of u de offerte al ___ .",
+            "options": [
+                "bekijkt",
+                "bekijken",
+                "bekeek",
+                "prijs"
+            ],
+            "correct_answer": "bekijkt"
+        },
+        {
+            "id": 46,
+            "sentence": "Kunt u mij zeggen of de technicus de fout ___?",
+            "options": [
+                "vindt",
+                "vinden",
+                "vond",
+                "machine"
+            ],
+            "correct_answer": "vindt"
+        },
+        {
+            "id": 47,
+            "sentence": "Ik hoor graag wanneer u de resultaten ___ .",
+            "options": [
+                "stuurt",
+                "sturen",
+                "stuurde",
+                "bericht"
+            ],
+            "correct_answer": "stuurt"
+        },
+        {
+            "id": 48,
+            "sentence": "Weet u of de collega zijn telefoondienst ___?",
+            "options": [
+                "overneemt",
+                "overnemen",
+                "overnam",
+                "gesprek"
+            ],
+            "correct_answer": "overneemt"
+        },
+        {
+            "id": 49,
+            "sentence": "Kunt u mij vertellen hoe u dit probleem ___?",
+            "options": [
+                "oplost",
+                "oplossen",
+                "oploste",
+                "oplossing"
+            ],
+            "correct_answer": "oplost"
+        },
+        {
+            "id": 50,
+            "sentence": "Ik vraag me af of u de uitnodiging al ___ .",
+            "options": [
+                "verstuurt",
+                "versturen",
+                "verstuurde",
+                "gast"
+            ],
+            "correct_answer": "verstuurt"
+        }
+    ]
+}

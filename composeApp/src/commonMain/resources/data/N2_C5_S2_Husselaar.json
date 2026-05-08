@@ -1,652 +1,561 @@
-﻿[
-    {
-        "question_id":  1,
-        "sentence":  "Morgen presenteert de manager de nieuwe kwartaalcijfers aan het team.",
-        "options":  [
-                        "Morgen",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "Morgen",
-        "language":  "nl",
-        "difficulty":  "N2"
+{
+    "metadata": {
+        "level": "N2",
+        "category": "C5",
+        "subject": "S2",
+        "title": "Husselaar",
+        "language": "nl"
     },
-    {
-        "question_id":  2,
-        "sentence":  "We passen het beleid aan omdat de markt momenteel snel verandert.",
-        "options":  [
-                        "We",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "We",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  3,
-        "sentence":  "Het rapport dat de stagiair gisteren schreef is zeer verhelderend.",
-        "options":  [
-                        "Het",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "Het",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  4,
-        "sentence":  "Het is essentieel om de server na het onderhoud direct uit te zetten.",
-        "options":  [
-                        "Het",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "Het",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  5,
-        "sentence":  "Vorige maand gaf ik een presentatie voor onze belangrijkste klanten.",
-        "options":  [
-                        "Vorige",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "Vorige",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  6,
-        "sentence":  "In deze rapportage bespreekt de directie de strategische plannen voor volgend jaar.",
-        "options":  [
-                        "In",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "In",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  7,
-        "sentence":  "De manager is tevreden mits het team de gestelde doelen haalt.",
-        "options":  [
-                        "De",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "De",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  8,
-        "sentence":  "De collega die de nieuwe software installeerde is vandaag afwezig.",
-        "options":  [
-                        "De",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "De",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  9,
-        "sentence":  "Wij hopen het internationale project volgende week af te ronden.",
-        "options":  [
-                        "Wij",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "Wij",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  10,
-        "sentence":  "De secretaresse nodigt alle gasten voor de officiÃ«le productlancering uit.",
-        "options":  [
-                        "De",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "De",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  11,
-        "sentence":  "Vanmiddag tekent de klant het contract voor de nieuwe samenwerking.",
-        "options":  [
-                        "Vanmiddag",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "Vanmiddag",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  12,
-        "sentence":  "Ik bel u direct op zodra de directeur de offerte ondertekent.",
-        "options":  [
-                        "Ik",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "Ik",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  13,
-        "sentence":  "De doelen die de directie voor dit jaar stelde zijn ambitieus.",
-        "options":  [
-                        "De",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "De",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  14,
-        "sentence":  "We kunnen niet starten totdat de administratie de factuur betaalt.",
-        "options":  [
-                        "We",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "We",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  15,
-        "sentence":  "Wij spreken morgen om tien uur in de vergaderzaal af.",
-        "options":  [
-                        "Wij",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "Wij",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  16,
-        "sentence":  "De directeur weigert de cijfers nu al aan de pers te tonen.",
-        "options":  [
-                        "De",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "De",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  17,
-        "sentence":  "Volgende week bezoekt de raad van bestuur het hoofdkantoor in Londen.",
-        "options":  [
-                        "Volgende",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "Volgende",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  18,
-        "sentence":  "Hoewel de kosten hoog zijn besluit de directie het project te continueren.",
-        "options":  [
-                        "Hoewel",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "Hoewel",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  19,
-        "sentence":  "Het kantoor dat we in het centrum huren is erg modern.",
-        "options":  [
-                        "Het",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "Het",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  20,
-        "sentence":  "De technicus start de server na het onderhoud weer op.",
-        "options":  [
-                        "De",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "De",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  21,
-        "sentence":  "Het is noodzakelijk om alle formulieren voor de deadline in te vullen.",
-        "options":  [
-                        "Het",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "Het",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  22,
-        "sentence":  "Sinds gisteren werkt de nieuwe software voor de administratie uitstekend.",
-        "options":  [
-                        "Sinds",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "Sinds",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  23,
-        "sentence":  "De werknemer werkt over omdat hij het verslag morgen moet inleveren.",
-        "options":  [
-                        "De",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "De",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  24,
-        "sentence":  "De machines die in de fabriek staan worden wekelijks gecontroleerd.",
-        "options":  [
-                        "De",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "De",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  25,
-        "sentence":  "De secretaresse werkt de agenda voor de komende week bij.",
-        "options":  [
-                        "De",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "De",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  26,
-        "sentence":  "In dit dossier vindt u de details over de nieuwe klant.",
-        "options":  [
-                        "In",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "In",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  27,
-        "sentence":  "Zij vraagt of de technicus de server al heeft gerepareerd.",
-        "options":  [
-                        "Zij",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "Zij",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  28,
-        "sentence":  "De werknemer die de presentatie hield kreeg een groot compliment.",
-        "options":  [
-                        "De",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "De",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  29,
-        "sentence":  "Het is handig om deze belangrijke map direct op te bergen.",
-        "options":  [
-                        "Het",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "Het",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  30,
-        "sentence":  "De manager stelt de nieuwe medewerker aan het hele team voor.",
-        "options":  [
-                        "De",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "De",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  31,
-        "sentence":  "Na het overleg besprak de directie de resultaten van het onderzoek.",
-        "options":  [
-                        "Na",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "Na",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  32,
-        "sentence":  "We hopen dat de economie dit jaar weer aanzienlijk gaat groeien.",
-        "options":  [
-                        "We",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "We",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  33,
-        "sentence":  "Het contract dat de klant zojuist ondertekende is juridisch bindend.",
-        "options":  [
-                        "Het",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "Het",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  34,
-        "sentence":  "De medewerker levert het verslag direct bij de directie in.",
-        "options":  [
-                        "De",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "De",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  35,
-        "sentence":  "Het team probeert de winstgevendheid van het bedrijf te verhogen.",
-        "options":  [
-                        "Het",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "Het",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  36,
-        "sentence":  "Na de vergadering nemen we een definitief besluit over het budget.",
-        "options":  [
-                        "Na",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "Na",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  37,
-        "sentence":  "De directeur twijfelt of hij de nieuwe strategie wel accepteert.",
-        "options":  [
-                        "De",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "De",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  38,
-        "sentence":  "De mappen die op het bureau liggen bevatten vertrouwelijke informatie.",
-        "options":  [
-                        "De",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "De",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  39,
-        "sentence":  "De baas zegt de afspraak voor de training helaas af.",
-        "options":  [
-                        "De",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "De",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  40,
-        "sentence":  "De werknemer besluit om voor het einde ontslag te nemen.",
-        "options":  [
-                        "De",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "De",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  41,
-        "sentence":  "Soms verandert de markt sneller dan we van tevoren hadden verwacht.",
-        "options":  [
-                        "Soms",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "Soms",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  42,
-        "sentence":  "Nadat de vergadering was afgelopen praatten de collega\u0027s nog even na.",
-        "options":  [
-                        "Nadat",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "Nadat",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  43,
-        "sentence":  "De website die de marketingafdeling beheert krijgt dagelijks veel bezoekers.",
-        "options":  [
-                        "De",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "De",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  44,
-        "sentence":  "De collega geeft de belangrijke informatie aan de afdeling door.",
-        "options":  [
-                        "De",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "De",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  45,
-        "sentence":  "Wij zijn van plan om de prijzen dit jaar niet te verhogen.",
-        "options":  [
-                        "Wij",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "Wij",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  46,
-        "sentence":  "Vorig jaar investeerde het bedrijf veel geld in innovatieve technologieÃ«n.",
-        "options":  [
-                        "Vorig",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "Vorig",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  47,
-        "sentence":  "Ik weet niet wie gisteren de laatste mail naar de klant stuurde.",
-        "options":  [
-                        "Ik",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "Ik",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  48,
-        "sentence":  "Het resultaat dat we met dit project bereikten is boven verwachting.",
-        "options":  [
-                        "Het",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "Het",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  49,
-        "sentence":  "De secretaresse vult de gegevens van de nieuwe cliÃ«nten zorgvuldig in.",
-        "options":  [
-                        "De",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "De",
-        "language":  "nl",
-        "difficulty":  "N2"
-    },
-    {
-        "question_id":  50,
-        "sentence":  "De collega schijnt de instructies van de baas niet te begrijpen.",
-        "options":  [
-                        "De",
-                        "en",
-                        "de",
-                        "het"
-                    ],
-        "correct_answer":  "De",
-        "language":  "nl",
-        "difficulty":  "N2"
-    }
-]
+    "exercises": [
+        {
+            "id": 1,
+            "sentence": "Morgen presenteert de manager de nieuwe kwartaalcijfers aan het team.",
+            "options": [
+                "Morgen",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "Morgen"
+        },
+        {
+            "id": 2,
+            "sentence": "We passen het beleid aan omdat de markt momenteel snel verandert.",
+            "options": [
+                "We",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "We"
+        },
+        {
+            "id": 3,
+            "sentence": "Het rapport dat de stagiair gisteren schreef is zeer verhelderend.",
+            "options": [
+                "Het",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "Het"
+        },
+        {
+            "id": 4,
+            "sentence": "Het is essentieel om de server na het onderhoud direct uit te zetten.",
+            "options": [
+                "Het",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "Het"
+        },
+        {
+            "id": 5,
+            "sentence": "Vorige maand gaf ik een presentatie voor onze belangrijkste klanten.",
+            "options": [
+                "Vorige",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "Vorige"
+        },
+        {
+            "id": 6,
+            "sentence": "In deze rapportage bespreekt de directie de strategische plannen voor volgend jaar.",
+            "options": [
+                "In",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "In"
+        },
+        {
+            "id": 7,
+            "sentence": "De manager is tevreden mits het team de gestelde doelen haalt.",
+            "options": [
+                "De",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "De"
+        },
+        {
+            "id": 8,
+            "sentence": "De collega die de nieuwe software installeerde is vandaag afwezig.",
+            "options": [
+                "De",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "De"
+        },
+        {
+            "id": 9,
+            "sentence": "Wij hopen het internationale project volgende week af te ronden.",
+            "options": [
+                "Wij",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "Wij"
+        },
+        {
+            "id": 10,
+            "sentence": "De secretaresse nodigt alle gasten voor de officiÃ«le productlancering uit.",
+            "options": [
+                "De",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "De"
+        },
+        {
+            "id": 11,
+            "sentence": "Vanmiddag tekent de klant het contract voor de nieuwe samenwerking.",
+            "options": [
+                "Vanmiddag",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "Vanmiddag"
+        },
+        {
+            "id": 12,
+            "sentence": "Ik bel u direct op zodra de directeur de offerte ondertekent.",
+            "options": [
+                "Ik",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "Ik"
+        },
+        {
+            "id": 13,
+            "sentence": "De doelen die de directie voor dit jaar stelde zijn ambitieus.",
+            "options": [
+                "De",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "De"
+        },
+        {
+            "id": 14,
+            "sentence": "We kunnen niet starten totdat de administratie de factuur betaalt.",
+            "options": [
+                "We",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "We"
+        },
+        {
+            "id": 15,
+            "sentence": "Wij spreken morgen om tien uur in de vergaderzaal af.",
+            "options": [
+                "Wij",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "Wij"
+        },
+        {
+            "id": 16,
+            "sentence": "De directeur weigert de cijfers nu al aan de pers te tonen.",
+            "options": [
+                "De",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "De"
+        },
+        {
+            "id": 17,
+            "sentence": "Volgende week bezoekt de raad van bestuur het hoofdkantoor in Londen.",
+            "options": [
+                "Volgende",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "Volgende"
+        },
+        {
+            "id": 18,
+            "sentence": "Hoewel de kosten hoog zijn besluit de directie het project te continueren.",
+            "options": [
+                "Hoewel",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "Hoewel"
+        },
+        {
+            "id": 19,
+            "sentence": "Het kantoor dat we in het centrum huren is erg modern.",
+            "options": [
+                "Het",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "Het"
+        },
+        {
+            "id": 20,
+            "sentence": "De technicus start de server na het onderhoud weer op.",
+            "options": [
+                "De",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "De"
+        },
+        {
+            "id": 21,
+            "sentence": "Het is noodzakelijk om alle formulieren voor de deadline in te vullen.",
+            "options": [
+                "Het",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "Het"
+        },
+        {
+            "id": 22,
+            "sentence": "Sinds gisteren werkt de nieuwe software voor de administratie uitstekend.",
+            "options": [
+                "Sinds",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "Sinds"
+        },
+        {
+            "id": 23,
+            "sentence": "De werknemer werkt over omdat hij het verslag morgen moet inleveren.",
+            "options": [
+                "De",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "De"
+        },
+        {
+            "id": 24,
+            "sentence": "De machines die in de fabriek staan worden wekelijks gecontroleerd.",
+            "options": [
+                "De",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "De"
+        },
+        {
+            "id": 25,
+            "sentence": "De secretaresse werkt de agenda voor de komende week bij.",
+            "options": [
+                "De",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "De"
+        },
+        {
+            "id": 26,
+            "sentence": "In dit dossier vindt u de details over de nieuwe klant.",
+            "options": [
+                "In",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "In"
+        },
+        {
+            "id": 27,
+            "sentence": "Zij vraagt of de technicus de server al heeft gerepareerd.",
+            "options": [
+                "Zij",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "Zij"
+        },
+        {
+            "id": 28,
+            "sentence": "De werknemer die de presentatie hield kreeg een groot compliment.",
+            "options": [
+                "De",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "De"
+        },
+        {
+            "id": 29,
+            "sentence": "Het is handig om deze belangrijke map direct op te bergen.",
+            "options": [
+                "Het",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "Het"
+        },
+        {
+            "id": 30,
+            "sentence": "De manager stelt de nieuwe medewerker aan het hele team voor.",
+            "options": [
+                "De",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "De"
+        },
+        {
+            "id": 31,
+            "sentence": "Na het overleg besprak de directie de resultaten van het onderzoek.",
+            "options": [
+                "Na",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "Na"
+        },
+        {
+            "id": 32,
+            "sentence": "We hopen dat de economie dit jaar weer aanzienlijk gaat groeien.",
+            "options": [
+                "We",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "We"
+        },
+        {
+            "id": 33,
+            "sentence": "Het contract dat de klant zojuist ondertekende is juridisch bindend.",
+            "options": [
+                "Het",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "Het"
+        },
+        {
+            "id": 34,
+            "sentence": "De medewerker levert het verslag direct bij de directie in.",
+            "options": [
+                "De",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "De"
+        },
+        {
+            "id": 35,
+            "sentence": "Het team probeert de winstgevendheid van het bedrijf te verhogen.",
+            "options": [
+                "Het",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "Het"
+        },
+        {
+            "id": 36,
+            "sentence": "Na de vergadering nemen we een definitief besluit over het budget.",
+            "options": [
+                "Na",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "Na"
+        },
+        {
+            "id": 37,
+            "sentence": "De directeur twijfelt of hij de nieuwe strategie wel accepteert.",
+            "options": [
+                "De",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "De"
+        },
+        {
+            "id": 38,
+            "sentence": "De mappen die op het bureau liggen bevatten vertrouwelijke informatie.",
+            "options": [
+                "De",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "De"
+        },
+        {
+            "id": 39,
+            "sentence": "De baas zegt de afspraak voor de training helaas af.",
+            "options": [
+                "De",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "De"
+        },
+        {
+            "id": 40,
+            "sentence": "De werknemer besluit om voor het einde ontslag te nemen.",
+            "options": [
+                "De",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "De"
+        },
+        {
+            "id": 41,
+            "sentence": "Soms verandert de markt sneller dan we van tevoren hadden verwacht.",
+            "options": [
+                "Soms",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "Soms"
+        },
+        {
+            "id": 42,
+            "sentence": "Nadat de vergadering was afgelopen praatten de collega's nog even na.",
+            "options": [
+                "Nadat",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "Nadat"
+        },
+        {
+            "id": 43,
+            "sentence": "De website die de marketingafdeling beheert krijgt dagelijks veel bezoekers.",
+            "options": [
+                "De",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "De"
+        },
+        {
+            "id": 44,
+            "sentence": "De collega geeft de belangrijke informatie aan de afdeling door.",
+            "options": [
+                "De",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "De"
+        },
+        {
+            "id": 45,
+            "sentence": "Wij zijn van plan om de prijzen dit jaar niet te verhogen.",
+            "options": [
+                "Wij",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "Wij"
+        },
+        {
+            "id": 46,
+            "sentence": "Vorig jaar investeerde het bedrijf veel geld in innovatieve technologieÃ«n.",
+            "options": [
+                "Vorig",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "Vorig"
+        },
+        {
+            "id": 47,
+            "sentence": "Ik weet niet wie gisteren de laatste mail naar de klant stuurde.",
+            "options": [
+                "Ik",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "Ik"
+        },
+        {
+            "id": 48,
+            "sentence": "Het resultaat dat we met dit project bereikten is boven verwachting.",
+            "options": [
+                "Het",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "Het"
+        },
+        {
+            "id": 49,
+            "sentence": "De secretaresse vult de gegevens van de nieuwe cliÃ«nten zorgvuldig in.",
+            "options": [
+                "De",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "De"
+        },
+        {
+            "id": 50,
+            "sentence": "De collega schijnt de instructies van de baas niet te begrijpen.",
+            "options": [
+                "De",
+                "en",
+                "de",
+                "het"
+            ],
+            "correct_answer": "De"
+        }
+    ]
+}
