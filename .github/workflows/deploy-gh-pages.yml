@@ -57,7 +57,7 @@ jobs:
             echo "PAT cannot access user endpoint (status $user_status). Check token or SSO/permissions."
             exit 1
           fi
-          repo_status=$(curl -o /dev/null -s -w "%{http_code}" -H "Authorization: token $TOKEN" https://api.github.com/repos/mskozyigit/TaalV8)
+          repo_status=$(curl -o /dev/null -s -w "%{http_code}" -H "Authorization: token $TOKEN" https://api.github.com/repos/mskozyigit/TaalV9)
           echo "Repo endpoint HTTP status: $repo_status"
           if [ "$repo_status" -ne 200 ]; then
             echo "PAT cannot access repository endpoint (status $repo_status). Ensure token has repo access and is authorized for this org/repo."
